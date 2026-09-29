@@ -43,6 +43,15 @@ If any hash differs, nothing is written.
 
 `BUNDLE_V178_README.md` describes the package it was written for as a "private review copy". That notice applied to the full package, which contained the tables above. This public version leaves them out and fetches them instead.
 
+## Licence
+
+- **Code** written for this study is under the MIT licence ([`LICENSE`](../LICENSE)).
+- **Data and documentation** produced by this study (saved observations, model responses, logs, results, reports and figures) are under CC BY 4.0 ([`LICENSE-DATA`](../LICENSE-DATA)).
+- **Third-party files** keep their own licences. See [`THIRD_PARTY.md`](../THIRD_PARTY.md) and the licence files beside them. The fetched tables stay under their owners' terms.
+- **The manuscript** in `paper/` is not licensed for reuse.
+
+If you use this package, please cite the paper.
+
 ## Notes
 
 - **Binaries.** Three small binaries are included only so the verifiers can check their recorded hashes; nothing runs them. They are the llama.cpp `llama-server` launcher (MIT), ripgrep 15.2.0 (MIT/Unlicense) and a compiled hnswlib worker. No model weights or API credentials are included.
