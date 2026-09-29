@@ -1,0 +1,11 @@
+# Next experiment after V113
+
+**Run the prepared fixed-incumbent validation on a second, otherwise quiet CPU host.** The local packet is output/v113_replication/; instructions and its exact manifest are included. No model or GPU is needed. A different Mac or Linux machine with Python3.10 and NumPy2.2.6/SciPy1.13.1/HiGHS1.7.2 is required. Independent-host execution has not occurred. No external spending, provisioning, remote transfer or credentials use is authorized.
+
+Why this comes first: fresh V113confirmation completed90/90acquisitions and270correct solves, yet5/8identical-configuration contrasts appeared different by>=5%, with a largest23.68%gap. This undermines precise native timing comparisons. Repeating inference will not fix that measurement problem. Freeze the new host/environment manifest before outcomes, retain90intended slots and failures, and verify solution vectors independently. Report old/new results side by side; do not select the host or timing threshold that favors an LLM conclusion.
+
+If the second host also fails to provide stable timing, investigate the measurement procedure and workload duration using an explicitly separate development screen. Do not silently drop configurations, treat warmups/reliability probes as free, or refit the old router on validation outcomes. If no second host is available, the current evidence can still be reviewed as a scoped recorded-data negative study, with native-runtime claims clearly limited. Q2 readiness is not established by a local rerun.
+
+After measurement qualification, prioritize genuinely independent system groups and a frozen model/control comparison. Repeated seeds within one system are not new groups. Useful benefit-aware routing requires actual reproducible LLM headroom; the latest recorded-data modes showed zero>=5%wins over both strong controls.
+
+NGINXlocalmodel collection is stopped under V111's predeclared rule. Its40intended slots yielded10valid prefix attempts and one charged timeout;29were unattempted. V112's semantic adapter was implemented and synthetically tested but never executed against a real model. No jobs are queued or running. Paid/cloud services, publishing and author contact remain disabled. All original download/model limits and actual collection costs are retained in STATUS.md.

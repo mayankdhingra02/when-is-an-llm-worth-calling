@@ -1,0 +1,149 @@
+{
+  "smollm3_3b": {
+    "sequential": {
+      "intended": 25,
+      "scorable": 25,
+      "inconclusive": 0,
+      "mean_gain_complete_pairs": -0.001098979873006373,
+      "equal_workload_mean_complete_pairs": -0.0010989798730063726,
+      "workload_means_complete_pairs": {
+        "bayes": 0.0,
+        "pagerank": -0.024322698507606978,
+        "terasort": -0.003893143004397506,
+        "tpch": 0.002105802420572988,
+        "wordcount": 0.020615139726399632
+      },
+      "workload_denominators": {
+        "bayes": 5,
+        "pagerank": 5,
+        "terasort": 5,
+        "tpch": 5,
+        "wordcount": 5
+      },
+      "wins": 10,
+      "ties": 8,
+      "losses": 7,
+      "practical_wins": 7,
+      "practical_harm": 7,
+      "all_observed_best_mean_sensitivity": -0.001098979873006373
+    },
+    "adaptive": {
+      "intended": 25,
+      "scorable": 25,
+      "inconclusive": 0,
+      "mean_gain_complete_pairs": -0.004167998840394538,
+      "equal_workload_mean_complete_pairs": -0.004167998840394538,
+      "workload_means_complete_pairs": {
+        "bayes": -0.010285048512484683,
+        "pagerank": -0.0004333868973360702,
+        "terasort": -0.007939880314802996,
+        "tpch": -0.0030145792472895372,
+        "wordcount": 0.0008329007699405982
+      },
+      "workload_denominators": {
+        "bayes": 5,
+        "pagerank": 5,
+        "terasort": 5,
+        "tpch": 5,
+        "wordcount": 5
+      },
+      "wins": 7,
+      "ties": 7,
+      "losses": 11,
+      "practical_wins": 6,
+      "practical_harm": 10,
+      "all_observed_best_mean_sensitivity": -0.004167998840394538
+    },
+    "joint_wins": 4,
+    "cost": {
+      "request_starts": 25,
+      "complete_responses": 24,
+      "missing_usage_requests": 1,
+      "observed_generated_tokens_lower_bound": 3290,
+      "observed_prefill_tokens_lower_bound": 46736,
+      "allocated_output_tokens": 25600,
+      "lifecycle_seconds": 164.0202138320019,
+      "startup_seconds": 3.2943161240036716,
+      "completed_request_wall_seconds": 159.11472204100573,
+      "peak_server_rss_bytes": 4223598592,
+      "server_exit_codes": [
+        0,
+        0
+      ],
+      "retries": 0
+    }
+  },
+  "qwen3_8b": {
+    "sequential": {
+      "intended": 25,
+      "scorable": 25,
+      "inconclusive": 0,
+      "mean_gain_complete_pairs": -0.019009276668465254,
+      "equal_workload_mean_complete_pairs": -0.019009276668465254,
+      "workload_means_complete_pairs": {
+        "bayes": 0.0,
+        "pagerank": -0.05275790094358862,
+        "terasort": -0.004493714328684302,
+        "tpch": -0.016909341315133216,
+        "wordcount": -0.020885426754920125
+      },
+      "workload_denominators": {
+        "bayes": 5,
+        "pagerank": 5,
+        "terasort": 5,
+        "tpch": 5,
+        "wordcount": 5
+      },
+      "wins": 2,
+      "ties": 11,
+      "losses": 12,
+      "practical_wins": 2,
+      "practical_harm": 11,
+      "all_observed_best_mean_sensitivity": -0.019009276668465254
+    },
+    "adaptive": {
+      "intended": 25,
+      "scorable": 25,
+      "inconclusive": 0,
+      "mean_gain_complete_pairs": -0.022180695263886895,
+      "equal_workload_mean_complete_pairs": -0.022180695263886895,
+      "workload_means_complete_pairs": {
+        "bayes": -0.010285048512484683,
+        "pagerank": -0.027792772549860168,
+        "terasort": -0.007355345632096916,
+        "tpch": -0.02217629626230939,
+        "wordcount": -0.04329401336268332
+      },
+      "workload_denominators": {
+        "bayes": 5,
+        "pagerank": 5,
+        "terasort": 5,
+        "tpch": 5,
+        "wordcount": 5
+      },
+      "wins": 3,
+      "ties": 9,
+      "losses": 13,
+      "practical_wins": 2,
+      "practical_harm": 13,
+      "all_observed_best_mean_sensitivity": -0.022180695263886895
+    },
+    "joint_wins": 1,
+    "cost": {
+      "request_starts": 25,
+      "complete_responses": 25,
+      "missing_usage_requests": 0,
+      "observed_generated_tokens_lower_bound": 7825,
+      "observed_prefill_tokens_lower_bound": 63495,
+      "allocated_output_tokens": 25600,
+      "lifecycle_seconds": 590.7653823340006,
+      "startup_seconds": 4.582070124997699,
+      "completed_request_wall_seconds": 585.5826061260086,
+      "peak_server_rss_bytes": 7456636928,
+      "server_exit_codes": [
+        0
+      ],
+      "retries": 0
+    }
+  }
+}

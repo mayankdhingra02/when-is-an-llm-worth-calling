@@ -1,0 +1,256 @@
+{
+  "key": "qwen3_8b_LLVM_AllNumeric_11_normal",
+  "dataset": "LLVM_AllNumeric",
+  "system_group": "llvm",
+  "seed": 11,
+  "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_11.json",
+  "base_key": "LLVM_AllNumeric_11",
+  "condition": "normal",
+  "sampling_seed": 141011,
+  "random_proposal_seed": 127910,
+  "messages_path": "artifacts/study_v141/prompts/LLVM_AllNumeric_11_normal.json",
+  "prefix_sha256": "fa8ef94900936d7752830c44ae25ae2e4196f1d0fbf3ecfc2dd4258d9316e243",
+  "domains": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "model_arm": "results/v127_analysis/arms/LLVM_AllNumeric_11_model.json",
+  "classical_arm": "results/v41_transfer/arms/LLVM_AllNumeric_11_full_sequential_3nn.json",
+  "old_messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_11_normal.json",
+  "case_key": "LLVM_AllNumeric_11_normal",
+  "model": "qwen3_8b",
+  "selected_rows": [
+    895,
+    64,
+    611,
+    952,
+    517,
+    888,
+    688,
+    108,
+    535,
+    794
+  ],
+  "projection": [
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 895,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "row_id": 64,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 611,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 952,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 517,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 888,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 688,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "row_id": 108,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 535,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 794,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    }
+  ],
+  "fallback": false,
+  "model_status": "valid"
+}

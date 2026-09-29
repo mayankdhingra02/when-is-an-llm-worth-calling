@@ -1,0 +1,37 @@
+{
+  "runtime_scope": "project-local; historical venv dependency set unchanged",
+  "duckdb": {
+    "version": "1.3.2",
+    "wheel": "artifacts/sources/v66/duckdb-1.3.2-cp310-cp310-macosx_12_0_arm64.whl",
+    "sha256": "14676651b86f827ea10bf965eec698b18e3519fdc6266d4ca849f5af7a8c315e",
+    "install": "python -m pip install --no-index --no-deps --no-compile --target .local-runtime/candidates-v66/duckdb <pinned-wheel>",
+    "binary_reported_commit": "0b83e5d2f6"
+  },
+  "gnu_sort": {
+    "version": "9.7",
+    "archive_sha256": "e8bb26ad0293f9b5a1fc43fb42ba970e312c66ce92c1b0b16713d7500db251bf",
+    "signature_key_verified": false
+  },
+  "openjpeg": {
+    "version": "2.5.3",
+    "source_commit": "210a8a5690d0da66f02d49420d7176a21ef409dc",
+    "optional_codecs_disabled": [
+      "PNG",
+      "TIFF",
+      "LCMS",
+      "LCMS2"
+    ]
+  },
+  "compiler_environment": {
+    "CC": "/usr/bin/clang",
+    "CXX": "/usr/bin/clang++",
+    "SDKROOT": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "LC_ALL": "C"
+  },
+  "binaries_sha256": {
+    ".local-runtime/candidates-v66/openjpeg-210a8a5690d0da66f02d49420d7176a21ef409dc/build/bin/opj_compress": "dfe23bfd978b5a431406c7307f3671449cf24bafacc9e6472b206efdfc534f53",
+    ".local-runtime/candidates-v66/openjpeg-210a8a5690d0da66f02d49420d7176a21ef409dc/build/bin/opj_decompress": "53699b52befdd13b6b67a9f147f32487a50c55e43bd3cbf31c3d76ff98958ee1",
+    ".local-runtime/candidates-v66/duckdb/duckdb/duckdb.cpython-310-darwin.so": "3f3f9d715a8eb4c033312b13c21a293cac95ac93bf24a13cf39f36606f251ae3",
+    ".local-runtime/candidates-v66/coreutils-9.7/src/sort": "d8063760a5ba32ba6b674bfc69af1a5c4203c4605d151d6bd22760e9cf8a6a83"
+  }
+}

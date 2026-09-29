@@ -1,0 +1,13 @@
+# Independent V85 analyzer validation
+
+Six additional isolated synthetic tests now exercise the frozen analyzer itself. The complete fixture covers five prefixes, 35 simulated proposals, 115 simulated native records and the full paired/standalone budget structure. Java count/sum outputs are fixture values derived from the deterministic formulas, not an executed database. The analyzer validates these records, replays classical decisions and checks every synthetic scored query answer.
+
+Five semantic changes were each rejected: changed physical-charge denominator; mismatched LLM prefix; extra hidden information in a prompt; an already-acquired/illegal proposal; and a wrong SQL aggregate answer. The positive fixture uses plausible internally bounded timing values but all model/native timings and responses are synthetic. No substantive performance conclusion can be drawn from it. Temporary roots are explicitly named SYNTHETIC_H2_ANALYZER_ONLY; nothing is written to the real V85 collection directory.
+
+Actual command `.venv/bin/python -m pytest tests -q` passed **625 tests**, including the six new checks. The original frozen preparation suite remains619; none of its source, protocol, model, runtime, prefix or test-log pins was changed. No amendment to the proposed inference scope is needed. Model grammar enforcement and the whole real-model/native integration remain untested for V85 until the real batch executes.
+
+The exact real collector command was tried again with the correct frozen hash but without a grant. It rejected startup as intended, created no collection directory and made no model/native calls. `gate_recheck.json` records this permission check. The automated goal continuation is not an explicit new inference allowance.
+
+No real generation, native evaluation, download, model load or external spending occurred in this validation turn. The prior local preflight already established model availability; the only immediate execution blocker is approval of35localcalls/115trials/30minutes/USD0/no downloads. AGENTS.md says “Do not silently increase limits”; the V80 allowance is consumed. This is the second consecutive goal turn encountering that condition, so the goal remains active pending the required input. Additional same-scope bookkeeping or synthetic tests are not a substitute for obtaining real paired outcomes.
+
+Evidence: `tests/synthetic/test_h2_v85_analyzer.py`, `artifacts/study_v85_validation/tests_all.log`, `artifacts/study_v85_validation/gate_recheck.json`. Verify complete evidence/history with `.venv/bin/python scripts/seal_h2_v85_validation.py --verify-only`. The original experiment remains frozen at e8ac5ce395f5d36a5f319ecc496a76a7fa54c14a3a972a30bf8d90b5db8f1e17.

@@ -1,0 +1,174 @@
+{
+  "synthetic_not_research": true,
+  "response": {
+    "index": 0,
+    "content": "[\"00\",\"10\",\"21\",\"01\",\"11\",\"20\",\"00\",\"10\",\"21\",\"01\"]",
+    "tokens": [
+      1183,
+      15,
+      15,
+      497,
+      1,
+      16,
+      15,
+      2198,
+      17,
+      16,
+      2198,
+      15,
+      16,
+      2198,
+      16,
+      16,
+      2198,
+      17,
+      15,
+      2198,
+      15,
+      15,
+      2198,
+      16,
+      15,
+      2198,
+      17,
+      16,
+      2198,
+      15,
+      16,
+      1341,
+      151645
+    ],
+    "id_slot": 0,
+    "stop": true,
+    "model": "/Users/mayankdhingra/Downloads/llm-escalation-study/models/Qwen3-14B-Q4_K_M/Qwen3-14B-Q4_K_M.gguf",
+    "tokens_predicted": 33,
+    "tokens_evaluated": 63,
+    "generation_settings": {
+      "seed": 172999,
+      "temperature": 0.699999988079071,
+      "dynatemp_range": 0.0,
+      "dynatemp_exponent": 1.0,
+      "top_k": 0,
+      "top_p": 0.949999988079071,
+      "min_p": 0.0,
+      "top_n_sigma": -1.0,
+      "xtc_probability": 0.0,
+      "xtc_threshold": 0.10000000149011612,
+      "typical_p": 1.0,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "dry_multiplier": 0.0,
+      "dry_base": 1.75,
+      "dry_allowed_length": 2,
+      "dry_penalty_last_n": 64,
+      "dry_sequence_breakers": [
+        "\n",
+        ":",
+        "\"",
+        "*"
+      ],
+      "mirostat": 0,
+      "mirostat_tau": 5.0,
+      "mirostat_eta": 0.10000000149011612,
+      "adaptive_target": -1.0,
+      "adaptive_decay": 0.8999999761581421,
+      "stop": [],
+      "max_tokens": 1024,
+      "n_predict": 1024,
+      "n_keep": 0,
+      "n_discard": 0,
+      "ignore_eos": false,
+      "stream": false,
+      "logit_bias": [],
+      "n_probs": 0,
+      "min_keep": 0,
+      "grammar": "root ::= \"[\" row \",\" row \",\" row \",\" row \",\" row \",\" row \",\" row \",\" row \",\" row \",\" row \"]\"\nrow ::= \"\\\"\" [012] [01] \"\\\"\"\n",
+      "grammar_lazy": false,
+      "grammar_triggers": [],
+      "preserved_tokens": [],
+      "chat_format": "Content-only",
+      "reasoning_format": "deepseek",
+      "reasoning_in_content": false,
+      "generation_prompt": "",
+      "samplers": [
+        "penalties",
+        "dry",
+        "top_n_sigma",
+        "top_k",
+        "typ_p",
+        "top_p",
+        "min_p",
+        "xtc",
+        "temperature"
+      ],
+      "speculative.types": "none",
+      "timings_per_token": false,
+      "post_sampling_probs": false,
+      "backend_sampling": false,
+      "lora": []
+    },
+    "prompt": "<|im_start|>system\nSynthetic compatibility check; not a research case. Output only a JSON array of ten two-character strings.<|im_end|>\n<|im_start|>user\nFirst character is 0, 1 or 2; second character is 0 or 1. Return ten strings.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+    "has_new_line": false,
+    "truncated": false,
+    "stop_type": "eos",
+    "stopping_word": "",
+    "tokens_cached": 95,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 63,
+      "prompt_ms": 466.303,
+      "prompt_per_token_ms": 7.401634920634921,
+      "prompt_per_second": 135.1052856190074,
+      "predicted_n": 33,
+      "predicted_ms": 2112.298,
+      "predicted_per_token_ms": 66.0093125,
+      "predicted_per_second": 15.149377597289778
+    }
+  },
+  "wall_seconds": 2.5814181250025285,
+  "parsed": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "status": "valid"
+}

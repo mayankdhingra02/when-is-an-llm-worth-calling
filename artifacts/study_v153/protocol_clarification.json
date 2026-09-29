@@ -1,0 +1,8 @@
+{
+  "at_unix": 1790580346.708166,
+  "issue": "Protocol prose says normalized settings in model observations, whereas the frozen implementation and saved prompts use actual raw numeric levels. Search/projection distances use normalized numeric features.",
+  "resolution": "Retain the frozen implementation and prompts unchanged; the exact representation is actual worker-thread/request-per-event values with indexed level lists, not normalized values. This is a prose discrepancy, not a mid-run representation change.",
+  "no_data_or_code_changed": true,
+  "recorded_before_model_start": true,
+  "correctness_scope": "Fixed deterministic GET/SET values and exact response/counter checks; not general protocol conformance or changed-value write testing."
+}

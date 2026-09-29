@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/run_models_v41.py", line 80, in <module>
+    if __name__=='__main__':main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/run_models_v41.py", line 32, in main
+    if not auth_path.exists():raise PermissionError('Model phase blocked: 230/230 calls used; exact60-call extension not yet granted')
+PermissionError: Model phase blocked: 230/230 calls used; exact60-call extension not yet granted

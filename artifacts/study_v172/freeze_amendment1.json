@@ -1,0 +1,26 @@
+{
+ "at": "2026-09-28T18:59:43.074728+00:00",
+ "purpose": "Amendment 1 freeze, written after the zero-request A1 port failure and before any Qwen3-14B scientific request or V172 acquisition",
+ "superseded_in_original_freeze": [
+  "scripts/analyze_v172.py",
+  "scripts/common_v172.py",
+  "scripts/evaluate_v172.py",
+  "scripts/runtime_v172.py",
+  "scripts/verify_v172.py",
+  "tests/synthetic/test_v172.py"
+ ],
+ "added": [
+  "reports/protocol_v172_amendment1.md",
+  "scripts/report_v172.py"
+ ],
+ "sha256": {
+  "scripts/analyze_v172.py": "b55c4cf1279d4b365d1cc5bebef16f82534de03653ea02cfe769b14786d295ec",
+  "scripts/common_v172.py": "ae8344b8733242156f8d3d024516e21b377d1319300ad7cb82d5513d983f08fc",
+  "scripts/evaluate_v172.py": "c0e892f1aa08b71462ba8c34933593c586774fea3329be93effd4716b4d783c8",
+  "scripts/runtime_v172.py": "6cb3094d2585242bd7d32a066f577f7d891b720c470f1bb3e479e07bb88530ec",
+  "scripts/verify_v172.py": "d2f490a7875482e4704d05594133f93d9da40ab50765d02d8e60584daa699c04",
+  "tests/synthetic/test_v172.py": "1400ec0ff3f2df45f1e781c051bdd2fb54dc02ff80db152edec8682f6f5b9301",
+  "reports/protocol_v172_amendment1.md": "1b7dbdf772bcaaa392a9be523d12ea88fca33257c8a35706d3cf2ebb481c6b47",
+  "scripts/report_v172.py": "864819d3e7f6e7178da31e45bad4a4ec6f23c918e28e0346c1bd0040a6a01bf3"
+ }
+}

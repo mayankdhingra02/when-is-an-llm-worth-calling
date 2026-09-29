@@ -1,0 +1,13 @@
+{
+  "scope": "prospective source and feasibility admission; no model selection",
+  "engines": ["polars", "xgboost"],
+  "versions": {"polars": "1.35.2", "polars-runtime-32": "1.35.2", "xgboost": "3.1.1"},
+  "new_download_bytes_cap": 100000000,
+  "source_seconds_cap": 600,
+  "prior_retained_download_bytes": 10328817415,
+  "cumulative_download_cap": 10737418240,
+  "max_new_model_requests": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "external_spend_usd_cap": 0
+}

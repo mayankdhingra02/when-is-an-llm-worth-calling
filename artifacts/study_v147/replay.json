@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "model_cases": 110,
+  "outer_folds": 14,
+  "independent_ridge_fits": "augmented least squares",
+  "new_collection": 0,
+  "semantic_mutations": [
+    {
+      "mutation": "reported_gain",
+      "rejected": true
+    },
+    {
+      "mutation": "call_undercount",
+      "rejected": true
+    },
+    {
+      "mutation": "held_family_in_training",
+      "rejected": true
+    },
+    {
+      "mutation": "changed_target",
+      "rejected": true
+    }
+  ]
+}

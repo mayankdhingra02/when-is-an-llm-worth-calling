@@ -1,0 +1,95 @@
+{
+  "key": "fftw_37",
+  "task": "fftw",
+  "seed": 37,
+  "sampling_seed": 131037,
+  "domains": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "system_group": "fftw",
+  "split": "prospectively_fixed_two_family_extension",
+  "messages_path": "artifacts/study_v131/prompts/fftw_37.json",
+  "prefix_path": "results/v131_native/prefixes/fftw_37.json",
+  "prefix_sha256": "a70a84ce3a1e85852433f430905e927778ce3074381e58a54ab395d82ed92b31",
+  "score": [
+    [
+      2,
+      4,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      4,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      2
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

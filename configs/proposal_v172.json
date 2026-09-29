@@ -1,0 +1,43 @@
+{
+  "status": "proposal_frozen_not_authorized_for_collection",
+  "scope": "model-scale LLM-specific headroom test on the recorded 70-case V151 cohort",
+  "model": {
+    "repo": "Qwen/Qwen3-14B-GGUF",
+    "file": "Qwen3-14B-Q4_K_M.gguf",
+    "license": "Apache-2.0",
+    "observed_owner_commit_prefix": "530227a",
+    "approximate_bytes": 9000000000,
+    "pin_exact_revision_bytes_sha256_at_download": true
+  },
+  "runtime": "existing llama.cpp b11146",
+  "cases": 70,
+  "ecosystem_groups": 7,
+  "engine_groups": 8,
+  "prompt_sources": ["artifacts/study_v141/prompts", "artifacts/study_v144/prompts", "artifacts/study_v148/prompts"],
+  "sampling": {"temperature": 0.7, "top_p": 0.95, "top_k": 0, "min_p": 0, "repeat_penalty": 1, "thinking": false, "context": 4096, "max_output_tokens": 1024},
+  "switch_set": ["sequential_3nn", "random_full", "adaptive_neighbor", "gp_ei_length_1"],
+  "margin": 0.01,
+  "primary_estimand": "ecosystems_with_llm_specific_win",
+  "decision_rule": {"testable_router_question_if_ecosystems_at_least": 2, "otherwise": "close router question for local models on this hardware"},
+  "limits": {
+    "model_requests": 70,
+    "retries": 0,
+    "allocated_output_tokens": 71680,
+    "new_recorded_acquisitions": 700,
+    "stage_seconds_cap": 1800,
+    "stages": 2,
+    "stage_split_permutation_seed": 17200,
+    "request_seconds_cap": 180,
+    "server_rss_bytes_cap": 12884901888,
+    "new_download_files": 3,
+    "external_spend_usd_cap": 0,
+    "allow_paid_api": false,
+    "allow_cloud": false
+  },
+  "gates": {
+    "owner_authorization_file": "artifacts/study_v172/authorization.json",
+    "min_free_disk_bytes_before_download": 26843545600,
+    "retained_download_bytes_remaining_at_v171": 357259054,
+    "model_payload_bytes_used_at_v171": 9126358023
+  }
+}

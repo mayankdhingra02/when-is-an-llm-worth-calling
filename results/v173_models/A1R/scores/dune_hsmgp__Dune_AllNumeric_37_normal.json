@@ -1,0 +1,228 @@
+{
+  "origin": "v141",
+  "key": "Dune_AllNumeric_37_normal",
+  "qualified_key": "dune_hsmgp::Dune_AllNumeric_37_normal",
+  "system_group": "dune_hsmgp",
+  "seed": 37,
+  "domains": [
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      50.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ]
+  ],
+  "messages_path": "artifacts/study_v141/prompts/Dune_AllNumeric_37_normal.json",
+  "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_37.json",
+  "prefix_sha256": "7789a56e0ae55d13cabf5b0128184888952bcf6832e0439a0f0665a194168b87",
+  "sampling_seed": 141037,
+  "redraw_seed": 313037,
+  "historical_qwen3_8b_preflight": "results/v141_models/qwen3_8b/preflight/Dune_AllNumeric_37_normal.json",
+  "dataset": "Dune_AllNumeric",
+  "split": 2,
+  "stage": "A1R",
+  "seed_used": 141037,
+  "status": "valid",
+  "score": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      50.0,
+      3.0,
+      3.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      2.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      3.0,
+      3.0
+    ]
+  ],
+  "error": null,
+  "served_by": "DeepInfra",
+  "usage": {
+    "prompt_tokens": 474,
+    "completion_tokens": 2374,
+    "total_tokens": 2848,
+    "cost": 0.0014955,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0014955,
+      "upstream_inference_prompt_cost": 7.11e-05,
+      "upstream_inference_completions_cost": 0.0014244
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1513,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

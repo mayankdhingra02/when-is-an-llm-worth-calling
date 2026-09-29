@@ -1,0 +1,68 @@
+{
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/llama-b11146/llama-server",
+    "-m",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/models/SmolLM3-3B-Q4_K_M/SmolLM3-Q4_K_M.gguf",
+    "--load-mode",
+    "none",
+    "--offline",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18625",
+    "--no-webui",
+    "-ngl",
+    "99",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-t",
+    "6",
+    "-b",
+    "512",
+    "-ub",
+    "128",
+    "--reasoning",
+    "off",
+    "--jinja",
+    "--no-warmup",
+    "--perf"
+  ],
+  "config": {
+    "allow_paid_api": false,
+    "allow_cloud": false,
+    "max_external_spend_usd": 0,
+    "retries": 0,
+    "total_request_cap": 20,
+    "total_models": 2,
+    "new_generation_request_cap": 10,
+    "scientific_request_cap": 10,
+    "compatibility_request_cap": 0,
+    "max_allocated_output_tokens": 10240,
+    "max_generation_stage_seconds": 600,
+    "max_server_rss_bytes": 8589934592,
+    "ports": {
+      "smollm3_3b": 18625,
+      "qwen3_8b": 18626
+    },
+    "model_order": [
+      "smollm3_3b",
+      "qwen3_8b"
+    ],
+    "total_new_recorded_acquisitions": 0,
+    "total_collection_seconds_cap": 3600,
+    "total_new_native_acquisitions": 800,
+    "model_key": "smollm3_3b"
+  },
+  "model": {
+    "path": "models/SmolLM3-3B-Q4_K_M/SmolLM3-Q4_K_M.gguf",
+    "sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
+    "repo": "ggml-org/SmolLM3-3B-GGUF",
+    "revision": "4965cb60b150737b68a0408c36aeefb65078f894",
+    "license": "Apache-2.0",
+    "provenance": "artifacts/study_v46/model_metadata.json",
+    "bytes": 1915305312
+  },
+  "seed_support": "Per-case sampling seed; no cross-device determinism guarantee"
+}

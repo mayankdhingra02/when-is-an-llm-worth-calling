@@ -1,0 +1,24 @@
+{
+  "cases": 140,
+  "mutations": [
+    {
+      "name": "reported_gain",
+      "rejected": true
+    },
+    {
+      "name": "held_target",
+      "rejected": true
+    },
+    {
+      "name": "membership",
+      "rejected": true
+    },
+    {
+      "name": "decision",
+      "rejected": true
+    }
+  ],
+  "outer_folds": 30,
+  "scope": "independent ridge/RBF algebra, tree split optimality, inner/outer memberships, calibration, decisions and primary aggregates; hashes authenticate original prefix/source lineage",
+  "verified": true
+}

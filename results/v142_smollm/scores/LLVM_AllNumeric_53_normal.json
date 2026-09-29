@@ -1,0 +1,182 @@
+{
+  "key": "LLVM_AllNumeric_53_normal",
+  "dataset": "LLVM_AllNumeric",
+  "system_group": "llvm",
+  "seed": 53,
+  "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_53.json",
+  "base_key": "LLVM_AllNumeric_53",
+  "condition": "normal",
+  "sampling_seed": 141053,
+  "random_proposal_seed": 127913,
+  "messages_path": "artifacts/study_v141/prompts/LLVM_AllNumeric_53_normal.json",
+  "prefix_sha256": "0454250ab5fc9586479b6d75010db5333275d2155ba1bf6d9033b3ee13bed9be",
+  "domains": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "model_arm": "results/v127_analysis/arms/LLVM_AllNumeric_53_model.json",
+  "classical_arm": "results/v41_transfer/arms/LLVM_AllNumeric_53_full_sequential_3nn.json",
+  "old_messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_53_normal.json",
+  "score": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

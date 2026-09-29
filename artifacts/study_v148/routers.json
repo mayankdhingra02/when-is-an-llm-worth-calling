@@ -1,0 +1,434 @@
+{
+  "smollm3_3b": {
+    "model": {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mean": [
+        6.362348742345596,
+        24.42857142857142,
+        10.278551984738428,
+        0.531782034206375,
+        0.336764578635562,
+        0.408888888888889,
+        0.022798196093119418
+      ],
+      "scale": [
+        0.8055257076954294,
+        16.360729488251902,
+        19.457671212502596,
+        0.580328150724561,
+        0.3341849898828209,
+        0.3233510604424263,
+        0.027517086936768798
+      ],
+      "coef": [
+        0.006943161930142661,
+        0.012088834225999363,
+        0.014176670417532199,
+        0.009563338087038088,
+        0.00342590786536437,
+        -0.011198515714852812,
+        -0.009597594350517942
+      ],
+      "intercept": -0.047687631604626204,
+      "alpha": 1.0,
+      "min": [
+        4.605170185988092,
+        8.0,
+        1.7083333333333333,
+        0.043189237927750326,
+        0.0,
+        0.0,
+        0.00039797237997033034
+      ],
+      "max": [
+        6.932447891572509,
+        59.0,
+        58.63333333333333,
+        2.084498373462042,
+        0.9662837718937307,
+        1.0,
+        0.12894790368687467
+      ]
+    },
+    "calibration": {
+      "selected": {
+        "threshold": null,
+        "gain": 0.0,
+        "rate": 0.0
+      },
+      "grid": [
+        {
+          "threshold": -1.5229070095783526,
+          "gain": -0.047687631604626204,
+          "rate": 1.0
+        },
+        {
+          "threshold": -0.09096187122950056,
+          "gain": -0.047364283874632464,
+          "rate": 0.7714285714285715
+        },
+        {
+          "threshold": -0.049737543402796514,
+          "gain": -0.03145853785825866,
+          "rate": 0.5142857142857142
+        },
+        {
+          "threshold": -0.026181134719016813,
+          "gain": -0.03034775143829185,
+          "rate": 0.2571428571428572
+        },
+        {
+          "threshold": 0.0,
+          "gain": -0.0005765765765765766,
+          "rate": 0.14285714285714285
+        },
+        {
+          "threshold": 0.08706179388588897,
+          "gain": 0.0,
+          "rate": 0.02857142857142857
+        },
+        {
+          "threshold": null,
+          "gain": 0.0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "benefit_80pct_threshold": -0.025876230632839156,
+    "uncertainty_calibration": {
+      "selected": {
+        "threshold": null,
+        "gain": 0.0,
+        "rate": 0.0
+      },
+      "grid": [
+        {
+          "threshold": 0.0,
+          "gain": -0.047687631604626204,
+          "rate": 1.0
+        },
+        {
+          "threshold": 0.00039797237997033034,
+          "gain": -0.047687631604626204,
+          "rate": 1.0
+        },
+        {
+          "threshold": 0.0027169927082265604,
+          "gain": -0.04745494801693123,
+          "rate": 0.7714285714285716
+        },
+        {
+          "threshold": 0.016233121063420466,
+          "gain": -0.04588192115029945,
+          "rate": 0.52
+        },
+        {
+          "threshold": 0.02979323137273407,
+          "gain": -0.031078385261844775,
+          "rate": 0.25142857142857145
+        },
+        {
+          "threshold": 0.12894790368687467,
+          "gain": 0.0,
+          "rate": 0.02857142857142857
+        },
+        {
+          "threshold": null,
+          "gain": 0.0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "uncertainty_80pct_threshold": 0.032993162272548844,
+    "training_keys": [
+      "BDBC_AllNumeric_11_normal",
+      "BDBC_AllNumeric_23_normal",
+      "BDBC_AllNumeric_37_normal",
+      "BDBC_AllNumeric_53_normal",
+      "BDBC_AllNumeric_71_normal",
+      "Dune_AllNumeric_11_normal",
+      "Dune_AllNumeric_23_normal",
+      "Dune_AllNumeric_37_normal",
+      "Dune_AllNumeric_53_normal",
+      "Dune_AllNumeric_71_normal",
+      "hipacc_AllNumeric_11_normal",
+      "hipacc_AllNumeric_23_normal",
+      "hipacc_AllNumeric_37_normal",
+      "hipacc_AllNumeric_53_normal",
+      "hipacc_AllNumeric_71_normal",
+      "LLVM_AllNumeric_11_normal",
+      "LLVM_AllNumeric_23_normal",
+      "LLVM_AllNumeric_37_normal",
+      "LLVM_AllNumeric_53_normal",
+      "LLVM_AllNumeric_71_normal",
+      "OpenVPN_11_normal",
+      "OpenVPN_23_normal",
+      "OpenVPN_37_normal",
+      "OpenVPN_53_normal",
+      "OpenVPN_71_normal",
+      "sac_AllNumeric_11_normal",
+      "sac_AllNumeric_23_normal",
+      "sac_AllNumeric_37_normal",
+      "sac_AllNumeric_53_normal",
+      "sac_AllNumeric_71_normal",
+      "bayes_11",
+      "bayes_23",
+      "bayes_37",
+      "bayes_53",
+      "bayes_71",
+      "pagerank_11",
+      "pagerank_23",
+      "pagerank_37",
+      "pagerank_53",
+      "pagerank_71",
+      "terasort_11",
+      "terasort_23",
+      "terasort_37",
+      "terasort_53",
+      "terasort_71",
+      "tpch_11",
+      "tpch_23",
+      "tpch_37",
+      "tpch_53",
+      "tpch_71",
+      "wordcount_11",
+      "wordcount_23",
+      "wordcount_37",
+      "wordcount_53",
+      "wordcount_71"
+    ],
+    "training_groups": [
+      "berkeleydb",
+      "dune_hsmgp",
+      "hipacc",
+      "llvm",
+      "openvpn",
+      "sac",
+      "spark"
+    ]
+  },
+  "qwen3_8b": {
+    "model": {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mean": [
+        6.362348742345596,
+        24.42857142857142,
+        10.278551984738428,
+        0.531782034206375,
+        0.336764578635562,
+        0.408888888888889,
+        0.022798196093119418
+      ],
+      "scale": [
+        0.8055257076954294,
+        16.360729488251902,
+        19.457671212502596,
+        0.580328150724561,
+        0.3341849898828209,
+        0.3233510604424263,
+        0.027517086936768798
+      ],
+      "coef": [
+        0.008681964822250825,
+        0.011677023956836867,
+        0.011978695771201983,
+        0.010503596267478656,
+        0.003126677320238234,
+        -0.010648364325856611,
+        -0.009932717956872802
+      ],
+      "intercept": -0.05059623809880181,
+      "alpha": 1.0,
+      "min": [
+        4.605170185988092,
+        8.0,
+        1.7083333333333333,
+        0.043189237927750326,
+        0.0,
+        0.0,
+        0.00039797237997033034
+      ],
+      "max": [
+        6.932447891572509,
+        59.0,
+        58.63333333333333,
+        2.084498373462042,
+        0.9662837718937307,
+        1.0,
+        0.12894790368687467
+      ]
+    },
+    "calibration": {
+      "selected": {
+        "threshold": null,
+        "gain": 0.0,
+        "rate": 0.0
+      },
+      "grid": [
+        {
+          "threshold": -1.6075063050877596,
+          "gain": -0.05059623809880181,
+          "rate": 1.0
+        },
+        {
+          "threshold": -0.09357211045825214,
+          "gain": -0.04771427654088538,
+          "rate": 0.7714285714285715
+        },
+        {
+          "threshold": -0.051674599069333825,
+          "gain": -0.03205862080134695,
+          "rate": 0.5142857142857142
+        },
+        {
+          "threshold": -0.028561261066878358,
+          "gain": -0.030580016297247926,
+          "rate": 0.2571428571428572
+        },
+        {
+          "threshold": 0.0,
+          "gain": -0.0005765765765765766,
+          "rate": 0.14285714285714285
+        },
+        {
+          "threshold": 0.08432813869497527,
+          "gain": 0.0,
+          "rate": 0.02857142857142857
+        },
+        {
+          "threshold": null,
+          "gain": 0.0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "benefit_80pct_threshold": -0.026759601530952463,
+    "uncertainty_calibration": {
+      "selected": {
+        "threshold": null,
+        "gain": 0.0,
+        "rate": 0.0
+      },
+      "grid": [
+        {
+          "threshold": 0.0,
+          "gain": -0.05059623809880181,
+          "rate": 1.0
+        },
+        {
+          "threshold": 0.00039797237997033034,
+          "gain": -0.05059623809880181,
+          "rate": 1.0
+        },
+        {
+          "threshold": 0.0027169927082265604,
+          "gain": -0.05036355451110684,
+          "rate": 0.7714285714285716
+        },
+        {
+          "threshold": 0.016233121063420466,
+          "gain": -0.04783341119036326,
+          "rate": 0.52
+        },
+        {
+          "threshold": 0.02979323137273407,
+          "gain": -0.03263357826647659,
+          "rate": 0.25142857142857145
+        },
+        {
+          "threshold": 0.12894790368687467,
+          "gain": 0.0,
+          "rate": 0.02857142857142857
+        },
+        {
+          "threshold": null,
+          "gain": 0.0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "uncertainty_80pct_threshold": 0.032993162272548844,
+    "training_keys": [
+      "BDBC_AllNumeric_11_normal",
+      "BDBC_AllNumeric_23_normal",
+      "BDBC_AllNumeric_37_normal",
+      "BDBC_AllNumeric_53_normal",
+      "BDBC_AllNumeric_71_normal",
+      "Dune_AllNumeric_11_normal",
+      "Dune_AllNumeric_23_normal",
+      "Dune_AllNumeric_37_normal",
+      "Dune_AllNumeric_53_normal",
+      "Dune_AllNumeric_71_normal",
+      "hipacc_AllNumeric_11_normal",
+      "hipacc_AllNumeric_23_normal",
+      "hipacc_AllNumeric_37_normal",
+      "hipacc_AllNumeric_53_normal",
+      "hipacc_AllNumeric_71_normal",
+      "LLVM_AllNumeric_11_normal",
+      "LLVM_AllNumeric_23_normal",
+      "LLVM_AllNumeric_37_normal",
+      "LLVM_AllNumeric_53_normal",
+      "LLVM_AllNumeric_71_normal",
+      "OpenVPN_11_normal",
+      "OpenVPN_23_normal",
+      "OpenVPN_37_normal",
+      "OpenVPN_53_normal",
+      "OpenVPN_71_normal",
+      "sac_AllNumeric_11_normal",
+      "sac_AllNumeric_23_normal",
+      "sac_AllNumeric_37_normal",
+      "sac_AllNumeric_53_normal",
+      "sac_AllNumeric_71_normal",
+      "bayes_11",
+      "bayes_23",
+      "bayes_37",
+      "bayes_53",
+      "bayes_71",
+      "pagerank_11",
+      "pagerank_23",
+      "pagerank_37",
+      "pagerank_53",
+      "pagerank_71",
+      "terasort_11",
+      "terasort_23",
+      "terasort_37",
+      "terasort_53",
+      "terasort_71",
+      "tpch_11",
+      "tpch_23",
+      "tpch_37",
+      "tpch_53",
+      "tpch_71",
+      "wordcount_11",
+      "wordcount_23",
+      "wordcount_37",
+      "wordcount_53",
+      "wordcount_71"
+    ],
+    "training_groups": [
+      "berkeleydb",
+      "dune_hsmgp",
+      "hipacc",
+      "llvm",
+      "openvpn",
+      "sac",
+      "spark"
+    ]
+  }
+}

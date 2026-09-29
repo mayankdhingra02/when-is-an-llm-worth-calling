@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/flac_v130.py", line 137, in <module>
+    if sys.argv[1:] == ['classical']:classical()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/flac_v130.py", line 100, in classical
+    verify_freeze();oracle=Oracle('classical',250,900);jobs=[]
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/flac_v130.py", line 45, in verify_freeze
+    for n,h in read(ROOT/'reports/protocol_v130.freeze.json')['sha256'].items():
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_smollm_v47.py", line 10, in read
+    def read(p): return json.loads(Path(p).read_text())
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/mayankdhingra/Downloads/llm-escalation-study/reports/protocol_v130.freeze.json'

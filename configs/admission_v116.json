@@ -1,0 +1,21 @@
+{
+  "storm": {
+    "admitted": false,
+    "reason": "Original harness recovers metric aggregation but permits process-latency substitution; exact per-table metric definition, per-row validation and failure linkage unresolved. BO4CO topology variants are not separate families.",
+    "sources": [
+      "bo_summarize_expdata.m",
+      "bo_update_expdata.m",
+      "bo_f_storm.m"
+    ],
+    "original_data_lead": "https://zenodo.org/records/56238",
+    "archive_downloaded": false
+  },
+  "mongodb": {
+    "admitted": false,
+    "reason": "Conservative fixed durability/settings partition computed, but original workload/release, objective transformation and validation lineage remain unresolved; feature equality with VEER is insufficient."
+  },
+  "redis": {
+    "admitted": false,
+    "reason": "Historical native V60 exposure; nine-knob CM-CASL source has no linked measurement harness/target transformation. Old reserved label does not make this family untouched."
+  }
+}

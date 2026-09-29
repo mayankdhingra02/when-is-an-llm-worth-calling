@@ -1,0 +1,80 @@
+{
+  "key": "wordcount_23",
+  "app": "wordcount",
+  "system_group": "hadoop_mapreduce",
+  "seed": 23,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "sampling_seed": 148023,
+  "prefix": "artifacts/study_v148/prefixes/wordcount_23.json",
+  "prefix_sha256": "d990fe8312c9c74cb7241dba3c15cad1d6ecb9cdc3b31a8976010931f61ecb22",
+  "messages_path": "artifacts/study_v148/prompts/wordcount_23.json",
+  "model": "qwen3_8b",
+  "score": [
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      9,
+      7
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

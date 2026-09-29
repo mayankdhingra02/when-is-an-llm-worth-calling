@@ -1,0 +1,33 @@
+{
+  "at": "2026-09-25T00:32:26.955634+00:00",
+  "scope": "Fixed three-call proposed extension; zero V21 responses observed; authorization separately denied",
+  "sha256": {
+    "reports/protocol_v21_nonmonotone.md": "95435355eb6d7a5c234ac0af982dede272f6f7a55246d8423f37a6a1dd8ea9d0",
+    "data/nonmonotone_probe_v21.json": "204367fe79c2540c3de1ca71a46d78e52e7e01f08fce7a3b3239f94447f057ee",
+    "artifacts/study_v20/unexecuted_designs.json": "2aeeb05249e29d5a81a3096056a338e3fe192240e2eb47676f94698c969f4053",
+    "data/order_probe_v19.json": "66ce412e84622a315a8f66121cdec5928471cf11b470eab8ab0e010217972774",
+    "artifacts/study_v21/tokenizer_preflight.json": "c0f8242d07ee5903c0455ddde0388c52ac6b6b6b16b28a7e497df3b92e8b8c3e",
+    "artifacts/model_manifest.json": "f6abd50fab9f4330b145e1777d0e4af053cbbcd224ad1163db5dde8e47ec99de",
+    "configs/followup_v3.yaml": "8f360a8e83d383b017f95eb1883b7588da7976c53dc7ef80065679121a845603",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139",
+    "src/escalation/provider_v19.py": "c5c13fbf1859b803537c6e674a2118ab3c179cf5e3fa66dceab8a352f2fd1b12",
+    "src/escalation/provider.py": "1ecaf84fa521dcc3e5f53d0c4c82744921943b2964b592829ed87e4f5e5bd5b3",
+    "src/escalation/order_probe_v19.py": "945c81984a6837c444d66532b84ee4370d46126f987da2be8785d012ab051132",
+    "src/escalation/rule_audit_v20.py": "e024749a44fa9694bd69599cf940886615bc2a184210e461411bea3e0dffd53f",
+    "src/escalation/grammar_v8.py": "fb1d861287953ae8929416a7bd57bd7e8c2e8a2b533ea531096e0fe86aa674aa",
+    "src/escalation/grammar_v6.py": "deb943f1a06e0ed6dbf65180178eefbabbb4f726a780a9b685d1f1f54b682767",
+    "src/escalation/grammar.py": "4b60b9a07b479c70ec038d4d85ca7ffec7f8e755150a4f5226ff9b0a3476238a",
+    "src/escalation/finite_v6.py": "a0d11d6cabdf8c45441f7c3cc092dcf67a5bae05357dd75096202457cb8d8c13",
+    "src/escalation/finite_domain.py": "f20e792762a30b73c5864fa408ad7d5613ce0669b3024a77b9f4307a29a4e84e",
+    "src/escalation/core.py": "b541a7bd3bc73368e14d4f70552abea9bb184f1859e8737a49be03d3f7f86eab",
+    "src/escalation/config.py": "8d0e1c1cdaa8e1065e43de39ef227f0da2d93dae914aa96962785283d37a34c8",
+    "src/escalation/data.py": "c5f5b4027897b656330c5924e4b9b20a2e1f2f752bc9824f29b29115da39ac36",
+    "src/escalation/io.py": "2b9da6b2e3714c0b75e3adbd0ba984cbdc099621efcd232ad61b2c766d9fd63e",
+    "src/escalation/resources.py": "8ff495de39416aea848e58336b0fad78c9775ce2295ae24bbe5bfb586366504c",
+    "scripts/prepare_nonmonotone_v21.py": "598b90593b66b4aba92f00abca22e252636cf66fd0c86be4e0f61fce8adb7c16",
+    "scripts/analyze_nonmonotone_v21.py": "ccd8ef1ddd6683ee4f45acf84ef535039d0981a55a9af60036b07a0b9cee71d2",
+    "scripts/run_nonmonotone_v21.py": "88cbcbe2e003bc4b732bf43531d0c5c00997e024abc9d6edb15ed79fadfedbac",
+    "src/escalation/nonmonotone_v21.py": "64bcdf51d38563bd78e2c72cc7329b3418248a0820b13bb3738fb46d90687001",
+    "tests/synthetic/test_nonmonotone_v21.py": "42563cb9f38481c79c1c4e1879aff12dfd447f25aa8a9adce1c723d8992cffba"
+  }
+}

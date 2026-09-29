@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_native_study_v153.py", line 138, in <module>
+    if __name__=='__main__':main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_native_study_v153.py", line 122, in main
+    events=[read(p) for p in sorted((O/'acquisitions').glob('*.json'))];c=read(A/'candidates.json');jobs=read(A/'jobs.json');summary=read(O/'comparison.json');verify_records(events);starts,responses=verify_choices(events,c,jobs);verify_decisions(jobs);verify_validation(events,summary)
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_native_study_v153.py", line 36, in verify_records
+    assert e['index']==i and e['charged'] and e['status']=='correct' and e['server_reaped'] and e['server_exit']==0 and e['client_exit']==0
+AssertionError

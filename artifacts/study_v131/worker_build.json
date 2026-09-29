@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+    "-O3",
+    "-std=c11",
+    "-isysroot",
+    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "-I",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/artifacts/sources/v131/fftw-3.3.11/api",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/fftw_worker_v131.c",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/fftw/threads/.libs/libfftw3_threads.a",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/fftw/.libs/libfftw3.a",
+    "-lm",
+    "-lpthread",
+    "-o",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/fftw_worker"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

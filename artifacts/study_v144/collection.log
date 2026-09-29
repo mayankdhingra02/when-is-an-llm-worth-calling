@@ -1,0 +1,33 @@
+smollm3_3b pagerank_37 valid
+smollm3_3b pagerank_53 valid
+smollm3_3b tpch_37 valid
+smollm3_3b wordcount_71 valid
+smollm3_3b bayes_23 valid
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_models_v144.py", line 31, in <module>
+    if __name__=='__main__':main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_models_v144.py", line 24, in main
+    response=rt.generate(payload(prompt,j['sampling_seed'],j['domains']),'scientific',j['key']);append(sub/'responses.jsonl',{'key':j['key'],'at':now(),'response':response,'wall_seconds':time.monotonic()-start})
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/runtime_models_v144.py", line 73, in generate
+    return self._send('/completion',payload)
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/runtime_models_v144.py", line 52, in _send
+    with self.opener.open(req,timeout=180) as r:return json.load(r)
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/urllib/request.py", line 1352, in do_open
+    r = h.getresponse()
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt

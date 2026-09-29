@@ -1,0 +1,35 @@
+{
+  "stage": "v124_reference_surrogate_development",
+  "new_generation_request_cap": 180,
+  "scientific_request_cap": 180,
+  "compatibility_request_cap": 0,
+  "max_allocated_output_tokens": 5760,
+  "context_tokens": 4096,
+  "max_generation_stage_seconds": 1500,
+  "max_server_rss_bytes": 8589934592,
+  "max_new_recorded_objective_acquisitions": 60,
+  "max_evaluation_seconds": 180,
+  "retries": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "max_external_spend_usd": 0,
+  "stage_download_cap_bytes": 0,
+  "request_timeout_seconds": 120,
+  "seed": 11,
+  "n_predict": 32,
+  "families": [
+    "berkeleydb",
+    "dune_hsmgp",
+    "hipacc"
+  ],
+  "optimization_seed": 11,
+  "practical_quality_margin": 0.05,
+  "sampling_seeds": [
+    101,
+    102,
+    103
+  ],
+  "source_download_cap_bytes": 262144,
+  "source_request_cap": 3,
+  "source_time_cap_seconds": 90
+}

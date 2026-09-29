@@ -1,0 +1,126 @@
+{
+  "study": "v53",
+  "sealed_at_utc": "2026-09-25T20:40:13.990675+00:00",
+  "files": {
+    "artifacts/sources/live_v53/trial_0/xalan.out.0": {
+      "sha256": "4c72b92f00eca08f8bda35e2734124f92fbfd01884c3bf259f2f5d005e98bddb",
+      "bytes": 23901000
+    },
+    "artifacts/sources/v53/dacapo-9.12-MR1-bach.jar": {
+      "sha256": "be3db084adcb2867760e1197b3ccf541c3213d918daa19386d8e236648d24be8",
+      "bytes": 198610940
+    },
+    "artifacts/sources/v53/dacapo_release_notes.txt": {
+      "sha256": "deeff5d15e228128465bb872c331d382bc3281e70561df5232bb1b33a7b024f2",
+      "bytes": 12414
+    },
+    "artifacts/sources/v53/dacapo_releases.json": {
+      "sha256": "b71e761e1200ec878500e60c6d35a6c1f5affd338bf459c5a7e46777f50bc04e",
+      "bytes": 53421
+    },
+    "artifacts/sources/v53/dacapo_tree.json": {
+      "sha256": "bd9cc65bfc50009afe520bb1488af84002473f0e00893834005607737539f68c",
+      "bytes": 311727
+    },
+    "artifacts/sources/v53/jar_LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "artifacts/sources/v53/jar_README.md": {
+      "sha256": "726a23e39dd89fd15e51ebae70e5dcc42126f7e42bde92f70ec7b636a0c55d6c",
+      "bytes": 4321
+    },
+    "artifacts/sources/v53/jar_cnf_xalan.cnf": {
+      "sha256": "708af8cdb8227d969a6ab6baab248943ff57872d524e7c12cfd7e239b4430e23",
+      "bytes": 1232
+    },
+    "artifacts/sources/v53/manifest.json": {
+      "sha256": "145679ab71c9e224c003316974477ab802ed5e63f27ac1c2f37b0de5dba73e32",
+      "bytes": 2891
+    },
+    "artifacts/sources/v53/temurin17_jre.tar.gz": {
+      "sha256": "190480874ccceb358cbc840393207f77ac3e63a4c5f8129d0e23e9518b96ad05",
+      "bytes": 42722113
+    },
+    "artifacts/sources/v53/temurin_release.json": {
+      "sha256": "af378f20b927db9a80dfb2dacb740283baafabf720bc733207d97bec56468887",
+      "bytes": 484739
+    },
+    "artifacts/sources/v53/xalan_harness.java": {
+      "sha256": "d497e6236a087fe775182e800e231bf5881c6ed1fb0132e4e10f0c70ebbed303",
+      "bytes": 2380
+    },
+    "artifacts/sources/v53/xalan_work.java": {
+      "sha256": "69b02d809826286f0b9901e7f88c0da82f59861d6c3a1ffdd022c6fdc9fedb0e",
+      "bytes": 7513
+    },
+    "artifacts/study_v53/execution.log": {
+      "sha256": "4fa42a383be7d68fd053b3770169655c358ff153e52989091246bee73568d8b0",
+      "bytes": 1807
+    },
+    "artifacts/study_v53/execution_receipt.json": {
+      "sha256": "7676de6757ae76a3c9ae4986a6f7eab7612d5c0c89ac2d5fea457dbf2657dda3",
+      "bytes": 812
+    },
+    "reports/java_feasibility_v53.md": {
+      "sha256": "3c5de51740765744c95ea2d26ec06eece7985ddcec72843b8b4880fcd3934d6e",
+      "bytes": 4173
+    },
+    "reports/protocol_v53_java_feasibility.freeze.json": {
+      "sha256": "0ea3ae9ebcc23e3ccc151c5bc813801c7f338382348280d27992116e39bda4ee",
+      "bytes": 44611
+    },
+    "reports/protocol_v53_java_feasibility.md": {
+      "sha256": "d8c2133ecacfb7411f8c96fa584d9d5fd9894e3b0eb57144b70bfae2a75354f3",
+      "bytes": 3234
+    },
+    "results/v53_java_feasibility/starts.jsonl": {
+      "sha256": "f54e182ad4dd3bc4c60418a1b0407ee5d64a0d421a1ff96bfe62a7ece9f9e6ab",
+      "bytes": 2364
+    },
+    "results/v53_java_feasibility/summary.json": {
+      "sha256": "5c696bf2b20c28d9e1d4b51d00946b2c27ba3a6c67eb43528bc06c45101c9dac",
+      "bytes": 293
+    },
+    "results/v53_java_feasibility/trial_0.log": {
+      "sha256": "57aa102b9cd8290eb3714e08d5cd61938d7a512dfe7f9653560b0b553a3113b1",
+      "bytes": 376
+    },
+    "results/v53_java_feasibility/trial_1.log": {
+      "sha256": "2ad87414cf1ee43f1729640b6b9a5881ca6de7a9683de0d8fa0f1e4a3e9140c8",
+      "bytes": 376
+    },
+    "results/v53_java_feasibility/trial_2.log": {
+      "sha256": "6086739ac4e362e59140dd550cc9595f086c84a44c7a9e1fd48a35ab535641e5",
+      "bytes": 376
+    },
+    "results/v53_java_feasibility/trials.jsonl": {
+      "sha256": "426ea1fbd6a9dc20fcdeb21b705f77751e974295529b841e9e301252d60bc4b0",
+      "bytes": 3578
+    },
+    "results/v53_java_feasibility/validation_0.txt": {
+      "sha256": "b7407aca61093239762291cb3da6352c9f95a17068a5611c625a7f1259f8b86b",
+      "bytes": 314
+    },
+    "results/v53_java_feasibility/validation_1.txt": {
+      "sha256": "b7407aca61093239762291cb3da6352c9f95a17068a5611c625a7f1259f8b86b",
+      "bytes": 314
+    },
+    "results/v53_java_feasibility/validation_2.txt": {
+      "sha256": "b7407aca61093239762291cb3da6352c9f95a17068a5611c625a7f1259f8b86b",
+      "bytes": 314
+    },
+    "scripts/fetch_runtime_v53.py": {
+      "sha256": "dfd686ff3ae8f289f5970f8d6c992872dca95e1268acd560a8deb6e7e74732eb",
+      "bytes": 3062
+    },
+    "scripts/run_java_feasibility_v53.py": {
+      "sha256": "ab058b60e40349b6ff54a040e0f8d4f183ddcd3e0ce78c730eae9b40b022cf1c",
+      "bytes": 5388
+    },
+    "tests/synthetic/test_java_v53.py": {
+      "sha256": "c1439cae2f18cd5fc79b03f18c50b5ff492e28d81b3c90172b6710b016a08829",
+      "bytes": 752
+    }
+  }
+}

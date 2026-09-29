@@ -1,0 +1,1284 @@
+{
+ "definitions": {
+  "hindsight_headroom": "equal-group mean of max(0, gain over sequential); non-deployable diagnostic",
+  "informative_fold": "held-out group has >=1 LLM-useful case and training groups have >=1",
+  "llm_specific_win": "LLM useful over sequential_3nn and over every listed cheap switch",
+  "useful": "relative gain over reference > margin and, for native arms, a different selected setting"
+ },
+ "design_arithmetic": {
+  "native/qwen3_8b": {
+   "fresh_groups_for_expected_positive_groups": {
+    "3": {
+     "at_rate_0.05": 60,
+     "at_rate_0.10": 30,
+     "at_upper_bound": 8
+    },
+    "5": {
+     "at_rate_0.05": 100,
+     "at_rate_0.10": 50,
+     "at_upper_bound": 13
+    },
+    "8": {
+     "at_rate_0.05": 160,
+     "at_rate_0.10": 80,
+     "at_upper_bound": 21
+    }
+   },
+   "groups": 6,
+   "one_sided_95_upper_rate": 0.3930377689970827,
+   "positive_groups": 0,
+   "upper_rate_after_additional_all_negative_groups": {
+    "12": 0.1533175539572782,
+    "20": 0.1088303557607848,
+    "30": 0.07984650951989439,
+    "6": 0.22092219194555585
+   }
+  },
+  "native/smollm3_3b": {
+   "fresh_groups_for_expected_positive_groups": {
+    "3": {
+     "at_rate_0.05": 60,
+     "at_rate_0.10": 30,
+     "at_upper_bound": 8
+    },
+    "5": {
+     "at_rate_0.05": 100,
+     "at_rate_0.10": 50,
+     "at_upper_bound": 13
+    },
+    "8": {
+     "at_rate_0.05": 160,
+     "at_rate_0.10": 80,
+     "at_upper_bound": 21
+    }
+   },
+   "groups": 6,
+   "one_sided_95_upper_rate": 0.3930377689970827,
+   "positive_groups": 0,
+   "upper_rate_after_additional_all_negative_groups": {
+    "12": 0.1533175539572782,
+    "20": 0.1088303557607848,
+    "30": 0.07984650951989439,
+    "6": 0.22092219194555585
+   }
+  },
+  "recorded/qwen3_8b": {
+   "fresh_groups_for_expected_positive_groups": {
+    "3": {
+     "at_rate_0.05": 60,
+     "at_rate_0.10": 30,
+     "at_upper_bound": 9
+    },
+    "5": {
+     "at_rate_0.05": 100,
+     "at_rate_0.10": 50,
+     "at_upper_bound": 15
+    },
+    "8": {
+     "at_rate_0.05": 160,
+     "at_rate_0.10": 80,
+     "at_upper_bound": 23
+    }
+   },
+   "groups": 7,
+   "one_sided_95_upper_rate": 0.34816365513116077,
+   "positive_groups": 0,
+   "upper_rate_after_additional_all_negative_groups": {
+    "12": 0.1458685033122434,
+    "20": 0.10501923017634426,
+    "30": 0.0777747110051379,
+    "6": 0.20581666518655062
+   }
+  },
+  "recorded/smollm3_3b": {
+   "fresh_groups_for_expected_positive_groups": {
+    "3": {
+     "at_rate_0.05": 60,
+     "at_rate_0.10": 30,
+     "at_upper_bound": 9
+    },
+    "5": {
+     "at_rate_0.05": 100,
+     "at_rate_0.10": 50,
+     "at_upper_bound": 15
+    },
+    "8": {
+     "at_rate_0.05": 160,
+     "at_rate_0.10": 80,
+     "at_upper_bound": 23
+    }
+   },
+   "groups": 7,
+   "one_sided_95_upper_rate": 0.34816365513116077,
+   "positive_groups": 0,
+   "upper_rate_after_additional_all_negative_groups": {
+    "12": 0.1458685033122434,
+    "20": 0.10501923017634426,
+    "30": 0.0777747110051379,
+    "6": 0.20581666518655062
+   }
+  }
+ },
+ "input_sha256": {
+  "native_v169": "7b7a1d544fa27175a5747bc9d0bc0861a19d71f45ae49ed2044c2f067d778caf",
+  "native_v170": "6687d84606efbc08136b9405b074740b79c1b1ccea75259458ec317ba7f4e339",
+  "recorded_gp": "06ddff021bf3c7bd41c735cd63c2540d6ca09ac1962f44e4f9aca001ece99c08",
+  "recorded_hadoop": "a1622ef0647a6b25e0273bc32d44d93f36ac548474237e059273bcca1117aac9",
+  "recorded_rows": "31e550662fa89f3ad42be4d46f22c98120c495a868aa057479ebea12bd9e2bd1",
+  "recorded_spark": "0eb7c5c0f42d0317f139c8725b52f3efb44d0d2a5050a0e6465486b968105287",
+  "recorded_v141": "d33dd246672abbaea34e0cc0ba8b6d8c3a870d9819e156e98514a549476d9d0d"
+ },
+ "inputs": {
+  "native_v169": "results/v169_ezr/comparison.json",
+  "native_v170": "results/v170_ezr/comparison.json",
+  "recorded_gp": "results/v155_gp/comparison.json",
+  "recorded_hadoop": "results/v148_hadoop/comparison.json",
+  "recorded_rows": "artifacts/study_v151/inputs.json",
+  "recorded_spark": "results/v145_spark/comparison.json",
+  "recorded_v141": "results/v141_analysis/comparison.json"
+ },
+ "margin": 0.01,
+ "native_cohort": {
+  "qwen3_8b": {
+   "arms": {
+    "adaptive_neighbor": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.008541855419239642,
+     "equal_group_mean_gain": -0.00022632430060758575,
+     "equal_group_mean_log_gain": 0.00012842448327670539,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "hnswlib",
+      "ortools",
+      "polars"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 21,
+     "useful_over_sequential": 5
+    },
+    "ezr_upstream_bayes": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.009045287303480401,
+     "equal_group_mean_gain": -0.006079287074927611,
+     "equal_group_mean_log_gain": -0.005364718111431808,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "ortools",
+      "polars",
+      "xgboost"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 16,
+     "useful_over_sequential": 6
+    },
+    "ezr_upstream_centroid": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.007884974553190835,
+     "equal_group_mean_gain": -0.030148904349057273,
+     "equal_group_mean_log_gain": -0.026799075296905246,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "polars"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 19,
+     "useful_over_sequential": 3
+    },
+    "gp_ei": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.004933979718875883,
+     "equal_group_mean_gain": -0.04960012417909609,
+     "equal_group_mean_log_gain": -0.04266459900390083,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "ortools",
+      "ripgrep"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 20,
+     "useful_over_sequential": 3
+    },
+    "llm": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.0039743579340659405,
+     "equal_group_mean_gain": -0.07495387900285498,
+     "equal_group_mean_log_gain": -0.06013735838106277,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 17,
+     "useful_over_sequential": 1
+    },
+    "random_full": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.002983935295338712,
+     "equal_group_mean_gain": -0.06527476450406422,
+     "equal_group_mean_log_gain": -0.053705261639655166,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 16,
+     "useful_over_sequential": 1
+    },
+    "random_proposal": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.0017705733111193084,
+     "equal_group_mean_gain": -0.06453679736676854,
+     "equal_group_mean_log_gain": -0.052462677067877474,
+     "groups": 6,
+     "groups_with_useful": [],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 22,
+     "useful_over_sequential": 0
+    }
+   },
+   "learnability": {
+    "engine": {
+     "folds": [
+      {
+       "held_group": "cvc5",
+       "test_cases": 5,
+       "test_positives": 1,
+       "training_groups_with_positives": 0,
+       "training_positives": 0
+      },
+      {
+       "held_group": "hnswlib",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "ortools",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "polars",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "ripgrep",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "xgboost",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      }
+     ],
+     "groups": 6,
+     "groups_with_positives": 1,
+     "informative_folds": 0,
+     "positives": 1
+    },
+    "task_family": {
+     "folds": [
+      {
+       "held_group": "hnswlib",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "n_queens",
+       "test_cases": 10,
+       "test_positives": 1,
+       "training_groups_with_positives": 0,
+       "training_positives": 0
+      },
+      {
+       "held_group": "polars",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "ripgrep",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "xgboost",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      }
+     ],
+     "groups": 5,
+     "groups_with_positives": 1,
+     "informative_folds": 0,
+     "positives": 1
+    }
+   },
+   "llm_specific_wins": {
+    "sequential_plus_all_six_classical": {
+     "cases": 0,
+     "groups": [],
+     "groups_total": 6,
+     "keys": [],
+     "switches": [
+      "sequential_3nn",
+      "random_full",
+      "adaptive_neighbor",
+      "gp_ei",
+      "random_proposal",
+      "ezr_upstream_centroid",
+      "ezr_upstream_bayes"
+     ]
+    },
+    "sequential_plus_random_full_adaptive_neighbor_gp_ei": {
+     "cases": 0,
+     "groups": [],
+     "groups_total": 6,
+     "keys": [],
+     "switches": [
+      "sequential_3nn",
+      "random_full",
+      "adaptive_neighbor",
+      "gp_ei"
+     ]
+    }
+   },
+   "llm_useful_cooccurrence": {
+    "cases": [
+     {
+      "adaptive_neighbor_gain": 0.02634967567835098,
+      "gp_ei_gain": 0.0193685469873976,
+      "key": "cvc5_37",
+      "llm_gain": 0.02212643841208907,
+      "random_full_gain": 0.02012825281180868
+     }
+    ],
+    "llm_useful_cases": 1,
+    "with_some_switch_also_useful": 1
+   },
+   "llm_vs_single_switch": {
+    "adaptive_neighbor": {
+     "cases": 30,
+     "llm_better_by_margin": 1
+    },
+    "ezr_upstream_bayes": {
+     "cases": 30,
+     "llm_better_by_margin": 1
+    },
+    "ezr_upstream_centroid": {
+     "cases": 30,
+     "llm_better_by_margin": 2
+    },
+    "gp_ei": {
+     "cases": 30,
+     "llm_better_by_margin": 3
+    },
+    "random_full": {
+     "cases": 30,
+     "llm_better_by_margin": 2
+    },
+    "random_proposal": {
+     "cases": 30,
+     "llm_better_by_margin": 3
+    }
+   }
+  },
+  "smollm3_3b": {
+   "arms": {
+    "adaptive_neighbor": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.008541855419239642,
+     "equal_group_mean_gain": -0.00022632430060758575,
+     "equal_group_mean_log_gain": 0.00012842448327670539,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "hnswlib",
+      "ortools",
+      "polars"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 21,
+     "useful_over_sequential": 5
+    },
+    "ezr_upstream_bayes": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.009045287303480401,
+     "equal_group_mean_gain": -0.006079287074927611,
+     "equal_group_mean_log_gain": -0.005364718111431808,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "ortools",
+      "polars",
+      "xgboost"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 16,
+     "useful_over_sequential": 6
+    },
+    "ezr_upstream_centroid": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.007884974553190835,
+     "equal_group_mean_gain": -0.030148904349057273,
+     "equal_group_mean_log_gain": -0.026799075296905246,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "polars"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 19,
+     "useful_over_sequential": 3
+    },
+    "gp_ei": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.004933979718875883,
+     "equal_group_mean_gain": -0.04960012417909609,
+     "equal_group_mean_log_gain": -0.04266459900390083,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5",
+      "ortools",
+      "ripgrep"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 20,
+     "useful_over_sequential": 3
+    },
+    "llm": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.003629274121477137,
+     "equal_group_mean_gain": -0.09046372916160857,
+     "equal_group_mean_log_gain": -0.07324352983044125,
+     "groups": 6,
+     "groups_with_useful": [
+      "polars"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 17,
+     "useful_over_sequential": 1
+    },
+    "random_full": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.002983935295338712,
+     "equal_group_mean_gain": -0.06527476450406422,
+     "equal_group_mean_log_gain": -0.053705261639655166,
+     "groups": 6,
+     "groups_with_useful": [
+      "cvc5"
+     ],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 16,
+     "useful_over_sequential": 1
+    },
+    "random_proposal": {
+     "cases": 30,
+     "equal_group_hindsight_headroom": 0.0017705733111193084,
+     "equal_group_mean_gain": -0.06453679736676854,
+     "equal_group_mean_log_gain": -0.052462677067877474,
+     "groups": 6,
+     "groups_with_useful": [],
+     "robust_over_sequential": 0,
+     "same_setting_as_sequential": 22,
+     "useful_over_sequential": 0
+    }
+   },
+   "learnability": {
+    "engine": {
+     "folds": [
+      {
+       "held_group": "cvc5",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "hnswlib",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "ortools",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "polars",
+       "test_cases": 5,
+       "test_positives": 1,
+       "training_groups_with_positives": 0,
+       "training_positives": 0
+      },
+      {
+       "held_group": "ripgrep",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "xgboost",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      }
+     ],
+     "groups": 6,
+     "groups_with_positives": 1,
+     "informative_folds": 0,
+     "positives": 1
+    },
+    "task_family": {
+     "folds": [
+      {
+       "held_group": "hnswlib",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "n_queens",
+       "test_cases": 10,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "polars",
+       "test_cases": 5,
+       "test_positives": 1,
+       "training_groups_with_positives": 0,
+       "training_positives": 0
+      },
+      {
+       "held_group": "ripgrep",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      },
+      {
+       "held_group": "xgboost",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      }
+     ],
+     "groups": 5,
+     "groups_with_positives": 1,
+     "informative_folds": 0,
+     "positives": 1
+    }
+   },
+   "llm_specific_wins": {
+    "sequential_plus_all_six_classical": {
+     "cases": 0,
+     "groups": [],
+     "groups_total": 6,
+     "keys": [],
+     "switches": [
+      "sequential_3nn",
+      "random_full",
+      "adaptive_neighbor",
+      "gp_ei",
+      "random_proposal",
+      "ezr_upstream_centroid",
+      "ezr_upstream_bayes"
+     ]
+    },
+    "sequential_plus_random_full_adaptive_neighbor_gp_ei": {
+     "cases": 0,
+     "groups": [],
+     "groups_total": 6,
+     "keys": [],
+     "switches": [
+      "sequential_3nn",
+      "random_full",
+      "adaptive_neighbor",
+      "gp_ei"
+     ]
+    }
+   },
+   "llm_useful_cooccurrence": {
+    "cases": [
+     {
+      "adaptive_neighbor_gain": 0.018650473704111967,
+      "gp_ei_gain": -0.012256096567620925,
+      "key": "polars_11",
+      "llm_gain": 0.05690053476240619,
+      "random_full_gain": -0.06410046509049716
+     }
+    ],
+    "llm_useful_cases": 1,
+    "with_some_switch_also_useful": 1
+   },
+   "llm_vs_single_switch": {
+    "adaptive_neighbor": {
+     "cases": 30,
+     "llm_better_by_margin": 0
+    },
+    "ezr_upstream_bayes": {
+     "cases": 30,
+     "llm_better_by_margin": 0
+    },
+    "ezr_upstream_centroid": {
+     "cases": 30,
+     "llm_better_by_margin": 0
+    },
+    "gp_ei": {
+     "cases": 30,
+     "llm_better_by_margin": 1
+    },
+    "random_full": {
+     "cases": 30,
+     "llm_better_by_margin": 1
+    },
+    "random_proposal": {
+     "cases": 30,
+     "llm_better_by_margin": 1
+    }
+   }
+  }
+ },
+ "native_robust_margin": 0.1,
+ "new_acquisitions": 0,
+ "new_downloads": 0,
+ "new_model_requests": 0,
+ "recorded_cohort": {
+  "qwen3_8b": {
+   "arms": {
+    "adaptive_neighbor": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.004791495397373597,
+     "equal_group_mean_gain": -0.022936623379138796,
+     "equal_group_mean_log_gain": -0.01904439384267176,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "dune_hsmgp",
+      "hipacc",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 10
+    },
+    "fixed_neighbor": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.004331230098417695,
+     "equal_group_mean_gain": -0.023570931420477247,
+     "equal_group_mean_log_gain": -0.019739528378867856,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "dune_hsmgp",
+      "hipacc",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 11
+    },
+    "gp_ei": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.012841865961998794,
+     "equal_group_mean_gain": -0.02194468481389526,
+     "equal_group_mean_log_gain": -0.016621910311194758,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "hipacc",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 22
+    },
+    "llm": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.0017843242880679097,
+     "equal_group_mean_gain": -0.05239845814776747,
+     "equal_group_mean_log_gain": -0.04791957722815695,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 5
+    },
+    "random_full": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.0031579101225592842,
+     "equal_group_mean_gain": -0.034878930793039546,
+     "equal_group_mean_log_gain": -0.029672591889851576,
+     "groups": 7,
+     "groups_with_useful": [
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 11
+    },
+    "random_proposal": {
+     "cases": 40,
+     "equal_group_hindsight_headroom": 0.03481350092949127,
+     "equal_group_mean_gain": 0.02388748962150338,
+     "equal_group_mean_log_gain": 0.02710046506642343,
+     "groups": 1,
+     "groups_with_useful": [
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 13
+    }
+   },
+   "learnability": {
+    "ecosystem": {
+     "folds": [
+      {
+       "held_group": "berkeleydb",
+       "test_cases": 5,
+       "test_positives": 1,
+       "training_groups_with_positives": 1,
+       "training_positives": 4
+      },
+      {
+       "held_group": "dune_hsmgp",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 5
+      },
+      {
+       "held_group": "hipacc",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 5
+      },
+      {
+       "held_group": "llvm",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 5
+      },
+      {
+       "held_group": "openvpn",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 5
+      },
+      {
+       "held_group": "sac",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 5
+      },
+      {
+       "held_group": "spark_hadoop",
+       "test_cases": 40,
+       "test_positives": 4,
+       "training_groups_with_positives": 1,
+       "training_positives": 1
+      }
+     ],
+     "groups": 7,
+     "groups_with_positives": 2,
+     "informative_folds": 2,
+     "positives": 5
+    },
+    "engine": {
+     "folds": [
+      {
+       "held_group": "berkeleydb",
+       "test_cases": 5,
+       "test_positives": 1,
+       "training_groups_with_positives": 2,
+       "training_positives": 4
+      },
+      {
+       "held_group": "dune_hsmgp",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 3,
+       "training_positives": 5
+      },
+      {
+       "held_group": "hadoop_mapreduce",
+       "test_cases": 15,
+       "test_positives": 2,
+       "training_groups_with_positives": 2,
+       "training_positives": 3
+      },
+      {
+       "held_group": "hipacc",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 3,
+       "training_positives": 5
+      },
+      {
+       "held_group": "llvm",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 3,
+       "training_positives": 5
+      },
+      {
+       "held_group": "openvpn",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 3,
+       "training_positives": 5
+      },
+      {
+       "held_group": "sac",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 3,
+       "training_positives": 5
+      },
+      {
+       "held_group": "spark",
+       "test_cases": 25,
+       "test_positives": 2,
+       "training_groups_with_positives": 2,
+       "training_positives": 3
+      }
+     ],
+     "groups": 8,
+     "groups_with_positives": 3,
+     "informative_folds": 3,
+     "positives": 5
+    }
+   },
+   "llm_specific_wins": {
+    "sequential_plus_random_full_adaptive_neighbor_gp_ei": {
+     "cases": 0,
+     "groups": [],
+     "groups_total": 7,
+     "keys": [],
+     "switches": [
+      "sequential_3nn",
+      "random_full",
+      "adaptive_neighbor",
+      "gp_ei"
+     ]
+    }
+   },
+   "llm_useful_cooccurrence": {
+    "cases": [
+     {
+      "adaptive_neighbor_gain": 0.009184585271660826,
+      "gp_ei_gain": 0.0011324327480410979,
+      "key": "berkeleydb::BDBC_AllNumeric_11_normal",
+      "llm_gain": 0.018645572139596778,
+      "random_full_gain": 0.0
+     },
+     {
+      "adaptive_neighbor_gain": -0.06525482478699379,
+      "gp_ei_gain": 0.05610028319512414,
+      "key": "hadoop_mapreduce::wordcount_23",
+      "llm_gain": 0.11946646282581164,
+      "random_full_gain": 0.11946646282581164
+     },
+     {
+      "adaptive_neighbor_gain": -0.01521990133305347,
+      "gp_ei_gain": 0.17340572726318507,
+      "key": "hadoop_mapreduce::wordcount_53",
+      "llm_gain": 0.12565054343158677,
+      "random_full_gain": 0.1404753952880331
+     },
+     {
+      "adaptive_neighbor_gain": 0.07188192708384798,
+      "gp_ei_gain": 0.08553764875217797,
+      "key": "spark::terasort_11",
+      "llm_gain": 0.08087375538933299,
+      "random_full_gain": 0.12141273809406176
+     },
+     {
+      "adaptive_neighbor_gain": 0.009887596231891187,
+      "gp_ei_gain": 0.04758625293834483,
+      "key": "spark::terasort_53",
+      "llm_gain": 0.02445546189550912,
+      "random_full_gain": 0.019480040337457264
+     }
+    ],
+    "llm_useful_cases": 5,
+    "with_some_switch_also_useful": 4
+   },
+   "llm_vs_single_switch": {
+    "adaptive_neighbor": {
+     "cases": 70,
+     "llm_better_by_margin": 6
+    },
+    "fixed_neighbor": {
+     "cases": 70,
+     "llm_better_by_margin": 4
+    },
+    "gp_ei": {
+     "cases": 70,
+     "llm_better_by_margin": 4
+    },
+    "random_full": {
+     "cases": 70,
+     "llm_better_by_margin": 4
+    },
+    "random_proposal": {
+     "cases": 40,
+     "llm_better_by_margin": 4
+    }
+   }
+  },
+  "smollm3_3b": {
+   "arms": {
+    "adaptive_neighbor": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.004791495397373597,
+     "equal_group_mean_gain": -0.022936623379138796,
+     "equal_group_mean_log_gain": -0.01904439384267176,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "dune_hsmgp",
+      "hipacc",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 10
+    },
+    "fixed_neighbor": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.004331230098417695,
+     "equal_group_mean_gain": -0.023570931420477247,
+     "equal_group_mean_log_gain": -0.019739528378867856,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "dune_hsmgp",
+      "hipacc",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 11
+    },
+    "gp_ei": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.012841865961998794,
+     "equal_group_mean_gain": -0.02194468481389526,
+     "equal_group_mean_log_gain": -0.016621910311194758,
+     "groups": 7,
+     "groups_with_useful": [
+      "berkeleydb",
+      "hipacc",
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 22
+    },
+    "llm": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.0022203722686595716,
+     "equal_group_mean_gain": -0.04955875329697803,
+     "equal_group_mean_log_gain": -0.04555906136569935,
+     "groups": 7,
+     "groups_with_useful": [
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 10
+    },
+    "random_full": {
+     "cases": 70,
+     "equal_group_hindsight_headroom": 0.0031579101225592842,
+     "equal_group_mean_gain": -0.034878930793039546,
+     "equal_group_mean_log_gain": -0.029672591889851576,
+     "groups": 7,
+     "groups_with_useful": [
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 11
+    },
+    "random_proposal": {
+     "cases": 40,
+     "equal_group_hindsight_headroom": 0.03481350092949127,
+     "equal_group_mean_gain": 0.02388748962150338,
+     "equal_group_mean_log_gain": 0.02710046506642343,
+     "groups": 1,
+     "groups_with_useful": [
+      "spark_hadoop"
+     ],
+     "same_setting_as_sequential": 0,
+     "useful_over_sequential": 13
+    }
+   },
+   "learnability": {
+    "ecosystem": {
+     "folds": [
+      {
+       "held_group": "berkeleydb",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 10
+      },
+      {
+       "held_group": "dune_hsmgp",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 10
+      },
+      {
+       "held_group": "hipacc",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 10
+      },
+      {
+       "held_group": "llvm",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 10
+      },
+      {
+       "held_group": "openvpn",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 10
+      },
+      {
+       "held_group": "sac",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 1,
+       "training_positives": 10
+      },
+      {
+       "held_group": "spark_hadoop",
+       "test_cases": 40,
+       "test_positives": 10,
+       "training_groups_with_positives": 0,
+       "training_positives": 0
+      }
+     ],
+     "groups": 7,
+     "groups_with_positives": 1,
+     "informative_folds": 0,
+     "positives": 10
+    },
+    "engine": {
+     "folds": [
+      {
+       "held_group": "berkeleydb",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 10
+      },
+      {
+       "held_group": "dune_hsmgp",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 10
+      },
+      {
+       "held_group": "hadoop_mapreduce",
+       "test_cases": 15,
+       "test_positives": 3,
+       "training_groups_with_positives": 1,
+       "training_positives": 7
+      },
+      {
+       "held_group": "hipacc",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 10
+      },
+      {
+       "held_group": "llvm",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 10
+      },
+      {
+       "held_group": "openvpn",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 10
+      },
+      {
+       "held_group": "sac",
+       "test_cases": 5,
+       "test_positives": 0,
+       "training_groups_with_positives": 2,
+       "training_positives": 10
+      },
+      {
+       "held_group": "spark",
+       "test_cases": 25,
+       "test_positives": 7,
+       "training_groups_with_positives": 1,
+       "training_positives": 3
+      }
+     ],
+     "groups": 8,
+     "groups_with_positives": 2,
+     "informative_folds": 2,
+     "positives": 10
+    }
+   },
+   "llm_specific_wins": {
+    "sequential_plus_random_full_adaptive_neighbor_gp_ei": {
+     "cases": 0,
+     "groups": [],
+     "groups_total": 7,
+     "keys": [],
+     "switches": [
+      "sequential_3nn",
+      "random_full",
+      "adaptive_neighbor",
+      "gp_ei"
+     ]
+    }
+   },
+   "llm_useful_cooccurrence": {
+    "cases": [
+     {
+      "adaptive_neighbor_gain": -0.08146789811481099,
+      "gp_ei_gain": 0.11946646282581164,
+      "key": "hadoop_mapreduce::wordcount_37",
+      "llm_gain": 0.11946646282581164,
+      "random_full_gain": 0.06859502284061174
+     },
+     {
+      "adaptive_neighbor_gain": -0.01521990133305347,
+      "gp_ei_gain": 0.17340572726318507,
+      "key": "hadoop_mapreduce::wordcount_53",
+      "llm_gain": 0.1139212000343522,
+      "random_full_gain": 0.1404753952880331
+     },
+     {
+      "adaptive_neighbor_gain": 0.0,
+      "gp_ei_gain": 0.11946646282581164,
+      "key": "hadoop_mapreduce::wordcount_71",
+      "llm_gain": 0.06859502284061174,
+      "random_full_gain": 0.05610028319512414
+     },
+     {
+      "adaptive_neighbor_gain": 0.0,
+      "gp_ei_gain": 0.005849567001325321,
+      "key": "spark::pagerank_71",
+      "llm_gain": 0.011688240954231042,
+      "random_full_gain": 0.01864163686207585
+     },
+     {
+      "adaptive_neighbor_gain": 0.07188192708384798,
+      "gp_ei_gain": 0.08553764875217797,
+      "key": "spark::terasort_11",
+      "llm_gain": 0.01507201696919393,
+      "random_full_gain": 0.12141273809406176
+     },
+     {
+      "adaptive_neighbor_gain": 0.02894406045260212,
+      "gp_ei_gain": 0.023710645838660994,
+      "key": "spark::terasort_23",
+      "llm_gain": 0.023710645838660994,
+      "random_full_gain": 0.02894406045260212
+     },
+     {
+      "adaptive_neighbor_gain": 0.009887596231891187,
+      "gp_ei_gain": 0.04758625293834483,
+      "key": "spark::terasort_53",
+      "llm_gain": 0.04341898601189744,
+      "random_full_gain": 0.019480040337457264
+     },
+     {
+      "adaptive_neighbor_gain": 0.0,
+      "gp_ei_gain": 0.0799827004101677,
+      "key": "spark::tpch_11",
+      "llm_gain": 0.06624417533971372,
+      "random_full_gain": 0.0
+     },
+     {
+      "adaptive_neighbor_gain": 0.0,
+      "gp_ei_gain": 0.020989274010659344,
+      "key": "spark::wordcount_11",
+      "llm_gain": 0.020989274010659344,
+      "random_full_gain": 0.0
+     },
+     {
+      "adaptive_neighbor_gain": 0.11682140559040029,
+      "gp_ei_gain": 0.0,
+      "key": "spark::wordcount_23",
+      "llm_gain": 0.09634183481017426,
+      "random_full_gain": 0.0
+     }
+    ],
+    "llm_useful_cases": 10,
+    "with_some_switch_also_useful": 10
+   },
+   "llm_vs_single_switch": {
+    "adaptive_neighbor": {
+     "cases": 70,
+     "llm_better_by_margin": 11
+    },
+    "fixed_neighbor": {
+     "cases": 70,
+     "llm_better_by_margin": 11
+    },
+    "gp_ei": {
+     "cases": 70,
+     "llm_better_by_margin": 5
+    },
+    "random_full": {
+     "cases": 70,
+     "llm_better_by_margin": 12
+    },
+    "random_proposal": {
+     "cases": 40,
+     "llm_better_by_margin": 10
+    }
+   }
+  }
+ },
+ "status": "post-hoc exploratory audit of exposed sealed records; not confirmatory"
+}

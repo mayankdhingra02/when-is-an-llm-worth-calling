@@ -1,0 +1,22 @@
+{
+  "at_unix": 1790585535.3463192,
+  "sha256": {
+    "reports/protocol_v161.md": "15822ef96cef68e90e3505c1e4dbc446de7eb2548811377bbc7d6e875e6d9665",
+    "scripts/app_worker_v161.py": "f9acda910c44e1f0863dce92b37829b14bd29916cc469c170abb77151844e8ef",
+    "scripts/app_feasibility_v161.py": "62ded91b2724222fc199929d7346ac101768e671eaa983bea12f71c8c83aca21",
+    "scripts/hnsw_worker_v161.cpp": "4c9b7dd4d8b8e72b7365642c0728b153e7dd4e60272923f631b18a72c02e0bde",
+    "tests/synthetic/test_apps_v161.py": "f76be30012055c9c7b0642df83e5a781bbf255a932546856f08319b0b833ad5f",
+    "artifacts/study_v161/candidates.json": "5eb296bb25ee457bc9bff14868a00cd1ff7d69c4216f6976cac7b6f328fad840",
+    "artifacts/study_v161/jobs.json": "21b27e30089d92f6dcbae9c280d5139e606c67248ce5a4dacc53f9d9f0449cb5",
+    "artifacts/study_v160/ann_train.f32": "8759baab089c3742d5e0d23810ee9f130c25ef2bb82c6e3ff7f788dda8eb3447",
+    "artifacts/study_v160/ann_query.f32": "a627aed550b0b29bf76a981bc1ecbab5ef775aac454c94154f20ec9f61a04c83",
+    "artifacts/study_v160/ann_kth_squared.npy": "9071fb40a44ab48547d01bc90a319dadd600717bfeb8107b7cbc8b1151b35cc5",
+    "artifacts/study_v160/rg_reference.json": "8520faa78bf90a20dc9868f600713964cea4877d54c05beb9adadbf263bbfd78",
+    "artifacts/study_v160/references.json": "87e7fe6ba4ad02218a19830ee8d5ffac7a156af0669b1741b065f02c5c299268",
+    "artifacts/study_v160/corpus_files.json": "2b9cc462de42a2fe931cdb0dc36780837c8f2ee5358056ca919557fe75a79fec",
+    ".native-v160/bin/hnsw_worker_v161": "39b3831cbb97500de2c744064c56a800ed44612fbde2799432c6d96f43036477",
+    ".native-v160/ripgrep-15.2.0-aarch64-apple-darwin/rg": "a326a1fb48074202e9ad41e4cd1e389eeea372c8c6f7d7e80da81176d5d9430e"
+  },
+  "native_cap": 40,
+  "seconds_cap": 600
+}

@@ -1,0 +1,5 @@
+# V126 private archive documentation correction
+
+The V126 archive deliberately includes the entire precollection frozen dependency set. Inspection while preparing V127 confirmed that this includes the pinned llama.cpp runtime binaries. Earlier V126 packaging/STATUS wording saying it contained no runtime binaries was inaccurate. No model weights are bundled, and its saved-evidence replay uses only the Python standard library and never executes the bundled runtime.
+
+The original sealed ZIP and README are preserved. `output/v126_replay_corrected.zip` changes only its README and corresponding manifest entry/scope; all scientific inputs, raw outcomes, analysis and executable replay code are identical. Both archive hashes and the exact runtime file count are recorded in `artifacts/study_v127/package_correction.json`. No download, generation, objective acquisition or publication accompanies the correction. This does not change the no-runtime-binaries description of the compact V124/V125 bundles.

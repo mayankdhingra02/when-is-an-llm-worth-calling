@@ -1,0 +1,10 @@
+B6 llvm::LLVM_AllNumeric_53_normal fallback_rounds 0 target 217.29
+B6 sac::sac_AllNumeric_53_normal fallback_rounds 0 target 1.49
+B6 spark::bayes_11 fallback_rounds 0 target 980026.0
+B6 dune_hsmgp::Dune_AllNumeric_37_normal fallback_rounds 0 target 6578.662857142857
+B6 spark::bayes_23 fallback_rounds 0 target 980026.0
+B6 hadoop_mapreduce::terasort_23 fallback_rounds 0 target 399.054
+B6 hipacc::hipacc_AllNumeric_11_normal fallback_rounds 0 target 22.696
+B6 hadoop_mapreduce::terasort_53 fallback_rounds 0 target 399.054
+B6 llvm::LLVM_AllNumeric_11_normal fallback_rounds 0 target 199.6833333
+{'at': '2026-09-28T23:16:58.847973+00:00', 'stage': 'B6', 'provider': 'deepinfra/turbo', 'intended_cases': 9, 'finished_cases': ['llvm::LLVM_AllNumeric_53_normal', 'sac::sac_AllNumeric_53_normal', 'spark::bayes_11', 'dune_hsmgp::Dune_AllNumeric_37_normal', 'spark::bayes_23', 'hadoop_mapreduce::terasort_23', 'hipacc::hipacc_AllNumeric_11_normal', 'hadoop_mapreduce::terasort_53', 'llvm::LLVM_AllNumeric_11_normal'], 'unfinished_cases': [], 'interrupted_case': None, 'not_started_cases': [], 'requests': 45, 'error': None, 'seconds': 446.68672954100475, 'spend': {'spent_usd': 1.148218481999999, 'requests': 450, 'reported_cost_usd': 1.148218481999999, 'estimated_only_usd': 0.0, 'unknown_cost_requests': 0}, 'acquisitions_so_far': 530}

@@ -1,0 +1,11 @@
+# V100: load-mode-none feasibility only
+
+Freeze before execution. Motivation: V98/V99 failed at the unchanged120s request deadline during prompt processing. The exact installed llama.cpp b11146 help documents `--load-mode none`: no special model loading; disabling mmap may reduce pageouts but can slow loading. Saved help: artifacts/study_v99/runtime_help.txt. No claim that paging caused the observed failures or that this option fixes them.
+
+Two conditions, selected as the FIRST TWO entries of the existing frozen V99 order: sac seed11 nonthinking and sac seed71 thinking. Previously exposed development prefixes only. This is feasibility, not a fair mode-quality comparison (different seeds) or a fresh independent system. No outcome labels will be acquired or scored. Preserve every intended condition, failure and unattempted case.
+
+Change only model loading from auto/default to none relative to V99's runtime command. Same pinned Qwen3-8B Q4_K_M,4096context,99GPUlayers,6threads,512batch/128microbatch, native template/decoding and per-case sampling seed. Same V98 strict parser and separate512-token thought plus128-token final phase, explicit control marker, no guess/repair. Nonthinking128tokens. Check actual initial/final prompt lengths.
+
+Hard smaller stage limits:3generationrequests,768allocatedoutputtokens,600seconds total lifecycle,120s startup/HTTP deadline,8GiB sampled modelRSS,0retries,0objectiveacquisitions,0downloads,0paid/cloudspend. Existing watchdog stops server before lifecycle cap; reserve125seconds before a new request. Stop on first transport/settings/resource exception; final thinking request is planned continuation, not retry. Empty response journal created before collection, never populated with synthetic output. No other applications closed or system settings changed.
+
+Report completion/validity, actual returned output/prefill tokens, unknown usage for missing responses, allocated caps, wall/runtime and RSS. Preserve model response bodies and prompt lineage. Success criterion is both conditions returning strictly valid ten-ID final answers within limits (3 total requests if thought phase valid). Partial execution is partial feasibility, not a successful study. Do not automatically proceed to a full batch or reinterpret classical fallback as model evidence.

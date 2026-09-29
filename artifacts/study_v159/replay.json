@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "native_acquisitions": 800,
+  "prefixes": 10,
+  "B20_arms": 70,
+  "fresh_validation": 210,
+  "GP_choices_independently_checked": 70,
+  "max_EI_gap": 0.0,
+  "model_starts": 20,
+  "mutations_rejected": [
+    "objective",
+    "solution",
+    "identity"
+  ],
+  "policy_prefix_recomputation": 20,
+  "policy_feature_replay_uses_existing_tested_helpers": true,
+  "limitation": "Internal replay, not independently collected host replication. Policy decisions use frozen previously tested implementations."
+}

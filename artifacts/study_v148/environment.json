@@ -1,0 +1,13 @@
+{
+  "python": "3.10.13 (main, May  8 2025, 13:50:26) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "ram_bytes": 19327352832,
+  "disk_available_gib_observed": 17,
+  "packages": {
+    "numpy": "2.2.6",
+    "pytest": "8.3.5",
+    "matplotlib": "3.10.1"
+  },
+  "hardware_check": "sysctl/vm_stat/ps checked in tool output before collection; no setting/process changes"
+}

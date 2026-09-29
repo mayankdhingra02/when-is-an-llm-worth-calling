@@ -1,0 +1,60 @@
+{
+  "charge": 588,
+  "case": "cvc5_71",
+  "engine": "cvc5",
+  "arm": "smollm3_3b",
+  "phase": "search",
+  "row_id": 33,
+  "at_unix": 1790584115.126293,
+  "status": "correct",
+  "value": 0.13466799999878276,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv-solvers156/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/solver_worker_v157.py",
+    "--engine",
+    "cvc5",
+    "--config",
+    "{\"decision\": \"justification\", \"simplification\": \"batch\", \"arith-prop\": \"both\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": true}",
+    "--n",
+    "10",
+    "--limit",
+    "10"
+  ],
+  "returncode": 0,
+  "stdout": "{\"engine\": \"cvc5\", \"version\": \"1.4.1\", \"config\": {\"decision\": \"justification\", \"simplification\": \"batch\", \"arith-prop\": \"both\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": true}, \"n\": 10, \"limit\": 10.0, \"status\": \"sat\", \"rows\": [9, 7, 4, 1, 3, 0, 6, 8, 2, 5], \"correct\": true, \"solve_seconds\": 0.13466799999878276, \"solve_cpu_seconds\": 0.13466799999999998, \"import_build_seconds\": 0.023035499994875863, \"worker_seconds\": 0.15787683300004574, \"max_rss_bytes\": 33341440, \"stats\": {}}\n",
+  "stderr": "",
+  "measurement": {
+    "engine": "cvc5",
+    "version": "1.4.1",
+    "config": {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    "n": 10,
+    "limit": 10.0,
+    "status": "sat",
+    "rows": [
+      9,
+      7,
+      4,
+      1,
+      3,
+      0,
+      6,
+      8,
+      2,
+      5
+    ],
+    "correct": true,
+    "solve_seconds": 0.13466799999878276,
+    "solve_cpu_seconds": 0.13466799999999998,
+    "import_build_seconds": 0.023035499994875863,
+    "worker_seconds": 0.15787683300004574,
+    "max_rss_bytes": 33341440,
+    "stats": {}
+  },
+  "collection_seconds": 0.1807074999960605
+}

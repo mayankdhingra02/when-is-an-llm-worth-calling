@@ -1,0 +1,60 @@
+{
+  "charge": 470,
+  "case": "cvc5_71",
+  "engine": "cvc5",
+  "arm": "qwen3_8b",
+  "phase": "search",
+  "row_id": 16,
+  "at_unix": 1790584052.6411572,
+  "status": "correct",
+  "value": 0.04080108299967833,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv-solvers156/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/solver_worker_v157.py",
+    "--engine",
+    "cvc5",
+    "--config",
+    "{\"decision\": \"internal\", \"simplification\": \"none\", \"arith-prop\": \"both\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": false}",
+    "--n",
+    "10",
+    "--limit",
+    "10"
+  ],
+  "returncode": 0,
+  "stdout": "{\"engine\": \"cvc5\", \"version\": \"1.4.1\", \"config\": {\"decision\": \"internal\", \"simplification\": \"none\", \"arith-prop\": \"both\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": false}, \"n\": 10, \"limit\": 10.0, \"status\": \"sat\", \"rows\": [3, 6, 8, 1, 5, 0, 2, 4, 7, 9], \"correct\": true, \"solve_seconds\": 0.04080108299967833, \"solve_cpu_seconds\": 0.040797999999999994, \"import_build_seconds\": 0.022533082999871112, \"worker_seconds\": 0.06352649999462301, \"max_rss_bytes\": 32210944, \"stats\": {}}\n",
+  "stderr": "",
+  "measurement": {
+    "engine": "cvc5",
+    "version": "1.4.1",
+    "config": {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    "n": 10,
+    "limit": 10.0,
+    "status": "sat",
+    "rows": [
+      3,
+      6,
+      8,
+      1,
+      5,
+      0,
+      2,
+      4,
+      7,
+      9
+    ],
+    "correct": true,
+    "solve_seconds": 0.04080108299967833,
+    "solve_cpu_seconds": 0.040797999999999994,
+    "import_build_seconds": 0.022533082999871112,
+    "worker_seconds": 0.06352649999462301,
+    "max_rss_bytes": 32210944,
+    "stats": {}
+  },
+  "collection_seconds": 0.08635962499829475
+}

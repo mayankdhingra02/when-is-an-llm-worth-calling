@@ -1,0 +1,291 @@
+{
+  "case": "ortools_71",
+  "engine": "ortools",
+  "arm": "random_proposal",
+  "state": {
+    "ids": [
+      17,
+      30,
+      27,
+      36,
+      40,
+      6,
+      4,
+      7,
+      21,
+      20,
+      26,
+      18,
+      25,
+      33,
+      11,
+      9,
+      14
+    ],
+    "labels": [
+      [
+        0.010319875000277534
+      ],
+      [
+        0.2694820409960812
+      ],
+      [
+        0.3260694999989937
+      ],
+      [
+        0.05383758400421357
+      ],
+      [
+        0.3841876670048805
+      ],
+      [
+        0.05302949999895645
+      ],
+      [
+        0.02972391599905677
+      ],
+      [
+        0.04745079200074542
+      ],
+      [
+        0.012369707998004742
+      ],
+      [
+        0.035755667006014846
+      ],
+      [
+        0.2703243340001791
+      ],
+      [
+        0.04248725000070408
+      ],
+      [
+        0.2467261249985313
+      ],
+      [
+        0.0178005830020993
+      ],
+      [
+        0.3729557500046212
+      ],
+      [
+        0.3230575420020614
+      ],
+      [
+        0.3493640000015148
+      ]
+    ],
+    "order": [
+      17,
+      30,
+      27,
+      36,
+      40,
+      37,
+      55,
+      43,
+      18,
+      35,
+      15,
+      6,
+      63,
+      56,
+      31,
+      34,
+      46,
+      11,
+      53,
+      42,
+      25,
+      4,
+      19,
+      7,
+      59,
+      21,
+      49,
+      14,
+      13,
+      26,
+      28,
+      20,
+      57,
+      47,
+      24,
+      45,
+      61,
+      2,
+      10,
+      22,
+      8,
+      29,
+      23,
+      33,
+      44,
+      1,
+      50,
+      60,
+      38,
+      3,
+      62,
+      54,
+      5,
+      58,
+      12,
+      48,
+      52,
+      9,
+      16,
+      0,
+      51,
+      39,
+      32,
+      41
+    ]
+  },
+  "status": "classical",
+  "fallback": false,
+  "proposals": [
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 26,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 18,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 25,
+      "distance": 0.16666666666666666,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 33,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 11,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 9,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 14,
+      "distance": 0.16666666666666666,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 29,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 8,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 31,
+      "distance": 0.16666666666666666,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    }
+  ]
+}

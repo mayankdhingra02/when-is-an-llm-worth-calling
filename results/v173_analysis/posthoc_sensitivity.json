@@ -1,0 +1,89 @@
+{
+ "label": "POST-HOC descriptive sensitivity computed after inspecting V173 outcomes; does not replace the frozen V173 decision",
+ "margins": {
+  "0.01": {
+   "gptoss_a1": {
+    "cases": [
+     "hipacc::hipacc_AllNumeric_37_normal",
+     "hipacc::hipacc_AllNumeric_53_normal",
+     "spark::bayes_11"
+    ],
+    "ecosystems": [
+     "hipacc",
+     "spark_hadoop"
+    ]
+   },
+   "gptoss_a2": {
+    "cases": [
+     "spark::bayes_11"
+    ],
+    "ecosystems": [
+     "spark_hadoop"
+    ]
+   },
+   "gptoss_b": {
+    "cases": [
+     "spark::bayes_11",
+     "spark::terasort_23"
+    ],
+    "ecosystems": [
+     "spark_hadoop"
+    ]
+   }
+  },
+  "0.02": {
+   "gptoss_a1": {
+    "cases": [
+     "spark::bayes_11"
+    ],
+    "ecosystems": [
+     "spark_hadoop"
+    ]
+   },
+   "gptoss_a2": {
+    "cases": [
+     "spark::bayes_11"
+    ],
+    "ecosystems": [
+     "spark_hadoop"
+    ]
+   },
+   "gptoss_b": {
+    "cases": [
+     "spark::bayes_11",
+     "spark::terasort_23"
+    ],
+    "ecosystems": [
+     "spark_hadoop"
+    ]
+   }
+  },
+  "0.05": {
+   "gptoss_a1": {
+    "cases": [],
+    "ecosystems": []
+   },
+   "gptoss_a2": {
+    "cases": [],
+    "ecosystems": []
+   },
+   "gptoss_b": {
+    "cases": [
+     "spark::bayes_11",
+     "spark::terasort_23"
+    ],
+    "ecosystems": [
+     "spark_hadoop"
+    ]
+   }
+  }
+ },
+ "wins_recurring_in_at_least_2_of_3_gptoss_runs": {
+  "cases": [
+   "spark::bayes_11"
+  ],
+  "ecosystems": [
+   "spark_hadoop"
+  ]
+ }
+}

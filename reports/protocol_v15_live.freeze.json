@@ -1,0 +1,26 @@
+{
+  "scope": "Before first physical measurement; all proposed settings/three rounds fixed",
+  "sha256": {
+    "artifacts/sources/live_v15/cpython/LICENSE": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+    "artifacts/sources/live_v15/cpython/Modules/_ssl.c": "3e162d4ac6d9963f1765068a315c54da99d10031384574587c490942ff1938cb",
+    "artifacts/sources/live_v15/cpython/Objects/unicodeobject.c": "29da7020aad9c73bd5cfb97c8d9f3de12c2c8c599b467b29e25cc18e89f68b14",
+    "artifacts/sources/live_v15/cpython/Python/ceval.c": "bd2007a7d6b46d0ce49216a14dcc3c9cf365390121e8ed9aebfda34f2ec5f1bd",
+    "artifacts/sources/live_v15/cpython/workload.tar": "1a6414567736242eafdadaecf5b3507b14fb6ffeebbca3f3ed76c79d0c3da063",
+    "artifacts/study_v15/environment.json": "f002c062e588580844f67c17f5ad521e12af09106c4fde5e80e518b4a898a051",
+    "artifacts/study_v15/lz4_help.txt": "d8bc8017b5ffca2273850da3e4a51ea31ac55afe8acb3d4e538a42aad19ddfdd",
+    "artifacts/study_v15/workload_manifest.json": "b1af664590ecfe33a1468d96aaed0b29ba360343e03a7aa392db22c583781dcd",
+    "artifacts/study_v15/zstd_help.txt": "ce9292853cdc3e33ba5b7501578428ee8240334efe6fed0a3b5d6fb27ca29154",
+    "configs/live_measurement_v15.json": "4f56c4662cdb2e7cded55cde87cd7419ed375b65f84e6aa6d480a14e430fec58",
+    "data/live_manifest_v15.json": "b44494439bbeef5a54ebb9390bcb355f1e004671b292ccd1bd842aa3a9d58321",
+    "reports/protocol_v15_live.md": "fba0a1f6800ac5a36e7e39e51e9d664aec98cd3a2d0070e6eccc89144d0c232e",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139",
+    "scripts/analyze_live_v15.py": "9298f899573ca86f652b7279e7e9bd230c50c84290fb5b56fdb1d8fad8bb17bd",
+    "scripts/collect_live_v15.py": "ee23e4270a565211f67472fd50b2773615fca219e03d946aba2b8fdfd203d227",
+    "scripts/fetch_workload_v15.py": "103906ccd0e7bda9ab33eb205d31a203cf8f5aef3f7a715eeffb92c46df0519e",
+    "scripts/live_worker_v15.py": "1593a33dd3b42d16e9fa55ca7be643954f3708be64793c00955e9508ecb01215",
+    "src/escalation/io.py": "2b9da6b2e3714c0b75e3adbd0ba984cbdc099621efcd232ad61b2c766d9fd63e",
+    "src/escalation/live_compression_v15.py": "7738a3ab009e1a581e53d4def1d544837cde359389f53942b62ffe2b9f9e9f2f",
+    "src/escalation/resources.py": "8ff495de39416aea848e58336b0fad78c9775ce2295ae24bbe5bfb586366504c",
+    "tests/synthetic/test_live_compression_v15.py": "e2b6ecd773b2ccbdc906bb58261521944f02cf208838ae6314ef9d6944fd23d9"
+  }
+}

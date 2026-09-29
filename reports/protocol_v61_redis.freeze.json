@@ -1,0 +1,32 @@
+{
+  "study": "v61",
+  "frozen_at_utc": "2026-09-26T01:11:14.224803+00:00",
+  "sha256": {
+    "reports/protocol_v60_redis.md": "1c0c2af32343e3c82ab51c0635ab41aea78ef674f05b6363e21f396ac8eb1ac3",
+    "scripts/collect_redis_v60.py": "4754d70458551a737fe6aff1debe7e8d444e0901db187e1dfad099880afcb4e2",
+    "scripts/redis_worker_v60.py": "247fe13bdf0b00a29ed3e8b3ab1daec71818234900b5d3b660d847190c9a9928",
+    "src/escalation/redis_v60.py": "affcace7f88e4a740b776303d160258d9b8d2b3b1843fd29d13d24759b06b3bc",
+    "src/escalation/bounded_process_v57.py": "a8c924ffb9858e16bcb18a769998fd837d7bc7a57afa3d72f827aec862e5396f",
+    "scripts/run_planning_v55.py": "ce7a9be31fbccc7dbc37f1e976532f57e21a529803a0d726e0e36b0f35d5de08",
+    "tests/synthetic/test_redis_v60.py": "c0ece72f95957aca1664e4aee0d671650275a6f19d54ee2c1731f9e24c173e08",
+    "artifacts/study_v60/build_validating_client.json": "4dd7085f5968073b41e7cc107c7e5d2c93ba3b6c9f154ced2621068a7ea38967",
+    "artifacts/study_v60/benchmark_validation.patch": "e0f8c69f03d8a4cbc274d7e9ee22d86967766306e35190e166625c7a51e6df7f",
+    "artifacts/sources/v60/manifest.json": "714f82f9fe2fb23e0d90fd31e5b95b30acb7126d08ae4d9c3dafad8ce22ff06f",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139",
+    "configs/pilot.yaml": "72477500b5ec917c8acdee71cd8315178c20a601668539c1aef9fdaa44a43d6b",
+    ".local-runtime/redis-v60/redis-d4c381df7a729c06a5207c4f18d804febe956dc4/COPYING": "97f0a15b7bbae580d2609dad2e11f1956ae167be296ab60f4691ab9c30ee9828",
+    ".local-runtime/redis-v60/redis-d4c381df7a729c06a5207c4f18d804febe956dc4/redis.conf": "319286fcdc3d98e9c248d9730f28c3e5bae106a58173f64302039e15507dca14",
+    ".local-runtime/redis-v60/redis-d4c381df7a729c06a5207c4f18d804febe956dc4/src/redis-benchmark.c": "7e6f30cdbfd24baa7e7e3ca758a4c0bc98d360383770e4c5995be0af99e9bf5e",
+    ".local-runtime/redis-v60/redis-d4c381df7a729c06a5207c4f18d804febe956dc4/src/redis-server": "7532e0c7bec812384a6a0cced0df19ddffee38fe376324f1527122cb9e991c07",
+    ".local-runtime/redis-v60/redis-d4c381df7a729c06a5207c4f18d804febe956dc4/src/redis-benchmark": "0e5f219eebd717563bd38cbb3e7d492ed92cb601f7ab2fd1b64d5bf24f55d3c2",
+    ".local-runtime/redis-v60/redis-d4c381df7a729c06a5207c4f18d804febe956dc4/src/redis-cli": "320100af4b9931f8188141395b38e5e94a3269c540612938722daedc792b9d37",
+    "reports/protocol_v61_redis.md": "d94ad02eb3fc73066fe127aae6c6fbb3c6e4e0bb532ea9ac50c5355aa52352a5",
+    "reports/protocol_v60_redis.freeze.json": "bf7e6b0166aa96514f370822edb4fe39f8d3f7941f12c390255e96fc1ae36754",
+    "scripts/collect_redis_v61.py": "286a7c549fc6ba2f274e9d6f8cfb0a0fb858822267164e9c2a753152e5c92da9",
+    "scripts/redis_worker_v61.py": "8777857412156fdc5eb1038ec1ca4b35a6db00749118b25a4e797e17b2c2a73c",
+    "scripts/screen_redis_v61.py": "41c739ced57c31e11ca82aa214802903e0dfb7c23ed2553aae2696375a2dec3b",
+    "src/escalation/redis_v61.py": "50615117896a0e6784e7f802f47d4f1b23c1199aea762576ff52678489a08e83",
+    "src/escalation/classical_java_v54.py": "10bde0e9a8bb2ee088c559b519c329aa06e69fae25555d809b0bfd3f062c2162",
+    "tests/synthetic/test_redis_v61.py": "0d1cad22062ed84ebcdff30b401633221230604b829ae822f6e192d783506c5e"
+  }
+}

@@ -1,0 +1,782 @@
+[
+  {
+    "key": "mongodb_twins_11_normal",
+    "dataset": "mongodb_twins",
+    "system_group": "mongodb",
+    "prefix": "results/v121_classical/prefixes/mongodb_twins_11.json",
+    "seed": 11,
+    "base_key": "mongodb_twins_11",
+    "classical_version": 121,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "b383711ed3274d19f92f867ef17c706862790358fbf896fe810051a557ea8d7d",
+    "condition": "normal",
+    "sampling_seed": 128011,
+    "random_proposal_seed": 128905,
+    "messages_path": "artifacts/study_v128/prompts/mongodb_twins_11_normal.json",
+    "domains": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        100.0
+      ],
+      [
+        256.0,
+        512.0,
+        1024.0,
+        2048.0,
+        4096.0
+      ]
+    ]
+  },
+  {
+    "key": "mongodb_twins_23_normal",
+    "dataset": "mongodb_twins",
+    "system_group": "mongodb",
+    "prefix": "results/v121_classical/prefixes/mongodb_twins_23.json",
+    "seed": 23,
+    "base_key": "mongodb_twins_23",
+    "classical_version": 121,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "6039e0cee71c8c51ff1382cae2edd74a2161ed79aea9ed12a70149194332824a",
+    "condition": "normal",
+    "sampling_seed": 128023,
+    "random_proposal_seed": 128906,
+    "messages_path": "artifacts/study_v128/prompts/mongodb_twins_23_normal.json",
+    "domains": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        100.0
+      ],
+      [
+        256.0,
+        512.0,
+        1024.0,
+        2048.0,
+        4096.0
+      ]
+    ]
+  },
+  {
+    "key": "mongodb_twins_71_normal",
+    "dataset": "mongodb_twins",
+    "system_group": "mongodb",
+    "prefix": "results/v121_classical/prefixes/mongodb_twins_71.json",
+    "seed": 71,
+    "base_key": "mongodb_twins_71",
+    "classical_version": 121,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "ee44c1be7dd6cbfe0795b46d8bf61ac0f705724eb5261c9a302b513c196eac9c",
+    "condition": "normal",
+    "sampling_seed": 128071,
+    "random_proposal_seed": 128909,
+    "messages_path": "artifacts/study_v128/prompts/mongodb_twins_71_normal.json",
+    "domains": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        100.0
+      ],
+      [
+        256.0,
+        512.0,
+        1024.0,
+        2048.0,
+        4096.0
+      ]
+    ]
+  },
+  {
+    "key": "mongodb_twins_11_rotated_labels",
+    "dataset": "mongodb_twins",
+    "system_group": "mongodb",
+    "prefix": "results/v121_classical/prefixes/mongodb_twins_11.json",
+    "seed": 11,
+    "base_key": "mongodb_twins_11",
+    "classical_version": 121,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "b383711ed3274d19f92f867ef17c706862790358fbf896fe810051a557ea8d7d",
+    "condition": "rotated_labels",
+    "sampling_seed": 128011,
+    "random_proposal_seed": 128905,
+    "messages_path": "artifacts/study_v128/prompts/mongodb_twins_11_rotated_labels.json",
+    "domains": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        100.0
+      ],
+      [
+        256.0,
+        512.0,
+        1024.0,
+        2048.0,
+        4096.0
+      ]
+    ]
+  },
+  {
+    "key": "wc_5d_c5_37_normal",
+    "dataset": "wc_5d_c5",
+    "system_group": "storm",
+    "prefix": "results/v119_classical/prefixes/wc_5d_c5_37.json",
+    "seed": 37,
+    "base_key": "wc_5d_c5_37",
+    "classical_version": 119,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "edac87b985b8855d286c0618c1d938304cccb577d618176514d4d437610b858c",
+    "condition": "normal",
+    "sampling_seed": 128037,
+    "random_proposal_seed": 128902,
+    "messages_path": "artifacts/study_v128/prompts/wc_5d_c5_37_normal.json",
+    "domains": [
+      [
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      [
+        262000.0,
+        1050000.0,
+        5240000.0,
+        10500000.0,
+        105000000.0
+      ],
+      [
+        512.0,
+        1024.0,
+        2048.0
+      ]
+    ]
+  },
+  {
+    "key": "wc_5d_c5_71_normal",
+    "dataset": "wc_5d_c5",
+    "system_group": "storm",
+    "prefix": "results/v119_classical/prefixes/wc_5d_c5_71.json",
+    "seed": 71,
+    "base_key": "wc_5d_c5_71",
+    "classical_version": 119,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "3dbc15888618dd2a0a7dc6421c6553a63bbcee4f264826b443a43be7c7422ec4",
+    "condition": "normal",
+    "sampling_seed": 128071,
+    "random_proposal_seed": 128904,
+    "messages_path": "artifacts/study_v128/prompts/wc_5d_c5_71_normal.json",
+    "domains": [
+      [
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      [
+        262000.0,
+        1050000.0,
+        5240000.0,
+        10500000.0,
+        105000000.0
+      ],
+      [
+        512.0,
+        1024.0,
+        2048.0
+      ]
+    ]
+  },
+  {
+    "key": "wc_5d_c5_23_normal",
+    "dataset": "wc_5d_c5",
+    "system_group": "storm",
+    "prefix": "results/v119_classical/prefixes/wc_5d_c5_23.json",
+    "seed": 23,
+    "base_key": "wc_5d_c5_23",
+    "classical_version": 119,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "1d3904b826445f09f785063ba90663b0c228af364d6691b5a1a8bdc6933fe5e7",
+    "condition": "normal",
+    "sampling_seed": 128023,
+    "random_proposal_seed": 128901,
+    "messages_path": "artifacts/study_v128/prompts/wc_5d_c5_23_normal.json",
+    "domains": [
+      [
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      [
+        262000.0,
+        1050000.0,
+        5240000.0,
+        10500000.0,
+        105000000.0
+      ],
+      [
+        512.0,
+        1024.0,
+        2048.0
+      ]
+    ]
+  },
+  {
+    "key": "wc_5d_c5_11_normal",
+    "dataset": "wc_5d_c5",
+    "system_group": "storm",
+    "prefix": "results/v119_classical/prefixes/wc_5d_c5_11.json",
+    "seed": 11,
+    "base_key": "wc_5d_c5_11",
+    "classical_version": 119,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "e75fd4b89d17e3fa36dd8e43a84e377395f0c623449cfb0af0f3227f808f3e0a",
+    "condition": "normal",
+    "sampling_seed": 128011,
+    "random_proposal_seed": 128900,
+    "messages_path": "artifacts/study_v128/prompts/wc_5d_c5_11_normal.json",
+    "domains": [
+      [
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      [
+        262000.0,
+        1050000.0,
+        5240000.0,
+        10500000.0,
+        105000000.0
+      ],
+      [
+        512.0,
+        1024.0,
+        2048.0
+      ]
+    ]
+  },
+  {
+    "key": "wc_5d_c5_53_normal",
+    "dataset": "wc_5d_c5",
+    "system_group": "storm",
+    "prefix": "results/v119_classical/prefixes/wc_5d_c5_53.json",
+    "seed": 53,
+    "base_key": "wc_5d_c5_53",
+    "classical_version": 119,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "b32d3f2f4c77620afb2f774f1586f91af6093a1b55b53cb9d5704cb41b5ac116",
+    "condition": "normal",
+    "sampling_seed": 128053,
+    "random_proposal_seed": 128903,
+    "messages_path": "artifacts/study_v128/prompts/wc_5d_c5_53_normal.json",
+    "domains": [
+      [
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      [
+        262000.0,
+        1050000.0,
+        5240000.0,
+        10500000.0,
+        105000000.0
+      ],
+      [
+        512.0,
+        1024.0,
+        2048.0
+      ]
+    ]
+  },
+  {
+    "key": "wc_5d_c5_11_rotated_labels",
+    "dataset": "wc_5d_c5",
+    "system_group": "storm",
+    "prefix": "results/v119_classical/prefixes/wc_5d_c5_11.json",
+    "seed": 11,
+    "base_key": "wc_5d_c5_11",
+    "classical_version": 119,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "e75fd4b89d17e3fa36dd8e43a84e377395f0c623449cfb0af0f3227f808f3e0a",
+    "condition": "rotated_labels",
+    "sampling_seed": 128011,
+    "random_proposal_seed": 128900,
+    "messages_path": "artifacts/study_v128/prompts/wc_5d_c5_11_rotated_labels.json",
+    "domains": [
+      [
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      [
+        262000.0,
+        1050000.0,
+        5240000.0,
+        10500000.0,
+        105000000.0
+      ],
+      [
+        512.0,
+        1024.0,
+        2048.0
+      ]
+    ]
+  },
+  {
+    "key": "mongodb_twins_53_normal",
+    "dataset": "mongodb_twins",
+    "system_group": "mongodb",
+    "prefix": "results/v121_classical/prefixes/mongodb_twins_53.json",
+    "seed": 53,
+    "base_key": "mongodb_twins_53",
+    "classical_version": 121,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "cb0d748babd2aaf81c081b6a7706a881833f77b4e848303b37f4fe005017fe84",
+    "condition": "normal",
+    "sampling_seed": 128053,
+    "random_proposal_seed": 128908,
+    "messages_path": "artifacts/study_v128/prompts/mongodb_twins_53_normal.json",
+    "domains": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        100.0
+      ],
+      [
+        256.0,
+        512.0,
+        1024.0,
+        2048.0,
+        4096.0
+      ]
+    ]
+  },
+  {
+    "key": "mongodb_twins_37_normal",
+    "dataset": "mongodb_twins",
+    "system_group": "mongodb",
+    "prefix": "results/v121_classical/prefixes/mongodb_twins_37.json",
+    "seed": 37,
+    "base_key": "mongodb_twins_37",
+    "classical_version": 121,
+    "split": "exposed_development_extension",
+    "prefix_sha256": "c73575c63dcdb998b2c398e771d643c0fcd4b2784c941330e40adcf84aef867c",
+    "condition": "normal",
+    "sampling_seed": 128037,
+    "random_proposal_seed": 128907,
+    "messages_path": "artifacts/study_v128/prompts/mongodb_twins_37_normal.json",
+    "domains": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        100.0
+      ],
+      [
+        256.0,
+        512.0,
+        1024.0,
+        2048.0,
+        4096.0
+      ]
+    ]
+  }
+]

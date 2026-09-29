@@ -1,0 +1,76 @@
+{
+  "cvc5": {
+    "cells": [
+      {
+        "candidate_id": 0,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 0.041802625004493166,
+        "relative_mad": 0.0022078039539983785,
+        "pass": true
+      },
+      {
+        "candidate_id": 21,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 0.03130904100544285,
+        "relative_mad": 0.002777376882930437,
+        "pass": true
+      },
+      {
+        "candidate_id": 42,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 2.3246679170042626,
+        "relative_mad": 0.003809952779794243,
+        "pass": true
+      },
+      {
+        "candidate_id": 63,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 1.485517917004472,
+        "relative_mad": 0.00720079972504656,
+        "pass": true
+      }
+    ],
+    "admitted": true
+  },
+  "ortools": {
+    "cells": [
+      {
+        "candidate_id": 0,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 0.025134041003184393,
+        "relative_mad": 0.002554623226187738,
+        "pass": true
+      },
+      {
+        "candidate_id": 21,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 0.012693500000750646,
+        "relative_mad": 0.01152495349721025,
+        "pass": true
+      },
+      {
+        "candidate_id": 42,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 3.835041291997186,
+        "relative_mad": 0.003457046481625271,
+        "pass": true
+      },
+      {
+        "candidate_id": 63,
+        "charged": 5,
+        "correct": 5,
+        "median_solve_seconds": 0.1715148750008666,
+        "relative_mad": 0.0011172500573772449,
+        "pass": true
+      }
+    ],
+    "admitted": true
+  }
+}

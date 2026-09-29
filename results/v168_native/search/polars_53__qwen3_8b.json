@@ -1,0 +1,281 @@
+{
+  "case": "polars_53",
+  "engine": "polars",
+  "arm": "qwen3_8b",
+  "state": {
+    "ids": [
+      35,
+      19,
+      40,
+      18,
+      63,
+      57,
+      53,
+      13,
+      61,
+      59,
+      31,
+      30,
+      26,
+      24,
+      22,
+      20,
+      34
+    ],
+    "labels": [
+      [
+        0.042262416012817994
+      ],
+      [
+        0.06953770900145173
+      ],
+      [
+        0.057756167007028125
+      ],
+      [
+        0.0917587080039084
+      ],
+      [
+        0.02155637500982266
+      ],
+      [
+        0.026118124995264225
+      ],
+      [
+        0.03271404199767858
+      ],
+      [
+        0.07696304199635051
+      ],
+      [
+        0.022810542010120116
+      ],
+      [
+        0.024718874992686324
+      ],
+      [
+        0.04155170900048688
+      ],
+      [
+        0.0728785829996923
+      ],
+      [
+        0.08084879099624231
+      ],
+      [
+        0.10464983299607411
+      ],
+      [
+        0.07061729099950753
+      ],
+      [
+        0.10154041698842775
+      ],
+      [
+        0.05279741699632723
+      ]
+    ],
+    "order": [
+      35,
+      19,
+      40,
+      18,
+      11,
+      63,
+      6,
+      24,
+      0,
+      42,
+      31,
+      53,
+      9,
+      5,
+      43,
+      15,
+      57,
+      54,
+      26,
+      7,
+      38,
+      39,
+      13,
+      17,
+      21,
+      51,
+      4,
+      36,
+      44,
+      52,
+      59,
+      25,
+      34,
+      20,
+      61,
+      49,
+      37,
+      48,
+      41,
+      12,
+      28,
+      14,
+      56,
+      58,
+      50,
+      3,
+      16,
+      8,
+      47,
+      22,
+      10,
+      2,
+      1,
+      55,
+      62,
+      46,
+      23,
+      33,
+      60,
+      30,
+      45,
+      32,
+      29,
+      27
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 31,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 30,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 26,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 24,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 22,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 20,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 34,
+      "distance": 0.06666666666666667,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 14,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 12,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 10,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    }
+  ]
+}

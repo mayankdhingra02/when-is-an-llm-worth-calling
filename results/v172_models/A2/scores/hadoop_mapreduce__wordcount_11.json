@@ -1,0 +1,88 @@
+{
+  "origin": "v148",
+  "key": "wordcount_11",
+  "qualified_key": "hadoop_mapreduce::wordcount_11",
+  "system_group": "hadoop_mapreduce",
+  "seed": 11,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/wordcount_11.json",
+  "prefix": "artifacts/study_v148/prefixes/wordcount_11.json",
+  "prefix_sha256": "04486bbbf6c52f4fd08e10a83d51a422123b409cc25bafda06cc13027d18c6f3",
+  "sampling_seed": 148011,
+  "redraw_seed": 320011,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/wordcount_11.json",
+  "app": "wordcount",
+  "split": 2,
+  "stage": "A2",
+  "arm": "qwen3_14b",
+  "model_key": "qwen3_14b",
+  "seed_used": 148011,
+  "score": [
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      9,
+      8
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

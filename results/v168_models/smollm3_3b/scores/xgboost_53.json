@@ -1,0 +1,99 @@
+{
+  "key": "xgboost_53",
+  "engine": "xgboost",
+  "system_group": "xgboost",
+  "seed": 53,
+  "prefix": "artifacts/study_v168/prefixes/xgboost_53.json",
+  "messages_path": "artifacts/study_v168/prompts/xgboost_53.json",
+  "sampling_seed": 168053,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "prefix_sha256": "cb0cab6a640de4f7051c0f8b5bf62cdef95afb4da04f3f07fcfc606c2f70d50b",
+  "model": "smollm3_3b",
+  "score": [
+    [
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      2,
+      1
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

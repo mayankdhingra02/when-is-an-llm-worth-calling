@@ -1,0 +1,33 @@
+{
+  "frozen_at": "2026-09-26T16:06:18.942779+00:00",
+  "sha256": {
+    ".local-runtime/java-v53/jdk-17.0.20.1+1-jre/Contents/Home/bin/java": "af8b122943345320b179c75c3404d56a981017739746b75f9caf583632f0bea0",
+    ".local-runtime/java-v53/jdk-17.0.20.1+1-jre/Contents/Home/release": "418701c0ac060abdeb47392122699985f0e99cc2a84784ef8bfdee33b0f20ddd",
+    ".local-runtime/java-v53/jdk-17.0.20.1+1-jre/Contents/Home/lib/modules": "1ed6375e7669298a4c14e81c34326ec0ed5511819129487efd40b78c5ee59d2e",
+    ".local-runtime/java-v53/jdk-17.0.20.1+1-jre/Contents/Home/lib/server/libjvm.dylib": "aee1f37674901ee3fa41886743f3382e6e1445482aab66fe34576f30d01f7749",
+    "artifacts/sources/v74/ecj.jar": "07e034c44a019c0c6394a06ee7b5c344e5518f6083c0fd046f2d8fd16a6760e2",
+    "artifacts/sources/v81/h2-2.3.232.jar": "8dae62d22db8982c3dcb3826edb9c727c5d302063a67eef7d63d82de401f07d3",
+    "src/native_v83/H2Probe.java": "847d296c225b3854816dff251ee17449e3cd3c4636e26215bef76a4ccd30b348",
+    ".local-runtime/h2-v83/classes/H2Probe.class": "7457338d1348b8c5afc4f5f7a777fd4651171585a56470b9553b648c4135d908",
+    "scripts/run_h2_v83.py": "716534e28ebd10fa24ff0b3d8540f3e9f413152459d7fe54dbb24ad7e19d3e27",
+    "src/escalation/h2_v83.py": "d94fe5a1b6e5a922a92919c22c223dc1e8d0469141ea6b3dfaf9b88646b3b077",
+    "scripts/freeze_h2_v83.py": "016dc75358ca94f8d54c98c7595b849e5c517324c318deafbeba7a11907fd78c",
+    "scripts/prepare_h2_v83.py": "6accf48bd67ead1225e0279b543c694843771d566d94b3af9e5b9044c947a35b",
+    "src/escalation/bounded_process_v57.py": "a8c924ffb9858e16bcb18a769998fd837d7bc7a57afa3d72f827aec862e5396f",
+    "src/escalation/receipts_v70.py": "a0fbdbbd1ae0b1ec02499d78380739e18dfdd0df21082b161b6056f2565b6423",
+    "scripts/run_planning_v55.py": "ce7a9be31fbccc7dbc37f1e976532f57e21a529803a0d726e0e36b0f35d5de08",
+    "reports/protocol_v83.md": "73077b2eb3c6cc16ac5abd2bc41c5fc4b16867b386fa4bda81be7cb2c7cf4b9c",
+    "configs/runtime_v83.lock.json": "d38be289e4daf002401cf94472b7fd9019afa04c23448774d766fc94ed15a356",
+    "tests/synthetic/test_h2_v83.py": "affd29eb488ea2046ce09d7d7720f24e5b675cdbc6f074dc9a738ae28fae9c6a",
+    "artifacts/study_v83/tests_all.log": "50ffd6ca9d13832531cd4c30cac688b0926b6ad5a4b77c4dd5d073166ea0c191",
+    "scripts/run_h2_v84.py": "108d1ca0cd93c1ed9b8bbd2aa860874479a1bcf22582d53bceb15a85250a4838",
+    "scripts/analyze_h2_v84.py": "38b9e160cabe0cbbe5939f5fb02fd7b95f3df212f428348f4b7de9ce0398f51b",
+    "scripts/freeze_h2_v84.py": "676376ce3a0a5a8c223ac42612a028f1b658b9470b78fc56c72b43489f7896a2",
+    "src/escalation/h2_v84.py": "9ae8eb68e63333264560113c04f7eb6b4a9433be2efd669f353495d07bf3f240",
+    "tests/synthetic/test_h2_v84.py": "fb5cc0e76814e5f3860ae092589f82cf54b35aa6cd5bb85c1ad9f018fc5b29d6",
+    "reports/protocol_v84.md": "879bcf2689d631366df4f025aaad3d75985359abe05397cda1265a57536dcd25",
+    "artifacts/study_v84/tests_all.log": "18c456887b5bdf3d4ae11a39466973adbb33a8cb74475f487f728493eab86c2b",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139"
+  },
+  "scope": "165native trials maximum;1800seconds;no model calls"
+}

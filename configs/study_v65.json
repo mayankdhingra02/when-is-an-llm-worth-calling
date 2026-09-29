@@ -1,0 +1,20 @@
+{
+  "study": "v65",
+  "model": "SmolLM3-3B-Q4_K_M",
+  "model_revision": "4965cb60b150737b68a0408c36aeefb65078f894",
+  "model_sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
+  "seeds": [11, 23, 37, 53, 71],
+  "max_generation_requests": 5,
+  "max_new_objective_accesses": 50,
+  "max_stage_seconds": 900,
+  "max_analysis_seconds": 180,
+  "request_timeout_seconds": 150,
+  "max_output_tokens": 1024,
+  "context_tokens": 4096,
+  "host": "127.0.0.1",
+  "port": 18485,
+  "retries": 0,
+  "max_new_download_bytes": 0,
+  "max_external_spend_usd": 0,
+  "analysis_scope": "exploratory development-only; one generated task and one solver family; no router fit"
+}

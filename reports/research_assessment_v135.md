@@ -1,0 +1,33 @@
+# Research assessment after V133–V135
+
+**We now have a concrete negative result worth discussing, but not an established Q2-ready routing contribution.** This continuation completed a new native lossless-JPEG experiment, a retrospective attribution audit of the full-domain proposal series, and a real capacity repair for SAC. None is a fabricated or model-free LLM result.
+
+## What the new experiments establish
+
+**V133, new libjpeg family:** 353 configurations on three licensed real photographs, 1,059 encodes and 1,059 decodes, five real local Qwen3-8B calls. Every reconstructed RGB sample matched. A comparison against the left-predictor anchor gives +4.5716%; comparison against the saved B10 incumbent gives zero. All five model continuations simply retained their prefix incumbent. Sequential search improved two of those runs, yielding mean model gain −0.0455% (0 wins/3 ties/2 losses). A separately charged predictor-sweep control ties the model in all five. Thus an apparent positive anchor comparison here is entirely attributable to work completed before escalation.
+
+The unchanged V132 benefit and uncertainty controllers both chose no calls on this third prospectively evaluated new family. Decisions used prefix information and were saved before continuations. That avoids unnecessary calls on these cases but demonstrates no selective advantage over always using the cheap optimizer. WavPack, FFTW and libjpeg are only three new test groups, not fifteen independent systems. Different native task contracts remain separate.
+
+**V134, retrospective synthesis:** all60 normal-condition cases across12 families in the latest full-domain proposal series are retained, including five SAC fallbacks. Fifteen policy outcomes improve their prefix, but only four beat continued sequential search. Among55 valid-model cases, the counts are13 and4. The four positive paired cases are HIPAcc seed11 (+1.8271%), WavPack seeds23/71 (+0.0291% each), and FFTW seed23 (+1.1020%, identical settings/timing variability). The HIPAcc exception is real historical evidence and must not be hidden. The table is heterogeneous, retrospective and mostly exposed development—not a twelve-system prospective confirmatory cohort. No population confidence interval or global pooled effect is warranted.
+
+**V135, SAC repair:** the original59-feature format cannot fit its conservative622-token construction into512 tokens, but can fit the existing1024 cap. Five new calls used the same original prompts, prefixes, sampling seeds and model identity with the corrected canonical grammar/cap. All five returned valid responses. None improved the prefix, and mean gain versus the historical sequential control is −0.4036% (0/3/2). Exactly50 new recorded outcomes were charged. This removes format impossibility as the explanation for these five new negative cases; it does not prove all prompting or model choices fail. Original failures remain intact. The cap and whitespace grammar changed together, and repeated seeds do not ensure identical runtime sampling. No model refit or test-outcome threshold adjustment occurred.
+
+## Scope of a defensible claim
+
+A bounded claim supported by these records is: **in this tested local8B, constrained batch-proposal setting, reliable formatting and improvement over an earlier baseline are insufficient evidence that a model call adds value over continued cheap search.** Individual positive exceptions exist; the current corpus has little practical routing headroom. This is a candidate empirical negative contribution, not proof that LLM optimization is universally useless or that conditional escalation is novel.
+
+The original SNAP2 paper already discusses conditional escalation, and the repository's primary-source mapping explicitly distinguishes our model, symbolic representation, batch interaction, distance, objectives and fallback from its method. These results cannot be advertised as a refutation or numerical replication of SNAP2 or LLAMBO. More task labels, tests or protocol versions do not solve that methodological gap.
+
+## Verification, costs and remaining limits
+
+Independent replays reconstruct V133's353 receipts/30 B20 arms/real responses/prefix features/frozen decisions; V134's directions, source mapping and full60-case denominator; V135's raw parsing, projection,50 source rows and reused controls. Reporting initially assumed every optional historical comparator existed; this failed on `single_portfolio`, which exists for only two SAC seeds. The original failure/script is preserved, the table explicitly reports2 cases, and the primary sequential contrast retains all5. No extra experimental acquisition resulted. Regression tests cover missing optional controls.
+
+This continuation collected10 real requests,3,228 generated and12,230 prefill tokens with no missing usage/retries,353 native configurations and50 recorded-table accesses. Actual model lifecycle totals182.011s; V133 native stages23.252s. Sources/builds/preparation and all paired alternatives remain additional research costs. Counterfactual zero-call policies do not erase those actual costs. Current weights/runtime were reused; no paid/cloud inference, publication or contact.
+
+Reproducible report/JSON/figure artifacts, compact replay and the full test receipt are linked from STATUS. Replay verifies saved evidence, not second-host execution. The new native contract still has a small domain and same-library decoder; SAC still has original recorded-data correctness/noise/redistribution limitations. Three new frozen-router test groups, one current model, heterogeneous history, unknown historical fit runtime and unverified novelty remain material limitations.
+
+## Most important next research action
+
+**Freeze a comparison of the current one-shot batch treatment against a sequential-feedback LLM continuation on the same prefixes, charging every additional model request.** Keep random/batch/sequential classical controls and practical margins fixed. This addresses a specific method difference identified in the primary-source mapping before spending more effort adding unrelated small codec tasks. It is a new treatment and must be labeled exploratory on already exposed systems; it cannot reuse them as untouched holdouts. A later coherent independent test cohort is still needed. Do not keep rerunning unchanged settings until a positive result appears.
+
+The current finite collection batches are complete and closed; no process is running in the background. No external permission is currently pending. Journal quartile and acceptance cannot be certified by a numerical stopping rule.

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize hnswlib configuration from ten acquired outcomes. Return a JSON array of ten 4-digit strings ordered most promising first. Each digit indexes the listed values for its feature. Avoid duplicate proposals and propose diverse promising settings. Only the first seven projected unseen settings will be measured; three remaining evaluations are reserved for fresh validation of the best observed setting."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"M\",\"ef_construction\",\"ef_search\",\"query_threads\"],\"indexed_values\":[[8,12,16,32],[64,128],[16,32,64,128],[1,4]],\"observed_examples\":[{\"settings\":[12,64,64,4],\"loss_seconds\":0.096892875},{\"settings\":[12,128,128,4],\"loss_seconds\":0.187413167},{\"settings\":[12,64,64,1],\"loss_seconds\":0.12109725},{\"settings\":[16,128,128,1],\"loss_seconds\":0.231917334},{\"settings\":[12,64,16,4],\"loss_seconds\":0.091771291},{\"settings\":[32,64,64,4],\"loss_seconds\":0.097816625},{\"settings\":[8,64,16,4],\"loss_seconds\":0.092297416},{\"settings\":[8,64,32,4],\"loss_seconds\":0.093874708},{\"settings\":[16,64,16,4],\"loss_seconds\":0.091641875},{\"settings\":[16,64,32,4],\"loss_seconds\":0.093604375}],\"objective\":\"Build an approximate nearest-neighbor index over 3823 real 64-dimensional Optdigits vectors, then query 1797 vectors for ten neighbors each, squared L2 distance. Fixed seed100 and single-thread index construction. Minimize build plus query elapsed time, subject to mean tie-aware recall at least95%. Quality-infeasible results receive a fixed20second utility penalty; this is not a measured successful runtime.\",\"direction\":\"minimize\",\"projection\":\"Normalized ordinal-coordinate L1 nearest unseen setting; seeded order breaks ties.\"}"
+  }
+]

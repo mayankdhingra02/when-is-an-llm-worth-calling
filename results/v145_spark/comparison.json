@@ -1,0 +1,5271 @@
+{
+  "scope": "Single Spark family, five workloads, five seeds; exploratory missing-data amendment",
+  "models": {
+    "smollm3_3b": {
+      "contrasts": {
+        "sequential_3nn": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.001098979873006373,
+          "equal_workload_mean_complete_pairs": -0.0010989798730063726,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": -0.024322698507606978,
+            "terasort": -0.003893143004397506,
+            "tpch": 0.002105802420572988,
+            "wordcount": 0.020615139726399632
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 10,
+          "ties": 8,
+          "losses": 7,
+          "practical_wins": 7,
+          "practical_harm": 7,
+          "all_observed_best_mean_sensitivity": -0.001098979873006373
+        },
+        "adaptive_neighbor": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.004167998840394538,
+          "equal_workload_mean_complete_pairs": -0.004167998840394538,
+          "workload_means_complete_pairs": {
+            "bayes": -0.010285048512484683,
+            "pagerank": -0.0004333868973360702,
+            "terasort": -0.007939880314802996,
+            "tpch": -0.0030145792472895372,
+            "wordcount": 0.0008329007699405982
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 7,
+          "ties": 7,
+          "losses": 11,
+          "practical_wins": 6,
+          "practical_harm": 10,
+          "all_observed_best_mean_sensitivity": -0.004167998840394538
+        },
+        "fixed_neighbor": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.005539765347815303,
+          "equal_workload_mean_complete_pairs": -0.005539765347815303,
+          "workload_means_complete_pairs": {
+            "bayes": -0.010285048512484683,
+            "pagerank": 0.0010766818988192793,
+            "terasort": -0.029158401255813652,
+            "tpch": -0.0030145792472895372,
+            "wordcount": 0.013682520377692077
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 9,
+          "ties": 6,
+          "losses": 10,
+          "practical_wins": 6,
+          "practical_harm": 9,
+          "all_observed_best_mean_sensitivity": -0.005539765347815303
+        },
+        "random_full": {
+          "intended": 25,
+          "scorable": 24,
+          "inconclusive": 1,
+          "mean_gain_complete_pairs": -0.002414985131136313,
+          "equal_workload_mean_complete_pairs": -0.001831372504415622,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": -0.027825151928475223,
+            "terasort": -0.07868772117505358,
+            "tpch": 0.012175330536880953,
+            "wordcount": 0.08518068004456975
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 4,
+            "wordcount": 5
+          },
+          "wins": 7,
+          "ties": 9,
+          "losses": 8,
+          "practical_wins": 7,
+          "practical_harm": 5,
+          "all_observed_best_mean_sensitivity": -0.00272433491688678
+        },
+        "random_proposal": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.017333707500511344,
+          "equal_workload_mean_complete_pairs": -0.017333707500511344,
+          "workload_means_complete_pairs": {
+            "bayes": -0.021981215626112185,
+            "pagerank": -0.018957960607290297,
+            "terasort": -0.10619780286077247,
+            "tpch": 0.014030007075591237,
+            "wordcount": 0.046438434516027007
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 9,
+          "ties": 8,
+          "losses": 8,
+          "practical_wins": 9,
+          "practical_harm": 7,
+          "all_observed_best_mean_sensitivity": -0.017333707500511344
+        }
+      },
+      "policies": {
+        "never": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 7,
+          "usefulness_unknown_cases": 0
+        },
+        "always": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.001098979873006373,
+          "equal_workload_mean_complete_pairs": -0.0010989798730063726,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": -0.024322698507606978,
+            "terasort": -0.003893143004397506,
+            "tpch": 0.002105802420572988,
+            "wordcount": 0.020615139726399632
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 10,
+          "ties": 8,
+          "losses": 7,
+          "practical_wins": 7,
+          "practical_harm": 7,
+          "all_observed_best_mean_sensitivity": -0.001098979873006373,
+          "calls": 25,
+          "harmful_calls": 7,
+          "missed_useful_calls": 0,
+          "usefulness_unknown_cases": 0
+        },
+        "benefit": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 7,
+          "usefulness_unknown_cases": 0
+        },
+        "uncertainty": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 7,
+          "usefulness_unknown_cases": 0
+        },
+        "random_matched_rate": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 7,
+          "usefulness_unknown_cases": 0
+        }
+      },
+      "joint_comparable": 25,
+      "joint_inconclusive": 0,
+      "joint_practical_wins": 4,
+      "fallbacks": 1,
+      "prefix_improvements_observed_only": 13,
+      "projection": {
+        "count": 240,
+        "nonzero": 240,
+        "repeated": 23,
+        "matches_prefix": 0
+      },
+      "cost": {
+        "request_starts": 25,
+        "complete_responses": 24,
+        "missing_usage_requests": 1,
+        "observed_generated_tokens_lower_bound": 3290,
+        "observed_prefill_tokens_lower_bound": 46736,
+        "allocated_output_tokens": 25600,
+        "lifecycle_seconds": 164.0202138320019,
+        "startup_seconds": 3.2943161240036716,
+        "completed_request_wall_seconds": 159.11472204100573,
+        "peak_server_rss_bytes": 4223598592,
+        "server_exit_codes": [
+          0,
+          0
+        ],
+        "retries": 0
+      },
+      "hindsight_complete_pair_mean_gain_diagnostic": 0.011842625035194305
+    },
+    "qwen3_8b": {
+      "contrasts": {
+        "sequential_3nn": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.019009276668465254,
+          "equal_workload_mean_complete_pairs": -0.019009276668465254,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": -0.05275790094358862,
+            "terasort": -0.004493714328684302,
+            "tpch": -0.016909341315133216,
+            "wordcount": -0.020885426754920125
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 2,
+          "ties": 11,
+          "losses": 12,
+          "practical_wins": 2,
+          "practical_harm": 11,
+          "all_observed_best_mean_sensitivity": -0.019009276668465254
+        },
+        "adaptive_neighbor": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.022180695263886895,
+          "equal_workload_mean_complete_pairs": -0.022180695263886895,
+          "workload_means_complete_pairs": {
+            "bayes": -0.010285048512484683,
+            "pagerank": -0.027792772549860168,
+            "terasort": -0.007355345632096916,
+            "tpch": -0.02217629626230939,
+            "wordcount": -0.04329401336268332
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 3,
+          "ties": 9,
+          "losses": 13,
+          "practical_wins": 2,
+          "practical_harm": 13,
+          "all_observed_best_mean_sensitivity": -0.022180695263886895
+        },
+        "fixed_neighbor": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.023249675035051237,
+          "equal_workload_mean_complete_pairs": -0.023249675035051237,
+          "workload_means_complete_pairs": {
+            "bayes": -0.010285048512484683,
+            "pagerank": -0.026099159102512252,
+            "terasort": -0.02834997682306964,
+            "tpch": -0.02217629626230939,
+            "wordcount": -0.029337894474880218
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 10,
+          "losses": 15,
+          "practical_wins": 0,
+          "practical_harm": 15,
+          "all_observed_best_mean_sensitivity": -0.023249675035051237
+        },
+        "random_full": {
+          "intended": 25,
+          "scorable": 24,
+          "inconclusive": 1,
+          "mean_gain_complete_pairs": -0.020113467308887512,
+          "equal_workload_mean_complete_pairs": -0.01976459295115152,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": -0.055929476220835855,
+            "terasort": -0.0786310218395134,
+            "tpch": -0.011391608365487695,
+            "wordcount": 0.04712914167007935
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 4,
+            "wordcount": 5
+          },
+          "wins": 3,
+          "ties": 13,
+          "losses": 8,
+          "practical_wins": 1,
+          "practical_harm": 8,
+          "all_observed_best_mean_sensitivity": -0.019714877807527932
+        },
+        "random_proposal": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.03427518999116353,
+          "equal_workload_mean_complete_pairs": -0.034275189991163524,
+          "workload_means_complete_pairs": {
+            "bayes": -0.021981215626112185,
+            "pagerank": -0.04603835245931634,
+            "terasort": -0.10450213166006063,
+            "tpch": -0.004823544046303681,
+            "wordcount": 0.005969293835975199
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 2,
+          "ties": 11,
+          "losses": 12,
+          "practical_wins": 2,
+          "practical_harm": 10,
+          "all_observed_best_mean_sensitivity": -0.03427518999116353
+        }
+      },
+      "policies": {
+        "never": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 2,
+          "usefulness_unknown_cases": 0
+        },
+        "always": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": -0.019009276668465254,
+          "equal_workload_mean_complete_pairs": -0.019009276668465254,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": -0.05275790094358862,
+            "terasort": -0.004493714328684302,
+            "tpch": -0.016909341315133216,
+            "wordcount": -0.020885426754920125
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 2,
+          "ties": 11,
+          "losses": 12,
+          "practical_wins": 2,
+          "practical_harm": 11,
+          "all_observed_best_mean_sensitivity": -0.019009276668465254,
+          "calls": 25,
+          "harmful_calls": 11,
+          "missed_useful_calls": 0,
+          "usefulness_unknown_cases": 0
+        },
+        "benefit": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 2,
+          "usefulness_unknown_cases": 0
+        },
+        "uncertainty": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 2,
+          "usefulness_unknown_cases": 0
+        },
+        "random_matched_rate": {
+          "intended": 25,
+          "scorable": 25,
+          "inconclusive": 0,
+          "mean_gain_complete_pairs": 0.0,
+          "equal_workload_mean_complete_pairs": 0.0,
+          "workload_means_complete_pairs": {
+            "bayes": 0.0,
+            "pagerank": 0.0,
+            "terasort": 0.0,
+            "tpch": 0.0,
+            "wordcount": 0.0
+          },
+          "workload_denominators": {
+            "bayes": 5,
+            "pagerank": 5,
+            "terasort": 5,
+            "tpch": 5,
+            "wordcount": 5
+          },
+          "wins": 0,
+          "ties": 25,
+          "losses": 0,
+          "practical_wins": 0,
+          "practical_harm": 0,
+          "all_observed_best_mean_sensitivity": 0.0,
+          "calls": 0,
+          "harmful_calls": 0,
+          "missed_useful_calls": 2,
+          "usefulness_unknown_cases": 0
+        }
+      },
+      "joint_comparable": 25,
+      "joint_inconclusive": 0,
+      "joint_practical_wins": 1,
+      "fallbacks": 0,
+      "prefix_improvements_observed_only": 7,
+      "projection": {
+        "count": 250,
+        "nonzero": 250,
+        "repeated": 192,
+        "matches_prefix": 0
+      },
+      "cost": {
+        "request_starts": 25,
+        "complete_responses": 25,
+        "missing_usage_requests": 0,
+        "observed_generated_tokens_lower_bound": 7825,
+        "observed_prefill_tokens_lower_bound": 63495,
+        "allocated_output_tokens": 25600,
+        "lifecycle_seconds": 590.7653823340006,
+        "startup_seconds": 4.582070124997699,
+        "completed_request_wall_seconds": 585.5826061260086,
+        "peak_server_rss_bytes": 7456636928,
+        "server_exit_codes": [
+          0
+        ],
+        "retries": 0
+      },
+      "hindsight_complete_pair_mean_gain_diagnostic": 0.004213168691393684
+    }
+  },
+  "cases": [
+    {
+      "key": "pagerank_37",
+      "model": "smollm3_3b",
+      "app": "pagerank",
+      "seed": 37,
+      "model_best_observed": 270271.0,
+      "control_best_observed": {
+        "sequential_3nn": 270271.0,
+        "adaptive_neighbor": 266841.0,
+        "fixed_neighbor": 266841.0,
+        "random_full": 270271.0,
+        "random_proposal": 270271.0
+      },
+      "prefix_best": 270271.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.01285409663432531,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.01285409663432531,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_53",
+      "model": "smollm3_3b",
+      "app": "pagerank",
+      "seed": 53,
+      "model_best_observed": 296804.0,
+      "control_best_observed": {
+        "sequential_3nn": 279299.0,
+        "adaptive_neighbor": 296804.0,
+        "fixed_neighbor": 296804.0,
+        "random_full": 275260.0,
+        "random_proposal": 266841.0
+      },
+      "prefix_best": 296804.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.0626747679010666,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.07826781951609388,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.11228784182340795,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.0626747679010666,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_37",
+      "model": "smollm3_3b",
+      "app": "tpch",
+      "seed": 37,
+      "model_best_observed": 535438.0,
+      "control_best_observed": {
+        "sequential_3nn": 535438.0,
+        "adaptive_neighbor": 535438.0,
+        "fixed_neighbor": 535438.0,
+        "random_full": 535438.0,
+        "random_proposal": 535438.0
+      },
+      "prefix_best": 535438.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_71",
+      "model": "smollm3_3b",
+      "app": "wordcount",
+      "seed": 71,
+      "model_best_observed": 3818620.0,
+      "control_best_observed": {
+        "sequential_3nn": 3718290.0,
+        "adaptive_neighbor": 3818620.0,
+        "fixed_neighbor": 3818620.0,
+        "random_full": 3818620.0,
+        "random_proposal": 3818620.0
+      },
+      "prefix_best": 3818620.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.02698283350680017,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.02698283350680017,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_23",
+      "model": "smollm3_3b",
+      "app": "bayes",
+      "seed": 23,
+      "model_best_observed": 980026.0,
+      "control_best_observed": {
+        "sequential_3nn": 980026.0,
+        "adaptive_neighbor": 980026.0,
+        "fixed_neighbor": 980026.0,
+        "random_full": 980026.0,
+        "random_proposal": 980026.0
+      },
+      "prefix_best": 980026.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_11",
+      "model": "smollm3_3b",
+      "app": "bayes",
+      "seed": 11,
+      "model_best_observed": 1429708.0,
+      "control_best_observed": {
+        "sequential_3nn": 1429708.0,
+        "adaptive_neighbor": 1393868.0,
+        "fixed_neighbor": 1393868.0,
+        "random_full": 1429708.0,
+        "random_proposal": 1341513.0
+      },
+      "prefix_best": 1429708.0,
+      "model_missing": false,
+      "model_status": "interrupted",
+      "fallback": true,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.06574293353847484,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_53",
+      "model": "smollm3_3b",
+      "app": "tpch",
+      "seed": 53,
+      "model_best_observed": 540970.0,
+      "control_best_observed": {
+        "sequential_3nn": 540970.0,
+        "adaptive_neighbor": 527560.0,
+        "fixed_neighbor": 527560.0,
+        "random_full": 556567.0,
+        "random_proposal": 556567.0
+      },
+      "prefix_best": 556567.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.025418909697475168,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.025418909697475168,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.028023580269760873,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.028023580269760873,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_23",
+      "model": "smollm3_3b",
+      "app": "pagerank",
+      "seed": 23,
+      "model_best_observed": 272186.0,
+      "control_best_observed": {
+        "sequential_3nn": 273794.0,
+        "adaptive_neighbor": 275959.0,
+        "fixed_neighbor": 273794.0,
+        "random_full": 270271.0,
+        "random_proposal": 270271.0
+      },
+      "prefix_best": 283865.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.005873028627362178,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.013672320888247892,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.005873028627362178,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.007085480869201653,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.007085480869201653,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.005873028627362178,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_37",
+      "model": "smollm3_3b",
+      "app": "terasort",
+      "seed": 37,
+      "model_best_observed": 272242.0,
+      "control_best_observed": {
+        "sequential_3nn": 256630.0,
+        "adaptive_neighbor": 281785.0,
+        "fixed_neighbor": 266747.0,
+        "random_full": 210807.0,
+        "random_proposal": 255299.0
+      },
+      "prefix_best": 302471.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.060834664692358646,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.03386624554181379,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.020600044236673703,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.29142770401362383,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.06636532066322234,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.060834664692358646,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_71",
+      "model": "smollm3_3b",
+      "app": "terasort",
+      "seed": 71,
+      "model_best_observed": 277639.0,
+      "control_best_observed": {
+        "sequential_3nn": 266747.0,
+        "adaptive_neighbor": 266747.0,
+        "fixed_neighbor": 266747.0,
+        "random_full": 277639.0,
+        "random_proposal": 210807.0
+      },
+      "prefix_best": 277639.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.3170293206582324,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_11",
+      "model": "smollm3_3b",
+      "app": "wordcount",
+      "seed": 11,
+      "model_best_observed": 3599050.0,
+      "control_best_observed": {
+        "sequential_3nn": 3676211.0,
+        "adaptive_neighbor": 3676211.0,
+        "fixed_neighbor": 3676211.0,
+        "random_full": 3676211.0,
+        "random_proposal": 3676211.0
+      },
+      "prefix_best": 3676211.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.020989274010659344,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.020989274010659344,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.020989274010659344,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.020989274010659344,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.020989274010659344,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.020989274010659344,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_71",
+      "model": "smollm3_3b",
+      "app": "bayes",
+      "seed": 71,
+      "model_best_observed": 1429708.0,
+      "control_best_observed": {
+        "sequential_3nn": 1429708.0,
+        "adaptive_neighbor": 1393868.0,
+        "fixed_neighbor": 1393868.0,
+        "random_full": 1429708.0,
+        "random_proposal": 1429708.0
+      },
+      "prefix_best": 1429708.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_71",
+      "model": "smollm3_3b",
+      "app": "pagerank",
+      "seed": 71,
+      "model_best_observed": 272186.0,
+      "control_best_observed": {
+        "sequential_3nn": 275405.0,
+        "adaptive_neighbor": 275405.0,
+        "fixed_neighbor": 275405.0,
+        "random_full": 270271.0,
+        "random_proposal": 275260.0
+      },
+      "prefix_best": 275405.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.011688240954231042,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.011688240954231042,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.011688240954231042,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.007085480869201653,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.011167623337935043,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.011688240954231042,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_37",
+      "model": "smollm3_3b",
+      "app": "wordcount",
+      "seed": 37,
+      "model_best_observed": 3599050.0,
+      "control_best_observed": {
+        "sequential_3nn": 3622100.0,
+        "adaptive_neighbor": 3599050.0,
+        "fixed_neighbor": 3706091.0,
+        "random_full": 4974525.0,
+        "random_proposal": 3887306.0
+      },
+      "prefix_best": 4974525.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0063637116589823585,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.02888245323711695,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.27650378679371396,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.07415315388086248,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0063637116589823585,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_37",
+      "model": "smollm3_3b",
+      "app": "bayes",
+      "seed": 37,
+      "model_best_observed": 1102082.0,
+      "control_best_observed": {
+        "sequential_3nn": 1102082.0,
+        "adaptive_neighbor": 1102082.0,
+        "fixed_neighbor": 1102082.0,
+        "random_full": 1102082.0,
+        "random_proposal": 1102082.0
+      },
+      "prefix_best": 1102082.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_71",
+      "model": "smollm3_3b",
+      "app": "tpch",
+      "seed": 71,
+      "model_best_observed": 540970.0,
+      "control_best_observed": {
+        "sequential_3nn": 535535.0,
+        "adaptive_neighbor": 535438.0,
+        "fixed_neighbor": 535438.0,
+        "random_full": 535535.0,
+        "random_proposal": 540970.0
+      },
+      "prefix_best": 540970.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.010148729774897999,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.010331728416735457,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.010331728416735457,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.010148729774897999,
+          "scorable": false,
+          "control_missing": true,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.010148729774897999,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_23",
+      "model": "smollm3_3b",
+      "app": "tpch",
+      "seed": 23,
+      "model_best_observed": 559836.0,
+      "control_best_observed": {
+        "sequential_3nn": 535438.0,
+        "adaptive_neighbor": 535438.0,
+        "fixed_neighbor": 535438.0,
+        "random_full": 535438.0,
+        "random_proposal": 546652.0
+      },
+      "prefix_best": 559836.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.024117720231518407,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_53",
+      "model": "smollm3_3b",
+      "app": "wordcount",
+      "seed": 53,
+      "model_best_observed": 3599050.0,
+      "control_best_observed": {
+        "sequential_3nn": 3622100.0,
+        "adaptive_neighbor": 3622100.0,
+        "fixed_neighbor": 3622100.0,
+        "random_full": 3718290.0,
+        "random_proposal": 3751777.0
+      },
+      "prefix_best": 3751777.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0063637116589823585,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0063637116589823585,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0063637116589823585,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.03206850460830113,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.04070790987843894,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0063637116589823585,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_23",
+      "model": "smollm3_3b",
+      "app": "wordcount",
+      "seed": 23,
+      "model_best_observed": 3706091.0,
+      "control_best_observed": {
+        "sequential_3nn": 4101209.0,
+        "adaptive_neighbor": 3622100.0,
+        "fixed_neighbor": 3751777.0,
+        "random_full": 4101209.0,
+        "random_proposal": 4101209.0
+      },
+      "prefix_best": 4101209.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.09634183481017426,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.02318848181993871,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.012177162981701737,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.09634183481017426,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.09634183481017426,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.09634183481017426,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_11",
+      "model": "smollm3_3b",
+      "app": "pagerank",
+      "seed": 11,
+      "model_best_observed": 279299.0,
+      "control_best_observed": {
+        "sequential_3nn": 259451.0,
+        "adaptive_neighbor": 275260.0,
+        "fixed_neighbor": 279488.0,
+        "random_full": 266841.0,
+        "random_proposal": 283097.0
+      },
+      "prefix_best": 323740.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.0764999942185615,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.014673399694833975,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0006762365468284863,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.04668697838787893,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.013415896318223083,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.0764999942185615,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_23",
+      "model": "smollm3_3b",
+      "app": "terasort",
+      "seed": 23,
+      "model_best_observed": 271056.0,
+      "control_best_observed": {
+        "sequential_3nn": 277639.0,
+        "adaptive_neighbor": 269603.0,
+        "fixed_neighbor": 269603.0,
+        "random_full": 269603.0,
+        "random_proposal": 277639.0
+      },
+      "prefix_best": 301441.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.023710645838660994,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.005389405904236971,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.005389405904236971,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.005389405904236971,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.023710645838660994,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.023710645838660994,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_11",
+      "model": "smollm3_3b",
+      "app": "terasort",
+      "seed": 11,
+      "model_best_observed": 299033.0,
+      "control_best_observed": {
+        "sequential_3nn": 303609.0,
+        "adaptive_neighbor": 281785.0,
+        "fixed_neighbor": 272242.0,
+        "random_full": 266747.0,
+        "random_proposal": 255299.0
+      },
+      "prefix_best": 315517.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.01507201696919393,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.061209787604024346,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.0984087686690518,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.12103603789358455,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.17130501882106863,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.01507201696919393,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_53",
+      "model": "smollm3_3b",
+      "app": "terasort",
+      "seed": 53,
+      "model_best_observed": 272242.0,
+      "control_best_observed": {
+        "sequential_3nn": 284599.0,
+        "adaptive_neighbor": 281785.0,
+        "fixed_neighbor": 277639.0,
+        "random_full": 279055.0,
+        "random_proposal": 272242.0
+      },
+      "prefix_best": 284599.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.04341898601189744,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.03386624554181379,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.019438911680275464,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.024414541936177456,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.04341898601189744,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_11",
+      "model": "smollm3_3b",
+      "app": "tpch",
+      "seed": 11,
+      "model_best_observed": 535438.0,
+      "control_best_observed": {
+        "sequential_3nn": 573424.0,
+        "adaptive_neighbor": 573424.0,
+        "fixed_neighbor": 573424.0,
+        "random_full": 573424.0,
+        "random_proposal": 573424.0
+      },
+      "prefix_best": 573424.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.06624417533971372,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.06624417533971372,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.06624417533971372,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.06624417533971372,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.06624417533971372,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.06624417533971372,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_53",
+      "model": "smollm3_3b",
+      "app": "bayes",
+      "seed": 53,
+      "model_best_observed": 1393868.0,
+      "control_best_observed": {
+        "sequential_3nn": 1393868.0,
+        "adaptive_neighbor": 1393868.0,
+        "fixed_neighbor": 1393868.0,
+        "random_full": 1393868.0,
+        "random_proposal": 1334914.0
+      },
+      "prefix_best": 1393868.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.04416314459208608,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_37",
+      "model": "qwen3_8b",
+      "app": "pagerank",
+      "seed": 37,
+      "model_best_observed": 270271.0,
+      "control_best_observed": {
+        "sequential_3nn": 270271.0,
+        "adaptive_neighbor": 266841.0,
+        "fixed_neighbor": 266841.0,
+        "random_full": 270271.0,
+        "random_proposal": 270271.0
+      },
+      "prefix_best": 270271.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.01285409663432531,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.01285409663432531,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_53",
+      "model": "qwen3_8b",
+      "app": "pagerank",
+      "seed": 53,
+      "model_best_observed": 296804.0,
+      "control_best_observed": {
+        "sequential_3nn": 279299.0,
+        "adaptive_neighbor": 296804.0,
+        "fixed_neighbor": 296804.0,
+        "random_full": 275260.0,
+        "random_proposal": 266841.0
+      },
+      "prefix_best": 296804.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.0626747679010666,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.07826781951609388,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.11228784182340795,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.0626747679010666,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_37",
+      "model": "qwen3_8b",
+      "app": "tpch",
+      "seed": 37,
+      "model_best_observed": 535438.0,
+      "control_best_observed": {
+        "sequential_3nn": 535438.0,
+        "adaptive_neighbor": 535438.0,
+        "fixed_neighbor": 535438.0,
+        "random_full": 535438.0,
+        "random_proposal": 535438.0
+      },
+      "prefix_best": 535438.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_71",
+      "model": "qwen3_8b",
+      "app": "wordcount",
+      "seed": 71,
+      "model_best_observed": 3818620.0,
+      "control_best_observed": {
+        "sequential_3nn": 3718290.0,
+        "adaptive_neighbor": 3818620.0,
+        "fixed_neighbor": 3818620.0,
+        "random_full": 3818620.0,
+        "random_proposal": 3818620.0
+      },
+      "prefix_best": 3818620.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.02698283350680017,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.02698283350680017,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_23",
+      "model": "qwen3_8b",
+      "app": "bayes",
+      "seed": 23,
+      "model_best_observed": 980026.0,
+      "control_best_observed": {
+        "sequential_3nn": 980026.0,
+        "adaptive_neighbor": 980026.0,
+        "fixed_neighbor": 980026.0,
+        "random_full": 980026.0,
+        "random_proposal": 980026.0
+      },
+      "prefix_best": 980026.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_11",
+      "model": "qwen3_8b",
+      "app": "bayes",
+      "seed": 11,
+      "model_best_observed": 1429708.0,
+      "control_best_observed": {
+        "sequential_3nn": 1429708.0,
+        "adaptive_neighbor": 1393868.0,
+        "fixed_neighbor": 1393868.0,
+        "random_full": 1429708.0,
+        "random_proposal": 1341513.0
+      },
+      "prefix_best": 1429708.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.06574293353847484,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_53",
+      "model": "qwen3_8b",
+      "app": "tpch",
+      "seed": 53,
+      "model_best_observed": 556567.0,
+      "control_best_observed": {
+        "sequential_3nn": 540970.0,
+        "adaptive_neighbor": 527560.0,
+        "fixed_neighbor": 527560.0,
+        "random_full": 556567.0,
+        "random_proposal": 556567.0
+      },
+      "prefix_best": 556567.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.02883154333881731,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.054983319432860715,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.054983319432860715,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.02883154333881731,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_23",
+      "model": "qwen3_8b",
+      "app": "pagerank",
+      "seed": 23,
+      "model_best_observed": 283865.0,
+      "control_best_observed": {
+        "sequential_3nn": 273794.0,
+        "adaptive_neighbor": 275959.0,
+        "fixed_neighbor": 273794.0,
+        "random_full": 270271.0,
+        "random_proposal": 270271.0
+      },
+      "prefix_best": 283865.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.03678312892174408,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.02864918339318522,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.03678312892174408,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.05029766419630667,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.05029766419630667,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.03678312892174408,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_37",
+      "model": "qwen3_8b",
+      "app": "terasort",
+      "seed": 37,
+      "model_best_observed": 277639.0,
+      "control_best_observed": {
+        "sequential_3nn": 256630.0,
+        "adaptive_neighbor": 281785.0,
+        "fixed_neighbor": 266747.0,
+        "random_full": 210807.0,
+        "random_proposal": 255299.0
+      },
+      "prefix_best": 302471.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.0818649417449246,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.014713345280976632,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.3170293206582324,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.08750523895510753,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.0818649417449246,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_71",
+      "model": "qwen3_8b",
+      "app": "terasort",
+      "seed": 71,
+      "model_best_observed": 277639.0,
+      "control_best_observed": {
+        "sequential_3nn": 266747.0,
+        "adaptive_neighbor": 266747.0,
+        "fixed_neighbor": 266747.0,
+        "random_full": 277639.0,
+        "random_proposal": 210807.0
+      },
+      "prefix_best": 277639.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.3170293206582324,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.04083269914938125,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_11",
+      "model": "qwen3_8b",
+      "app": "wordcount",
+      "seed": 11,
+      "model_best_observed": 3676211.0,
+      "control_best_observed": {
+        "sequential_3nn": 3676211.0,
+        "adaptive_neighbor": 3676211.0,
+        "fixed_neighbor": 3676211.0,
+        "random_full": 3676211.0,
+        "random_proposal": 3676211.0
+      },
+      "prefix_best": 3676211.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_71",
+      "model": "qwen3_8b",
+      "app": "bayes",
+      "seed": 71,
+      "model_best_observed": 1429708.0,
+      "control_best_observed": {
+        "sequential_3nn": 1429708.0,
+        "adaptive_neighbor": 1393868.0,
+        "fixed_neighbor": 1393868.0,
+        "random_full": 1429708.0,
+        "random_proposal": 1429708.0
+      },
+      "prefix_best": 1429708.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.025712621281211708,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_71",
+      "model": "qwen3_8b",
+      "app": "pagerank",
+      "seed": 71,
+      "model_best_observed": 275405.0,
+      "control_best_observed": {
+        "sequential_3nn": 275405.0,
+        "adaptive_neighbor": 275405.0,
+        "fixed_neighbor": 275405.0,
+        "random_full": 270271.0,
+        "random_proposal": 275260.0
+      },
+      "prefix_best": 275405.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.01899574871147848,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.000526774685751653,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_37",
+      "model": "qwen3_8b",
+      "app": "wordcount",
+      "seed": 37,
+      "model_best_observed": 3818620.0,
+      "control_best_observed": {
+        "sequential_3nn": 3622100.0,
+        "adaptive_neighbor": 3599050.0,
+        "fixed_neighbor": 3706091.0,
+        "random_full": 4974525.0,
+        "random_proposal": 3887306.0
+      },
+      "prefix_best": 4974525.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.05425581844786174,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.0610077659382337,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.030363258754304737,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.23236489916122646,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.01766930619817426,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.05425581844786174,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_37",
+      "model": "qwen3_8b",
+      "app": "bayes",
+      "seed": 37,
+      "model_best_observed": 1102082.0,
+      "control_best_observed": {
+        "sequential_3nn": 1102082.0,
+        "adaptive_neighbor": 1102082.0,
+        "fixed_neighbor": 1102082.0,
+        "random_full": 1102082.0,
+        "random_proposal": 1102082.0
+      },
+      "prefix_best": 1102082.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_71",
+      "model": "qwen3_8b",
+      "app": "tpch",
+      "seed": 71,
+      "model_best_observed": 540970.0,
+      "control_best_observed": {
+        "sequential_3nn": 535535.0,
+        "adaptive_neighbor": 535438.0,
+        "fixed_neighbor": 535438.0,
+        "random_full": 535535.0,
+        "random_proposal": 540970.0
+      },
+      "prefix_best": 540970.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.010148729774897999,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.010331728416735457,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.010331728416735457,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.010148729774897999,
+          "scorable": false,
+          "control_missing": true,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.010148729774897999,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_23",
+      "model": "qwen3_8b",
+      "app": "tpch",
+      "seed": 23,
+      "model_best_observed": 559836.0,
+      "control_best_observed": {
+        "sequential_3nn": 535438.0,
+        "adaptive_neighbor": 535438.0,
+        "fixed_neighbor": 535438.0,
+        "random_full": 535438.0,
+        "random_proposal": 546652.0
+      },
+      "prefix_best": 559836.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.024117720231518407,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.04556643346195078,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_53",
+      "model": "qwen3_8b",
+      "app": "wordcount",
+      "seed": 53,
+      "model_best_observed": 3706091.0,
+      "control_best_observed": {
+        "sequential_3nn": 3622100.0,
+        "adaptive_neighbor": 3622100.0,
+        "fixed_neighbor": 3622100.0,
+        "random_full": 3718290.0,
+        "random_proposal": 3751777.0
+      },
+      "prefix_best": 3751777.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.02318848181993871,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.02318848181993871,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.02318848181993871,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0032808091891702905,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.012177162981701737,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.02318848181993871,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "wordcount_23",
+      "model": "qwen3_8b",
+      "app": "wordcount",
+      "seed": 23,
+      "model_best_observed": 4101209.0,
+      "control_best_observed": {
+        "sequential_3nn": 4101209.0,
+        "adaptive_neighbor": 3622100.0,
+        "fixed_neighbor": 3751777.0,
+        "random_full": 4101209.0,
+        "random_proposal": 4101209.0
+      },
+      "prefix_best": 4101209.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.13227381905524419,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.09313773180015764,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "pagerank_11",
+      "model": "qwen3_8b",
+      "app": "pagerank",
+      "seed": 11,
+      "model_best_observed": 302087.0,
+      "control_best_observed": {
+        "sequential_3nn": 259451.0,
+        "adaptive_neighbor": 275260.0,
+        "fixed_neighbor": 279488.0,
+        "random_full": 266841.0,
+        "random_proposal": 283097.0
+      },
+      "prefix_best": 323740.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.1643316078951324,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.09746058272179031,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.08085856995649188,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.13208614868030025,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.06707948159111542,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.1643316078951324,
+          "scorable": true,
+          "harmful_call": true,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_23",
+      "model": "qwen3_8b",
+      "app": "terasort",
+      "seed": 23,
+      "model_best_observed": 279055.0,
+      "control_best_observed": {
+        "sequential_3nn": 277639.0,
+        "adaptive_neighbor": 269603.0,
+        "fixed_neighbor": 269603.0,
+        "random_full": 269603.0,
+        "random_proposal": 277639.0
+      },
+      "prefix_best": 301441.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": -0.005100148033957765,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": -0.03505895705908317,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.03505895705908317,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.03505895705908317,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.005100148033957765,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": -0.005100148033957765,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_11",
+      "model": "qwen3_8b",
+      "app": "terasort",
+      "seed": 11,
+      "model_best_observed": 279055.0,
+      "control_best_observed": {
+        "sequential_3nn": 303609.0,
+        "adaptive_neighbor": 281785.0,
+        "fixed_neighbor": 272242.0,
+        "random_full": 266747.0,
+        "random_proposal": 255299.0
+      },
+      "prefix_best": 315517.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.08087375538933299,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.00968823748602658,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": -0.025025528757502517,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": -0.04614109999362692,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.0930516766614832,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.08087375538933299,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "terasort_53",
+      "model": "qwen3_8b",
+      "app": "terasort",
+      "seed": 53,
+      "model_best_observed": 277639.0,
+      "control_best_observed": {
+        "sequential_3nn": 284599.0,
+        "adaptive_neighbor": 281785.0,
+        "fixed_neighbor": 277639.0,
+        "random_full": 279055.0,
+        "random_proposal": 272242.0
+      },
+      "prefix_best": 284599.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.02445546189550912,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.014713345280976632,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.005074268513375499,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.01982427399152225,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.02445546189550912,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": true,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "tpch_11",
+      "model": "qwen3_8b",
+      "app": "tpch",
+      "seed": 11,
+      "model_best_observed": 573424.0,
+      "control_best_observed": {
+        "sequential_3nn": 573424.0,
+        "adaptive_neighbor": 573424.0,
+        "fixed_neighbor": 573424.0,
+        "random_full": 573424.0,
+        "random_proposal": 573424.0
+      },
+      "prefix_best": 573424.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    },
+    {
+      "key": "bayes_53",
+      "model": "qwen3_8b",
+      "app": "bayes",
+      "seed": 53,
+      "model_best_observed": 1393868.0,
+      "control_best_observed": {
+        "sequential_3nn": 1393868.0,
+        "adaptive_neighbor": 1393868.0,
+        "fixed_neighbor": 1393868.0,
+        "random_full": 1393868.0,
+        "random_proposal": 1334914.0
+      },
+      "prefix_best": 1393868.0,
+      "model_missing": false,
+      "model_status": "valid",
+      "fallback": false,
+      "contrasts": {
+        "sequential_3nn": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "adaptive_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "fixed_neighbor": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_full": {
+          "gain": 0.0,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        },
+        "random_proposal": {
+          "gain": -0.04416314459208608,
+          "scorable": true,
+          "control_missing": false,
+          "model_missing": false
+        }
+      },
+      "policies": {
+        "never": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "always": {
+          "escalate": true,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "benefit": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "uncertainty": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        },
+        "random_matched_rate": {
+          "escalate": false,
+          "gain": 0.0,
+          "scorable": true,
+          "harmful_call": false,
+          "missed_useful_call": false,
+          "usefulness_unknown": false
+        }
+      }
+    }
+  ],
+  "collection": {
+    "at_unix": 1790575367.618367,
+    "model_arms": 50,
+    "total_acquisitions": 2000,
+    "total_collection_seconds": 987.2937381267548
+  },
+  "charged_acquisitions": 2000,
+  "finite_acquisitions": 1999,
+  "missing_acquisitions": 1,
+  "missing_rows": [
+    [
+      "tpch",
+      76
+    ]
+  ]
+}

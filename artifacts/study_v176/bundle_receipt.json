@@ -1,0 +1,33 @@
+{
+ "zip": "output/llm_escalation_audit_v176.zip",
+ "zip_sha256": "1c74116bc8b43feb32c47d243aee676c7926516eaeca08124a1c75ff6c4f5051",
+ "zip_bytes": 346386896,
+ "files": 16812,
+ "uncompressed_bytes": 1871355727,
+ "bundle_manifest_sha256": "2ae53af57c44d5329af64b14506dc476034bcd944cfa5f2911d736b21b7bda49",
+ "coverage": {
+  "chain_checkpoints": 75,
+  "verified": 12721,
+  "superseded_version_not_included": 0,
+  "absent_by_category": {
+   "earlier_or_unrelated_iterations": 51723,
+   "earlier_packaged_bundles": 8835,
+   "model_weights": 12,
+   "other_files_not_needed_to_reproduce_the_paper": 72,
+   "third_party_runtimes_and_native_builds": 1518,
+   "third_party_source_archives": 1140,
+   "workflow_notes": 5
+  }
+ },
+ "credential_pattern_hits": 0,
+ "files_with_home_directory_paths": 5832,
+ "private_string_hits_by_index": [
+  0
+ ],
+ "executables_included": [
+  ".local-runtime/llama-b11146/llama-server",
+  ".native-v160/bin/hnsw_worker_v161",
+  ".native-v160/ripgrep-15.2.0-aarch64-apple-darwin/rg",
+  ".native-v160/search_corpus/PC/python3dll.c"
+ ]
+}

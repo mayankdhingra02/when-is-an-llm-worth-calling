@@ -1,0 +1,26 @@
+{
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "max_external_spend_usd": 0,
+  "retries": 0,
+  "total_request_cap": 40,
+  "total_models": 2,
+  "new_generation_request_cap": 20,
+  "scientific_request_cap": 20,
+  "compatibility_request_cap": 0,
+  "max_allocated_output_tokens": 20480,
+  "max_generation_stage_seconds": 600,
+  "max_server_rss_bytes": 8589934592,
+  "ports": {
+    "smollm3_3b": 18645,
+    "qwen3_8b": 18646
+  },
+  "model_order": [
+    "smollm3_3b",
+    "qwen3_8b"
+  ],
+  "total_new_recorded_acquisitions": 0,
+  "total_collection_seconds_cap": 1800,
+  "total_new_native_acquisitions": 900,
+  "total_native_workload_invocations": 2700
+}

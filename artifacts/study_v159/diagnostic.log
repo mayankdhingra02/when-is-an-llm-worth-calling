@@ -1,0 +1,156 @@
+[
+  {
+    "engine": "cvc5",
+    "arm": "sequential_3nn",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "cvc5",
+    "arm": "adaptive_neighbor",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.011567363210447074,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "cvc5",
+    "arm": "gp_ei",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.006686362870033965,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "cvc5",
+    "arm": "random_full",
+    "prefix_selected_cases": 3,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.006300177678475499,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "cvc5",
+    "arm": "random_proposal",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 5,
+    "duplicate": 2,
+    "prefix_match": 3
+  },
+  {
+    "engine": "cvc5",
+    "arm": "smollm3_3b",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.003441508293984925,
+    "evaluated_proposals": 35,
+    "projected": 12,
+    "duplicate": 0,
+    "prefix_match": 9
+  },
+  {
+    "engine": "cvc5",
+    "arm": "qwen3_8b",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.006389047241980206,
+    "evaluated_proposals": 35,
+    "projected": 10,
+    "duplicate": 3,
+    "prefix_match": 7
+  },
+  {
+    "engine": "ortools",
+    "arm": "sequential_3nn",
+    "prefix_selected_cases": 2,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.12059665794923151,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ortools",
+    "arm": "adaptive_neighbor",
+    "prefix_selected_cases": 2,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.13146574078968698,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ortools",
+    "arm": "gp_ei",
+    "prefix_selected_cases": 2,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.12650091714703993,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ortools",
+    "arm": "random_full",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ortools",
+    "arm": "random_proposal",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 3,
+    "duplicate": 1,
+    "prefix_match": 2
+  },
+  {
+    "engine": "ortools",
+    "arm": "smollm3_3b",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 16,
+    "duplicate": 7,
+    "prefix_match": 10
+  },
+  {
+    "engine": "ortools",
+    "arm": "qwen3_8b",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 19,
+    "duplicate": 15,
+    "prefix_match": 11
+  }
+]

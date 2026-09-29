@@ -1,0 +1,9 @@
+# V80 isolated saved-outcome reconstruction
+
+Actual local ZIP extraction and standard-library replay passed on Python 3.10.13 with `-I -S` (isolated interpreter, no site packages). The 3,236,610-byte archive contains 4,182 manifest-listed files plus its manifest; SHA256 `464cfbd561ef170d80f6a67c180e9eed5f0de6c6afc0fa633f6ed649c65c0b8c`.
+
+It reconstructed all 15 paired cases / 45 arms, 450 physical charges, 900 logical charges, 105 real request receipts, token totals, final medians and reported win/tie/loss counts. Three separately labeled synthetic corruptions were rejected even after updating the modified file's checksum: a changed reported mean, a shortened arm confirmation budget, and an inflated generation-request denominator. These fixtures are not measured research data. No model calls or native measurements were made for reproduction.
+
+Archive: `output/kanzi_v80_outcome_reconstruction.zip`. Extract to an empty directory and run `python3 -I -S scripts/replay_kanzi_v80_portable.py`. Evidence: `artifacts/reproduction_v80/verification.json`, clean stdout and three rejection receipts. Creation/check scripts: `scripts/bundle_kanzi_v80.py` and `scripts/check_portable_kanzi_v80.py`.
+
+Scope limits: saved-outcome reconstruction only. Full RF/grammar decision replay used the pinned project environment separately. This does not establish new model/native results, clean-machine runtime replication or cross-device determinism. Model weights, native executables and corpus payloads are excluded; original freeze references intentionally absent files. Raw command receipts contain local host paths. The ZIP is a local review artifact and has not been published. Checksums establish consistency, not a cryptographic signer identity. The report inside the ZIP is the snapshot made before these isolated validation checks; this addendum records their actual execution.

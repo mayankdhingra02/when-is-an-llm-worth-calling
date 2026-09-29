@@ -1,0 +1,9 @@
+# Next research action after V91
+
+Qwen3-8B completed all 30 cases and 303 authorized requests. It improved 1.22% over SmolLM3, but remained below both primary classical controls. The model runs locally; access to suitable hardware is no longer the blocker for this configuration. Read `reports/qwen_v91.md`.
+
+1. **Next priority: a controlled Qwen3 loss/order diagnostic on development groups.** First-ten selection persists in 21/30 cases. Reuse the V48/V49 design to test responses to acquired performance values and identity-preserving candidate permutations. Compare underlying configurations, not output strings. Predefine a small factorial scope, retain every invalid response, and prepare a concrete bounded request allowance before further inference. Do not repeat the completed SmolLM3 diagnostic or search prompts for wins.
+2. **Independent validation.** Reserve untouched software groups before outcome inspection; keep all variants/seeds together and fit thresholds only on development. Compare any router with matched-rate random and uncertainty controls. Native clean-machine replication remains missing; more seeds on exposed families cannot replace new systems.
+3. **Paper positioning.** V86’s native cheap-control analysis and V91’s larger-model recorded-table comparison support a scoped negative finding. Keep their settings separate. Improvement over a smaller model does not replace failure against primary controls. Actual collection cost and retrospective deployment estimates must remain distinct.
+
+V91’s 303 requests are exhausted. Approved cumulative download ceilings are 10 GiB total and 9 GiB models, with 869,665,131 and 537,318,393 bytes remaining respectively. The Qwen3 model is already local. No paid API, cloud, credentials, publishing, pushing or external contact is authorized. Do not revisit the 12-setting DuckDB domain by adding ineffective settings or favorable repeats.

@@ -1,0 +1,7 @@
+# Next after completed native NGINX feasibility V105
+
+Replace the single-process Python HTTP load generator with a bounded native or multiprocess byte-validating client. Freeze another reference/contrast/reference feasibility protocol before new timings. Keep response bytes, fixed-service semantics, concurrency, intended failures, all costs and process cleanup explicit. More requests alone will not establish reduced client overhead.
+
+V105 actually ran six configurations/49,152validated responses. Correctness and reference-repeatability screens passed; duration and clientCPU-overhead screens failed (0.163–0.171s,0.981–0.998CPU/wall). Do not build an LLM optimization claim on this harness. Its6-attempt allowance is consumed. No LLM run is queued, and no new model download/restart is needed. Pinned source, binary and local compiler already exist;861,515,123downloadbytes remain, external spend cap0.
+
+Only after a qualified fixed workload and sufficient effective configuration space are established, freeze a small classical-only B20/checkpoint10 smoke, then separately freeze paired real-model continuations and strong batch/sequential controls. Count setup/reliability acquisitions too. NGINX is now one exposed development group; seeds/versions do not create untouched test systems. Broader independent-group development/evaluation and useful benefit-aware routing remain unresolved. Preserve V103's negative result. No Q2-readiness claim.

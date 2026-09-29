@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"HAVE_CRYPTO\",\"HAVE_HASH\",\"HAVE_REPLICATION\",\"HAVE_VERIFY\",\"HAVE_SEQUENCE\",\"HAVE_STATISTICS\",\"DIAGNOSTIC\",\"PS1K\",\"PS4K\",\"PS8K\",\"PS16K\",\"PS32K\",\"CS32MB\",\"CS16MB\",\"CS64MB\",\"CS512MB\"],\"symbol_to_value\":[[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0]],\"observed_examples\":[{\"settings\":\"1001101001000001\",\"performance\":\"10.713123\"},{\"settings\":\"1000000100000010\",\"performance\":\"3.239047\"},{\"settings\":\"0110111000100010\",\"performance\":\"1.254755\"},{\"settings\":\"0001110100000010\",\"performance\":\"0.521710\"},{\"settings\":\"0000110100000010\",\"performance\":\"0.517244\"},{\"settings\":\"0010110100000010\",\"performance\":\"0.529655\"},{\"settings\":\"1000111100000010\",\"performance\":\"3.302395\"},{\"settings\":\"0000100100000010\",\"performance\":\"0.507587\"},{\"settings\":\"0101100100000010\",\"performance\":\"0.368982\"},{\"settings\":\"0001000100000010\",\"performance\":\"0.528819\"}],\"performance_meaning\":\"I/O time\",\"direction\":\"minimize\"}"
+  }
+]

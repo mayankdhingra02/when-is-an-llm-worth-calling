@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize a cloud deployment configuration from ten acquired measurements. Propose ten diverse promising settings. Output only a JSON array of ten two-digit strings in feature_order. First digit specifies equally spaced positions between numeric minimum and maximum; second digit selects a categorical value. Proposals project to unobserved recorded configurations. Infer settings from performance and avoid duplicate proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"cluster_vm_count\",\"vm_type\"],\"numeric_bounds\":{\"0\":[4,48]},\"categorical_values\":{\"1\":[\"c4.2xlarge\",\"c4.large\",\"c4.xlarge\",\"m4.2xlarge\",\"m4.large\",\"m4.xlarge\",\"r4.2xlarge\",\"r4.large\",\"r4.xlarge\"]},\"encoding\":\"Observations have VM counts normalized to [0,1] and VM type indices. Proposal first digit0..9 means digit/9; second digit0..8 indexes vm_type. Projection uses mean numeric absolute distance and categorical mismatch.\",\"observed_examples\":[{\"settings\":[0.0,1],\"performance\":4661.711},{\"settings\":[0.045454545454545456,6],\"performance\":764.956},{\"settings\":[0.6363636363636364,7],\"performance\":782.634},{\"settings\":[0.2727272727272727,4],\"performance\":1249.59},{\"settings\":[0.18181818181818182,7],\"performance\":1783.085},{\"settings\":[0.13636363636363635,7],\"performance\":7200.0},{\"settings\":[0.6363636363636364,4],\"performance\":812.171},{\"settings\":[0.045454545454545456,4],\"performance\":3208.055},{\"settings\":[0.45454545454545453,5],\"performance\":523.985},{\"settings\":[0.45454545454545453,8],\"performance\":579.631}],\"direction\":\"minimize\",\"performance_meaning\":\"Capped completion-time score: completed elapsed seconds capped at7200; incomplete source runs receive failure penalty7200 (not observed runtime). Fixed Hadoop workload and bigdata input. Optimize this score; cloud-dollar costs are not estimated.\"}"
+  }
+]

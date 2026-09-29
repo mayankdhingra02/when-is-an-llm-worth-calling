@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize ortools settings from ten acquired measurements. Return a JSON array of ten 6-digit strings ordered most promising first. Each digit indexes the listed values for its feature. Propose diverse settings and avoid duplicates. Only the first seven projected unseen settings will be measured; the last three objective evaluations are reserved for fresh validation of the best observed configuration."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"search_branching\",\"cp_model_presolve\",\"linearization_level\",\"symmetry_level\",\"cp_model_probing_level\",\"use_sat_inprocessing\"],\"indexed_values\":[[0,2],[true,false],[0,2],[0,2],[0,2],[true,false]],\"observed_examples\":[{\"settings\":[0,false,0,0,0,false],\"loss_seconds\":0.009746874995471444},{\"settings\":[2,false,0,0,2,true],\"loss_seconds\":0.041036916998564266},{\"settings\":[0,true,0,0,0,false],\"loss_seconds\":0.017688499996438622},{\"settings\":[0,true,2,2,2,false],\"loss_seconds\":0.33040366600471316},{\"settings\":[2,false,2,0,0,false],\"loss_seconds\":0.17994912499852944},{\"settings\":[2,true,0,0,2,false],\"loss_seconds\":0.043519250000827014},{\"settings\":[0,false,0,2,0,true],\"loss_seconds\":0.03711483300139662},{\"settings\":[0,false,0,2,0,false],\"loss_seconds\":0.012417499994626269},{\"settings\":[0,true,0,2,0,false],\"loss_seconds\":0.022603249999519903},{\"settings\":[0,false,2,2,0,true],\"loss_seconds\":0.3143579590032459}],\"objective\":\"Minimize native solve wall seconds for a fixed 48-queens instance: one queen per column, distinct rows and both diagonals. Return any exact valid solution. All constraints and the instance remain unchanged. Single worker and fixed solver seed0. A no-solution timeout costs the fixed utility penalty20 seconds; that penalty is not a measured successful runtime.\",\"direction\":\"minimize\",\"projection\":\"Normalized feature-coordinate L1 nearest unseen setting, fixed seeded order breaks ties.\"}"
+  }
+]

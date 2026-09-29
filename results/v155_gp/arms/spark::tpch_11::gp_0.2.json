@@ -1,0 +1,41 @@
+{
+  "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+  "case": "spark::tpch_11",
+  "direction": "minimize",
+  "error": "ValueError(\"could not convert string to float: ''\")",
+  "ids": [
+    82,
+    72,
+    51,
+    58,
+    87,
+    48,
+    86,
+    61,
+    32,
+    52,
+    28,
+    4
+  ],
+  "key": "spark::tpch_11::gp_0.2",
+  "labels": [
+    698647.0,
+    665048.0,
+    693902.0,
+    589042.0,
+    745154.0,
+    1011447.0,
+    573424.0,
+    872714.0,
+    574170.0,
+    631048.0,
+    601477.0,
+    582911.0
+  ],
+  "lengthscale": 0.2,
+  "observed_incumbent": 573424.0,
+  "prefix": "artifacts/study_v144/prefixes/tpch_11.json",
+  "remaining_unattempted": 7,
+  "status": "unscorable",
+  "target": null
+}

@@ -1,0 +1,110 @@
+{
+  "origin": "v148",
+  "key": "pagerank_11",
+  "qualified_key": "hadoop_mapreduce::pagerank_11",
+  "system_group": "hadoop_mapreduce",
+  "seed": 11,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/pagerank_11.json",
+  "prefix": "artifacts/study_v148/prefixes/pagerank_11.json",
+  "prefix_sha256": "f0cba3c82a056bc0807d236c7a54dfd48661cf18b5685b4beda401689f0b8cb6",
+  "sampling_seed": 148011,
+  "redraw_seed": 320011,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/pagerank_11.json",
+  "app": "pagerank",
+  "split": 1,
+  "stage": "A1R",
+  "seed_used": 148011,
+  "status": "valid",
+  "score": [
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "error": null,
+  "served_by": "DeepInfra",
+  "usage": {
+    "prompt_tokens": 503,
+    "completion_tokens": 1374,
+    "total_tokens": 1877,
+    "cost": 0.00089985,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00089985,
+      "upstream_inference_prompt_cost": 7.545e-05,
+      "upstream_inference_completions_cost": 0.0008244
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 997,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

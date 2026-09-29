@@ -1,0 +1,11 @@
+# V14: bounded external artifact admission
+
+Inspect three public primary-owner repositories already identified by source search: nk2242696/compression-codec-benchmark, nschorgh/PDS-Throughput, and inikep/lzbench. Pin owner commits/inventories and selected documentation/configuration/measurement files through the persistent download guard, checking Git blob and SHA-256 hashes. Execute no upstream scripts, installers or benchmarks. Keep downloaded third-party material under ignored artifacts/sources/.
+
+For the published codec benchmark, parse only a whitelist of configuration, workload, repetition, status and provenance metadata from raw.csv. Do not convert, rank, summarize, plot or expose runtime/size/throughput outcome values. Configuration coverage is counted within a fixed codec/version/input context; neither distinct corpora nor repetitions/warmups count as additional configurations. At least20 measured configurations per context are needed for the inherited20-label arms. Retain every row, including failures, and detect duplicate measurement identifiers. Missing required metadata fails closed.
+
+The artifact download revision and historical execution revision are different facts. An unknown historical commit or dirty state is not silently replaced by the current pinned download commit. Report library-version limitations and published correctness checks as source claims/code evidence, not independent physical replication. Admission remains false even if coverage succeeds: the application utility, correctness/noise and new-family gates still need review.
+
+For PDS and lzbench, inspect inventoried file availability and scripts/documentation only. Do not execute them or infer uncaptured repetitions from charts. Record dispositions and unknowns rather than admit a superficially related artifact. Search is bounded, not exhaustive, and no inference allowance changes.
+
+Freeze the metadata reader/audit, synthetic tests, this protocol, source inventories and exact reviewed files before the reproducible coverage audit. This is a source/schema audit, not optimizer collection: zero model calls/charged objective accesses and unchanged experiment ledger. Account new download payloads persistently. Preserve older freezes, measured results and failure evidence.

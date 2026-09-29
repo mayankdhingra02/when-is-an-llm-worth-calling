@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-27T13:19:19.104081+00:00",
+  "scope": "posthoc diagnostic; before new acquisitions",
+  "sha256": {
+    "reports/protocol_v96.md": "d8bbc1fd9943ddaecf64e4d3a68a62dcca4bf28105594d6ac81f7116061be598",
+    "reports/protocol_v96_source.md": "df686a604b1d984477adc65adf32c0aaf475eebe0c46d441f648fc75aef62808",
+    "scripts/worker_superlu_v96.py": "8ad0cdc7feb9564ae2cf4868fb3d4270adc3d4bcbcbbd8d1c3231731db5a741d",
+    "scripts/run_superlu_v96.py": "8470348356411c9f44a7def5a9023df802b5a4f0307a3ea9794755b7ad4fbbc2",
+    "scripts/superlu_v96_common.py": "1aca2248f9a26c8866f85d93c1868824b6628a5489a0c2f734291b1e12dd14a8",
+    "tests/synthetic/test_superlu_v96.py": "b7e2a35a61fd17365b16b47598017fef131fd699cbbbd4c90adcc5d3e3bbe613",
+    "scripts/run_planning_v55.py": "ce7a9be31fbccc7dbc37f1e976532f57e21a529803a0d726e0e36b0f35d5de08",
+    "scripts/collect_smollm_v47.py": "b859cac713c72991d70a57e5fcc2e65b0060b79ef0b4d472b2a837d08e5fcda6",
+    "src/escalation/numerical_v94.py": "c55208d86a34094a67905453035257e62604591045726ee2f3b1c3d5f12f8b90",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139",
+    "data/native_v94/orsreg_1.mtx": "d5b1e6f921f508a1fd7510afbd2ce4987fb03a4457d308c47a90f759af4221ea",
+    "artifacts/sources/v96/util.c": "1ebf6ed69984fc99c3d9f62ba0b2a74d86421b05eba011f46ac94aa0fd4cbc68",
+    "artifacts/sources/v96/sp_ienv.c": "d810fceab35f5cc8245af42773e28558b1836286b1d48c0f9f27c40a71ba797a",
+    "artifacts/sources/v94/superlu_wrapper.c": "ef585070d3b61d2430d4d04f28948c5d56bb9d9d5f431a95ae79fd6b38272cc5",
+    "artifacts/sources/v94/superlu_dgstrf.c": "cf0dad5fe453840f528ec31af44f8520e6b25a5814204608ed187648ce666ab0",
+    "artifacts/sources/v94/superlu_util.h": "6c7da3ad4f9eb213d35963720abde7a8eb9f999fcfbe1b7379492ac746eb505a",
+    ".venv/lib/python3.10/site-packages/scipy/sparse/linalg/_dsolve/_superlu.cpython-310-darwin.so": "552416e3a71bc107372eedbd8e743761a3ac29cc586043453aa1fa3335e8f3a4"
+  }
+}

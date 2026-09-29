@@ -1,0 +1,10 @@
+B2 spark::pagerank_71 fallback_rounds 0 target 275405.0
+B2 hadoop_mapreduce::terasort_37 fallback_rounds 0 target 399.054
+B2 llvm::LLVM_AllNumeric_23_normal fallback_rounds 0 target 200.38
+B2 spark::pagerank_11 fallback_rounds 0 target 275959.0
+B2 hadoop_mapreduce::pagerank_53 fallback_rounds 0 target 725.737
+B2 berkeleydb::BDBC_AllNumeric_37_normal fallback_rounds 0 target 0.368982231
+B2 hipacc::hipacc_AllNumeric_23_normal fallback_rounds 0 target 21.173
+B2 openvpn::OpenVPN_71_normal fallback_rounds 0 target 857.779127
+B2 spark::wordcount_37 fallback_rounds 0 target 3599050.0
+{'at': '2026-09-28T22:51:02.247197+00:00', 'stage': 'B2', 'provider': 'deepinfra/turbo', 'intended_cases': 9, 'finished_cases': ['spark::pagerank_71', 'hadoop_mapreduce::terasort_37', 'llvm::LLVM_AllNumeric_23_normal', 'spark::pagerank_11', 'hadoop_mapreduce::pagerank_53', 'berkeleydb::BDBC_AllNumeric_37_normal', 'hipacc::hipacc_AllNumeric_23_normal', 'openvpn::OpenVPN_71_normal', 'spark::wordcount_37'], 'unfinished_cases': [], 'interrupted_case': None, 'not_started_cases': [], 'requests': 45, 'error': None, 'seconds': 316.9896803330048, 'spend': {'spent_usd': 0.7400878320000003, 'requests': 271, 'reported_cost_usd': 0.7400878320000003, 'estimated_only_usd': 0.0, 'unknown_cost_requests': 0}, 'acquisitions_so_far': 180}

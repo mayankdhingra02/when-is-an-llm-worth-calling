@@ -1,0 +1,20 @@
+{
+  "receipts": [
+    {
+      "interpreter": ".venv/bin/python",
+      "returncode": 0,
+      "stdout": "{\n  \"kind\": \"classical\",\n  \"verified_events\": 2400,\n  \"groups\": 6,\n  \"verified_ten_access_blocks\": 240,\n  \"unique_source_rows_checked\": 1225,\n  \"no_unacquired_targets_parsed\": true,\n  \"journal_sha256\": \"12847de277ea5ddb6b4baf563118e998d46afe496ffe86cd78e1af6c337f38fa\",\n  \"scope\": \"Independent acquired-source consistency and denominators; not optimizer or model inference reproduction\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "interpreter": "/Users/mayankdhingra/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "returncode": 0,
+      "stdout": "{\n  \"kind\": \"classical\",\n  \"verified_events\": 2400,\n  \"groups\": 6,\n  \"verified_ten_access_blocks\": 240,\n  \"unique_source_rows_checked\": 1225,\n  \"no_unacquired_targets_parsed\": true,\n  \"journal_sha256\": \"12847de277ea5ddb6b4baf563118e998d46afe496ffe86cd78e1af6c337f38fa\",\n  \"scope\": \"Independent acquired-source consistency and denominators; not optimizer or model inference reproduction\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "interpreters_agree": true,
+  "seconds": 1.8994353750022128,
+  "new_objective_acquisitions": 0,
+  "new_model_requests": 0
+}

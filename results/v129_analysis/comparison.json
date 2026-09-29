@@ -1,0 +1,449 @@
+{
+  "scope": "Two exposed families, five paired seeds each; exploratory method extension, not fresh held-out routing",
+  "cases": [
+    {
+      "key": "mongodb_twins_11",
+      "dataset": "mongodb_twins",
+      "system_group": "mongodb",
+      "seed": 11,
+      "target": 295703.4,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 291266.4,
+        "full_sequential_3nn": 291266.4,
+        "random_full": 293848.4,
+        "single_portfolio": 291266.4,
+        "presentation_first10": 291266.4,
+        "random_projection": 295703.4,
+        "full_batch_3nn": 295512.6
+      },
+      "gains": {
+        "batch_3nn": -0.015233476981896983,
+        "full_sequential_3nn": -0.015233476981896983,
+        "random_full": -0.0063127789703806446,
+        "single_portfolio": -0.015233476981896983,
+        "presentation_first10": -0.015233476981896983,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.0006456577486037704
+      }
+    },
+    {
+      "key": "mongodb_twins_23",
+      "dataset": "mongodb_twins",
+      "system_group": "mongodb",
+      "seed": 23,
+      "target": 290206.0,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 290206.0,
+        "full_sequential_3nn": 290206.0,
+        "random_full": 290206.0,
+        "single_portfolio": 290206.0,
+        "presentation_first10": 290206.0,
+        "random_projection": 290206.0,
+        "full_batch_3nn": 290206.0
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "single_portfolio": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      }
+    },
+    {
+      "key": "mongodb_twins_71",
+      "dataset": "mongodb_twins",
+      "system_group": "mongodb",
+      "seed": 71,
+      "target": 290206.0,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 290206.0,
+        "full_sequential_3nn": 290206.0,
+        "random_full": 290206.0,
+        "single_portfolio": 290206.0,
+        "presentation_first10": 290206.0,
+        "random_projection": 290206.0,
+        "full_batch_3nn": 290206.0
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "single_portfolio": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      }
+    },
+    {
+      "key": "wc_5d_c5_37",
+      "dataset": "wc_5d_c5",
+      "system_group": "storm",
+      "seed": 37,
+      "target": 67.328,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 52.377,
+        "full_sequential_3nn": 65.23,
+        "random_full": 49.514,
+        "single_portfolio": 55.122,
+        "presentation_first10": 49.017,
+        "random_projection": 67.328,
+        "full_batch_3nn": 54.146
+      },
+      "gains": {
+        "batch_3nn": -0.28544972029707694,
+        "full_sequential_3nn": -0.03216311513107464,
+        "random_full": -0.3597770327584117,
+        "single_portfolio": -0.22143608722470162,
+        "presentation_first10": -0.3735642736193565,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.2434528866398257
+      }
+    },
+    {
+      "key": "wc_5d_c5_71",
+      "dataset": "wc_5d_c5",
+      "system_group": "storm",
+      "seed": 71,
+      "target": 63.421,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 47.622,
+        "full_sequential_3nn": 49.527,
+        "random_full": 63.421,
+        "single_portfolio": 47.622,
+        "presentation_first10": 51.331,
+        "random_projection": 57.549,
+        "full_batch_3nn": 50.391
+      },
+      "gains": {
+        "batch_3nn": -0.3317584309772794,
+        "full_sequential_3nn": -0.2805338502231106,
+        "random_full": 0.0,
+        "single_portfolio": -0.3317584309772794,
+        "presentation_first10": -0.23553018643704576,
+        "random_projection": -0.10203478774609463,
+        "full_batch_3nn": -0.25857792066043545
+      }
+    },
+    {
+      "key": "wc_5d_c5_23",
+      "dataset": "wc_5d_c5",
+      "system_group": "storm",
+      "seed": 23,
+      "target": 47.387,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 47.387,
+        "full_sequential_3nn": 47.387,
+        "random_full": 47.387,
+        "single_portfolio": 47.387,
+        "presentation_first10": 47.387,
+        "random_projection": 47.387,
+        "full_batch_3nn": 47.387
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "single_portfolio": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      }
+    },
+    {
+      "key": "wc_5d_c5_11",
+      "dataset": "wc_5d_c5",
+      "system_group": "storm",
+      "seed": 11,
+      "target": 67.546,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 68.567,
+        "full_sequential_3nn": 64.027,
+        "random_full": 67.546,
+        "single_portfolio": 64.027,
+        "presentation_first10": 51.458,
+        "random_projection": 55.122,
+        "full_batch_3nn": 68.234
+      },
+      "gains": {
+        "batch_3nn": 0.014890545014365318,
+        "full_sequential_3nn": -0.05496118824870766,
+        "random_full": 0.0,
+        "single_portfolio": -0.05496118824870766,
+        "presentation_first10": -0.31264332076645046,
+        "random_projection": -0.22539095098145942,
+        "full_batch_3nn": 0.010082949849048688
+      }
+    },
+    {
+      "key": "wc_5d_c5_53",
+      "dataset": "wc_5d_c5",
+      "system_group": "storm",
+      "seed": 53,
+      "target": 65.207,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 63.421,
+        "full_sequential_3nn": 51.318,
+        "random_full": 65.207,
+        "single_portfolio": 63.972,
+        "presentation_first10": 52.784,
+        "random_projection": 65.207,
+        "full_batch_3nn": 64.027
+      },
+      "gains": {
+        "batch_3nn": -0.028161019220762747,
+        "full_sequential_3nn": -0.27064577731010553,
+        "random_full": 0.0,
+        "single_portfolio": -0.01930532107797149,
+        "presentation_first10": -0.2353554107305243,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.018429724959782477
+      }
+    },
+    {
+      "key": "mongodb_twins_53",
+      "dataset": "mongodb_twins",
+      "system_group": "mongodb",
+      "seed": 53,
+      "target": 325112.8,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 297357.2,
+        "full_sequential_3nn": 297357.2,
+        "random_full": 294933.6,
+        "single_portfolio": 298425.8,
+        "presentation_first10": 290764.6,
+        "random_projection": 295703.4,
+        "full_batch_3nn": 298550.6
+      },
+      "gains": {
+        "batch_3nn": -0.09334093810407139,
+        "full_sequential_3nn": -0.09334093810407139,
+        "random_full": -0.1023254047690735,
+        "single_portfolio": -0.08942591424736065,
+        "presentation_first10": -0.11813061149809852,
+        "random_projection": -0.0994557384189697,
+        "full_batch_3nn": -0.08897051287118503
+      }
+    },
+    {
+      "key": "mongodb_twins_37",
+      "dataset": "mongodb_twins",
+      "system_group": "mongodb",
+      "seed": 37,
+      "target": 294933.6,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 294410.6,
+        "full_sequential_3nn": 291613.4,
+        "random_full": 290206.0,
+        "single_portfolio": 292500.2,
+        "presentation_first10": 290206.0,
+        "random_projection": 294933.6,
+        "full_batch_3nn": 293777.0
+      },
+      "gains": {
+        "batch_3nn": -0.001776430604061131,
+        "full_sequential_3nn": -0.01138562219705937,
+        "random_full": -0.016290497095166803,
+        "single_portfolio": -0.00831931055089865,
+        "presentation_first10": -0.016290497095166803,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.003936999833206741
+      }
+    }
+  ],
+  "families": [
+    {
+      "system_group": "mongodb",
+      "cases": 5,
+      "means": {
+        "batch_3nn": -0.0220701691380059,
+        "full_batch_3nn": -0.01871063409059911,
+        "full_sequential_3nn": -0.023992007456605548,
+        "presentation_first10": -0.02993091711503246,
+        "random_full": -0.024985736166924188,
+        "random_projection": -0.01989114768379394,
+        "single_portfolio": -0.022595740356031256
+      }
+    },
+    {
+      "system_group": "storm",
+      "cases": 5,
+      "means": {
+        "batch_3nn": -0.12609572509615075,
+        "full_batch_3nn": -0.10207551648219898,
+        "full_sequential_3nn": -0.12766078618259968,
+        "presentation_first10": -0.2314186383106754,
+        "random_full": -0.07195540655168234,
+        "random_projection": -0.06548514774551081,
+        "single_portfolio": -0.12549220550573204
+      }
+    }
+  ],
+  "contrasts": {
+    "batch_3nn": {
+      "cases": 10,
+      "equal_family_mean": -0.07408294711707833,
+      "wins": 1,
+      "ties": 3,
+      "losses": 6,
+      "gain_at_least": {
+        "0": 4,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    },
+    "full_batch_3nn": {
+      "cases": 10,
+      "equal_family_mean": -0.06039307528639905,
+      "wins": 1,
+      "ties": 3,
+      "losses": 6,
+      "gain_at_least": {
+        "0": 4,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    },
+    "full_sequential_3nn": {
+      "cases": 10,
+      "equal_family_mean": -0.07582639681960261,
+      "wins": 0,
+      "ties": 3,
+      "losses": 7,
+      "gain_at_least": {
+        "0": 3,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    },
+    "presentation_first10": {
+      "cases": 10,
+      "equal_family_mean": -0.13067477771285393,
+      "wins": 0,
+      "ties": 3,
+      "losses": 7,
+      "gain_at_least": {
+        "0": 3,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    },
+    "random_full": {
+      "cases": 10,
+      "equal_family_mean": -0.048470571359303265,
+      "wins": 0,
+      "ties": 6,
+      "losses": 4,
+      "gain_at_least": {
+        "0": 6,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    },
+    "random_projection": {
+      "cases": 10,
+      "equal_family_mean": -0.042688147714652375,
+      "wins": 0,
+      "ties": 7,
+      "losses": 3,
+      "gain_at_least": {
+        "0": 7,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    },
+    "single_portfolio": {
+      "cases": 10,
+      "equal_family_mean": -0.07404397293088165,
+      "wins": 0,
+      "ties": 3,
+      "losses": 7,
+      "gain_at_least": {
+        "0": 3,
+        "0.02": 0,
+        "0.05": 0,
+        "0.1": 0
+      }
+    }
+  },
+  "normal_valid": 10,
+  "intended_requests": 12,
+  "returned_responses": 12,
+  "label_rotation_probes": [
+    {
+      "key": "mongodb_twins_11",
+      "both_valid": true,
+      "selection_set_overlap": 2,
+      "same_order": false
+    },
+    {
+      "key": "wc_5d_c5_11",
+      "both_valid": true,
+      "selection_set_overlap": 1,
+      "same_order": false
+    }
+  ],
+  "projection": {
+    "decoded": 100,
+    "nonzero_distance": 34,
+    "repeated": 16,
+    "already_observed": 8
+  },
+  "actual_cost": {
+    "ledger": {
+      "generation_requests": 13,
+      "allocated_output_tokens": 13312,
+      "stage_seconds": 315.1672794169972,
+      "startup_seconds": 10.758232916999987,
+      "external_spend_usd": 0,
+      "http_requests": 101,
+      "peak_server_rss_bytes": 6618546176,
+      "retries": 1,
+      "explicit_recovery_repeats": 1,
+      "automatic_retries": 0,
+      "server_exit_code": 0,
+      "original_server_exit_code": -9,
+      "original_resource_stop_reason": "watchdog_error:TimeoutExpired(['ps', '-axo', 'pid=,pgid=,rss='], 2)",
+      "recovery_resource_stop_reason": null,
+      "scope": "Two actual model lifecycles; one interrupted request retains unknown usage"
+    },
+    "usage": {
+      "tokens_predicted": {
+        "observed_sum": 1471,
+        "missing_responses": 1
+      },
+      "tokens_evaluated": {
+        "observed_sum": 7281,
+        "missing_responses": 1
+      }
+    },
+    "new_recorded_acquisitions": 90,
+    "combined_new_experimental_acquisitions": 390,
+    "reused_arms": 21,
+    "evaluation_seconds": 0.04224949999843375
+  },
+  "deployment_model": {
+    "requests_per_escalation": 1,
+    "maximum_output_tokens": 1024,
+    "new_objective_evaluations": 10,
+    "historical_prefix_evaluations": 10,
+    "future_runtime": "unknown; per-call observations not an end-to-end deployment trace"
+  }
+}

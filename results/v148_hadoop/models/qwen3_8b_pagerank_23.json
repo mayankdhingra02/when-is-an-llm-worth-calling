@@ -1,0 +1,271 @@
+{
+  "key": "qwen3_8b_pagerank_23",
+  "app": "pagerank",
+  "system_group": "hadoop_mapreduce",
+  "seed": 23,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "sampling_seed": 148023,
+  "prefix": "artifacts/study_v148/prefixes/pagerank_23.json",
+  "prefix_sha256": "d6cd843bb11f33a37e4161be6eda9946bc9f96c7304bb3daff1a408b3ea01926",
+  "messages_path": "artifacts/study_v148/prompts/pagerank_23.json",
+  "model": "qwen3_8b",
+  "status": "valid",
+  "selected_rows": [
+    47,
+    49,
+    50,
+    64,
+    65,
+    67,
+    13,
+    14,
+    22,
+    4
+  ],
+  "projection": [
+    {
+      "row_id": 47,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 49,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 50,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 64,
+      "distance": 0.010101010101010097,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 65,
+      "distance": 0.010101010101010097,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 67,
+      "distance": 0.010101010101010097,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 13,
+      "distance": 0.020202020202020193,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 14,
+      "distance": 0.020202020202020193,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 22,
+      "distance": 0.02525252525252525,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 4,
+      "distance": 0.09848484848484848,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    }
+  ],
+  "case": "pagerank_23",
+  "state": {
+    "ids": [
+      43,
+      57,
+      35,
+      20,
+      16,
+      7,
+      34,
+      30,
+      29,
+      32,
+      47,
+      49,
+      50,
+      64,
+      65,
+      67,
+      13,
+      14,
+      22,
+      4
+    ],
+    "labels": [
+      [
+        4916.345
+      ],
+      [
+        1205.402
+      ],
+      [
+        1088.877
+      ],
+      [
+        1700.837
+      ],
+      [
+        2147.479
+      ],
+      [
+        2537.644
+      ],
+      [
+        1067.621
+      ],
+      [
+        839.393
+      ],
+      [
+        1294.05
+      ],
+      [
+        864.852
+      ],
+      [
+        2905.172
+      ],
+      [
+        5487.277
+      ],
+      [
+        2930.662
+      ],
+      [
+        3056.504
+      ],
+      [
+        1600.157
+      ],
+      [
+        3087.744
+      ],
+      [
+        2118.202
+      ],
+      [
+        1228.652
+      ],
+      [
+        1695.384
+      ],
+      [
+        2600.612
+      ]
+    ],
+    "order": [
+      43,
+      57,
+      35,
+      20,
+      42,
+      7,
+      16,
+      60,
+      4,
+      55,
+      44,
+      58,
+      34,
+      63,
+      9,
+      50,
+      52,
+      30,
+      19,
+      24,
+      64,
+      56,
+      25,
+      41,
+      49,
+      15,
+      59,
+      38,
+      47,
+      67,
+      21,
+      18,
+      62,
+      36,
+      53,
+      11,
+      23,
+      68,
+      66,
+      13,
+      3,
+      61,
+      27,
+      40,
+      32,
+      51,
+      26,
+      31,
+      45,
+      5,
+      6,
+      1,
+      29,
+      65,
+      14,
+      0,
+      28,
+      17,
+      12,
+      46,
+      8,
+      22,
+      33,
+      48,
+      54,
+      39,
+      2,
+      10,
+      37
+    ]
+  },
+  "target": 839.393,
+  "fallback": false
+}

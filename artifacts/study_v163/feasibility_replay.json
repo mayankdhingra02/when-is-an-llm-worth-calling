@@ -1,0 +1,187 @@
+{
+  "verified": true,
+  "stages": {
+    "161": {
+      "configuration_outcomes": 40,
+      "native_invocations": 40,
+      "seconds": 6.9878421670000535,
+      "cells": [
+        {
+          "stage": 161,
+          "engine": "ripgrep",
+          "candidate_id": 0,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.16570804100047098,
+          "relative_mad": 0.0423103607824996,
+          "pass": true
+        },
+        {
+          "stage": 161,
+          "engine": "ripgrep",
+          "candidate_id": 21,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.1262182499995106,
+          "relative_mad": 0.05582361503835621,
+          "pass": false
+        },
+        {
+          "stage": 161,
+          "engine": "ripgrep",
+          "candidate_id": 42,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.05953237500216346,
+          "relative_mad": 0.021610090351006812,
+          "pass": true
+        },
+        {
+          "stage": 161,
+          "engine": "ripgrep",
+          "candidate_id": 63,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.07564112500404008,
+          "relative_mad": 0.05412674654316786,
+          "pass": false
+        },
+        {
+          "stage": 161,
+          "engine": "hnswlib",
+          "candidate_id": 0,
+          "valid_quality": 0,
+          "minimum_observed_quality": 0.8941569282136895,
+          "median_raw_seconds": 0.056514583,
+          "relative_mad": null,
+          "pass": false
+        },
+        {
+          "stage": 161,
+          "engine": "hnswlib",
+          "candidate_id": 21,
+          "valid_quality": 5,
+          "minimum_observed_quality": 0.9989426822481914,
+          "median_raw_seconds": 0.056037333,
+          "relative_mad": 0.005804915804968891,
+          "pass": true
+        },
+        {
+          "stage": 161,
+          "engine": "hnswlib",
+          "candidate_id": 42,
+          "valid_quality": 5,
+          "minimum_observed_quality": 0.9979966611018364,
+          "median_raw_seconds": 0.107704292,
+          "relative_mad": 0.011260006240048429,
+          "pass": true
+        },
+        {
+          "stage": 161,
+          "engine": "hnswlib",
+          "candidate_id": 63,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.10462125,
+          "relative_mad": 0.00443703358543311,
+          "pass": true
+        }
+      ],
+      "admitted": {
+        "ripgrep": false,
+        "hnswlib": false
+      }
+    },
+    "162": {
+      "configuration_outcomes": 40,
+      "native_invocations": 120,
+      "seconds": 15.653186834002554,
+      "cells": [
+        {
+          "stage": 162,
+          "engine": "ripgrep",
+          "candidate_id": 0,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.7218716670031426,
+          "relative_mad": 0.005635695620860639,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "ripgrep",
+          "candidate_id": 21,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.5304934999949182,
+          "relative_mad": 0.014754342900469525,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "ripgrep",
+          "candidate_id": 42,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.30992604100174503,
+          "relative_mad": 0.010307965705756561,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "ripgrep",
+          "candidate_id": 63,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.36160758299956797,
+          "relative_mad": 0.010033321119615548,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "hnswlib",
+          "candidate_id": 0,
+          "valid_quality": 5,
+          "minimum_observed_quality": 0.9816917084028937,
+          "median_raw_seconds": 0.098380167,
+          "relative_mad": 0.005474091134649009,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "hnswlib",
+          "candidate_id": 21,
+          "valid_quality": 5,
+          "minimum_observed_quality": 0.9997774067890929,
+          "median_raw_seconds": 0.097960625,
+          "relative_mad": 0.012907818830269776,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "hnswlib",
+          "candidate_id": 42,
+          "valid_quality": 5,
+          "minimum_observed_quality": 0.9987200890372844,
+          "median_raw_seconds": 0.18825475,
+          "relative_mad": 0.004670309779700074,
+          "pass": true
+        },
+        {
+          "stage": 162,
+          "engine": "hnswlib",
+          "candidate_id": 63,
+          "valid_quality": 5,
+          "minimum_observed_quality": 1.0,
+          "median_raw_seconds": 0.185371084,
+          "relative_mad": 0.009807133673556012,
+          "pass": true
+        }
+      ],
+      "admitted": {
+        "ripgrep": true,
+        "hnswlib": true
+      }
+    }
+  }
+}

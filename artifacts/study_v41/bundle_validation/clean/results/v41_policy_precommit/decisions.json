@@ -1,0 +1,1096 @@
+{
+  "at": "2026-09-25T15:06:09.290618+00:00",
+  "namespace": "measured_predecision_only_v41",
+  "rows": [
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 11,
+      "system_group": "berkeleydb",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 16,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 9,
+        "separation": 0.0,
+        "uncertainty": 0.4
+      }
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 23,
+      "system_group": "berkeleydb",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 16,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.002392229292141562,
+        "plateau": 0,
+        "separation": 0.4330127018922193,
+        "uncertainty": 0.6
+      }
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 37,
+      "system_group": "berkeleydb",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 16,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.00021483094304826342,
+        "plateau": 3,
+        "separation": 0.25,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 53,
+      "system_group": "berkeleydb",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 16,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.044846559734602755,
+        "plateau": 0,
+        "separation": 0.3535533905932738,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 71,
+      "system_group": "berkeleydb",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 16,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.014764686272053608,
+        "plateau": 1,
+        "separation": 0.25,
+        "uncertainty": 0.55
+      }
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 11,
+      "system_group": "dune_hsmgp",
+      "features": {
+        "log_candidates": 5.950642552587727,
+        "variables": 11,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 8,
+        "separation": 0.0,
+        "uncertainty": 0.8
+      }
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 23,
+      "system_group": "dune_hsmgp",
+      "features": {
+        "log_candidates": 5.950642552587727,
+        "variables": 11,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0008033627565866828,
+        "plateau": 0,
+        "separation": 0.30151134457776363,
+        "uncertainty": 0.8
+      }
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 37,
+      "system_group": "dune_hsmgp",
+      "features": {
+        "log_candidates": 5.950642552587727,
+        "variables": 11,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 6,
+        "separation": 0.5222329678670935,
+        "uncertainty": 0.7
+      }
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 53,
+      "system_group": "dune_hsmgp",
+      "features": {
+        "log_candidates": 5.950642552587727,
+        "variables": 11,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 9,
+        "separation": 0.6030226891555273,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 71,
+      "system_group": "dune_hsmgp",
+      "features": {
+        "log_candidates": 5.950642552587727,
+        "variables": 11,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.008362069422024785,
+        "plateau": 1,
+        "separation": 0.4264014327112209,
+        "uncertainty": 0.6
+      }
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 11,
+      "system_group": "llvm",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 10,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.26704828164948247,
+        "plateau": 5,
+        "separation": 0.6324555320336759,
+        "uncertainty": 0.44999999999999996
+      }
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 23,
+      "system_group": "llvm",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 10,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.32705204252455355,
+        "plateau": 0,
+        "separation": 0.31622776601683794,
+        "uncertainty": 0.55
+      }
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 37,
+      "system_group": "llvm",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 10,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.2565168114846999,
+        "plateau": 4,
+        "separation": 0.4472135954999579,
+        "uncertainty": 0.6
+      }
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 53,
+      "system_group": "llvm",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 10,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.29124603526734466,
+        "plateau": 0,
+        "separation": 0.4472135954999579,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 71,
+      "system_group": "llvm",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 10,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 9,
+        "separation": 0.31622776601683794,
+        "uncertainty": 0.6
+      }
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 11,
+      "system_group": "hipacc",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 33,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 7,
+        "separation": 0.17407765595569785,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 23,
+      "system_group": "hipacc",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 33,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.02516690183855275,
+        "plateau": 4,
+        "separation": 0.17407765595569785,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 37,
+      "system_group": "hipacc",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 33,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.013924926483307502,
+        "plateau": 4,
+        "separation": 0.17407765595569785,
+        "uncertainty": 0.44999999999999996
+      }
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 53,
+      "system_group": "hipacc",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 33,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.20223967589673017,
+        "plateau": 1,
+        "separation": 0.3892494720807615,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 71,
+      "system_group": "hipacc",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 33,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.01819475503151032,
+        "plateau": 2,
+        "separation": 0.17407765595569785,
+        "uncertainty": 0.8
+      }
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 11,
+      "system_group": "sac",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 59,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.010170353419781335,
+        "plateau": 2,
+        "separation": 0.34444748191358604,
+        "uncertainty": 0.75
+      }
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 23,
+      "system_group": "sac",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 59,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0033726812816188903,
+        "plateau": 3,
+        "separation": 0.31889640207164033,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 37,
+      "system_group": "sac",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 59,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.005464480874316944,
+        "plateau": 0,
+        "separation": 0.3682298471593293,
+        "uncertainty": 0.30000000000000004
+      }
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 53,
+      "system_group": "sac",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 59,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0016000000000000014,
+        "plateau": 3,
+        "separation": 0.3682298471593293,
+        "uncertainty": 0.6
+      }
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 71,
+      "system_group": "sac",
+      "features": {
+        "log_candidates": 6.931471805599453,
+        "variables": 59,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.010928961748633888,
+        "plateau": 4,
+        "separation": 0.0,
+        "uncertainty": 0.75
+      }
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 11,
+      "system_group": "openvpn",
+      "features": {
+        "log_candidates": 6.238324625039508,
+        "variables": 24,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.6069998532751302,
+        "plateau": 2,
+        "separation": 0.28867513459481287,
+        "uncertainty": 0.75
+      }
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 23,
+      "system_group": "openvpn",
+      "features": {
+        "log_candidates": 6.238324625039508,
+        "variables": 24,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.24908167811003168,
+        "plateau": 4,
+        "separation": 0.28867513459481287,
+        "uncertainty": 0.55
+      }
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 37,
+      "system_group": "openvpn",
+      "features": {
+        "log_candidates": 6.238324625039508,
+        "variables": 24,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.012275212955584425,
+        "plateau": 3,
+        "separation": 0.28867513459481287,
+        "uncertainty": 0.65
+      }
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 53,
+      "system_group": "openvpn",
+      "features": {
+        "log_candidates": 6.238324625039508,
+        "variables": 24,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.3042539497100768,
+        "plateau": 4,
+        "separation": 0.3535533905932738,
+        "uncertainty": 0.75
+      }
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 71,
+      "system_group": "openvpn",
+      "features": {
+        "log_candidates": 6.238324625039508,
+        "variables": 24,
+        "objectives": 1,
+        "symbolic_fraction": 1.0,
+        "remaining": 10,
+        "progress": 0.0,
+        "plateau": 8,
+        "separation": 0.2041241452319315,
+        "uncertainty": 0.5
+      }
+    }
+  ],
+  "masks": {
+    "never": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "always": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "benefit": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "uncertainty": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "random_matched_benefit_diagnostic": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "random_development_benefit": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "random_matched_uncertainty_diagnostic": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "random_development_uncertainty": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "benefit_scores": [
+    -0.003440871361765161,
+    0.0021922619373430634,
+    0.0029966876543548035,
+    0.010118366804731632,
+    0.005865583028896005,
+    0.007660108132726381,
+    0.011545157284944502,
+    -0.003677448849731667,
+    -0.010536116357109538,
+    0.004820962747572122,
+    0.02323400511318128,
+    0.04662126513092586,
+    0.03020118281847397,
+    0.040768613913320144,
+    -0.005001795401742019,
+    -0.008209591279223416,
+    -0.0010128301089294563,
+    -0.005703211955204429,
+    0.019701977159223116,
+    0.0033547296376086264,
+    -0.01399071301409506,
+    -0.017242274242827347,
+    -0.019844408829639996,
+    -0.019460959939970372,
+    -0.008444370338461219,
+    0.07664726957290308,
+    0.026686786566579763,
+    0.0006604800524258442,
+    0.03522343464790847,
+    -0.008166555766355405
+  ],
+  "source_hashes": {
+    "results/v41_transfer/prefixes/BDBC_AllNumeric_11.json": "1314a87f259680a6f347cd73173ce100e50a4c0ec65ddeabaa5db4952cf432ea",
+    "results/v41_transfer/prefixes/BDBC_AllNumeric_23.json": "4b8a5360dfe956eeea2765a264600975baf20015c5176dd465e0e716c7acf49b",
+    "results/v41_transfer/prefixes/BDBC_AllNumeric_37.json": "fec38b460a43eed8c4934a78af0fb9f9840553d1028311a72ccbe5f52d98c3ee",
+    "results/v41_transfer/prefixes/BDBC_AllNumeric_53.json": "3459f85ebd981929153b0910d7e2a55229e9c96ef8d7d0c4b0afac688020767a",
+    "results/v41_transfer/prefixes/BDBC_AllNumeric_71.json": "3bb6591e472a69e6cff458fa5742476adeb4b9c0c47a9ede754330367023abae",
+    "results/v41_transfer/prefixes/Dune_AllNumeric_11.json": "b9436e70c4de58fd8c8be01b64e8b44a49022e36b6a3e89b95ee782001a7998b",
+    "results/v41_transfer/prefixes/Dune_AllNumeric_23.json": "7d73d796e88597ba7105aafcf1bc47d3254712411df2d8df493bf5672974a25e",
+    "results/v41_transfer/prefixes/Dune_AllNumeric_37.json": "7789a56e0ae55d13cabf5b0128184888952bcf6832e0439a0f0665a194168b87",
+    "results/v41_transfer/prefixes/Dune_AllNumeric_53.json": "ea5c5a7cd11e18ea944e9fc7e8443d9b7f273ab023b6a7d01d175934ed5bf485",
+    "results/v41_transfer/prefixes/Dune_AllNumeric_71.json": "1d550eb3e151ba59121dddfd3b299a81b23a4552c93286d31d15d72ea884171b",
+    "results/v41_transfer/prefixes/LLVM_AllNumeric_11.json": "fa8ef94900936d7752830c44ae25ae2e4196f1d0fbf3ecfc2dd4258d9316e243",
+    "results/v41_transfer/prefixes/LLVM_AllNumeric_23.json": "e7a9cedf66adf2f8604269880ffb3e6c97db7109596da1d7ad2a7ace045eacac",
+    "results/v41_transfer/prefixes/LLVM_AllNumeric_37.json": "c05153b46ad8130ea74b52761354a2b96e8dcb886133c02fc157e75a1d1bf40e",
+    "results/v41_transfer/prefixes/LLVM_AllNumeric_53.json": "0454250ab5fc9586479b6d75010db5333275d2155ba1bf6d9033b3ee13bed9be",
+    "results/v41_transfer/prefixes/LLVM_AllNumeric_71.json": "12628b59bb4fe03b68c2c21ded3311510307120ebc92e20a97f277913120a456",
+    "results/v41_transfer/prefixes/hipacc_AllNumeric_11.json": "0637cf4e5b21cad058813c5a9c7fc04db3ba6bf183586dba1f6b47240a099559",
+    "results/v41_transfer/prefixes/hipacc_AllNumeric_23.json": "70b14f1814436c7845ed6a570bd4d9d3cf10a6c34ab2c16a7640b43afcbdc924",
+    "results/v41_transfer/prefixes/hipacc_AllNumeric_37.json": "cfa75cdffd7b83aa239a903c729c437f1abb8e8168b566119ecb0ec4fab9d593",
+    "results/v41_transfer/prefixes/hipacc_AllNumeric_53.json": "f79b39baf0d693664fed422e76d03ac53b08f982aef2c998af7e46a35f9fe350",
+    "results/v41_transfer/prefixes/hipacc_AllNumeric_71.json": "1b105b770b263b596c69fd7965ea596f675d2eb670f071d23d46ad4709c7cfbd",
+    "results/v41_transfer/prefixes/sac_AllNumeric_11.json": "67a408ed6b7a322369459ebffae64b39dd31af1856190f4a26ad0a65cbec1ee2",
+    "results/v41_transfer/prefixes/sac_AllNumeric_23.json": "e50f408d65a751e1f8f5f1e3a6b7bb54f23c6250b6647499cae2a731fd716769",
+    "results/v41_transfer/prefixes/sac_AllNumeric_37.json": "0165c8146a244685e78dc8306db10790e09948766d5cbc3a66ec6f7de5f72ad4",
+    "results/v41_transfer/prefixes/sac_AllNumeric_53.json": "288a6b90da3837e366e7ce832ee6b50e3eec444f5ab1bdb788153f0bfabeb59e",
+    "results/v41_transfer/prefixes/sac_AllNumeric_71.json": "0b96e1ab7557b75571de5f8844e4c303c8835ed59bfb588d21902855f1428d0a",
+    "results/v41_transfer/prefixes/OpenVPN_11.json": "8bd578aa68396dc0049f00653c4c20449d9aa21e4ea6f501d6d52c95fad986f7",
+    "results/v41_transfer/prefixes/OpenVPN_23.json": "58f924ee9067cdb03f17e3bdff0a399dbfe2d6299decd2f445aea8d56512ad8d",
+    "results/v41_transfer/prefixes/OpenVPN_37.json": "ada4d763153999c09f418fdf3160c488598a84e14701c0f933288a0c2634bc46",
+    "results/v41_transfer/prefixes/OpenVPN_53.json": "4a18c00fe38b1671801b57d99ddcb60d9ce361463c582648be24f0a3e29532a6",
+    "results/v41_transfer/prefixes/OpenVPN_71.json": "6cda197724ef48cb267ad2eedf1beeb72152baadf840ebf601ce27d5ccdd3d35"
+  },
+  "controller_sha256": "fd8a63205211e98d75966cee1c023822155a8a942bf38b83a663c50985a2e388",
+  "development_sha256": "07f03646a196338ef07a4edb197b63841601d4e0bbfcbda59b5755cd2584df7c",
+  "calls_if_deployed_per_model": {
+    "never": 0,
+    "always": 30,
+    "benefit": 1,
+    "uncertainty": 0,
+    "random_matched_benefit_diagnostic": 1,
+    "random_development_benefit": 0,
+    "random_matched_uncertainty_diagnostic": 0,
+    "random_development_uncertainty": 0
+  },
+  "development_feature_ranges": {
+    "log_candidates": [
+      5.19295685089021,
+      7.272398392570047
+    ],
+    "variables": [
+      21,
+      30
+    ],
+    "objectives": [
+      1,
+      1
+    ],
+    "symbolic_fraction": [
+      1.0,
+      1.0
+    ],
+    "remaining": [
+      10,
+      10
+    ],
+    "progress": [
+      0.0,
+      0.036996966828307026
+    ],
+    "plateau": [
+      2,
+      7
+    ],
+    "separation": [
+      0.0,
+      0.4364357804719847
+    ],
+    "uncertainty": [
+      0.4,
+      0.8
+    ]
+  },
+  "feature_shift": [
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 11,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 23,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 37,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 53,
+      "outside_development_range": [
+        "variables",
+        "progress",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "BDBC_AllNumeric",
+      "seed": 71,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 11,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 23,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 37,
+      "outside_development_range": [
+        "variables",
+        "separation"
+      ]
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 53,
+      "outside_development_range": [
+        "variables",
+        "plateau",
+        "separation"
+      ]
+    },
+    {
+      "dataset": "Dune_AllNumeric",
+      "seed": 71,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 11,
+      "outside_development_range": [
+        "variables",
+        "progress",
+        "separation"
+      ]
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 23,
+      "outside_development_range": [
+        "variables",
+        "progress",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 37,
+      "outside_development_range": [
+        "variables",
+        "progress",
+        "separation"
+      ]
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 53,
+      "outside_development_range": [
+        "variables",
+        "progress",
+        "plateau",
+        "separation"
+      ]
+    },
+    {
+      "dataset": "LLVM_AllNumeric",
+      "seed": 71,
+      "outside_development_range": [
+        "variables",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 11,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 23,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 37,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 53,
+      "outside_development_range": [
+        "variables",
+        "progress",
+        "plateau"
+      ]
+    },
+    {
+      "dataset": "hipacc_AllNumeric",
+      "seed": 71,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 11,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 23,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 37,
+      "outside_development_range": [
+        "variables",
+        "plateau",
+        "uncertainty"
+      ]
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 53,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "sac_AllNumeric",
+      "seed": 71,
+      "outside_development_range": [
+        "variables"
+      ]
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 11,
+      "outside_development_range": [
+        "progress"
+      ]
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 23,
+      "outside_development_range": [
+        "progress"
+      ]
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 37,
+      "outside_development_range": []
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 53,
+      "outside_development_range": [
+        "progress"
+      ]
+    },
+    {
+      "dataset": "OpenVPN",
+      "seed": 71,
+      "outside_development_range": [
+        "plateau"
+      ]
+    }
+  ],
+  "classical_outcomes_previously_inspected": true,
+  "new_llm_outcomes_used": false,
+  "qualification": "No threshold refit. Scores use the old normalized-loss target, not calibrated V41 relative gains. Shift descriptions do not alter masks. Not LLM performance evidence."
+}

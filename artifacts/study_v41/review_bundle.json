@@ -1,0 +1,25 @@
+{
+  "path": "output/llm_escalation_v41_review.zip",
+  "bytes": 1613626,
+  "sha256": "84a935ae4373a7299dbf49f14f58434b3528fd893fad026245f426b3e75657c8",
+  "files": 465,
+  "validation": [
+    {
+      "interpreter": "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv/bin/python",
+      "returncode": 0,
+      "stdout": "{\n  \"files_verified\": 464,\n  \"arithmetic\": {\n    \"verified_fraction_contrasts\": 420,\n    \"verified_summaries\": 14,\n    \"verified_policy_means\": 108,\n    \"new_model_calls\": 0,\n    \"new_acquisitions\": 0,\n    \"scope\": \"Independent acquired-journal arithmetic replay; source authenticity checked separately\"\n  },\n  \"scope\": \"Local results replay; no inference, full-source download, or live measurement\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "interpreter": "/Users/mayankdhingra/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "returncode": 0,
+      "stdout": "{\n  \"files_verified\": 464,\n  \"arithmetic\": {\n    \"verified_fraction_contrasts\": 420,\n    \"verified_summaries\": 14,\n    \"verified_policy_means\": 108,\n    \"new_model_calls\": 0,\n    \"new_acquisitions\": 0,\n    \"scope\": \"Independent acquired-journal arithmetic replay; source authenticity checked separately\"\n  },\n  \"scope\": \"Local results replay; no inference, full-source download, or live measurement\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "synthetic_corruption_rejected": true,
+  "seconds": 0.5389054999686778,
+  "new_model_calls": 0,
+  "new_objective_acquisitions": 0,
+  "uploaded_or_published": false
+}

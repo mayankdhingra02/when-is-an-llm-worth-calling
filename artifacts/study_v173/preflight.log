@@ -1,0 +1,20 @@
+{
+ "at": "2026-09-28T21:10:40.877847+00:00",
+ "key_info": {
+  "limit": 100,
+  "limit_remaining": 100,
+  "usage": 0,
+  "is_free_tier": false
+ },
+ "provider": "coreweave/fp4",
+ "passed": true,
+ "spend": {
+  "spent_usd": 4.058e-05,
+  "requests": 1,
+  "reported_cost_usd": 4.058e-05,
+  "estimated_only_usd": 0.0,
+  "unknown_cost_requests": 0
+ },
+ "synthetic_not_research": true
+}
+[{'provider': 'coreweave/fp4', 'http_status': 200, 'ok': True, 'reason': None, 'served_by': 'CoreWeave', 'usage': {'prompt_tokens': 123, 'completion_tokens': 217, 'total_tokens': 340, 'cost': 4.058e-05, 'is_byok': False, 'prompt_tokens_details': {'cached_tokens': 64, 'cache_write_tokens': 0, 'audio_tokens': 0, 'video_tokens': 0}, 'cost_details': {'upstream_inference_cost': 4.058e-05, 'upstream_inference_prompt_cost': 3.69e-06, 'upstream_inference_completions_cost': 3.689e-05}, 'completion_tokens_details': {'reasoning_tokens': 187, 'image_tokens': 0, 'audio_tokens': 0}}, 'parsed': [[0, 0], [2, 1]]}]

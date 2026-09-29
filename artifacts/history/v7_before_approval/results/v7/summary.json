@@ -1,0 +1,426 @@
+{
+  "scope": "post-v6 exploratory development-only mechanism ablation; no generalization claims",
+  "complete": false,
+  "records": [
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 11,
+      "split": "development",
+      "classical": 0.041956991010192124,
+      "original_llm": 0.020269030638733098,
+      "uniform_original": 0.020269030638733098,
+      "uniform_excluded": 0.04493103997161707
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 23,
+      "split": "development",
+      "classical": 0.07373923875276449,
+      "original_llm": 0.10110725530022198,
+      "uniform_original": 0.020269030638733098,
+      "uniform_excluded": 0.06111438573115759
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 37,
+      "split": "development",
+      "classical": 0.04378535667985623,
+      "original_llm": 0.04378535667985623,
+      "uniform_original": 0.059821236106177525,
+      "uniform_excluded": 0.05661818060375321
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 53,
+      "split": "development",
+      "classical": 0.012520325414825029,
+      "original_llm": 0.019272331715974644,
+      "uniform_original": 0.019272331715974644,
+      "uniform_excluded": 0.019272331715974644
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 71,
+      "split": "development",
+      "classical": 0.05129659773483039,
+      "original_llm": 0.05129659773483039,
+      "uniform_original": 0.05129659773483039,
+      "uniform_excluded": 0.05129659773483039
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 11,
+      "split": "development",
+      "classical": 0.000976862872085081,
+      "original_llm": 0.0020772993484874836,
+      "uniform_original": 0.0007644425522549477,
+      "uniform_excluded": 0.0020772993484874836
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 23,
+      "split": "development",
+      "classical": 0.0004951964143810819,
+      "original_llm": 0.0018369171181913883,
+      "uniform_original": 0.0018369171181913883,
+      "uniform_excluded": 0.0018369171181913883
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 37,
+      "split": "development",
+      "classical": 0.0030537112220166644,
+      "original_llm": 0.006391551534251986,
+      "uniform_original": 0.008551834617025555,
+      "uniform_excluded": 0.002174715036562452
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 53,
+      "split": "development",
+      "classical": 0.001782346292927169,
+      "original_llm": 0.0019451567716080181,
+      "uniform_original": 0.0007996204396153531,
+      "uniform_excluded": 0.00048166645770400323
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 71,
+      "split": "development",
+      "classical": 0.0006512419147233874,
+      "original_llm": 0.0006512419147233874,
+      "uniform_original": 0.0006512419147233874,
+      "uniform_excluded": 0.0006512419147233874
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 11,
+      "split": "development",
+      "classical": 0.0011204538856831455,
+      "original_llm": 0.00015278916622952002,
+      "uniform_original": 0.0012274063020438096,
+      "uniform_excluded": 0.0
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 23,
+      "split": "development",
+      "classical": 0.001441311134765137,
+      "original_llm": 0.0003870658877814507,
+      "uniform_original": 0.0003870658877814507,
+      "uniform_excluded": 0.0003870658877814507
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 37,
+      "split": "development",
+      "classical": 0.0002801134714207867,
+      "original_llm": 0.0002801134714207867,
+      "uniform_original": 0.0002801134714207867,
+      "uniform_excluded": 0.0002801134714207867
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 53,
+      "split": "development",
+      "classical": 0.00017316105506012268,
+      "original_llm": 0.00017316105506012268,
+      "uniform_original": 0.00017316105506012268,
+      "uniform_excluded": 0.00017316105506012268
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 71,
+      "split": "development",
+      "classical": 0.00043290263765030613,
+      "original_llm": 0.000168068082852472,
+      "uniform_original": 0.000168068082852472,
+      "uniform_excluded": 0.00043290263765030613
+    }
+  ],
+  "systems": [
+    {
+      "system_group": "brotli",
+      "n": 5,
+      "classical": 0.0006895884369158996,
+      "original_llm": 0.00023223953266887043,
+      "uniform_original": 0.00044716295983172823,
+      "uniform_excluded": 0.00025464861038253326
+    },
+    {
+      "system_group": "lrzip",
+      "n": 5,
+      "classical": 0.0013918717432266769,
+      "original_llm": 0.0025804333374524527,
+      "uniform_original": 0.0025208113283621265,
+      "uniform_excluded": 0.001444367975133743
+    },
+    {
+      "system_group": "mysql_family",
+      "n": 5,
+      "classical": 0.04465970191849365,
+      "original_llm": 0.04714611441392327,
+      "uniform_original": 0.03418564536688975,
+      "uniform_excluded": 0.04664650715146658
+    }
+  ],
+  "reliability": [
+    {
+      "arm": "uniform_excluded",
+      "completed_or_fallback": 15,
+      "intended": 15,
+      "events": 150,
+      "projected": 150,
+      "duplicate": 0,
+      "collision": 0,
+      "fallback": 0
+    },
+    {
+      "arm": "llm",
+      "completed_or_fallback": 0,
+      "intended": 15,
+      "events": 0,
+      "projected": 0,
+      "duplicate": 0,
+      "collision": 0,
+      "fallback": 0
+    }
+  ],
+  "intended": [
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "uniform_excluded",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "insufficient authorized request allowance for full development arm"
+    }
+  ],
+  "collection": {
+    "new_objective_accesses": 150,
+    "model_attempts": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "request_wall_seconds": 0,
+    "external_spend_usd": 0
+  },
+  "historical_comparisons": "Original prefixes/classical/uniform/LLM are v6 development records; do not count prior costs as free or reacquired",
+  "interpretation": "Zero original-prefix copies is enforced, not proof of model benefit. Compare quality against both original LLM and uniform exclusion control."
+}

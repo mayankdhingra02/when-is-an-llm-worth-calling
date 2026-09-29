@@ -1,0 +1,84 @@
+{
+  "ripgrep": {
+    "cells": [
+      {
+        "candidate_id": 0,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.7218716670031426,
+        "relative_mad": 0.005635695620860639,
+        "min_quality": 1.0,
+        "pass": true
+      },
+      {
+        "candidate_id": 21,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.5304934999949182,
+        "relative_mad": 0.014754342900469525,
+        "min_quality": 1.0,
+        "pass": true
+      },
+      {
+        "candidate_id": 42,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.30992604100174503,
+        "relative_mad": 0.010307965705756561,
+        "min_quality": 1.0,
+        "pass": true
+      },
+      {
+        "candidate_id": 63,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.36160758299956797,
+        "relative_mad": 0.010033321119615548,
+        "min_quality": 1.0,
+        "pass": true
+      }
+    ],
+    "admitted": true
+  },
+  "hnswlib": {
+    "cells": [
+      {
+        "candidate_id": 0,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.098380167,
+        "relative_mad": 0.005474091134649009,
+        "min_quality": 0.9816917084028937,
+        "pass": true
+      },
+      {
+        "candidate_id": 21,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.097960625,
+        "relative_mad": 0.012907818830269776,
+        "min_quality": 0.9997774067890929,
+        "pass": true
+      },
+      {
+        "candidate_id": 42,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.18825475,
+        "relative_mad": 0.004670309779700074,
+        "min_quality": 0.9987200890372844,
+        "pass": true
+      },
+      {
+        "candidate_id": 63,
+        "charged": 5,
+        "valid_quality": 5,
+        "median_seconds": 0.185371084,
+        "relative_mad": 0.009807133673556012,
+        "min_quality": 1.0,
+        "pass": true
+      }
+    ],
+    "admitted": true
+  }
+}

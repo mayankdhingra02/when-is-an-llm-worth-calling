@@ -1,0 +1,97 @@
+{
+  "key": "hnswlib_37",
+  "engine": "hnswlib",
+  "system_group": "hnswlib",
+  "seed": 37,
+  "prefix": "artifacts/study_v163/prefixes/hnswlib_37.json",
+  "messages_path": "artifacts/study_v163/prompts/hnswlib_37.json",
+  "sampling_seed": 163037,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "prefix_sha256": "5ac457cb4a27a6bc8fd43667dc9295b919c5d53424c6ca6eb28e01df8613441e",
+  "model": "smollm3_3b",
+  "score": [
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

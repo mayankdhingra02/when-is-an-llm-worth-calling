@@ -1,0 +1,10 @@
+B1 sac::sac_AllNumeric_11_normal fallback_rounds 0 target 1.49
+B1 spark::bayes_53 fallback_rounds 0 target 1393868.0
+B1 spark::pagerank_37 fallback_rounds 1 target 270271.0
+B1 sac::sac_AllNumeric_37_normal fallback_rounds 0 target 1.49
+B1 spark::pagerank_53 fallback_rounds 0 target 296804.0
+B1 berkeleydb::BDBC_AllNumeric_53_normal fallback_rounds 0 target 0.353774026
+B1 spark::tpch_53 fallback_rounds 0 target 556567.0
+B1 hadoop_mapreduce::wordcount_37 fallback_rounds 0 target 433.123
+B1 spark::terasort_11 fallback_rounds 0 target 277639.0
+{'at': '2026-09-28T22:45:44.980054+00:00', 'stage': 'B1', 'provider': 'deepinfra/turbo', 'intended_cases': 9, 'finished_cases': ['sac::sac_AllNumeric_11_normal', 'spark::bayes_53', 'spark::pagerank_37', 'sac::sac_AllNumeric_37_normal', 'spark::pagerank_53', 'berkeleydb::BDBC_AllNumeric_53_normal', 'spark::tpch_53', 'hadoop_mapreduce::wordcount_37', 'spark::terasort_11'], 'unfinished_cases': [], 'interrupted_case': None, 'not_started_cases': [], 'requests': 50, 'error': None, 'seconds': 715.2363802089967, 'spend': {'spent_usd': 0.6475417320000001, 'requests': 226, 'reported_cost_usd': 0.6475417320000001, 'estimated_only_usd': 0.0, 'unknown_cost_requests': 0}, 'acquisitions_so_far': 90}

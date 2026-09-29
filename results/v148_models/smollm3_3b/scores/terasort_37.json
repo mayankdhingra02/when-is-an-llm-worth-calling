@@ -1,0 +1,80 @@
+{
+  "key": "terasort_37",
+  "app": "terasort",
+  "system_group": "hadoop_mapreduce",
+  "seed": 37,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "sampling_seed": 148037,
+  "prefix": "artifacts/study_v148/prefixes/terasort_37.json",
+  "prefix_sha256": "930df9bad2c5f8163c05563000216d2739ed7a23d3aec155f0fcd3ef5e1ff138",
+  "messages_path": "artifacts/study_v148/prompts/terasort_37.json",
+  "model": "smollm3_3b",
+  "score": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

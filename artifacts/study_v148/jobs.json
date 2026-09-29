@@ -1,0 +1,527 @@
+[
+  {
+    "key": "pagerank_11",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_11.json",
+    "prefix_sha256": "f0cba3c82a056bc0807d236c7a54dfd48661cf18b5685b4beda401689f0b8cb6",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_11.json"
+  },
+  {
+    "key": "wordcount_11",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_11.json",
+    "prefix_sha256": "04486bbbf6c52f4fd08e10a83d51a422123b409cc25bafda06cc13027d18c6f3",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_11.json"
+  },
+  {
+    "key": "pagerank_71",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_71.json",
+    "prefix_sha256": "213e903ea9d8f3b6b87e1e83bf5c6698e996252bfb3bc7ef826c63ce47a0f54a",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_71.json"
+  },
+  {
+    "key": "terasort_11",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/terasort_11.json",
+    "prefix_sha256": "6bb6f935170c18eb3f26c24703c20ed8df8bd6990f76092b158160f403f5cca4",
+    "messages_path": "artifacts/study_v148/prompts/terasort_11.json"
+  },
+  {
+    "key": "terasort_37",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/terasort_37.json",
+    "prefix_sha256": "930df9bad2c5f8163c05563000216d2739ed7a23d3aec155f0fcd3ef5e1ff138",
+    "messages_path": "artifacts/study_v148/prompts/terasort_37.json"
+  },
+  {
+    "key": "wordcount_37",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_37.json",
+    "prefix_sha256": "205b8fa73adb46fc4dfd9e3ddd62e1e2a602eb234c4c2cd03c89b93d2d83b17f",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_37.json"
+  },
+  {
+    "key": "wordcount_53",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_53.json",
+    "prefix_sha256": "fe2dd373d8cce18f16af8dbab1d26cb10dce7111e961ec3b34227ab24de2aeee",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_53.json"
+  },
+  {
+    "key": "wordcount_23",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_23.json",
+    "prefix_sha256": "d990fe8312c9c74cb7241dba3c15cad1d6ecb9cdc3b31a8976010931f61ecb22",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_23.json"
+  },
+  {
+    "key": "pagerank_37",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_37.json",
+    "prefix_sha256": "fca339f5d901752f71f0156bb2f07484d54dac2e6005d2239746519ef4e398a2",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_37.json"
+  },
+  {
+    "key": "terasort_23",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/terasort_23.json",
+    "prefix_sha256": "9d207ed1dbb487e8e6d58ec654c6184c4a6fdcd4bd3ad0508f1731d857aedd7b",
+    "messages_path": "artifacts/study_v148/prompts/terasort_23.json"
+  },
+  {
+    "key": "terasort_71",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/terasort_71.json",
+    "prefix_sha256": "ff070bccadf5bbaa1474800cebd4f95bffbc5a2bd438625ae405cfeee0022500",
+    "messages_path": "artifacts/study_v148/prompts/terasort_71.json"
+  },
+  {
+    "key": "pagerank_53",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_53.json",
+    "prefix_sha256": "79a9367ed702ecf396206735174739a7d985f110e7ca9ef69e718e1ef24cb21e",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_53.json"
+  },
+  {
+    "key": "terasort_53",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/terasort_53.json",
+    "prefix_sha256": "74f3494f90d15643ec975feeb3d319ecfd2f62f87c1745773f868b8351409fec",
+    "messages_path": "artifacts/study_v148/prompts/terasort_53.json"
+  },
+  {
+    "key": "wordcount_71",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_71.json",
+    "prefix_sha256": "247e39e52e68551740fef07b0015cd593b1f985227c99a55241dc4a093ccad58",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_71.json"
+  },
+  {
+    "key": "pagerank_23",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_23.json",
+    "prefix_sha256": "d6cd843bb11f33a37e4161be6eda9946bc9f96c7304bb3daff1a408b3ea01926",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_23.json"
+  }
+]

@@ -1,0 +1,2172 @@
+{
+  "jobs": [
+    {
+      "key": "superlu_11_llm",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "llm",
+      "row": 244,
+      "configuration": [
+        2,
+        0.1,
+        2,
+        4
+      ],
+      "historical_label": 0.003758541017305106,
+      "historical_branch": "results/v94_native/branches/superlu_11_llm.json",
+      "historical_branch_sha256": "a27d67fb30bcbcc435b9ece0ac68d50a01727fd64b981d00d63abff49c4e647d"
+    },
+    {
+      "key": "superlu_11_batch_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_batch_3nn.json",
+      "historical_branch_sha256": "b40a73a91fa91b63f9ff3334ac30aabec7df6122b09f4a9194225b8e4acf616b"
+    },
+    {
+      "key": "superlu_11_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "3526bcc3b1ddfffcb9114ee9e013ef2486c16ea9637e9c14ecdaa6a08b27e17c"
+    },
+    {
+      "key": "superlu_23_llm",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "llm",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_llm.json",
+      "historical_branch_sha256": "9721df29ee25278cf0f9cf29b9d6d15c02af82ae68e2494526fbee5bfb9e1a7e"
+    },
+    {
+      "key": "superlu_23_batch_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_batch_3nn.json",
+      "historical_branch_sha256": "ba9cb4069543c3522242f3dce27ef761e8033ff85b47566ddd96139c6c04887b"
+    },
+    {
+      "key": "superlu_23_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "d6cf3179a03ed26b1bbaee14f1232a39bbe01d3ea54167eb6a2835239b0d6a50"
+    },
+    {
+      "key": "superlu_37_llm",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "llm",
+      "row": 241,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        8
+      ],
+      "historical_label": 0.0038716670242138207,
+      "historical_branch": "results/v94_native/branches/superlu_37_llm.json",
+      "historical_branch_sha256": "34869b76e29e0fc24cdeabb3991ece794c225c5f4023fb85e8dcbce4fd28b20b"
+    },
+    {
+      "key": "superlu_37_batch_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 240,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        4
+      ],
+      "historical_label": 0.0038325419882312417,
+      "historical_branch": "results/v94_native/branches/superlu_37_batch_3nn.json",
+      "historical_branch_sha256": "dbf41696c7cd0fef075c21f49860ed1caf328d5452482394eebe4c818ee9b5ba"
+    },
+    {
+      "key": "superlu_37_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 200,
+      "configuration": [
+        2,
+        0.0,
+        1,
+        4
+      ],
+      "historical_label": 0.0037620829534716904,
+      "historical_branch": "results/v94_native/branches/superlu_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "18773cb10e47baf0108e216e28943ab0077912f6aca6c4faea23d0109ff017ff"
+    },
+    {
+      "key": "superlu_53_llm",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "llm",
+      "row": 219,
+      "configuration": [
+        2,
+        0.0,
+        16,
+        32
+      ],
+      "historical_label": 0.005834540992509574,
+      "historical_branch": "results/v94_native/branches/superlu_53_llm.json",
+      "historical_branch_sha256": "aa0033fc1222314a6bdbc7ab2dad51bcfaecac200eff5233239a075e4f534d39"
+    },
+    {
+      "key": "superlu_53_batch_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 270,
+      "configuration": [
+        2,
+        0.5,
+        4,
+        16
+      ],
+      "historical_label": 0.005674667016137391,
+      "historical_branch": "results/v94_native/branches/superlu_53_batch_3nn.json",
+      "historical_branch_sha256": "0f6ea19905a9d605f913475097d2b986c46c36623467c65e94c243293536bf5f"
+    },
+    {
+      "key": "superlu_53_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 248,
+      "configuration": [
+        2,
+        0.1,
+        4,
+        4
+      ],
+      "historical_label": 0.003952832950744778,
+      "historical_branch": "results/v94_native/branches/superlu_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "2cf4b54e775043b052a16ba2f2ad0ff0744762d47c6be1e6cb1cadf166b4f81a"
+    },
+    {
+      "key": "superlu_71_llm",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "llm",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_llm.json",
+      "historical_branch_sha256": "497795ec3121df6cd1ee85ac228fd75da441d7d7cfc735e2a1cf4b2ab67808bd"
+    },
+    {
+      "key": "superlu_71_batch_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_batch_3nn.json",
+      "historical_branch_sha256": "6a5e8c7bba26c8864f56d7b863b4e3cbd166cd4de67d0b6690910a76565412cc"
+    },
+    {
+      "key": "superlu_71_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 228,
+      "configuration": [
+        2,
+        0.01,
+        4,
+        4
+      ],
+      "historical_label": 0.0038731250097043812,
+      "historical_branch": "results/v94_native/branches/superlu_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "5c93b221769ef0c78570a3357b78928e6d69bc85ae92b01375768ebceb48ebe0"
+    },
+    {
+      "key": "highs_11_llm",
+      "family": "highs",
+      "seed": 11,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_llm.json",
+      "historical_branch_sha256": "d36041bc5164c23d5c5ba5b986361058e03a10fecb801575dfd1f6e04cd737bc"
+    },
+    {
+      "key": "highs_11_batch_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_batch_3nn.json",
+      "historical_branch_sha256": "f6bdf0da74f66dc0f2c850574253fd408dc50542c87bb0de6e2a3a304bb51971"
+    },
+    {
+      "key": "highs_11_full_sequential_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "b37328fbe313414f784671f7cfec631b6c9ab227087a92b4922f96b3d93e0825"
+    },
+    {
+      "key": "highs_23_llm",
+      "family": "highs",
+      "seed": 23,
+      "arm": "llm",
+      "row": 22,
+      "configuration": [
+        0,
+        0,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.08682458300609142,
+      "historical_branch": "results/v94_native/branches/highs_23_llm.json",
+      "historical_branch_sha256": "7e669c47b27451e68228f1b18413e1ee8a79abc88e60425added9f1a729c6300"
+    },
+    {
+      "key": "highs_23_batch_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 112,
+      "configuration": [
+        0,
+        4,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.07820841600187123,
+      "historical_branch": "results/v94_native/branches/highs_23_batch_3nn.json",
+      "historical_branch_sha256": "d5d580e7b56dcc6b4a302d8bfa9521e0da15261a158ac430b3aeed1f28440575"
+    },
+    {
+      "key": "highs_23_full_sequential_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 236,
+      "configuration": [
+        1,
+        4,
+        2,
+        100,
+        0
+      ],
+      "historical_label": 0.06589308404363692,
+      "historical_branch": "results/v94_native/branches/highs_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "468cd6bc27bff3a5956e608a2f20f59ca9699a1428516eeddf2bfc266f034d23"
+    },
+    {
+      "key": "highs_37_llm",
+      "family": "highs",
+      "seed": 37,
+      "arm": "llm",
+      "row": 208,
+      "configuration": [
+        1,
+        3,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.0771801249939017,
+      "historical_branch": "results/v94_native/branches/highs_37_llm.json",
+      "historical_branch_sha256": "fde108ecf92fcd83aaed3e446de36ba3f608b273d9b722088372c27e191c3262"
+    },
+    {
+      "key": "highs_37_batch_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_batch_3nn.json",
+      "historical_branch_sha256": "80252f51cdc2e1cd4b031475a6a367931a975d8f15548adedc06b62ef48bb6f1"
+    },
+    {
+      "key": "highs_37_full_sequential_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "b98c14511d7932022993dbe704bc0bf92ca1471a0833efee5523a8a0b18f6546"
+    },
+    {
+      "key": "highs_53_llm",
+      "family": "highs",
+      "seed": 53,
+      "arm": "llm",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_llm.json",
+      "historical_branch_sha256": "834eedb207bf0c507ab377b472df761848f8c8378d62b05c4a51cf9ff48a5666"
+    },
+    {
+      "key": "highs_53_batch_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_batch_3nn.json",
+      "historical_branch_sha256": "9fe4e4433a03e1507245a1c5416fd0c8de6a549181a5df57e9b08ec10f1803d0"
+    },
+    {
+      "key": "highs_53_full_sequential_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "3dbbfc0817413e8c298a0993e94e22c2db4e006fbc3a64e7081251f9891df49b"
+    },
+    {
+      "key": "highs_71_llm",
+      "family": "highs",
+      "seed": 71,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_llm.json",
+      "historical_branch_sha256": "e6706314a839ae878b1373e8ac7363911706ed591b04948c49e0a29250f293e6"
+    },
+    {
+      "key": "highs_71_batch_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_batch_3nn.json",
+      "historical_branch_sha256": "8739b616497160a5d002fc5308f6865e30490ffca142a7265f90f067af2d90d6"
+    },
+    {
+      "key": "highs_71_full_sequential_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 239,
+      "configuration": [
+        1,
+        4,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.06541649997234344,
+      "historical_branch": "results/v94_native/branches/highs_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "566d8d01cfb5a360d52c71dee819dc345fee495f3a076b4b3e4fafcf08e4a5b0"
+    }
+  ],
+  "schedule": [
+    {
+      "key": "superlu_23_llm",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "llm",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_llm.json",
+      "historical_branch_sha256": "9721df29ee25278cf0f9cf29b9d6d15c02af82ae68e2494526fbee5bfb9e1a7e",
+      "repeat": 0,
+      "request_key": "superlu_23_llm_validation_0"
+    },
+    {
+      "key": "superlu_23_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "d6cf3179a03ed26b1bbaee14f1232a39bbe01d3ea54167eb6a2835239b0d6a50",
+      "repeat": 0,
+      "request_key": "superlu_23_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "superlu_23_batch_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_batch_3nn.json",
+      "historical_branch_sha256": "ba9cb4069543c3522242f3dce27ef761e8033ff85b47566ddd96139c6c04887b",
+      "repeat": 0,
+      "request_key": "superlu_23_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_23_llm",
+      "family": "highs",
+      "seed": 23,
+      "arm": "llm",
+      "row": 22,
+      "configuration": [
+        0,
+        0,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.08682458300609142,
+      "historical_branch": "results/v94_native/branches/highs_23_llm.json",
+      "historical_branch_sha256": "7e669c47b27451e68228f1b18413e1ee8a79abc88e60425added9f1a729c6300",
+      "repeat": 0,
+      "request_key": "highs_23_llm_validation_0"
+    },
+    {
+      "key": "highs_23_full_sequential_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 236,
+      "configuration": [
+        1,
+        4,
+        2,
+        100,
+        0
+      ],
+      "historical_label": 0.06589308404363692,
+      "historical_branch": "results/v94_native/branches/highs_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "468cd6bc27bff3a5956e608a2f20f59ca9699a1428516eeddf2bfc266f034d23",
+      "repeat": 0,
+      "request_key": "highs_23_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "highs_23_batch_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 112,
+      "configuration": [
+        0,
+        4,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.07820841600187123,
+      "historical_branch": "results/v94_native/branches/highs_23_batch_3nn.json",
+      "historical_branch_sha256": "d5d580e7b56dcc6b4a302d8bfa9521e0da15261a158ac430b3aeed1f28440575",
+      "repeat": 0,
+      "request_key": "highs_23_batch_3nn_validation_0"
+    },
+    {
+      "key": "superlu_71_llm",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "llm",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_llm.json",
+      "historical_branch_sha256": "497795ec3121df6cd1ee85ac228fd75da441d7d7cfc735e2a1cf4b2ab67808bd",
+      "repeat": 0,
+      "request_key": "superlu_71_llm_validation_0"
+    },
+    {
+      "key": "superlu_71_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 228,
+      "configuration": [
+        2,
+        0.01,
+        4,
+        4
+      ],
+      "historical_label": 0.0038731250097043812,
+      "historical_branch": "results/v94_native/branches/superlu_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "5c93b221769ef0c78570a3357b78928e6d69bc85ae92b01375768ebceb48ebe0",
+      "repeat": 0,
+      "request_key": "superlu_71_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "superlu_71_batch_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_batch_3nn.json",
+      "historical_branch_sha256": "6a5e8c7bba26c8864f56d7b863b4e3cbd166cd4de67d0b6690910a76565412cc",
+      "repeat": 0,
+      "request_key": "superlu_71_batch_3nn_validation_0"
+    },
+    {
+      "key": "superlu_11_batch_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_batch_3nn.json",
+      "historical_branch_sha256": "b40a73a91fa91b63f9ff3334ac30aabec7df6122b09f4a9194225b8e4acf616b",
+      "repeat": 0,
+      "request_key": "superlu_11_batch_3nn_validation_0"
+    },
+    {
+      "key": "superlu_11_llm",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "llm",
+      "row": 244,
+      "configuration": [
+        2,
+        0.1,
+        2,
+        4
+      ],
+      "historical_label": 0.003758541017305106,
+      "historical_branch": "results/v94_native/branches/superlu_11_llm.json",
+      "historical_branch_sha256": "a27d67fb30bcbcc435b9ece0ac68d50a01727fd64b981d00d63abff49c4e647d",
+      "repeat": 0,
+      "request_key": "superlu_11_llm_validation_0"
+    },
+    {
+      "key": "superlu_11_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "3526bcc3b1ddfffcb9114ee9e013ef2486c16ea9637e9c14ecdaa6a08b27e17c",
+      "repeat": 0,
+      "request_key": "superlu_11_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "highs_11_batch_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_batch_3nn.json",
+      "historical_branch_sha256": "f6bdf0da74f66dc0f2c850574253fd408dc50542c87bb0de6e2a3a304bb51971",
+      "repeat": 0,
+      "request_key": "highs_11_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_11_llm",
+      "family": "highs",
+      "seed": 11,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_llm.json",
+      "historical_branch_sha256": "d36041bc5164c23d5c5ba5b986361058e03a10fecb801575dfd1f6e04cd737bc",
+      "repeat": 0,
+      "request_key": "highs_11_llm_validation_0"
+    },
+    {
+      "key": "highs_11_full_sequential_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "b37328fbe313414f784671f7cfec631b6c9ab227087a92b4922f96b3d93e0825",
+      "repeat": 0,
+      "request_key": "highs_11_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "superlu_37_llm",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "llm",
+      "row": 241,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        8
+      ],
+      "historical_label": 0.0038716670242138207,
+      "historical_branch": "results/v94_native/branches/superlu_37_llm.json",
+      "historical_branch_sha256": "34869b76e29e0fc24cdeabb3991ece794c225c5f4023fb85e8dcbce4fd28b20b",
+      "repeat": 0,
+      "request_key": "superlu_37_llm_validation_0"
+    },
+    {
+      "key": "superlu_37_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 200,
+      "configuration": [
+        2,
+        0.0,
+        1,
+        4
+      ],
+      "historical_label": 0.0037620829534716904,
+      "historical_branch": "results/v94_native/branches/superlu_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "18773cb10e47baf0108e216e28943ab0077912f6aca6c4faea23d0109ff017ff",
+      "repeat": 0,
+      "request_key": "superlu_37_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "superlu_37_batch_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 240,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        4
+      ],
+      "historical_label": 0.0038325419882312417,
+      "historical_branch": "results/v94_native/branches/superlu_37_batch_3nn.json",
+      "historical_branch_sha256": "dbf41696c7cd0fef075c21f49860ed1caf328d5452482394eebe4c818ee9b5ba",
+      "repeat": 0,
+      "request_key": "superlu_37_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_53_batch_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_batch_3nn.json",
+      "historical_branch_sha256": "9fe4e4433a03e1507245a1c5416fd0c8de6a549181a5df57e9b08ec10f1803d0",
+      "repeat": 0,
+      "request_key": "highs_53_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_53_full_sequential_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "3dbbfc0817413e8c298a0993e94e22c2db4e006fbc3a64e7081251f9891df49b",
+      "repeat": 0,
+      "request_key": "highs_53_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "highs_53_llm",
+      "family": "highs",
+      "seed": 53,
+      "arm": "llm",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_llm.json",
+      "historical_branch_sha256": "834eedb207bf0c507ab377b472df761848f8c8378d62b05c4a51cf9ff48a5666",
+      "repeat": 0,
+      "request_key": "highs_53_llm_validation_0"
+    },
+    {
+      "key": "superlu_53_llm",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "llm",
+      "row": 219,
+      "configuration": [
+        2,
+        0.0,
+        16,
+        32
+      ],
+      "historical_label": 0.005834540992509574,
+      "historical_branch": "results/v94_native/branches/superlu_53_llm.json",
+      "historical_branch_sha256": "aa0033fc1222314a6bdbc7ab2dad51bcfaecac200eff5233239a075e4f534d39",
+      "repeat": 0,
+      "request_key": "superlu_53_llm_validation_0"
+    },
+    {
+      "key": "superlu_53_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 248,
+      "configuration": [
+        2,
+        0.1,
+        4,
+        4
+      ],
+      "historical_label": 0.003952832950744778,
+      "historical_branch": "results/v94_native/branches/superlu_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "2cf4b54e775043b052a16ba2f2ad0ff0744762d47c6be1e6cb1cadf166b4f81a",
+      "repeat": 0,
+      "request_key": "superlu_53_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "superlu_53_batch_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 270,
+      "configuration": [
+        2,
+        0.5,
+        4,
+        16
+      ],
+      "historical_label": 0.005674667016137391,
+      "historical_branch": "results/v94_native/branches/superlu_53_batch_3nn.json",
+      "historical_branch_sha256": "0f6ea19905a9d605f913475097d2b986c46c36623467c65e94c243293536bf5f",
+      "repeat": 0,
+      "request_key": "superlu_53_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_37_full_sequential_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "b98c14511d7932022993dbe704bc0bf92ca1471a0833efee5523a8a0b18f6546",
+      "repeat": 0,
+      "request_key": "highs_37_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "highs_37_llm",
+      "family": "highs",
+      "seed": 37,
+      "arm": "llm",
+      "row": 208,
+      "configuration": [
+        1,
+        3,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.0771801249939017,
+      "historical_branch": "results/v94_native/branches/highs_37_llm.json",
+      "historical_branch_sha256": "fde108ecf92fcd83aaed3e446de36ba3f608b273d9b722088372c27e191c3262",
+      "repeat": 0,
+      "request_key": "highs_37_llm_validation_0"
+    },
+    {
+      "key": "highs_37_batch_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_batch_3nn.json",
+      "historical_branch_sha256": "80252f51cdc2e1cd4b031475a6a367931a975d8f15548adedc06b62ef48bb6f1",
+      "repeat": 0,
+      "request_key": "highs_37_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_71_full_sequential_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 239,
+      "configuration": [
+        1,
+        4,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.06541649997234344,
+      "historical_branch": "results/v94_native/branches/highs_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "566d8d01cfb5a360d52c71dee819dc345fee495f3a076b4b3e4fafcf08e4a5b0",
+      "repeat": 0,
+      "request_key": "highs_71_full_sequential_3nn_validation_0"
+    },
+    {
+      "key": "highs_71_batch_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_batch_3nn.json",
+      "historical_branch_sha256": "8739b616497160a5d002fc5308f6865e30490ffca142a7265f90f067af2d90d6",
+      "repeat": 0,
+      "request_key": "highs_71_batch_3nn_validation_0"
+    },
+    {
+      "key": "highs_71_llm",
+      "family": "highs",
+      "seed": 71,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_llm.json",
+      "historical_branch_sha256": "e6706314a839ae878b1373e8ac7363911706ed591b04948c49e0a29250f293e6",
+      "repeat": 0,
+      "request_key": "highs_71_llm_validation_0"
+    },
+    {
+      "key": "superlu_23_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "d6cf3179a03ed26b1bbaee14f1232a39bbe01d3ea54167eb6a2835239b0d6a50",
+      "repeat": 1,
+      "request_key": "superlu_23_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "superlu_23_llm",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "llm",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_llm.json",
+      "historical_branch_sha256": "9721df29ee25278cf0f9cf29b9d6d15c02af82ae68e2494526fbee5bfb9e1a7e",
+      "repeat": 1,
+      "request_key": "superlu_23_llm_validation_1"
+    },
+    {
+      "key": "superlu_23_batch_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_batch_3nn.json",
+      "historical_branch_sha256": "ba9cb4069543c3522242f3dce27ef761e8033ff85b47566ddd96139c6c04887b",
+      "repeat": 1,
+      "request_key": "superlu_23_batch_3nn_validation_1"
+    },
+    {
+      "key": "superlu_53_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 248,
+      "configuration": [
+        2,
+        0.1,
+        4,
+        4
+      ],
+      "historical_label": 0.003952832950744778,
+      "historical_branch": "results/v94_native/branches/superlu_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "2cf4b54e775043b052a16ba2f2ad0ff0744762d47c6be1e6cb1cadf166b4f81a",
+      "repeat": 1,
+      "request_key": "superlu_53_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "superlu_53_batch_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 270,
+      "configuration": [
+        2,
+        0.5,
+        4,
+        16
+      ],
+      "historical_label": 0.005674667016137391,
+      "historical_branch": "results/v94_native/branches/superlu_53_batch_3nn.json",
+      "historical_branch_sha256": "0f6ea19905a9d605f913475097d2b986c46c36623467c65e94c243293536bf5f",
+      "repeat": 1,
+      "request_key": "superlu_53_batch_3nn_validation_1"
+    },
+    {
+      "key": "superlu_53_llm",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "llm",
+      "row": 219,
+      "configuration": [
+        2,
+        0.0,
+        16,
+        32
+      ],
+      "historical_label": 0.005834540992509574,
+      "historical_branch": "results/v94_native/branches/superlu_53_llm.json",
+      "historical_branch_sha256": "aa0033fc1222314a6bdbc7ab2dad51bcfaecac200eff5233239a075e4f534d39",
+      "repeat": 1,
+      "request_key": "superlu_53_llm_validation_1"
+    },
+    {
+      "key": "highs_53_full_sequential_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "3dbbfc0817413e8c298a0993e94e22c2db4e006fbc3a64e7081251f9891df49b",
+      "repeat": 1,
+      "request_key": "highs_53_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "highs_53_llm",
+      "family": "highs",
+      "seed": 53,
+      "arm": "llm",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_llm.json",
+      "historical_branch_sha256": "834eedb207bf0c507ab377b472df761848f8c8378d62b05c4a51cf9ff48a5666",
+      "repeat": 1,
+      "request_key": "highs_53_llm_validation_1"
+    },
+    {
+      "key": "highs_53_batch_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_batch_3nn.json",
+      "historical_branch_sha256": "9fe4e4433a03e1507245a1c5416fd0c8de6a549181a5df57e9b08ec10f1803d0",
+      "repeat": 1,
+      "request_key": "highs_53_batch_3nn_validation_1"
+    },
+    {
+      "key": "highs_37_batch_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_batch_3nn.json",
+      "historical_branch_sha256": "80252f51cdc2e1cd4b031475a6a367931a975d8f15548adedc06b62ef48bb6f1",
+      "repeat": 1,
+      "request_key": "highs_37_batch_3nn_validation_1"
+    },
+    {
+      "key": "highs_37_full_sequential_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "b98c14511d7932022993dbe704bc0bf92ca1471a0833efee5523a8a0b18f6546",
+      "repeat": 1,
+      "request_key": "highs_37_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "highs_37_llm",
+      "family": "highs",
+      "seed": 37,
+      "arm": "llm",
+      "row": 208,
+      "configuration": [
+        1,
+        3,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.0771801249939017,
+      "historical_branch": "results/v94_native/branches/highs_37_llm.json",
+      "historical_branch_sha256": "fde108ecf92fcd83aaed3e446de36ba3f608b273d9b722088372c27e191c3262",
+      "repeat": 1,
+      "request_key": "highs_37_llm_validation_1"
+    },
+    {
+      "key": "superlu_37_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 200,
+      "configuration": [
+        2,
+        0.0,
+        1,
+        4
+      ],
+      "historical_label": 0.0037620829534716904,
+      "historical_branch": "results/v94_native/branches/superlu_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "18773cb10e47baf0108e216e28943ab0077912f6aca6c4faea23d0109ff017ff",
+      "repeat": 1,
+      "request_key": "superlu_37_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "superlu_37_batch_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 240,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        4
+      ],
+      "historical_label": 0.0038325419882312417,
+      "historical_branch": "results/v94_native/branches/superlu_37_batch_3nn.json",
+      "historical_branch_sha256": "dbf41696c7cd0fef075c21f49860ed1caf328d5452482394eebe4c818ee9b5ba",
+      "repeat": 1,
+      "request_key": "superlu_37_batch_3nn_validation_1"
+    },
+    {
+      "key": "superlu_37_llm",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "llm",
+      "row": 241,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        8
+      ],
+      "historical_label": 0.0038716670242138207,
+      "historical_branch": "results/v94_native/branches/superlu_37_llm.json",
+      "historical_branch_sha256": "34869b76e29e0fc24cdeabb3991ece794c225c5f4023fb85e8dcbce4fd28b20b",
+      "repeat": 1,
+      "request_key": "superlu_37_llm_validation_1"
+    },
+    {
+      "key": "highs_11_llm",
+      "family": "highs",
+      "seed": 11,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_llm.json",
+      "historical_branch_sha256": "d36041bc5164c23d5c5ba5b986361058e03a10fecb801575dfd1f6e04cd737bc",
+      "repeat": 1,
+      "request_key": "highs_11_llm_validation_1"
+    },
+    {
+      "key": "highs_11_batch_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_batch_3nn.json",
+      "historical_branch_sha256": "f6bdf0da74f66dc0f2c850574253fd408dc50542c87bb0de6e2a3a304bb51971",
+      "repeat": 1,
+      "request_key": "highs_11_batch_3nn_validation_1"
+    },
+    {
+      "key": "highs_11_full_sequential_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "b37328fbe313414f784671f7cfec631b6c9ab227087a92b4922f96b3d93e0825",
+      "repeat": 1,
+      "request_key": "highs_11_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "highs_23_llm",
+      "family": "highs",
+      "seed": 23,
+      "arm": "llm",
+      "row": 22,
+      "configuration": [
+        0,
+        0,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.08682458300609142,
+      "historical_branch": "results/v94_native/branches/highs_23_llm.json",
+      "historical_branch_sha256": "7e669c47b27451e68228f1b18413e1ee8a79abc88e60425added9f1a729c6300",
+      "repeat": 1,
+      "request_key": "highs_23_llm_validation_1"
+    },
+    {
+      "key": "highs_23_batch_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 112,
+      "configuration": [
+        0,
+        4,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.07820841600187123,
+      "historical_branch": "results/v94_native/branches/highs_23_batch_3nn.json",
+      "historical_branch_sha256": "d5d580e7b56dcc6b4a302d8bfa9521e0da15261a158ac430b3aeed1f28440575",
+      "repeat": 1,
+      "request_key": "highs_23_batch_3nn_validation_1"
+    },
+    {
+      "key": "highs_23_full_sequential_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 236,
+      "configuration": [
+        1,
+        4,
+        2,
+        100,
+        0
+      ],
+      "historical_label": 0.06589308404363692,
+      "historical_branch": "results/v94_native/branches/highs_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "468cd6bc27bff3a5956e608a2f20f59ca9699a1428516eeddf2bfc266f034d23",
+      "repeat": 1,
+      "request_key": "highs_23_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "highs_71_llm",
+      "family": "highs",
+      "seed": 71,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_llm.json",
+      "historical_branch_sha256": "e6706314a839ae878b1373e8ac7363911706ed591b04948c49e0a29250f293e6",
+      "repeat": 1,
+      "request_key": "highs_71_llm_validation_1"
+    },
+    {
+      "key": "highs_71_batch_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_batch_3nn.json",
+      "historical_branch_sha256": "8739b616497160a5d002fc5308f6865e30490ffca142a7265f90f067af2d90d6",
+      "repeat": 1,
+      "request_key": "highs_71_batch_3nn_validation_1"
+    },
+    {
+      "key": "highs_71_full_sequential_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 239,
+      "configuration": [
+        1,
+        4,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.06541649997234344,
+      "historical_branch": "results/v94_native/branches/highs_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "566d8d01cfb5a360d52c71dee819dc345fee495f3a076b4b3e4fafcf08e4a5b0",
+      "repeat": 1,
+      "request_key": "highs_71_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "superlu_71_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 228,
+      "configuration": [
+        2,
+        0.01,
+        4,
+        4
+      ],
+      "historical_label": 0.0038731250097043812,
+      "historical_branch": "results/v94_native/branches/superlu_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "5c93b221769ef0c78570a3357b78928e6d69bc85ae92b01375768ebceb48ebe0",
+      "repeat": 1,
+      "request_key": "superlu_71_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "superlu_71_batch_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_batch_3nn.json",
+      "historical_branch_sha256": "6a5e8c7bba26c8864f56d7b863b4e3cbd166cd4de67d0b6690910a76565412cc",
+      "repeat": 1,
+      "request_key": "superlu_71_batch_3nn_validation_1"
+    },
+    {
+      "key": "superlu_71_llm",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "llm",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_llm.json",
+      "historical_branch_sha256": "497795ec3121df6cd1ee85ac228fd75da441d7d7cfc735e2a1cf4b2ab67808bd",
+      "repeat": 1,
+      "request_key": "superlu_71_llm_validation_1"
+    },
+    {
+      "key": "superlu_11_llm",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "llm",
+      "row": 244,
+      "configuration": [
+        2,
+        0.1,
+        2,
+        4
+      ],
+      "historical_label": 0.003758541017305106,
+      "historical_branch": "results/v94_native/branches/superlu_11_llm.json",
+      "historical_branch_sha256": "a27d67fb30bcbcc435b9ece0ac68d50a01727fd64b981d00d63abff49c4e647d",
+      "repeat": 1,
+      "request_key": "superlu_11_llm_validation_1"
+    },
+    {
+      "key": "superlu_11_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "3526bcc3b1ddfffcb9114ee9e013ef2486c16ea9637e9c14ecdaa6a08b27e17c",
+      "repeat": 1,
+      "request_key": "superlu_11_full_sequential_3nn_validation_1"
+    },
+    {
+      "key": "superlu_11_batch_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_batch_3nn.json",
+      "historical_branch_sha256": "b40a73a91fa91b63f9ff3334ac30aabec7df6122b09f4a9194225b8e4acf616b",
+      "repeat": 1,
+      "request_key": "superlu_11_batch_3nn_validation_1"
+    },
+    {
+      "key": "highs_11_llm",
+      "family": "highs",
+      "seed": 11,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_llm.json",
+      "historical_branch_sha256": "d36041bc5164c23d5c5ba5b986361058e03a10fecb801575dfd1f6e04cd737bc",
+      "repeat": 2,
+      "request_key": "highs_11_llm_validation_2"
+    },
+    {
+      "key": "highs_11_batch_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_batch_3nn.json",
+      "historical_branch_sha256": "f6bdf0da74f66dc0f2c850574253fd408dc50542c87bb0de6e2a3a304bb51971",
+      "repeat": 2,
+      "request_key": "highs_11_batch_3nn_validation_2"
+    },
+    {
+      "key": "highs_11_full_sequential_3nn",
+      "family": "highs",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.0769702079705894,
+      "historical_branch": "results/v94_native/branches/highs_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "b37328fbe313414f784671f7cfec631b6c9ab227087a92b4922f96b3d93e0825",
+      "repeat": 2,
+      "request_key": "highs_11_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "superlu_11_batch_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_batch_3nn.json",
+      "historical_branch_sha256": "b40a73a91fa91b63f9ff3334ac30aabec7df6122b09f4a9194225b8e4acf616b",
+      "repeat": 2,
+      "request_key": "superlu_11_batch_3nn_validation_2"
+    },
+    {
+      "key": "superlu_11_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003849542001262307,
+      "historical_branch": "results/v94_native/branches/superlu_11_full_sequential_3nn.json",
+      "historical_branch_sha256": "3526bcc3b1ddfffcb9114ee9e013ef2486c16ea9637e9c14ecdaa6a08b27e17c",
+      "repeat": 2,
+      "request_key": "superlu_11_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "superlu_11_llm",
+      "family": "superlu",
+      "seed": 11,
+      "arm": "llm",
+      "row": 244,
+      "configuration": [
+        2,
+        0.1,
+        2,
+        4
+      ],
+      "historical_label": 0.003758541017305106,
+      "historical_branch": "results/v94_native/branches/superlu_11_llm.json",
+      "historical_branch_sha256": "a27d67fb30bcbcc435b9ece0ac68d50a01727fd64b981d00d63abff49c4e647d",
+      "repeat": 2,
+      "request_key": "superlu_11_llm_validation_2"
+    },
+    {
+      "key": "superlu_71_llm",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "llm",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_llm.json",
+      "historical_branch_sha256": "497795ec3121df6cd1ee85ac228fd75da441d7d7cfc735e2a1cf4b2ab67808bd",
+      "repeat": 2,
+      "request_key": "superlu_71_llm_validation_2"
+    },
+    {
+      "key": "superlu_71_batch_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 209,
+      "configuration": [
+        2,
+        0.0,
+        4,
+        8
+      ],
+      "historical_label": 0.003985834016930312,
+      "historical_branch": "results/v94_native/branches/superlu_71_batch_3nn.json",
+      "historical_branch_sha256": "6a5e8c7bba26c8864f56d7b863b4e3cbd166cd4de67d0b6690910a76565412cc",
+      "repeat": 2,
+      "request_key": "superlu_71_batch_3nn_validation_2"
+    },
+    {
+      "key": "superlu_71_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 228,
+      "configuration": [
+        2,
+        0.01,
+        4,
+        4
+      ],
+      "historical_label": 0.0038731250097043812,
+      "historical_branch": "results/v94_native/branches/superlu_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "5c93b221769ef0c78570a3357b78928e6d69bc85ae92b01375768ebceb48ebe0",
+      "repeat": 2,
+      "request_key": "superlu_71_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "superlu_53_llm",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "llm",
+      "row": 219,
+      "configuration": [
+        2,
+        0.0,
+        16,
+        32
+      ],
+      "historical_label": 0.005834540992509574,
+      "historical_branch": "results/v94_native/branches/superlu_53_llm.json",
+      "historical_branch_sha256": "aa0033fc1222314a6bdbc7ab2dad51bcfaecac200eff5233239a075e4f534d39",
+      "repeat": 2,
+      "request_key": "superlu_53_llm_validation_2"
+    },
+    {
+      "key": "superlu_53_batch_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 270,
+      "configuration": [
+        2,
+        0.5,
+        4,
+        16
+      ],
+      "historical_label": 0.005674667016137391,
+      "historical_branch": "results/v94_native/branches/superlu_53_batch_3nn.json",
+      "historical_branch_sha256": "0f6ea19905a9d605f913475097d2b986c46c36623467c65e94c243293536bf5f",
+      "repeat": 2,
+      "request_key": "superlu_53_batch_3nn_validation_2"
+    },
+    {
+      "key": "superlu_53_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 248,
+      "configuration": [
+        2,
+        0.1,
+        4,
+        4
+      ],
+      "historical_label": 0.003952832950744778,
+      "historical_branch": "results/v94_native/branches/superlu_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "2cf4b54e775043b052a16ba2f2ad0ff0744762d47c6be1e6cb1cadf166b4f81a",
+      "repeat": 2,
+      "request_key": "superlu_53_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "superlu_23_batch_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_batch_3nn.json",
+      "historical_branch_sha256": "ba9cb4069543c3522242f3dce27ef761e8033ff85b47566ddd96139c6c04887b",
+      "repeat": 2,
+      "request_key": "superlu_23_batch_3nn_validation_2"
+    },
+    {
+      "key": "superlu_23_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "d6cf3179a03ed26b1bbaee14f1232a39bbe01d3ea54167eb6a2835239b0d6a50",
+      "repeat": 2,
+      "request_key": "superlu_23_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "superlu_23_llm",
+      "family": "superlu",
+      "seed": 23,
+      "arm": "llm",
+      "row": 204,
+      "configuration": [
+        2,
+        0.0,
+        2,
+        4
+      ],
+      "historical_label": 0.003821833000984043,
+      "historical_branch": "results/v94_native/branches/superlu_23_llm.json",
+      "historical_branch_sha256": "9721df29ee25278cf0f9cf29b9d6d15c02af82ae68e2494526fbee5bfb9e1a7e",
+      "repeat": 2,
+      "request_key": "superlu_23_llm_validation_2"
+    },
+    {
+      "key": "highs_53_full_sequential_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "full_sequential_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_full_sequential_3nn.json",
+      "historical_branch_sha256": "3dbbfc0817413e8c298a0993e94e22c2db4e006fbc3a64e7081251f9891df49b",
+      "repeat": 2,
+      "request_key": "highs_53_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "highs_53_llm",
+      "family": "highs",
+      "seed": 53,
+      "arm": "llm",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_llm.json",
+      "historical_branch_sha256": "834eedb207bf0c507ab377b472df761848f8c8378d62b05c4a51cf9ff48a5666",
+      "repeat": 2,
+      "request_key": "highs_53_llm_validation_2"
+    },
+    {
+      "key": "highs_53_batch_3nn",
+      "family": "highs",
+      "seed": 53,
+      "arm": "batch_3nn",
+      "row": 234,
+      "configuration": [
+        1,
+        4,
+        2,
+        50,
+        0
+      ],
+      "historical_label": 0.06730299995979294,
+      "historical_branch": "results/v94_native/branches/highs_53_batch_3nn.json",
+      "historical_branch_sha256": "9fe4e4433a03e1507245a1c5416fd0c8de6a549181a5df57e9b08ec10f1803d0",
+      "repeat": 2,
+      "request_key": "highs_53_batch_3nn_validation_2"
+    },
+    {
+      "key": "highs_37_batch_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_batch_3nn.json",
+      "historical_branch_sha256": "80252f51cdc2e1cd4b031475a6a367931a975d8f15548adedc06b62ef48bb6f1",
+      "repeat": 2,
+      "request_key": "highs_37_batch_3nn_validation_2"
+    },
+    {
+      "key": "highs_37_full_sequential_3nn",
+      "family": "highs",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 178,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.07756299996981397,
+      "historical_branch": "results/v94_native/branches/highs_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "b98c14511d7932022993dbe704bc0bf92ca1471a0833efee5523a8a0b18f6546",
+      "repeat": 2,
+      "request_key": "highs_37_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "highs_37_llm",
+      "family": "highs",
+      "seed": 37,
+      "arm": "llm",
+      "row": 208,
+      "configuration": [
+        1,
+        3,
+        2,
+        200,
+        0
+      ],
+      "historical_label": 0.0771801249939017,
+      "historical_branch": "results/v94_native/branches/highs_37_llm.json",
+      "historical_branch_sha256": "fde108ecf92fcd83aaed3e446de36ba3f608b273d9b722088372c27e191c3262",
+      "repeat": 2,
+      "request_key": "highs_37_llm_validation_2"
+    },
+    {
+      "key": "highs_71_full_sequential_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "full_sequential_3nn",
+      "row": 239,
+      "configuration": [
+        1,
+        4,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.06541649997234344,
+      "historical_branch": "results/v94_native/branches/highs_71_full_sequential_3nn.json",
+      "historical_branch_sha256": "566d8d01cfb5a360d52c71dee819dc345fee495f3a076b4b3e4fafcf08e4a5b0",
+      "repeat": 2,
+      "request_key": "highs_71_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "highs_71_llm",
+      "family": "highs",
+      "seed": 71,
+      "arm": "llm",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_llm.json",
+      "historical_branch_sha256": "e6706314a839ae878b1373e8ac7363911706ed591b04948c49e0a29250f293e6",
+      "repeat": 2,
+      "request_key": "highs_71_llm_validation_2"
+    },
+    {
+      "key": "highs_71_batch_3nn",
+      "family": "highs",
+      "seed": 71,
+      "arm": "batch_3nn",
+      "row": 179,
+      "configuration": [
+        1,
+        2,
+        2,
+        200,
+        1
+      ],
+      "historical_label": 0.07665695803007111,
+      "historical_branch": "results/v94_native/branches/highs_71_batch_3nn.json",
+      "historical_branch_sha256": "8739b616497160a5d002fc5308f6865e30490ffca142a7265f90f067af2d90d6",
+      "repeat": 2,
+      "request_key": "highs_71_batch_3nn_validation_2"
+    },
+    {
+      "key": "highs_23_batch_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "batch_3nn",
+      "row": 112,
+      "configuration": [
+        0,
+        4,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.07820841600187123,
+      "historical_branch": "results/v94_native/branches/highs_23_batch_3nn.json",
+      "historical_branch_sha256": "d5d580e7b56dcc6b4a302d8bfa9521e0da15261a158ac430b3aeed1f28440575",
+      "repeat": 2,
+      "request_key": "highs_23_batch_3nn_validation_2"
+    },
+    {
+      "key": "highs_23_full_sequential_3nn",
+      "family": "highs",
+      "seed": 23,
+      "arm": "full_sequential_3nn",
+      "row": 236,
+      "configuration": [
+        1,
+        4,
+        2,
+        100,
+        0
+      ],
+      "historical_label": 0.06589308404363692,
+      "historical_branch": "results/v94_native/branches/highs_23_full_sequential_3nn.json",
+      "historical_branch_sha256": "468cd6bc27bff3a5956e608a2f20f59ca9699a1428516eeddf2bfc266f034d23",
+      "repeat": 2,
+      "request_key": "highs_23_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "highs_23_llm",
+      "family": "highs",
+      "seed": 23,
+      "arm": "llm",
+      "row": 22,
+      "configuration": [
+        0,
+        0,
+        2,
+        25,
+        0
+      ],
+      "historical_label": 0.08682458300609142,
+      "historical_branch": "results/v94_native/branches/highs_23_llm.json",
+      "historical_branch_sha256": "7e669c47b27451e68228f1b18413e1ee8a79abc88e60425added9f1a729c6300",
+      "repeat": 2,
+      "request_key": "highs_23_llm_validation_2"
+    },
+    {
+      "key": "superlu_37_full_sequential_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "full_sequential_3nn",
+      "row": 200,
+      "configuration": [
+        2,
+        0.0,
+        1,
+        4
+      ],
+      "historical_label": 0.0037620829534716904,
+      "historical_branch": "results/v94_native/branches/superlu_37_full_sequential_3nn.json",
+      "historical_branch_sha256": "18773cb10e47baf0108e216e28943ab0077912f6aca6c4faea23d0109ff017ff",
+      "repeat": 2,
+      "request_key": "superlu_37_full_sequential_3nn_validation_2"
+    },
+    {
+      "key": "superlu_37_batch_3nn",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "batch_3nn",
+      "row": 240,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        4
+      ],
+      "historical_label": 0.0038325419882312417,
+      "historical_branch": "results/v94_native/branches/superlu_37_batch_3nn.json",
+      "historical_branch_sha256": "dbf41696c7cd0fef075c21f49860ed1caf328d5452482394eebe4c818ee9b5ba",
+      "repeat": 2,
+      "request_key": "superlu_37_batch_3nn_validation_2"
+    },
+    {
+      "key": "superlu_37_llm",
+      "family": "superlu",
+      "seed": 37,
+      "arm": "llm",
+      "row": 241,
+      "configuration": [
+        2,
+        0.1,
+        1,
+        8
+      ],
+      "historical_label": 0.0038716670242138207,
+      "historical_branch": "results/v94_native/branches/superlu_37_llm.json",
+      "historical_branch_sha256": "34869b76e29e0fc24cdeabb3991ece794c225c5f4023fb85e8dcbce4fd28b20b",
+      "repeat": 2,
+      "request_key": "superlu_37_llm_validation_2"
+    }
+  ],
+  "intended_acquisitions": 90,
+  "intended_physical_solves": 270,
+  "stage_seconds": 1800,
+  "worker_seconds": 30,
+  "max_worker_rss_bytes": 2147483648,
+  "penalty_seconds": 30
+}

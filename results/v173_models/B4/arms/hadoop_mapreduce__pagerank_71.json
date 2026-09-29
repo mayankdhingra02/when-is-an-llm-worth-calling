@@ -1,0 +1,256 @@
+{
+  "origin": "v148",
+  "key": "pagerank_71",
+  "qualified_key": "hadoop_mapreduce::pagerank_71",
+  "system_group": "hadoop_mapreduce",
+  "seed": 71,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/pagerank_71.json",
+  "prefix": "artifacts/study_v148/prefixes/pagerank_71.json",
+  "prefix_sha256": "213e903ea9d8f3b6b87e1e83bf5c6698e996252bfb3bc7ef826c63ce47a0f54a",
+  "sampling_seed": 148071,
+  "redraw_seed": 320071,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/pagerank_71.json",
+  "app": "pagerank",
+  "split": 1,
+  "arm": "gptoss_b",
+  "stage": "B4",
+  "state": {
+    "ids": [
+      61,
+      14,
+      53,
+      35,
+      28,
+      34,
+      31,
+      40,
+      29,
+      30,
+      24,
+      27,
+      19,
+      11,
+      12,
+      3,
+      9,
+      15,
+      63,
+      33
+    ],
+    "labels": [
+      [
+        2758.024
+      ],
+      [
+        1228.652
+      ],
+      [
+        1814.003
+      ],
+      [
+        1088.877
+      ],
+      [
+        725.737
+      ],
+      [
+        1067.621
+      ],
+      [
+        1262.114
+      ],
+      [
+        880.71
+      ],
+      [
+        1294.05
+      ],
+      [
+        839.393
+      ],
+      [
+        805.584
+      ],
+      [
+        1154.563
+      ],
+      [
+        963.767
+      ],
+      [
+        1078.042
+      ],
+      [
+        795.106
+      ],
+      [
+        873.651
+      ],
+      [
+        734.918
+      ],
+      [
+        848.957
+      ],
+      [
+        1060.533
+      ],
+      [
+        941.074
+      ]
+    ],
+    "order": [
+      61,
+      14,
+      53,
+      35,
+      21,
+      26,
+      17,
+      39,
+      43,
+      34,
+      15,
+      58,
+      13,
+      31,
+      49,
+      45,
+      55,
+      42,
+      47,
+      0,
+      18,
+      36,
+      11,
+      62,
+      50,
+      63,
+      30,
+      51,
+      4,
+      64,
+      7,
+      40,
+      6,
+      28,
+      27,
+      20,
+      9,
+      56,
+      37,
+      24,
+      54,
+      57,
+      46,
+      2,
+      10,
+      68,
+      22,
+      8,
+      48,
+      29,
+      23,
+      67,
+      44,
+      52,
+      66,
+      59,
+      60,
+      38,
+      3,
+      32,
+      12,
+      5,
+      16,
+      25,
+      19,
+      33,
+      1,
+      65,
+      41
+    ]
+  },
+  "direction": "minimize",
+  "target": 725.737,
+  "rounds": [
+    {
+      "round": 1,
+      "kind": "model",
+      "attempts": 1,
+      "rows": [
+        24,
+        27
+      ]
+    },
+    {
+      "round": 2,
+      "kind": "model",
+      "attempts": 1,
+      "rows": [
+        19,
+        11
+      ]
+    },
+    {
+      "round": 3,
+      "kind": "model",
+      "attempts": 1,
+      "rows": [
+        12,
+        3
+      ]
+    },
+    {
+      "round": 4,
+      "kind": "model",
+      "attempts": 1,
+      "rows": [
+        9,
+        15
+      ]
+    },
+    {
+      "round": 5,
+      "kind": "model",
+      "attempts": 1,
+      "rows": [
+        63,
+        33
+      ]
+    }
+  ],
+  "fallback_rounds": 0,
+  "requests": 5,
+  "collisions": [
+    "52",
+    "53",
+    "43"
+  ],
+  "missing_acquisitions": 0
+}

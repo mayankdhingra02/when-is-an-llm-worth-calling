@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"Solver\",\"SeqSOR\",\"CGSolver\",\"BiCGSTABSolver\",\"LoopSolver\",\"SeqGS\",\"GradientSolver\",\"Precon\",\"cells\",\"post\",\"pre\"],\"symbol_to_value\":[[1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[1.0],[50.0],[0.0,1.0,2.0,3.0,4.0,5.0,6.0],[0.0,1.0,2.0,3.0,4.0,5.0,6.0]],\"observed_examples\":[{\"settings\":\"01010000014\",\"performance\":\"9736.072857\"},{\"settings\":\"01001000031\",\"performance\":\"7263.260357\"},{\"settings\":\"00000110002\",\"performance\":\"11103.578571\"},{\"settings\":\"00100100025\",\"performance\":\"8790.708214\"},{\"settings\":\"01000010021\",\"performance\":\"9611.142143\"},{\"settings\":\"00100100021\",\"performance\":\"8919.204643\"},{\"settings\":\"01010000004\",\"performance\":\"12230.864286\"},{\"settings\":\"00010100021\",\"performance\":\"8793.119286\"},{\"settings\":\"01010000046\",\"performance\":\"7304.395000\"},{\"settings\":\"01100000021\",\"performance\":\"9704.628929\"}],\"performance_meaning\":\"Poisson solving time\",\"direction\":\"minimize\"}"
+  }
+]

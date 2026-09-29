@@ -1,0 +1,1753 @@
+{
+ "deployable_classical_policy": {
+  "folds": [
+   {
+    "held_out": "berkeleydb",
+    "selected": "sequential_3nn",
+    "training_scores": {
+     "adaptive_neighbor": -0.027938617752651676,
+     "fixed_neighbor": -0.028424688193416852,
+     "gp_ei": -0.03312179639749912,
+     "prefix_optimizer": -0.0274768807952596,
+     "random_full": -0.03896085713489283,
+     "sequential_3nn": 0.0
+    }
+   },
+   {
+    "held_out": "dune_hsmgp",
+    "selected": "gp_ei",
+    "training_scores": {
+     "adaptive_neighbor": -0.00817903444798205,
+     "fixed_neighbor": -0.008919060496210237,
+     "gp_ei": 0.004493676811519671,
+     "prefix_optimizer": -0.011311495239052562,
+     "random_full": -0.010451958339451247,
+     "sequential_3nn": 0.0
+    }
+   },
+   {
+    "held_out": "hipacc",
+    "selected": "sequential_3nn",
+    "training_scores": {
+     "adaptive_neighbor": -0.025567847163102262,
+     "fixed_neighbor": -0.026062425499363343,
+     "gp_ei": -0.023841055216327584,
+     "prefix_optimizer": -0.0245279446968075,
+     "random_full": -0.03962254313421432,
+     "sequential_3nn": 0.0
+    }
+   },
+   {
+    "held_out": "llvm",
+    "selected": "sequential_3nn",
+    "training_scores": {
+     "adaptive_neighbor": -0.026987966894342935,
+     "fixed_neighbor": -0.027583822416570525,
+     "gp_ei": -0.022916447327205648,
+     "prefix_optimizer": -0.026178087006759197,
+     "random_full": -0.03702793669208907,
+     "sequential_3nn": 0.0
+    }
+   },
+   {
+    "held_out": "openvpn",
+    "selected": "sequential_3nn",
+    "training_scores": {
+     "adaptive_neighbor": -0.023047097026478836,
+     "fixed_neighbor": -0.02348126389825166,
+     "gp_ei": -0.021945211693406463,
+     "prefix_optimizer": -0.01612128575019939,
+     "random_full": -0.03907637268719832,
+     "sequential_3nn": 0.0
+    }
+   },
+   {
+    "held_out": "sac",
+    "selected": "sequential_3nn",
+    "training_scores": {
+     "adaptive_neighbor": -0.026086721269655926,
+     "fixed_neighbor": -0.026826747317884116,
+     "gp_ei": -0.025373904054649576,
+     "prefix_optimizer": -0.025563082531178723,
+     "random_full": -0.04024163547476236,
+     "sequential_3nn": 0.0
+    }
+   },
+   {
+    "held_out": "spark_hadoop",
+    "selected": "sequential_3nn",
+    "training_scores": {
+     "adaptive_neighbor": -0.022749079099757902,
+     "fixed_neighbor": -0.02369851212164399,
+     "gp_ei": -0.030908055819698115,
+     "prefix_optimizer": -0.026235755203851394,
+     "random_full": -0.038771212088668704,
+     "sequential_3nn": 0.0
+    }
+   }
+  ],
+  "llm_vs_policy": {
+   "gptoss_a1": {
+    "better_by_margin": 15,
+    "case_weighted": -0.003901609806159272,
+    "equal_ecosystem": -0.011456014237056392,
+    "worse_by_margin": 12
+   },
+   "gptoss_a2": {
+    "better_by_margin": 19,
+    "case_weighted": 0.008610790378157067,
+    "equal_ecosystem": -0.005697274607655263,
+    "worse_by_margin": 13
+   },
+   "gptoss_b": {
+    "better_by_margin": 14,
+    "case_weighted": 0.01748246182089953,
+    "equal_ecosystem": -0.004379644318178715,
+    "worse_by_margin": 13
+   },
+   "qwen3_14b": {
+    "better_by_margin": 9,
+    "case_weighted": -0.006953797559994869,
+    "equal_ecosystem": -0.014026000046578547,
+    "worse_by_margin": 21
+   },
+   "qwen3_8b": {
+    "better_by_margin": 5,
+    "case_weighted": -0.0284393238154449,
+    "equal_ecosystem": -0.02525383061966503,
+    "worse_by_margin": 27
+   },
+   "smollm3_3b": {
+    "better_by_margin": 10,
+    "case_weighted": -0.018346919090710387,
+    "equal_ecosystem": -0.02249700646195169,
+    "worse_by_margin": 23
+   }
+  },
+  "policy_gain_vs_sequential_case_weighted": -0.012898203897598918,
+  "policy_gain_vs_sequential_equal_ecosystem": -0.025796407795197835
+ },
+ "extended_baseline_wins": {
+  "gptoss_a1": {
+   "ecosystems_with_win": 2,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [
+      "hipacc::hipacc_AllNumeric_37_normal",
+      "hipacc::hipacc_AllNumeric_53_normal"
+     ],
+     "wins": 2
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::bayes_11"
+     ],
+     "wins": 1
+    }
+   },
+   "win_cases": 3
+  },
+  "gptoss_a2": {
+   "ecosystems_with_win": 1,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::bayes_11"
+     ],
+     "wins": 1
+    }
+   },
+   "win_cases": 1
+  },
+  "gptoss_b": {
+   "ecosystems_with_win": 1,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::bayes_11",
+      "spark::terasort_23"
+     ],
+     "wins": 2
+    }
+   },
+   "win_cases": 2
+  },
+  "qwen3_14b": {
+   "ecosystems_with_win": 1,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::terasort_23"
+     ],
+     "wins": 1
+    }
+   },
+   "win_cases": 1
+  },
+  "qwen3_8b": {
+   "ecosystems_with_win": 0,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [],
+     "wins": 0
+    }
+   },
+   "win_cases": 0
+  },
+  "smollm3_3b": {
+   "ecosystems_with_win": 0,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [],
+     "wins": 0
+    }
+   },
+   "win_cases": 0
+  }
+ },
+ "margin": 0.01,
+ "native_exhaustive_headroom_v165": [
+  {
+   "cases": 5,
+   "checkpoint": 10,
+   "engine": "ripgrep",
+   "max_headroom": 0.1269477921650649,
+   "mean_headroom": 0.05293158843639397,
+   "min_headroom": 0.0,
+   "robust_practical_cases": 1,
+   "same_reference_setting_cases": 1,
+   "unstable_or_invalid_comparisons": 1
+  },
+  {
+   "cases": 5,
+   "checkpoint": 10,
+   "engine": "hnswlib",
+   "max_headroom": -0.019811993556812638,
+   "mean_headroom": -0.03738934838473983,
+   "min_headroom": -0.05445072325133166,
+   "robust_practical_cases": 0,
+   "same_reference_setting_cases": 0,
+   "unstable_or_invalid_comparisons": 0
+  }
+ ],
+ "operations": {
+  "gptoss_a1": {
+   "completion_tokens": 394594,
+   "fallback_cases": 0,
+   "http_attempts": 84,
+   "logical_requests": 70,
+   "mean_seconds_per_200": 32.252059594043075,
+   "rate_limited_429": 14,
+   "reasoning_tokens": 249603,
+   "reported_cost_usd": 0.248538,
+   "responses_200": 70,
+   "valid": 70
+  },
+  "gptoss_a2": {
+   "completion_tokens": 378738,
+   "fallback_cases": 0,
+   "http_attempts": 73,
+   "logical_requests": 70,
+   "mean_seconds_per_200": 26.836289148800383,
+   "rate_limited_429": 3,
+   "reasoning_tokens": 238351,
+   "reported_cost_usd": 0.2390244,
+   "responses_200": 70,
+   "valid": 70
+  },
+  "gptoss_b": {
+   "cases": 70,
+   "collisions": 356,
+   "completion_tokens": 1272561,
+   "fallback_rounds": 2,
+   "http_attempts": 363,
+   "invalid_attempt_reasons": {
+    "Bad proposal": 0,
+    "Empty": 0,
+    "Expected exactly": 0,
+    "HTTP": 0,
+    "Malformed": 0,
+    "finish_reason": 15
+   },
+   "mean_seconds_per_200": 9.885233292269342,
+   "model_rounds": 348,
+   "rate_limited_429": 0,
+   "reasoning_tokens": 876766,
+   "reported_cost_usd": 0.8868715499999995,
+   "responses_200": 363,
+   "retries": 13
+  },
+  "gptoss_failed_first_attempt": {
+   "completion_tokens": 8000,
+   "http_attempts": 10,
+   "mean_seconds_per_200": 74.94592064600874,
+   "note": "operator-stopped A1 at the 4,000-token cap; 1 request in flight with unknown cost",
+   "rate_limited_429": 8,
+   "reasoning_tokens": 6053,
+   "reported_cost_usd": 0.00146248,
+   "responses_200": 2
+  },
+  "hosted_total_reported_usd": 1.3775728319999994,
+  "qwen3_14b": {
+   "cost_usd": 0.0,
+   "failed_stage_attempts": "A1 (port probe, 0 requests)",
+   "fallback_cases": 0,
+   "logical_requests": 70,
+   "mean_request_seconds": 26.114999948142003,
+   "valid": 70
+  },
+  "qwen3_8b": {
+   "cost_usd": 0.0,
+   "fallback_cases": 0,
+   "logical_requests": 70,
+   "mean_request_seconds": 15.322146991014804,
+   "unknown_usage": 0,
+   "where": "local llama.cpp, recorded cohort V141/V145/V148"
+  },
+  "smollm3_3b": {
+   "cost_usd": 0.0,
+   "fallback_cases": 1,
+   "logical_requests": 70,
+   "mean_request_seconds": 3.98438049640601,
+   "unknown_usage": 1,
+   "where": "local llama.cpp, recorded cohort V141/V145/V148"
+  }
+ },
+ "prespecified_baseline_wins": {
+  "gptoss_a1": {
+   "ecosystems_with_win": 2,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [
+      "hipacc::hipacc_AllNumeric_37_normal",
+      "hipacc::hipacc_AllNumeric_53_normal"
+     ],
+     "wins": 2
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::bayes_11"
+     ],
+     "wins": 1
+    }
+   },
+   "win_cases": 3
+  },
+  "gptoss_a2": {
+   "ecosystems_with_win": 1,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::bayes_11"
+     ],
+     "wins": 1
+    }
+   },
+   "win_cases": 1
+  },
+  "gptoss_b": {
+   "ecosystems_with_win": 1,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::bayes_11",
+      "spark::terasort_23"
+     ],
+     "wins": 2
+    }
+   },
+   "win_cases": 2
+  },
+  "qwen3_14b": {
+   "ecosystems_with_win": 1,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [
+      "spark::terasort_23",
+      "spark::terasort_71"
+     ],
+     "wins": 2
+    }
+   },
+   "win_cases": 2
+  },
+  "qwen3_8b": {
+   "ecosystems_with_win": 0,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [],
+     "wins": 0
+    }
+   },
+   "win_cases": 0
+  },
+  "smollm3_3b": {
+   "ecosystems_with_win": 0,
+   "per_ecosystem": {
+    "berkeleydb": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "dune_hsmgp": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "hipacc": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "llvm": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "openvpn": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "sac": {
+     "cases": 5,
+     "keys": [],
+     "wins": 0
+    },
+    "spark_hadoop": {
+     "cases": 40,
+     "keys": [],
+     "wins": 0
+    }
+   },
+   "win_cases": 0
+  }
+ },
+ "routers_all_arms": {
+  "gptoss_a1": {
+   "groups_with_positive_gain": [
+    "berkeleydb",
+    "hipacc",
+    "llvm",
+    "sac",
+    "spark_hadoop"
+   ],
+   "groups_with_useful_gt_1pct": [
+    "berkeleydb",
+    "hipacc",
+    "spark_hadoop"
+   ],
+   "oracle_equal_ecosystem": 0.00524977822200153,
+   "policies": {
+    "always": {
+     "calls": 70,
+     "equal_ecosystem_gain": -0.037269065957547434,
+     "gain_above_matched_random": 0.0,
+     "harmful": 14,
+     "useful": 15
+    },
+    "never": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.00019305019305019324,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "ridge_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "ridge_extended_q80": {
+     "calls": 10,
+     "equal_ecosystem_gain": -0.0006767232024105049,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 1
+    },
+    "ridge_original": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "selected_predictor": {
+     "calls": 3,
+     "equal_ecosystem_gain": -0.012965597229538254,
+     "gain_above_matched_random": -0.00010450202192910374,
+     "harmful": 1,
+     "useful": 0
+    },
+    "tree_extended": {
+     "calls": 3,
+     "equal_ecosystem_gain": -0.012965597229538254,
+     "gain_above_matched_random": -0.00010450202192910374,
+     "harmful": 1,
+     "useful": 0
+    },
+    "tree_extended_q80": {
+     "calls": 6,
+     "equal_ecosystem_gain": -0.0007460897314077638,
+     "gain_above_matched_random": 0.0022504263638056113,
+     "harmful": 1,
+     "useful": 1
+    },
+    "uncertainty": {
+     "calls": 2,
+     "equal_ecosystem_gain": -0.025683111499016375,
+     "gain_above_matched_random": -0.015392983940522312,
+     "harmful": 2,
+     "useful": 0
+    },
+    "uncertainty_q80": {
+     "calls": 27,
+     "equal_ecosystem_gain": -0.025111991823375094,
+     "gain_above_matched_random": -0.012846331239703107,
+     "harmful": 6,
+     "useful": 5
+    }
+   },
+   "ranking_auc_by_group": [
+    {
+     "auc": 0.75,
+     "group": "berkeleydb",
+     "n": 5,
+     "useful": 1
+    },
+    {
+     "auc": null,
+     "group": "dune_hsmgp",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.0,
+     "group": "hipacc",
+     "n": 5,
+     "useful": 3
+    },
+    {
+     "auc": null,
+     "group": "llvm",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "openvpn",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "sac",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.5047021943573667,
+     "group": "spark_hadoop",
+     "n": 40,
+     "useful": 11
+    }
+   ]
+  },
+  "gptoss_a2": {
+   "groups_with_positive_gain": [
+    "berkeleydb",
+    "dune_hsmgp",
+    "hipacc",
+    "llvm",
+    "spark_hadoop"
+   ],
+   "groups_with_useful_gt_1pct": [
+    "berkeleydb",
+    "hipacc",
+    "spark_hadoop"
+   ],
+   "oracle_equal_ecosystem": 0.0075955682378405975,
+   "policies": {
+    "always": {
+     "calls": 70,
+     "equal_ecosystem_gain": -0.031581405328631525,
+     "gain_above_matched_random": 0.0,
+     "harmful": 15,
+     "useful": 19
+    },
+    "never": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0005765765765765771,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "ridge_extended": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0005765765765765771,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "ridge_extended_q80": {
+     "calls": 9,
+     "equal_ecosystem_gain": 0.00020803235139023397,
+     "gain_above_matched_random": -0.0002692627204545641,
+     "harmful": 2,
+     "useful": 2
+    },
+    "ridge_original": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0005765765765765771,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "selected_predictor": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0005765765765765771,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "tree_extended": {
+     "calls": 1,
+     "equal_ecosystem_gain": -0.012777176731101684,
+     "gain_above_matched_random": -0.007527145562822765,
+     "harmful": 1,
+     "useful": 0
+    },
+    "tree_extended_q80": {
+     "calls": 1,
+     "equal_ecosystem_gain": -0.012777176731101684,
+     "gain_above_matched_random": -0.007527145562822765,
+     "harmful": 1,
+     "useful": 0
+    },
+    "uncertainty": {
+     "calls": 2,
+     "equal_ecosystem_gain": -0.025906835322185944,
+     "gain_above_matched_random": -0.015406772985628106,
+     "harmful": 2,
+     "useful": 0
+    },
+    "uncertainty_q80": {
+     "calls": 27,
+     "equal_ecosystem_gain": -0.023957156837071055,
+     "gain_above_matched_random": -0.013775713761796099,
+     "harmful": 3,
+     "useful": 6
+    }
+   },
+   "ranking_auc_by_group": [
+    {
+     "auc": 0.16666666666666666,
+     "group": "berkeleydb",
+     "n": 5,
+     "useful": 3
+    },
+    {
+     "auc": null,
+     "group": "dune_hsmgp",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.0,
+     "group": "hipacc",
+     "n": 5,
+     "useful": 1
+    },
+    {
+     "auc": null,
+     "group": "llvm",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "openvpn",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "sac",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.5626666666666666,
+     "group": "spark_hadoop",
+     "n": 40,
+     "useful": 15
+    }
+   ]
+  },
+  "gptoss_b": {
+   "groups_with_positive_gain": [
+    "berkeleydb",
+    "dune_hsmgp",
+    "hipacc",
+    "llvm",
+    "openvpn",
+    "sac",
+    "spark_hadoop"
+   ],
+   "groups_with_useful_gt_1pct": [
+    "berkeleydb",
+    "spark_hadoop"
+   ],
+   "oracle_equal_ecosystem": 0.008646234551620832,
+   "policies": {
+    "always": {
+     "calls": 70,
+     "equal_ecosystem_gain": -0.031381787711360125,
+     "gain_above_matched_random": 0.0,
+     "harmful": 14,
+     "useful": 14
+    },
+    "never": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": 0.00018532818532818548,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "ridge_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "ridge_extended_q80": {
+     "calls": 9,
+     "equal_ecosystem_gain": 0.000221890735070066,
+     "gain_above_matched_random": -0.00020262086768958564,
+     "harmful": 2,
+     "useful": 1
+    },
+    "ridge_original": {
+     "calls": 1,
+     "equal_ecosystem_gain": 0.0001190952778390462,
+     "gain_above_matched_random": 0.006013515850483747,
+     "harmful": 0,
+     "useful": 0
+    },
+    "selected_predictor": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0294721028632235,
+     "gain_above_matched_random": 0.0,
+     "harmful": 2,
+     "useful": 0
+    },
+    "tree_extended": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0294721028632235,
+     "gain_above_matched_random": 0.0,
+     "harmful": 2,
+     "useful": 0
+    },
+    "tree_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0294721028632235,
+     "gain_above_matched_random": 0.0,
+     "harmful": 2,
+     "useful": 0
+    },
+    "uncertainty": {
+     "calls": 2,
+     "equal_ecosystem_gain": -0.02954899074384377,
+     "gain_above_matched_random": -0.01776014959855437,
+     "harmful": 2,
+     "useful": 0
+    },
+    "uncertainty_q80": {
+     "calls": 27,
+     "equal_ecosystem_gain": -0.027735875842784665,
+     "gain_above_matched_random": -0.01803834055961087,
+     "harmful": 5,
+     "useful": 5
+    }
+   },
+   "ranking_auc_by_group": [
+    {
+     "auc": 0.25,
+     "group": "berkeleydb",
+     "n": 5,
+     "useful": 1
+    },
+    {
+     "auc": null,
+     "group": "dune_hsmgp",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "hipacc",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "llvm",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "openvpn",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "sac",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.5612535612535613,
+     "group": "spark_hadoop",
+     "n": 40,
+     "useful": 13
+    }
+   ]
+  },
+  "qwen3_14b": {
+   "groups_with_positive_gain": [
+    "hipacc",
+    "spark_hadoop"
+   ],
+   "groups_with_useful_gt_1pct": [
+    "spark_hadoop"
+   ],
+   "oracle_equal_ecosystem": 0.004454751352491873,
+   "policies": {
+    "always": {
+     "calls": 70,
+     "equal_ecosystem_gain": -0.0399680239970849,
+     "gain_above_matched_random": 0.0,
+     "harmful": 23,
+     "useful": 9
+    },
+    "never": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0003861003861003865,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "ridge_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "ridge_extended_q80": {
+     "calls": 9,
+     "equal_ecosystem_gain": -0.0016273614412909406,
+     "gain_above_matched_random": -0.0002482522110381104,
+     "harmful": 2,
+     "useful": 0
+    },
+    "ridge_original": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "selected_predictor": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "tree_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "tree_extended_q80": {
+     "calls": 11,
+     "equal_ecosystem_gain": -0.016369315420427775,
+     "gain_above_matched_random": -0.007850796298788784,
+     "harmful": 4,
+     "useful": 0
+    },
+    "uncertainty": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "uncertainty_q80": {
+     "calls": 27,
+     "equal_ecosystem_gain": -0.025530049493910193,
+     "gain_above_matched_random": -0.012835623237392322,
+     "harmful": 7,
+     "useful": 4
+    }
+   },
+   "ranking_auc_by_group": [
+    {
+     "auc": null,
+     "group": "berkeleydb",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "dune_hsmgp",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "hipacc",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "llvm",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "openvpn",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "sac",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.4767025089605735,
+     "group": "spark_hadoop",
+     "n": 40,
+     "useful": 9
+    }
+   ]
+  },
+  "qwen3_8b": {
+   "groups_with_positive_gain": [
+    "berkeleydb",
+    "spark_hadoop"
+   ],
+   "groups_with_useful_gt_1pct": [
+    "berkeleydb",
+    "spark_hadoop"
+   ],
+   "oracle_equal_ecosystem": 0.0017843242880679097,
+   "policies": {
+    "always": {
+     "calls": 70,
+     "equal_ecosystem_gain": -0.05239845814776747,
+     "gain_above_matched_random": 0.0,
+     "harmful": 29,
+     "useful": 5
+    },
+    "never": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0005765765765765771,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "ridge_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "ridge_extended_q80": {
+     "calls": 9,
+     "equal_ecosystem_gain": -0.0010166775129885554,
+     "gain_above_matched_random": -0.000514204693330322,
+     "harmful": 2,
+     "useful": 0
+    },
+    "ridge_original": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "selected_predictor": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "tree_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "tree_extended_q80": {
+     "calls": 8,
+     "equal_ecosystem_gain": -0.004485626849969104,
+     "gain_above_matched_random": 0.017868862451742476,
+     "harmful": 4,
+     "useful": 0
+    },
+    "uncertainty": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "uncertainty_q80": {
+     "calls": 27,
+     "equal_ecosystem_gain": -0.031576291705027085,
+     "gain_above_matched_random": -0.014048837277629893,
+     "harmful": 10,
+     "useful": 1
+    }
+   },
+   "ranking_auc_by_group": [
+    {
+     "auc": 0.0,
+     "group": "berkeleydb",
+     "n": 5,
+     "useful": 1
+    },
+    {
+     "auc": null,
+     "group": "dune_hsmgp",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "hipacc",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "llvm",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "openvpn",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "sac",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.6458333333333334,
+     "group": "spark_hadoop",
+     "n": 40,
+     "useful": 4
+    }
+   ]
+  },
+  "smollm3_3b": {
+   "groups_with_positive_gain": [
+    "dune_hsmgp",
+    "spark_hadoop"
+   ],
+   "groups_with_useful_gt_1pct": [
+    "spark_hadoop"
+   ],
+   "oracle_equal_ecosystem": 0.0022203722686595716,
+   "policies": {
+    "always": {
+     "calls": 70,
+     "equal_ecosystem_gain": -0.04955875329697803,
+     "gain_above_matched_random": 0.0,
+     "harmful": 24,
+     "useful": 10
+    },
+    "never": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "rbf_extended_q80": {
+     "calls": 5,
+     "equal_ecosystem_gain": -0.0005765765765765771,
+     "gain_above_matched_random": 0.0,
+     "harmful": 1,
+     "useful": 0
+    },
+    "ridge_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "ridge_extended_q80": {
+     "calls": 9,
+     "equal_ecosystem_gain": -0.0010491635106544453,
+     "gain_above_matched_random": -9.451738681557362e-05,
+     "harmful": 2,
+     "useful": 0
+    },
+    "ridge_original": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "selected_predictor": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "tree_extended": {
+     "calls": 0,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0,
+     "harmful": 0,
+     "useful": 0
+    },
+    "tree_extended_q80": {
+     "calls": 4,
+     "equal_ecosystem_gain": -0.02969641081968228,
+     "gain_above_matched_random": -0.005820855776834125,
+     "harmful": 2,
+     "useful": 0
+    },
+    "uncertainty": {
+     "calls": 1,
+     "equal_ecosystem_gain": 0.0,
+     "gain_above_matched_random": 0.0020218916944556467,
+     "harmful": 0,
+     "useful": 0
+    },
+    "uncertainty_q80": {
+     "calls": 27,
+     "equal_ecosystem_gain": -0.03123463433852991,
+     "gain_above_matched_random": -0.015366593728177093,
+     "harmful": 10,
+     "useful": 4
+    }
+   },
+   "ranking_auc_by_group": [
+    {
+     "auc": null,
+     "group": "berkeleydb",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "dune_hsmgp",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "hipacc",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "llvm",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "openvpn",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": null,
+     "group": "sac",
+     "n": 5,
+     "useful": 0
+    },
+    {
+     "auc": 0.4666666666666667,
+     "group": "spark_hadoop",
+     "n": 40,
+     "useful": 10
+    }
+   ]
+  }
+ },
+ "status": "V174 post-hoc exploratory revision analysis of sealed V141-V173 records; not confirmatory",
+ "weighting": {
+  "adaptive_neighbor": {
+   "case_weighted": -0.023499256217281484,
+   "case_weighted_log": -0.02020219519897486,
+   "equal_ecosystem": -0.022936623379138796,
+   "equal_ecosystem_excluding_dune": -0.00817903444798205,
+   "equal_ecosystem_log": -0.01904439384267176,
+   "equal_engine": -0.025299698012870367,
+   "leave_one_ecosystem_out_range": [
+    -0.027938617752651676,
+    -0.00817903444798205
+   ]
+  },
+  "fixed_neighbor": {
+   "case_weighted": -0.023188189316976998,
+   "case_weighted_log": -0.019957583916475768,
+   "equal_ecosystem": -0.023570931420477247,
+   "equal_ecosystem_excluding_dune": -0.008919060496210237,
+   "equal_ecosystem_log": -0.019739528378867856,
+   "equal_engine": -0.025709751406451948,
+   "leave_one_ecosystem_out_range": [
+    -0.028424688193416852,
+    -0.008919060496210237
+   ]
+  },
+  "gp_ei": {
+   "case_weighted": 0.004945428203513292,
+   "case_weighted_log": 0.009036247746058039,
+   "equal_ecosystem": -0.02194468481389526,
+   "equal_ecosystem_excluding_dune": 0.004493676811519671,
+   "equal_ecosystem_log": -0.016621910311194758,
+   "equal_engine": -0.013946892317207594,
+   "leave_one_ecosystem_out_range": [
+    -0.03312179639749912,
+    0.004493676811519671
+   ]
+  },
+  "gptoss_a1": {
+   "case_weighted": -0.016808135666404798,
+   "case_weighted_log": -0.014642322530536947,
+   "equal_ecosystem": -0.037269065957547434,
+   "equal_ecosystem_excluding_dune": -0.013467704904864325,
+   "equal_ecosystem_log": -0.03484438106328125,
+   "equal_engine": -0.03180138394348859,
+   "leave_one_ecosystem_out_range": [
+    -0.0452036481657519,
+    -0.013467704904864325
+   ]
+  },
+  "gptoss_a2": {
+   "case_weighted": -0.0043312749823310615,
+   "case_weighted_log": -0.0004954138760289974,
+   "equal_ecosystem": -0.031581405328631525,
+   "equal_ecosystem_excluding_dune": -0.006219791068443083,
+   "equal_ecosystem_log": -0.0268732653115553,
+   "equal_engine": -0.023240769286447003,
+   "leave_one_ecosystem_out_range": [
+    -0.04066478211073168,
+    -0.006219791068443083
+   ]
+  },
+  "gptoss_b": {
+   "case_weighted": 0.0039813901243088284,
+   "case_weighted_log": 0.009902556951597854,
+   "equal_ecosystem": -0.031381787711360125,
+   "equal_ecosystem_excluding_dune": -0.002227965656159389,
+   "equal_ecosystem_log": -0.02484721568682993,
+   "equal_engine": -0.02163282285286685,
+   "leave_one_ecosystem_out_range": [
+    -0.04316951365658311,
+    -0.002227965656159389
+   ]
+  },
+  "prefix_optimizer": {
+   "case_weighted": -0.011243895087364885,
+   "case_weighted_log": -0.010798152634553351,
+   "equal_ecosystem": -0.022487790174729766,
+   "equal_ecosystem_excluding_dune": -0.011311495239052562,
+   "equal_ecosystem_log": -0.021596305269106702,
+   "equal_engine": -0.01967681640288855,
+   "leave_one_ecosystem_out_range": [
+    -0.0274768807952596,
+    -0.011311495239052562
+   ]
+  },
+  "qwen3_14b": {
+   "case_weighted": -0.019924809535248042,
+   "case_weighted_log": -0.015205141804191302,
+   "equal_ecosystem": -0.0399680239970849,
+   "equal_ecosystem_excluding_dune": -0.015611024939650713,
+   "equal_ecosystem_log": -0.035965993459555604,
+   "equal_engine": -0.036275912991909576,
+   "leave_one_ecosystem_out_range": [
+    -0.046649095484363856,
+    -0.015611024939650713
+   ]
+  },
+  "qwen3_8b": {
+   "case_weighted": -0.04201163757949613,
+   "case_weighted_log": -0.03810680475496581,
+   "equal_ecosystem": -0.05239845814776747,
+   "equal_ecosystem_excluding_dune": -0.025739017471352824,
+   "equal_ecosystem_log": -0.04791957722815695,
+   "equal_engine": -0.050853048034262924,
+   "leave_one_ecosystem_out_range": [
+    -0.061239602484567966,
+    -0.025739017471352824
+   ]
+  },
+  "random_full": {
+   "case_weighted": -0.023202086906152098,
+   "case_weighted_log": -0.018598034071445405,
+   "equal_ecosystem": -0.034878930793039546,
+   "equal_ecosystem_excluding_dune": -0.010451958339451247,
+   "equal_ecosystem_log": -0.029672591889851576,
+   "equal_engine": -0.032484475132515664,
+   "leave_one_ecosystem_out_range": [
+    -0.04024163547476236,
+    -0.010451958339451247
+   ]
+  },
+  "smollm3_3b": {
+   "case_weighted": -0.03187779250822357,
+   "case_weighted_log": -0.02867703973734728,
+   "equal_ecosystem": -0.04955875329697803,
+   "equal_ecosystem_excluding_dune": -0.02300002774232082,
+   "equal_ecosystem_log": -0.04555906136569935,
+   "equal_engine": -0.04623000075366131,
+   "leave_one_ecosystem_out_range": [
+    -0.05726719409005019,
+    -0.02300002774232082
+   ]
+  }
+ }
+}

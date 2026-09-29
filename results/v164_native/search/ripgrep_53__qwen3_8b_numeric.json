@@ -1,0 +1,271 @@
+{
+  "case": "ripgrep_53",
+  "engine": "ripgrep",
+  "arm": "qwen3_8b_numeric",
+  "state": {
+    "ids": [
+      35,
+      19,
+      40,
+      18,
+      24,
+      0,
+      53,
+      36,
+      28,
+      44,
+      11,
+      10,
+      9,
+      8,
+      17,
+      16,
+      2
+    ],
+    "labels": [
+      [
+        0.3400537080015056
+      ],
+      [
+        0.4995541669995873
+      ],
+      [
+        0.28357137499551754
+      ],
+      [
+        0.3178723329983768
+      ],
+      [
+        0.2841507919947617
+      ],
+      [
+        0.6462555839971174
+      ],
+      [
+        0.32189970900071785
+      ],
+      [
+        0.2506414590025088
+      ],
+      [
+        0.28376166700036265
+      ],
+      [
+        0.2799281250045169
+      ],
+      [
+        0.9589058330020634
+      ],
+      [
+        0.471894833004626
+      ],
+      [
+        0.7365727920041536
+      ],
+      [
+        0.47159004099376034
+      ],
+      [
+        0.5427974999984144
+      ],
+      [
+        0.32578550000471296
+      ],
+      [
+        0.8014242079952965
+      ]
+    ],
+    "order": [
+      35,
+      19,
+      40,
+      18,
+      11,
+      63,
+      6,
+      24,
+      0,
+      42,
+      31,
+      53,
+      9,
+      5,
+      43,
+      15,
+      57,
+      54,
+      26,
+      7,
+      38,
+      39,
+      13,
+      17,
+      21,
+      51,
+      4,
+      36,
+      44,
+      52,
+      59,
+      25,
+      34,
+      20,
+      61,
+      49,
+      37,
+      48,
+      41,
+      12,
+      28,
+      14,
+      56,
+      58,
+      50,
+      3,
+      16,
+      8,
+      47,
+      22,
+      10,
+      2,
+      1,
+      55,
+      62,
+      46,
+      23,
+      33,
+      60,
+      30,
+      45,
+      32,
+      29,
+      27
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 11,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 10,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 9,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 8,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 17,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 16,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 2,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 3,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 1,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 32,
+      "distance": 0.10714285714285714,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    }
+  ]
+}

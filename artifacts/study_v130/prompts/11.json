@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"block_size_samples\",\"maximum_LPC_order\",\"maximum_Rice_partition_order\"],\"symbol_to_value\":[[1024,1536,2048,3072,4096,4608],[4,8,10,12],[0,2,4,6]],\"observed_examples\":[{\"settings\":\"433\",\"performance\":\"455080.000000\"},{\"settings\":\"411\",\"performance\":\"471782.000000\"},{\"settings\":\"230\",\"performance\":\"468881.000000\"},{\"settings\":\"021\",\"performance\":\"445221.000000\"},{\"settings\":\"223\",\"performance\":\"448466.000000\"},{\"settings\":\"322\",\"performance\":\"454404.000000\"},{\"settings\":\"022\",\"performance\":\"442930.000000\"},{\"settings\":\"023\",\"performance\":\"442705.000000\"},{\"settings\":\"020\",\"performance\":\"455200.000000\"},{\"settings\":\"002\",\"performance\":\"448615.000000\"}],\"performance_meaning\":\"Sum of native FLAC file bytes over three fixed 16 kHz mono speech clips, with exact lossless reconstruction. All configurations start from FLAC 1.5.0 preset -8 and override block size, maximum LPC order and maximum Rice partition order (minimum zero); padding/seektable disabled. Smaller is better.\",\"direction\":\"minimize\"}"
+  }
+]

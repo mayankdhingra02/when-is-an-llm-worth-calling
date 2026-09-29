@@ -1,0 +1,271 @@
+{
+  "key": "smollm3_3b_terasort_23",
+  "app": "terasort",
+  "system_group": "hadoop_mapreduce",
+  "seed": 23,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "sampling_seed": 148023,
+  "prefix": "artifacts/study_v148/prefixes/terasort_23.json",
+  "prefix_sha256": "9d207ed1dbb487e8e6d58ec654c6184c4a6fdcd4bd3ad0508f1731d857aedd7b",
+  "messages_path": "artifacts/study_v148/prompts/terasort_23.json",
+  "model": "smollm3_3b",
+  "status": "valid",
+  "selected_rows": [
+    61,
+    10,
+    18,
+    27,
+    33,
+    36,
+    39,
+    1,
+    52,
+    42
+  ],
+  "projection": [
+    {
+      "row_id": 61,
+      "distance": 0.010101010101010097,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 10,
+      "distance": 0.020202020202020193,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 18,
+      "distance": 0.030303030303030304,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 27,
+      "distance": 0.005050505050505055,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 33,
+      "distance": 0.04040404040404039,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 36,
+      "distance": 0.0757575757575758,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 39,
+      "distance": 0.1111111111111111,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 1,
+      "distance": 0.37626262626262624,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 52,
+      "distance": 0.4772727272727273,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 42,
+      "distance": 0.5,
+      "repeated_proposal": false,
+      "matches_prefix": true
+    }
+  ],
+  "case": "terasort_23",
+  "state": {
+    "ids": [
+      43,
+      57,
+      35,
+      20,
+      16,
+      7,
+      34,
+      30,
+      29,
+      32,
+      61,
+      10,
+      18,
+      27,
+      33,
+      36,
+      39,
+      1,
+      52,
+      42
+    ],
+    "labels": [
+      [
+        7200.0
+      ],
+      [
+        889.35
+      ],
+      [
+        761.71
+      ],
+      [
+        1272.718
+      ],
+      [
+        1722.228
+      ],
+      [
+        1873.476
+      ],
+      [
+        695.247
+      ],
+      [
+        575.287
+      ],
+      [
+        925.062
+      ],
+      [
+        399.054
+      ],
+      [
+        1788.172
+      ],
+      [
+        1687.094
+      ],
+      [
+        1226.089
+      ],
+      [
+        860.013
+      ],
+      [
+        644.633
+      ],
+      [
+        589.43
+      ],
+      [
+        525.605
+      ],
+      [
+        1812.623
+      ],
+      [
+        2661.386
+      ],
+      [
+        7200.0
+      ]
+    ],
+    "order": [
+      43,
+      57,
+      35,
+      20,
+      42,
+      7,
+      16,
+      60,
+      4,
+      55,
+      44,
+      58,
+      34,
+      63,
+      9,
+      50,
+      52,
+      30,
+      19,
+      24,
+      64,
+      56,
+      25,
+      41,
+      49,
+      15,
+      59,
+      38,
+      47,
+      67,
+      21,
+      18,
+      62,
+      36,
+      53,
+      11,
+      23,
+      68,
+      66,
+      13,
+      3,
+      61,
+      27,
+      40,
+      32,
+      51,
+      26,
+      31,
+      45,
+      5,
+      6,
+      1,
+      29,
+      65,
+      14,
+      0,
+      28,
+      17,
+      12,
+      46,
+      8,
+      22,
+      33,
+      48,
+      54,
+      39,
+      2,
+      10,
+      37
+    ]
+  },
+  "target": 399.054,
+  "fallback": false
+}

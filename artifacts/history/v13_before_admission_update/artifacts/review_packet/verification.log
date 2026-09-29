@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-24T20:48:23.638032+00:00",
+  "verified": true,
+  "scope": "Saved-evidence consistency, not new experiments or independent numerical replay",
+  "scientific_freezes": {
+    "protocol_v10_headroom.freeze.json": 156,
+    "protocol_v11_quality.freeze.json": 148,
+    "protocol_v12_controls.freeze.json": 152,
+    "protocol_v4.freeze.json": 46,
+    "protocol_v6.freeze.json": 46,
+    "protocol_v7.freeze.json": 97,
+    "protocol_v8.freeze.json": 120,
+    "protocol_v9_analysis.freeze.json": 142,
+    "registry_v5.freeze.json": 18
+  },
+  "v6_heldout_cases": 15,
+  "v8_first_half_matches": 15,
+  "v9_recorded_subset_checks_per_case": 184756,
+  "v12_recomputed_mean_relative_gains": {
+    "brotli": -0.027886266652899897,
+    "lrzip": 0.04815742977305101,
+    "all_two_groups": 0.010135581560075555
+  },
+  "v12_journal_vectors": 300,
+  "latest_saved_tests_passed": 95,
+  "local_document_links_checked": 30,
+  "ledger_unchanged_sha256": "4f89effd2ee21139fc18bd6a07d4426e01220c508ea771f4dd9803b5959e0b05",
+  "new_model_requests": 0,
+  "new_objective_acquisitions": 0
+}

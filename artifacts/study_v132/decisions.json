@@ -1,0 +1,256 @@
+{
+  "at": "2026-09-28T01:55:34.426721+00:00",
+  "outcome_blind_guard": "V131continuations directory absent at decision creation",
+  "rows": [
+    {
+      "key": "wavpack_11",
+      "group": "wavpack",
+      "seed": 11,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.013327022129463252,
+        0.00010174868998561644,
+        0.0,
+        0.002750046446532975
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_11.json",
+      "prefix_sha256": "2d878086db738d57cb8bc34bcc4cb5180f73c6d41ae788f6f8b52ea8107b1e75",
+      "predicted_gain": -0.048628795039741046,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "wavpack_23",
+      "group": "wavpack",
+      "seed": 23,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.013550839893551223,
+        0.0,
+        1.0,
+        0.0021808654804114647
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_23.json",
+      "prefix_sha256": "3c66098256bea309e3d949106140c708d4b461a6a8c9b4088b4a6ec9fbce0654",
+      "predicted_gain": -0.07844473669547769,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "wavpack_37",
+      "group": "wavpack",
+      "seed": 37,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.014666512800629628,
+        0.0005549928544669987,
+        0.0,
+        0.002153200948014624
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_37.json",
+      "prefix_sha256": "5f89e0ba815f57032ec0b16032dd159fb6e1c1bd47760882861ab6fbedb7dbf6",
+      "predicted_gain": -0.048389335853307444,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "wavpack_53",
+      "group": "wavpack",
+      "seed": 53,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.014667790799047033,
+        0.0,
+        1.0,
+        0.004059270683567453
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_53.json",
+      "prefix_sha256": "83c0b4fbb334d8236f9ce85e4c856f8b76c0f0e480cb7e2a29c14fae7a82b7df",
+      "predicted_gain": -0.07915758379256488,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "wavpack_71",
+      "group": "wavpack",
+      "seed": 71,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.016087100986202432,
+        0.0002636216058718244,
+        0.0,
+        0.0015544978188805222
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_71.json",
+      "prefix_sha256": "5a14926125b750c6541410daac1986d7dd721cfdd58e15c758ffb297adc4c52b",
+      "predicted_gain": -0.048148075461083656,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "fftw_11",
+      "group": "fftw",
+      "seed": 11,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.24889714624771034,
+        0.3249228339674108,
+        0.8888888888888888,
+        0.04330510784599768
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_11.json",
+      "prefix_sha256": "158fc032ad0acfd779a695ae6a0cb5a8239969037864b26ddb2fd0a76d560587",
+      "predicted_gain": -0.07609102028118522,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "fftw_23",
+      "group": "fftw",
+      "seed": 23,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.14778993215535569,
+        0.03986746472851646,
+        0.4444444444444444,
+        0.02105503473624019
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_23.json",
+      "prefix_sha256": "1571b3617da518a163138f0162b77ed72f51d7351d3a9d142ce6e5833759a841",
+      "predicted_gain": -0.054810261772848326,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "fftw_37",
+      "group": "fftw",
+      "seed": 37,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.39465444583507825,
+        0.02823211875843455,
+        0.3333333333333333,
+        0.009967774063130378
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_37.json",
+      "prefix_sha256": "a70a84ce3a1e85852433f430905e927778ce3074381e58a54ab395d82ed92b31",
+      "predicted_gain": -0.045278416864209275,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "fftw_53",
+      "group": "fftw",
+      "seed": 53,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.27436839459644413,
+        0.04134778911564626,
+        0.0,
+        0.021195348557140184
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_53.json",
+      "prefix_sha256": "72efe5ad92720a906b0b7b6142dd37907a143057fdf4af67bf82e4e185c39f64",
+      "predicted_gain": -0.04052682760318582,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    },
+    {
+      "key": "fftw_71",
+      "group": "fftw",
+      "seed": 71,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.3384578099236993,
+        0.0017578437117136312,
+        0.8888888888888888,
+        0.016166497996365287
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_71.json",
+      "prefix_sha256": "5098a8e2f628983be83ad7c7c7be9949a1d42a8a1921d4fb2ed97a9c88c62bb6",
+      "predicted_gain": -0.06476930145885068,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false
+      }
+    }
+  ]
+}

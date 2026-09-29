@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-28T08:17:48.178601+00:00",
+  "sha256": {
+    "reports/protocol_v158.md": "6e585bd2b46282b9979fb9595cfe18656c6b08210d0d9335d72b92932e8b0332",
+    "scripts/solver_worker_v157.py": "e29ab78bbf2ecef53036daea1911c6c202ad03db3472f3f7ad67d7a3fbb9f534",
+    "scripts/solver_feasibility_v158.py": "b498c8d03fb84a6c0765e04a798ee80d2aaec1d57f4944390d050e1bdc6b60bb",
+    "tests/synthetic/test_solver_v157.py": "8e49d9099cdde25905516669d0f4bed13846692d2fb1472b643980ddb84dcc39",
+    "configs/solvers_v156.lock.txt": "e6eae75bd193af29d80866e0aa8278c3a4c505df0ada46e37a9084ad8a102072",
+    "artifacts/study_v158/jobs.json": "1ad08217d04af14416c5a63a8ef7780be54c5004b97bddd2f69e35f84a582de0",
+    "artifacts/study_v158/candidates.json": "6f7039394236b157266ab034d6c425e0a550f1ec6f6a8e2a11dbf1d16fd58d83",
+    "artifacts/study_v156/runtime_options.json": "3f314dde016954ee6d9911d82ed0e7c9f0e04445cc502656927b7306f2867d58",
+    "results/v157_solvers/summary.json": "24588978b42cfa48ecd687b29b55da7cd7ef0ff3ddfa84db18bb57612e2f5a9b"
+  },
+  "jobs": 40,
+  "max_stage_seconds": 600,
+  "max_child_seconds": 15,
+  "native_evaluation_cap": 40
+}

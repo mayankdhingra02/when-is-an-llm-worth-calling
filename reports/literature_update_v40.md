@@ -1,0 +1,13 @@
+# V40 primary-source update and novelty assessment — 2026-09-25
+
+This bounded search supports positioning, not an exhaustive novelty clearance. Queries included the project title, SNAP2's exact title, LLM option-order sensitivity, and classical/LLM configuration routing. No author was contacted and no external code was executed. Existing pinned source audit remains in source_audit.md.
+
+| Primary source read | Verified scope | Implication for this paper |
+|---|---|---|
+| [Srinivasan and Menzies, SNAP2, v1](https://arxiv.org/html/2607.02583v1), 2026-07-01, methods and §VI-B | Classical-first handoff and conditional escalation are explicit prior work. | Do not claim the routing question as new or call the small-model adaptation a SNAP2 replication. |
+| [Rodrigues, Vas, DCosta and Prabhakaran, v2](https://arxiv.org/html/2606.21641v2), 2026-06-26 | Budget-matched tabular HPO study controls the default seed and finds diminished LLM advantage. v1 lists two authors; v2 confirms four. | Close overlap with strong-baseline cautions. Our constrained software checkpoint and presentation-wise routing bounds differ; importance of that difference remains unestablished. No executable artifact was verified here. |
+| [Pezeshkpour and Hruschka, Findings NAACL 2024](https://aclanthology.org/2024.findings-naacl.130/) | Original publisher page verifies option-order sensitivity in multiple-choice tasks. | Candidate-order sensitivity itself is not novel. Our evidence concerns its effect on configuration continuation/routing. |
+| [Ong et al., RouteLLM, v4](https://arxiv.org/abs/2406.18665v4), 2025-02-23 | Learned strong/weak LLM selection using preference data. | Distinguish optimizer-continuation benefit from generic model routing; no first-router claim. |
+| [Rychert, Spagnolo and Posashkov, v1](https://arxiv.org/html/2511.18891v1), 2025-11-24 | Their LLAMBO reproduction reports benefits with a70B model while noting weaker surrogate regression and problems with smaller backbones; links an author repository. | Do not cite this as blanket evidence that LLM optimization fails. Its positive findings and model scale constrain interpretation of our1.5B negative result. Repository was identified, not independently executed. |
+
+The candidate contribution is a reproducible, finite-case audit combining paired checkpoint continuations, comparator sensitivity, size feasibility and presentation-wise hindsight bounds. The elementary dominance inequality is not a novel theorem. The archive and exhaustive calculations support inspectability, not novelty or acceptance. Two exposed families and adaptive study history limit this to an exploratory short-paper candidate. A generalizable benefit-router paper needs new evidence.

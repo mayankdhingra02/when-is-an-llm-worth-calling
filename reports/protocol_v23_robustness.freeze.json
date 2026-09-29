@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-25T01:50:06.478776+00:00",
+  "scope": "Frozen before V23 computation, after V22 exposure; explicitly post-hoc",
+  "sha256": {
+    "reports/protocol_v23_robustness.md": "bb633dc17b43e948577e8cd9ccc5805e384e74e77f25c3351c0d3e846b4559af",
+    "src/escalation/robustness_v23.py": "46469dfcb761c96fd112715d6cdbb3b323297d52c422139d30031bad98b59cc5",
+    "scripts/analyze_robustness_v23.py": "b225dddaae7d459e035f0f074ddb1edb6d075e6a4dbddde39584f034079d91d5",
+    "tests/synthetic/test_robustness_v23.py": "c6f2398dd0c4b99adfd65abf30ae2d4289d862b07d4cad5c196a6342133e2322",
+    "results/v22_larger/summary.json": "b3498d89a4647acdbcf8dbf9042543e7989729191e426ba529d4b6b736a7fe29",
+    "results/v22_larger/outcomes.csv": "a7db2dae0974a3218036a050b29f1dab7d464c10de456e191481e3e14ba5dc38",
+    "data/larger_probe_v22.json": "322d104a5fa0f8a96ac3d829969af5657ec1a049249301f44d0cc073f954fefa",
+    "reports/protocol_v22_larger.freeze.json": "e1a5f9fec274314c06c8821da8ede835ee0862ffb18272bb09442b832dc40a53"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "case": "polars_23",
+  "engine": "polars",
+  "arm": "smollm3_3b",
+  "state": {
+    "ids": [
+      34,
+      47,
+      16,
+      38,
+      54,
+      7,
+      30,
+      50,
+      59,
+      43,
+      44,
+      40,
+      42,
+      41,
+      27,
+      46,
+      45
+    ],
+    "labels": [
+      [
+        0.05417020799359307
+      ],
+      [
+        0.024101832997985184
+      ],
+      [
+        0.1287926249933662
+      ],
+      [
+        0.04035529099928681
+      ],
+      [
+        0.03181520900398027
+      ],
+      [
+        0.07993983299820684
+      ],
+      [
+        0.07147608300147112
+      ],
+      [
+        0.047397333997651
+      ],
+      [
+        0.024567083004512824
+      ],
+      [
+        0.028341124998405576
+      ],
+      [
+        0.05180050000490155
+      ],
+      [
+        0.05660195800010115
+      ],
+      [
+        0.04411366600834299
+      ],
+      [
+        0.03139904099225532
+      ],
+      [
+        0.05270441700122319
+      ],
+      [
+        0.041424458991969004
+      ],
+      [
+        0.025643166998634115
+      ]
+    ],
+    "order": [
+      34,
+      47,
+      16,
+      38,
+      36,
+      54,
+      4,
+      52,
+      51,
+      48,
+      45,
+      20,
+      7,
+      50,
+      30,
+      49,
+      44,
+      15,
+      58,
+      35,
+      10,
+      9,
+      55,
+      25,
+      18,
+      11,
+      40,
+      42,
+      62,
+      41,
+      21,
+      23,
+      2,
+      13,
+      3,
+      61,
+      56,
+      32,
+      43,
+      26,
+      31,
+      60,
+      6,
+      59,
+      29,
+      39,
+      14,
+      0,
+      28,
+      17,
+      12,
+      46,
+      8,
+      22,
+      33,
+      24,
+      27,
+      19,
+      63,
+      1,
+      5,
+      53,
+      57,
+      37
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 44,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 40,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 42,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 41,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 27,
+      "distance": 0.06666666666666667,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 46,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 45,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 62,
+      "distance": 0.06666666666666668,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 25,
+      "distance": 0.06666666666666667,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 57,
+      "distance": 0.06666666666666668,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    }
+  ]
+}

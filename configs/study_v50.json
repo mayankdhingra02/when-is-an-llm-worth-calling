@@ -1,0 +1,15 @@
+{
+  "authorization": "User explicitly requested continued research; new bounded utility audit and classical collection, older ledgers unchanged.",
+  "max_stage_seconds": 180,
+  "max_decode_verifications": 846,
+  "decode_timeout_seconds": 2,
+  "max_recorded_vector_acquisitions": 450,
+  "max_model_requests": 0,
+  "max_new_compression_trials": 0,
+  "max_external_spend_usd": 0,
+  "families": ["zstd", "lz4", "zlib"],
+  "seeds": [11, 23, 37, 53, 71],
+  "total_evaluations": 20,
+  "checkpoint": 10,
+  "scope": "Exploratory exposed development workload; source-preserving utility contract audit."
+}

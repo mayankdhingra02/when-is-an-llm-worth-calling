@@ -1,0 +1,317 @@
+[
+  {
+    "key": "wavpack_11",
+    "task": "wavpack",
+    "seed": 11,
+    "sampling_seed": 131011,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2048,
+        8192,
+        32768,
+        65536
+      ]
+    ],
+    "system_group": "wavpack",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/wavpack_11.json",
+    "prefix_path": "results/v131_native/prefixes/wavpack_11.json",
+    "prefix_sha256": "2d878086db738d57cb8bc34bcc4cb5180f73c6d41ae788f6f8b52ea8107b1e75"
+  },
+  {
+    "key": "wavpack_23",
+    "task": "wavpack",
+    "seed": 23,
+    "sampling_seed": 131023,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2048,
+        8192,
+        32768,
+        65536
+      ]
+    ],
+    "system_group": "wavpack",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/wavpack_23.json",
+    "prefix_path": "results/v131_native/prefixes/wavpack_23.json",
+    "prefix_sha256": "3c66098256bea309e3d949106140c708d4b461a6a8c9b4088b4a6ec9fbce0654"
+  },
+  {
+    "key": "wavpack_37",
+    "task": "wavpack",
+    "seed": 37,
+    "sampling_seed": 131037,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2048,
+        8192,
+        32768,
+        65536
+      ]
+    ],
+    "system_group": "wavpack",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/wavpack_37.json",
+    "prefix_path": "results/v131_native/prefixes/wavpack_37.json",
+    "prefix_sha256": "5f89e0ba815f57032ec0b16032dd159fb6e1c1bd47760882861ab6fbedb7dbf6"
+  },
+  {
+    "key": "wavpack_53",
+    "task": "wavpack",
+    "seed": 53,
+    "sampling_seed": 131053,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2048,
+        8192,
+        32768,
+        65536
+      ]
+    ],
+    "system_group": "wavpack",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/wavpack_53.json",
+    "prefix_path": "results/v131_native/prefixes/wavpack_53.json",
+    "prefix_sha256": "83c0b4fbb334d8236f9ce85e4c856f8b76c0f0e480cb7e2a29c14fae7a82b7df"
+  },
+  {
+    "key": "wavpack_71",
+    "task": "wavpack",
+    "seed": 71,
+    "sampling_seed": 131071,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2048,
+        8192,
+        32768,
+        65536
+      ]
+    ],
+    "system_group": "wavpack",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/wavpack_71.json",
+    "prefix_path": "results/v131_native/prefixes/wavpack_71.json",
+    "prefix_sha256": "5a14926125b750c6541410daac1986d7dd721cfdd58e15c758ffb297adc4c52b"
+  },
+  {
+    "key": "fftw_11",
+    "task": "fftw",
+    "seed": 11,
+    "sampling_seed": 131011,
+    "domains": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "system_group": "fftw",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/fftw_11.json",
+    "prefix_path": "results/v131_native/prefixes/fftw_11.json",
+    "prefix_sha256": "158fc032ad0acfd779a695ae6a0cb5a8239969037864b26ddb2fd0a76d560587"
+  },
+  {
+    "key": "fftw_23",
+    "task": "fftw",
+    "seed": 23,
+    "sampling_seed": 131023,
+    "domains": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "system_group": "fftw",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/fftw_23.json",
+    "prefix_path": "results/v131_native/prefixes/fftw_23.json",
+    "prefix_sha256": "1571b3617da518a163138f0162b77ed72f51d7351d3a9d142ce6e5833759a841"
+  },
+  {
+    "key": "fftw_37",
+    "task": "fftw",
+    "seed": 37,
+    "sampling_seed": 131037,
+    "domains": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "system_group": "fftw",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/fftw_37.json",
+    "prefix_path": "results/v131_native/prefixes/fftw_37.json",
+    "prefix_sha256": "a70a84ce3a1e85852433f430905e927778ce3074381e58a54ab395d82ed92b31"
+  },
+  {
+    "key": "fftw_53",
+    "task": "fftw",
+    "seed": 53,
+    "sampling_seed": 131053,
+    "domains": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "system_group": "fftw",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/fftw_53.json",
+    "prefix_path": "results/v131_native/prefixes/fftw_53.json",
+    "prefix_sha256": "72efe5ad92720a906b0b7b6142dd37907a143057fdf4af67bf82e4e185c39f64"
+  },
+  {
+    "key": "fftw_71",
+    "task": "fftw",
+    "seed": 71,
+    "sampling_seed": 131071,
+    "domains": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "system_group": "fftw",
+    "split": "prospectively_fixed_two_family_extension",
+    "messages_path": "artifacts/study_v131/prompts/fftw_71.json",
+    "prefix_path": "results/v131_native/prefixes/fftw_71.json",
+    "prefix_sha256": "5098a8e2f628983be83ad7c7c7be9949a1d42a8a1921d4fb2ed97a9c88c62bb6"
+  }
+]

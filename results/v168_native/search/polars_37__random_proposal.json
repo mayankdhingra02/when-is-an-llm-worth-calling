@@ -1,0 +1,281 @@
+{
+  "case": "polars_37",
+  "engine": "polars",
+  "arm": "random_proposal",
+  "state": {
+    "ids": [
+      17,
+      50,
+      1,
+      15,
+      30,
+      14,
+      55,
+      59,
+      51,
+      61,
+      2,
+      28,
+      0,
+      19,
+      16,
+      35,
+      42
+    ],
+    "labels": [
+      [
+        0.08829962500021793
+      ],
+      [
+        0.04507529200054705
+      ],
+      [
+        0.15063800000643823
+      ],
+      [
+        0.06975870799215045
+      ],
+      [
+        0.07114179099153262
+      ],
+      [
+        0.12864087498746812
+      ],
+      [
+        0.025796707996050827
+      ],
+      [
+        0.02418779100116808
+      ],
+      [
+        0.03791133299819194
+      ],
+      [
+        0.02232874999754131
+      ],
+      [
+        0.17194904200732708
+      ],
+      [
+        0.09211020900693256
+      ],
+      [
+        0.2510868340032175
+      ],
+      [
+        0.06895349999831524
+      ],
+      [
+        0.12971041699347552
+      ],
+      [
+        0.040352999989409
+      ],
+      [
+        0.0437930000043707
+      ]
+    ],
+    "order": [
+      17,
+      50,
+      1,
+      15,
+      12,
+      14,
+      30,
+      41,
+      37,
+      57,
+      60,
+      21,
+      35,
+      8,
+      61,
+      10,
+      22,
+      7,
+      44,
+      63,
+      46,
+      20,
+      55,
+      0,
+      31,
+      13,
+      58,
+      49,
+      19,
+      16,
+      25,
+      54,
+      36,
+      48,
+      52,
+      45,
+      34,
+      4,
+      26,
+      5,
+      3,
+      9,
+      51,
+      27,
+      24,
+      18,
+      38,
+      29,
+      43,
+      6,
+      33,
+      28,
+      23,
+      56,
+      2,
+      32,
+      40,
+      62,
+      47,
+      53,
+      42,
+      39,
+      59,
+      11
+    ]
+  },
+  "status": "classical",
+  "fallback": false,
+  "proposals": [
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 2,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 28,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 0,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 19,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 16,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 35,
+      "distance": 0.06666666666666667,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 42,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 22,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 49,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 13,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    }
+  ]
+}

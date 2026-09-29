@@ -1,0 +1,28 @@
+{
+  "scope": "Frozen before V17 physical measurements and optimizer outcomes; exploratory development only",
+  "at": "2026-09-24T23:39:23.095049+00:00",
+  "sha256": {
+    "artifacts/study_v15/environment.json": "f002c062e588580844f67c17f5ad521e12af09106c4fde5e80e518b4a898a051",
+    "artifacts/study_v15/lz4_help.txt": "d8bc8017b5ffca2273850da3e4a51ea31ac55afe8acb3d4e538a42aad19ddfdd",
+    "artifacts/study_v15/workload_manifest.json": "b1af664590ecfe33a1468d96aaed0b29ba360343e03a7aa392db22c583781dcd",
+    "artifacts/study_v15/zstd_help.txt": "ce9292853cdc3e33ba5b7501578428ee8240334efe6fed0a3b5d6fb27ca29154",
+    "configs/live_measurement_v17.json": "9c071b7b8a8ff9c8cc0896759a778a6431958ad68e9c7d7b6ccd605bc3c8dc82",
+    "data/live_manifest_v17.json": "b3c791b3d2eddda9b16ce19ebd35f952d613c6bc12c83d120745900ef6bd0027",
+    "reports/protocol_v17_expansion.md": "3ea3e6c8aca5029f0873db923ebbd8a63eda5818e698e266b99752841b4f9913",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139",
+    "scripts/analyze_live_v17.py": "7656bd6ae39ca3c1073b1265f6b38f472cb5196dc979ee9b5f70026afc1aa7d2",
+    "scripts/analyze_verify_classical_v17.py": "49fdb401ea615b5f575ba5d9fbbaecebcaab477d873f612d7b1a679ae9370070",
+    "scripts/collect_live_v17.py": "792c9e81e8cc42e38d5ba767ea4ca65e0aaed5358c4248b66c6dc88e732f9ba8",
+    "scripts/live_worker_v17.py": "7ea0da5772e7b6309899ca4d0bbc033cdc858a5da6645ac2bcafc1d9269cc335",
+    "scripts/render_expansion_v17.py": "6731ac5559004c6c83a1f2e05d91427cfd1e1e6dc0f42b636a15cb55e6af163f",
+    "scripts/run_classical_v17.py": "e3b048768acc030705a461b60413105a962bcf62bc6f782ddf1c197ac7f390bf",
+    "src/escalation/io.py": "2b9da6b2e3714c0b75e3adbd0ba984cbdc099621efcd232ad61b2c766d9fd63e",
+    "src/escalation/live_compression_v17.py": "cf8ece225ce368ad9142d34dfd21929ec66904f429f1efd26641320799f1c014",
+    "src/escalation/offline_live_v16.py": "28fd0a5a1d0953570d21a34038131ef9c56c52fe14186c723510d32315bbb340",
+    "src/escalation/offline_live_v17.py": "ec5d2fc97bf50a235944a4746b3446373508c36d7cc6587c03945f6be037aab1",
+    "src/escalation/quality_controls_v12.py": "4baee2a7e989c504df75033671cda7f20cee0bf2dfad03fb9c0bef987ad2cb7d",
+    "src/escalation/resources.py": "8ff495de39416aea848e58336b0fad78c9775ce2295ae24bbe5bfb586366504c",
+    "tests/synthetic/test_expansion_v17.py": "e2b59af73f5be9ef104c07e4844044b2e64cf2b57e083ae9569b5733d5a790f7",
+    "tests/synthetic/test_offline_live_v16.py": "b24eb19b2099d7316f2e2fe238cbaf1af3e628e7f6edc0b2d1685e621f897b08"
+  }
+}

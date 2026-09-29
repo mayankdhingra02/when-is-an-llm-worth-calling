@@ -1,0 +1,445 @@
+{
+  "key": "qwen3_8b_OpenVPN_23_normal",
+  "dataset": "OpenVPN",
+  "system_group": "openvpn",
+  "seed": 23,
+  "prefix": "results/v41_transfer/prefixes/OpenVPN_23.json",
+  "base_key": "OpenVPN_23",
+  "condition": "normal",
+  "sampling_seed": 141023,
+  "random_proposal_seed": 127926,
+  "messages_path": "artifacts/study_v141/prompts/OpenVPN_23_normal.json",
+  "prefix_sha256": "58f924ee9067cdb03f17e3bdff0a399dbfe2d6299decd2f445aea8d56512ad8d",
+  "domains": [
+    [
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ]
+  ],
+  "model_arm": "results/v127_analysis/arms/OpenVPN_23_model.json",
+  "classical_arm": "results/v41_transfer/arms/OpenVPN_23_full_sequential_3nn.json",
+  "old_messages_path": "artifacts/study_v127/prompts/OpenVPN_23_normal.json",
+  "case_key": "OpenVPN_23_normal",
+  "model": "qwen3_8b",
+  "selected_rows": [
+    331,
+    332,
+    270,
+    333,
+    13,
+    334,
+    260,
+    258,
+    256,
+    261
+  ],
+  "projection": [
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 331,
+      "hamming_distance": 2,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 332,
+      "hamming_distance": 2,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 270,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 333,
+      "hamming_distance": 3,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 13,
+      "hamming_distance": 4,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 334,
+      "hamming_distance": 3,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 260,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 258,
+      "hamming_distance": 3,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 256,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 261,
+      "hamming_distance": 3,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    }
+  ],
+  "fallback": false,
+  "model_status": "valid"
+}

@@ -1,0 +1,30 @@
+{
+  "synthetic_only": true,
+  "measured_files_unchanged": true,
+  "checks": [
+    {
+      "mutation": "aggregate_gain",
+      "rejected": true,
+      "transport_hash_refreshed": true,
+      "exit_code": 1
+    },
+    {
+      "mutation": "request_undercount",
+      "rejected": true,
+      "transport_hash_refreshed": true,
+      "exit_code": 1
+    },
+    {
+      "mutation": "wrong_target",
+      "rejected": true,
+      "transport_hash_refreshed": true,
+      "exit_code": 1
+    },
+    {
+      "mutation": "late_selection",
+      "rejected": true,
+      "transport_hash_refreshed": true,
+      "exit_code": 1
+    }
+  ]
+}

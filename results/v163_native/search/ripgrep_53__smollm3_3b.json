@@ -1,0 +1,271 @@
+{
+  "case": "ripgrep_53",
+  "engine": "ripgrep",
+  "arm": "smollm3_3b",
+  "state": {
+    "ids": [
+      35,
+      19,
+      40,
+      18,
+      24,
+      0,
+      53,
+      36,
+      28,
+      44,
+      10,
+      20,
+      30,
+      39,
+      45,
+      61,
+      37
+    ],
+    "labels": [
+      [
+        0.3400537080015056
+      ],
+      [
+        0.4995541669995873
+      ],
+      [
+        0.28357137499551754
+      ],
+      [
+        0.3178723329983768
+      ],
+      [
+        0.2841507919947617
+      ],
+      [
+        0.6462555839971174
+      ],
+      [
+        0.32189970900071785
+      ],
+      [
+        0.2506414590025088
+      ],
+      [
+        0.28376166700036265
+      ],
+      [
+        0.2799281250045169
+      ],
+      [
+        0.4797367499995744
+      ],
+      [
+        0.312736167004914
+      ],
+      [
+        0.2842068750032922
+      ],
+      [
+        0.3379620830019121
+      ],
+      [
+        0.3250872079952387
+      ],
+      [
+        0.3049965410027653
+      ],
+      [
+        0.3437176660008845
+      ]
+    ],
+    "order": [
+      35,
+      19,
+      40,
+      18,
+      11,
+      63,
+      6,
+      24,
+      0,
+      42,
+      31,
+      53,
+      9,
+      5,
+      43,
+      15,
+      57,
+      54,
+      26,
+      7,
+      38,
+      39,
+      13,
+      17,
+      21,
+      51,
+      4,
+      36,
+      44,
+      52,
+      59,
+      25,
+      34,
+      20,
+      61,
+      49,
+      37,
+      48,
+      41,
+      12,
+      28,
+      14,
+      56,
+      58,
+      50,
+      3,
+      16,
+      8,
+      47,
+      22,
+      10,
+      2,
+      1,
+      55,
+      62,
+      46,
+      23,
+      33,
+      60,
+      30,
+      45,
+      32,
+      29,
+      27
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      1,
+      0
+    ],
+    [
+      4,
+      1,
+      1,
+      1
+    ],
+    [
+      5,
+      1,
+      0,
+      1
+    ],
+    [
+      6,
+      1,
+      0,
+      1
+    ],
+    [
+      7,
+      1,
+      0,
+      1
+    ],
+    [
+      7,
+      1,
+      1,
+      0
+    ],
+    [
+      7,
+      1,
+      1,
+      1
+    ],
+    [
+      7,
+      1,
+      1,
+      1
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 10,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 20,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 30,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 39,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 45,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 61,
+      "distance": 0.035714285714285726,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 37,
+      "distance": 0.10714285714285715,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 62,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 63,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 55,
+      "distance": 0.035714285714285726,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    }
+  ]
+}

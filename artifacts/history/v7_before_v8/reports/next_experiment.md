@@ -1,0 +1,13 @@
+# Next experiments after completed v7
+
+1. **Separate model ranking from feature-space projection.** In a development-only paired experiment, compare selecting from an explicitly supplied set of existing unevaluated candidate rows against generating arbitrary feature strings. Use the same candidate subset and budget for a matched random-selection control. Choose the subset using features/acquired labels only; define its size and generation rule before collecting outcomes. V7 removed prefix copies but only 7/150 raw proposals matched recorded candidates, and optimization did not improve. A candidate-selection experiment is proposed, not implemented or run.
+2. Keep any representation/constraint/model selection confined to development groups. V7 is already an adaptive exploratory mechanism study following v6; it is not new held-out evidence. Do not tune on v6's exposed test families. If a useful treatment emerges, freeze it before genuinely untouched-system evaluation.
+3. Resolve remaining source-target transformations, workload and revision lineage before expanding data. The v5 count of 22 candidates was not 22 admitted tasks. Keep all related products/versions/seeds grouped; do not inflate independent-system counts. Fast Downward remains quarantined and several generic objective meanings remain unresolved.
+4. Consider a stronger local model only as a separate documented treatment after checking provenance, licensing, storage and runtime. Changing model, device, prompt, candidate presentation and batch size together would obscure the cause of any difference.
+5. New inference needs a concrete reviewed experiment and explicit additional allowance: the approved shared cap **113/113 is exhausted**, with about 169.88 seconds left under the unchanged cumulative 30-minute runtime cap. Do not reset the ledger or silently increase either limit.
+
+## Unsent discussion note
+
+“The repository now has a reproducible local-model pilot, a grouped held-out routing smoke test, and a controlled development-only follow-up. V6 did not demonstrate routing advantage. V7 prevented copying the ten observed configurations, but produced no material gain and one material harm in 15 cases against the original LLM, classical continuation and matched random control. Most new proposals still required projection into the recorded candidate pool. I would like to discuss whether a candidate-ranking formulation or a stronger model should be tested before scaling benefit-aware routing.”
+
+Nothing has been sent. Start with reports/pilot_report_v7.md for the latest mechanism result and reports/pilot_report_v6.md for the latest held-out routing result. These small negative findings do not establish generalization, novelty, publication readiness or acceptance.

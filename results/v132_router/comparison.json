@@ -1,0 +1,493 @@
+{
+  "training_groups": 8,
+  "test_groups": 2,
+  "test_cases": 10,
+  "rows": [
+    {
+      "key": "wavpack_11",
+      "group": "wavpack",
+      "seed": 11,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.013327022129463252,
+        0.00010174868998561644,
+        0.0,
+        0.002750046446532975
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_11.json",
+      "prefix_sha256": "2d878086db738d57cb8bc34bcc4cb5180f73c6d41ae788f6f8b52ea8107b1e75",
+      "predicted_gain": -0.048628795039741046,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 432198,
+      "llm_target": 432324,
+      "paired_gain_fraction": "-7/24011",
+      "paired_gain_percent": -0.02915330473532964,
+      "same_selected_configuration": false
+    },
+    {
+      "key": "wavpack_23",
+      "group": "wavpack",
+      "seed": 23,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.013550839893551223,
+        0.0,
+        1.0,
+        0.0021808654804114647
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_23.json",
+      "prefix_sha256": "3c66098256bea309e3d949106140c708d4b461a6a8c9b4088b4a6ec9fbce0654",
+      "predicted_gain": -0.07844473669547769,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": true
+      },
+      "classical_target": 432324,
+      "llm_target": 432198,
+      "paired_gain_fraction": "7/24018",
+      "paired_gain_percent": 0.0291448080606212,
+      "same_selected_configuration": false
+    },
+    {
+      "key": "wavpack_37",
+      "group": "wavpack",
+      "seed": 37,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.014666512800629628,
+        0.0005549928544669987,
+        0.0,
+        0.002153200948014624
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_37.json",
+      "prefix_sha256": "5f89e0ba815f57032ec0b16032dd159fb6e1c1bd47760882861ab6fbedb7dbf6",
+      "predicted_gain": -0.048389335853307444,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 432198,
+      "llm_target": 432198,
+      "paired_gain_fraction": "0",
+      "paired_gain_percent": 0.0,
+      "same_selected_configuration": true
+    },
+    {
+      "key": "wavpack_53",
+      "group": "wavpack",
+      "seed": 53,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.014667790799047033,
+        0.0,
+        1.0,
+        0.004059270683567453
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_53.json",
+      "prefix_sha256": "83c0b4fbb334d8236f9ce85e4c856f8b76c0f0e480cb7e2a29c14fae7a82b7df",
+      "predicted_gain": -0.07915758379256488,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 432198,
+      "llm_target": 432198,
+      "paired_gain_fraction": "0",
+      "paired_gain_percent": 0.0,
+      "same_selected_configuration": true
+    },
+    {
+      "key": "wavpack_71",
+      "group": "wavpack",
+      "seed": 71,
+      "features": [
+        4.394449154672439,
+        3,
+        4.333333333333333,
+        0.016087100986202432,
+        0.0002636216058718244,
+        0.0,
+        0.0015544978188805222
+      ],
+      "prefix": "results/v131_native/prefixes/wavpack_71.json",
+      "prefix_sha256": "5a14926125b750c6541410daac1986d7dd721cfdd58e15c758ffb297adc4c52b",
+      "predicted_gain": -0.048148075461083656,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": true
+      },
+      "classical_target": 432324,
+      "llm_target": 432198,
+      "paired_gain_fraction": "7/24018",
+      "paired_gain_percent": 0.0291448080606212,
+      "same_selected_configuration": false
+    },
+    {
+      "key": "fftw_11",
+      "group": "fftw",
+      "seed": 11,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.24889714624771034,
+        0.3249228339674108,
+        0.8888888888888888,
+        0.04330510784599768
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_11.json",
+      "prefix_sha256": "158fc032ad0acfd779a695ae6a0cb5a8239969037864b26ddb2fd0a76d560587",
+      "predicted_gain": -0.07609102028118522,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 18246000,
+      "llm_target": 19172000,
+      "paired_gain_fraction": "-463/9123",
+      "paired_gain_percent": -5.075084950126055,
+      "same_selected_configuration": false
+    },
+    {
+      "key": "fftw_23",
+      "group": "fftw",
+      "seed": 23,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.14778993215535569,
+        0.03986746472851646,
+        0.4444444444444444,
+        0.02105503473624019
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_23.json",
+      "prefix_sha256": "1571b3617da518a163138f0162b77ed72f51d7351d3a9d142ce6e5833759a841",
+      "predicted_gain": -0.054810261772848326,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": true
+      },
+      "classical_target": 18694000,
+      "llm_target": 18488000,
+      "paired_gain_fraction": "103/9347",
+      "paired_gain_percent": 1.1019578474376805,
+      "same_selected_configuration": true
+    },
+    {
+      "key": "fftw_37",
+      "group": "fftw",
+      "seed": 37,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.39465444583507825,
+        0.02823211875843455,
+        0.3333333333333333,
+        0.009967774063130378
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_37.json",
+      "prefix_sha256": "a70a84ce3a1e85852433f430905e927778ce3074381e58a54ab395d82ed92b31",
+      "predicted_gain": -0.045278416864209275,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 18666000,
+      "llm_target": 18733000,
+      "paired_gain_fraction": "-67/18666",
+      "paired_gain_percent": -0.35894139076395587,
+      "same_selected_configuration": true
+    },
+    {
+      "key": "fftw_53",
+      "group": "fftw",
+      "seed": 53,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.27436839459644413,
+        0.04134778911564626,
+        0.0,
+        0.021195348557140184
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_53.json",
+      "prefix_sha256": "72efe5ad92720a906b0b7b6142dd37907a143057fdf4af67bf82e4e185c39f64",
+      "predicted_gain": -0.04052682760318582,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 18247000,
+      "llm_target": 18338000,
+      "paired_gain_fraction": "-91/18247",
+      "paired_gain_percent": -0.4987121170603387,
+      "same_selected_configuration": true
+    },
+    {
+      "key": "fftw_71",
+      "group": "fftw",
+      "seed": 71,
+      "features": [
+        3.6109179126442243,
+        4,
+        2.5,
+        0.3384578099236993,
+        0.0017578437117136312,
+        0.8888888888888888,
+        0.016166497996365287
+      ],
+      "prefix": "results/v131_native/prefixes/fftw_71.json",
+      "prefix_sha256": "5098a8e2f628983be83ad7c7c7be9949a1d42a8a1921d4fb2ed97a9c88c62bb6",
+      "predicted_gain": -0.06476930145885068,
+      "decisions": {
+        "never": false,
+        "always": true,
+        "benefit": false,
+        "uncertainty": false,
+        "random_development_rate": false,
+        "random_matched_realized_rate": false,
+        "hindsight_oracle_diagnostic": false
+      },
+      "classical_target": 18622000,
+      "llm_target": 19134000,
+      "paired_gain_fraction": "-256/9311",
+      "paired_gain_percent": -2.7494361507893887,
+      "same_selected_configuration": false
+    }
+  ],
+  "policies": {
+    "never": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "always": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "84014/1441740495",
+          "gain_percent": 0.005827262277182552,
+          "escalations": 5,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "-6832967385173973767/450710553559438798470",
+          "gain_percent": -1.5160433522604115,
+          "escalations": 5,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 2
+        }
+      },
+      "equal_group_gain_percent": -0.7551080449916145,
+      "escalations": 10,
+      "modeled_requests": 10,
+      "missed_gt_1pct": 0,
+      "harmful_gt_1pct": 2
+    },
+    "benefit": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "uncertainty": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "random_development_rate": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "random_matched_realized_rate": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "hindsight_oracle_diagnostic": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "7/60045",
+          "gain_percent": 0.01165792322424848,
+          "escalations": 2,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "103/46735",
+          "gain_percent": 0.2203915694875361,
+          "escalations": 1,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.11602474635589229,
+      "escalations": 3,
+      "modeled_requests": null,
+      "missed_gt_1pct": 0,
+      "harmful_gt_1pct": 0
+    }
+  },
+  "practical_margin": 0.01,
+  "action_equivalence_diagnostic": {
+    "label": "Post-hoc action-equivalence diagnostic; original raw primary comparisons retained",
+    "same_configuration_cases": 5,
+    "raw_gt_1pct_benefits": 1,
+    "different_configuration_gt_1pct_benefits": 0,
+    "different_configuration_gt_1pct_harms": 2
+  },
+  "model_and_thresholds_frozen": "0542e76084b97ca359ab8565d8c64215a1dd733ae3d9b27ab2861918041bf31e",
+  "new_model_requests": 0,
+  "new_native_trials": 0,
+  "original_controller_fit_wall_seconds": null,
+  "scope": "Outcome-blind decision transfer; tiny two-family evaluation, no evidence of selective routing when policies collapse"
+}

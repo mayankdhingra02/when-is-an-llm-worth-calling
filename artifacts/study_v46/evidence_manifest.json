@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "configs/local_feasibility_v46.json": "df9605b947c23cdc5ece678e47ed4bd2a5057aa8038e7faa818fd6d8e8230912",
+    "reports/protocol_v46_local_feasibility.md": "458c3e272fca4f0213934e56953b6a39f7df23315331b79524bd5bbcf2c84dd4",
+    "scripts/setup_smollm_v46.py": "8ca428224cfaf44297ca4d18e66fa08a548be377254888a76a61a4d2fa73a7fe",
+    "scripts/run_smollm_feasibility_v46.py": "3d1fcc3dd97b343edec96a152e6bfb76e9a7a2ce86aacd65e84f38ee44a53d16",
+    "scripts/verify_smollm_feasibility_v46.py": "51d1a4d53a6439600cf3f8b7d9cd1086e01d4d6c0cd4ba1da8c20c3efaa971c6",
+    "artifacts/study_v46/feasibility/manifest.json": "9e64ab9039d0e69e17e0d7140ae8cf84f42b3c3773f71b26df1d50995e50b115",
+    "artifacts/study_v46/feasibility/output_0.txt": "54fe8d3c0dd8c8e5394c8fd2e470c016dabded39a7f22ca29dae88340725e5ca",
+    "artifacts/study_v46/feasibility/output_1.txt": "491198dbb89b6cc3304198aa9f9dff70762eff57692e692d8f126cecac9d6c2f",
+    "artifacts/study_v46/feasibility/prompt_0.txt": "093fea1cadd8f76b9dd0ad1a678c73650c1ca42accadf9874e1800c1edd4bd2d",
+    "artifacts/study_v46/feasibility/prompt_1.txt": "da3f46cdf237d5e1764dfafae1daa199fcd5ec64195df36a65b6501a981c66f9",
+    "artifacts/study_v46/feasibility/stderr_0.txt": "e1847a5c704c9688d1fb2214571feb9d586a2f1c7d7ce885f66f667d8b24f4e1",
+    "artifacts/study_v46/feasibility/stderr_1.txt": "69c27ee834ab831e564d75e5baa71285d4fa42fe6735fe20dac22a27519810d5",
+    "artifacts/study_v46/feasibility/summary.json": "f58327f4174d9034d1536f0ebc770770e6e2f6b26624253982ff4d492e4cc9f2"
+  },
+  "verification": "Two new tests passed; duplicate-run refusal and raw-trace arithmetic; no new inference from tests"
+}

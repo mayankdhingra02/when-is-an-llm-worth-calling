@@ -1,0 +1,9 @@
+# V92b: pre-outcome context compatibility amendment
+
+The first V92 attempt ended at prompt preflight, before any generation: zero model requests, zero objective acquisitions, server exit 0, 0.938369 seconds lifecycle. A prompt exceeded the 4,096-token context under Qwen3 tokenization. All original code, protocol, freeze and logs remain unchanged.
+
+This amendment keeps every V92 prompt, condition, order, model, decoder and scientific screen unchanged. It changes only the context capacity to 8,192 tokens and logs every prompt length before rejecting overflow. It makes no prompt shortening or outcome-based selection. The server RSS guard remains 8 GiB. The new lifecycle cap is 1,799 seconds so the combined lifecycle remains below the original 1,800-second ceiling; the shared remaining generation allowance is 1,080 requests because the first attempt used zero. No retries of scientific requests, no download, no paid services and no objective access. If this context fails resource or compatibility checks, stop and preserve all records. The prior zero-generation ledger is a frozen input and must pass before starting.
+
+All scientific analysis and screen definitions are inherited verbatim from `reports/protocol_v92.md` and the prospectively frozen V48 design. Three development families, three seeds each, two representations, two loss modes and three presentations; 108 intended conditions. No held-out or useful-optimization claim can be made from the sensitivity diagnostic alone. The higher context allocation must be disclosed in comparisons with V48/V91.
+
+Executable commands use suffix `_v92b.py`: freeze, collect, analyze, verify, report. Raw outputs go to `results/v92b_sensitivity/`, derived outputs to `results/v92b_analysis/`; stage receipts remain in `artifacts/study_v92/`. This is a documented compatibility amendment before experimental responses, not a result-driven change or an increase of the authorized resource ceilings.

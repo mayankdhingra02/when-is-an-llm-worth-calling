@@ -1,0 +1,122 @@
+{
+  "verified": true,
+  "source_verification": "full source hashes and charged rows",
+  "intended_rounds": 100,
+  "valid_rounds": 100,
+  "fallback_rounds": 0,
+  "arms": 20,
+  "recorded_acquisitions": 200,
+  "round_zero_same_output_cases": 10,
+  "rows": [
+    {
+      "key": "sac_AllNumeric_37_normal",
+      "system_group": "sac",
+      "seed": 37,
+      "direction": "-",
+      "prefix": 1.5,
+      "feedback": 1.5,
+      "masked": 1.5,
+      "historical_batch": 1.5,
+      "historical_sequential": 1.5
+    },
+    {
+      "key": "sac_AllNumeric_71_normal",
+      "system_group": "sac",
+      "seed": 71,
+      "direction": "-",
+      "prefix": 1.5,
+      "feedback": 1.5,
+      "masked": 1.5,
+      "historical_batch": 1.5,
+      "historical_sequential": 1.48
+    },
+    {
+      "key": "LLVM_AllNumeric_23_normal",
+      "system_group": "llvm",
+      "seed": 23,
+      "direction": "-",
+      "prefix": 206.9,
+      "feedback": 200.38,
+      "masked": 200.38,
+      "historical_batch": 206.2266667,
+      "historical_sequential": 200.38
+    },
+    {
+      "key": "LLVM_AllNumeric_53_normal",
+      "system_group": "llvm",
+      "seed": 53,
+      "direction": "-",
+      "prefix": 219.1533333,
+      "feedback": 208.92,
+      "masked": 208.92,
+      "historical_batch": 219.1533333,
+      "historical_sequential": 200.38
+    },
+    {
+      "key": "sac_AllNumeric_23_normal",
+      "system_group": "sac",
+      "seed": 23,
+      "direction": "-",
+      "prefix": 1.5,
+      "feedback": 1.5,
+      "masked": 1.5,
+      "historical_batch": 1.5,
+      "historical_sequential": 1.5
+    },
+    {
+      "key": "LLVM_AllNumeric_11_normal",
+      "system_group": "llvm",
+      "seed": 11,
+      "direction": "-",
+      "prefix": 201.5466667,
+      "feedback": 201.5466667,
+      "masked": 201.5466667,
+      "historical_batch": 201.5466667,
+      "historical_sequential": 200.38
+    },
+    {
+      "key": "sac_AllNumeric_53_normal",
+      "system_group": "sac",
+      "seed": 53,
+      "direction": "-",
+      "prefix": 1.51,
+      "feedback": 1.51,
+      "masked": 1.51,
+      "historical_batch": 1.51,
+      "historical_sequential": 1.5
+    },
+    {
+      "key": "LLVM_AllNumeric_71_normal",
+      "system_group": "llvm",
+      "seed": 71,
+      "direction": "-",
+      "prefix": 201.8966667,
+      "feedback": 201.8966667,
+      "masked": 201.8966667,
+      "historical_batch": 201.8966667,
+      "historical_sequential": 201.8966667
+    },
+    {
+      "key": "LLVM_AllNumeric_37_normal",
+      "system_group": "llvm",
+      "seed": 37,
+      "direction": "-",
+      "prefix": 199.9533333,
+      "feedback": 199.9533333,
+      "masked": 199.9533333,
+      "historical_batch": 199.9533333,
+      "historical_sequential": 199.9533333
+    },
+    {
+      "key": "sac_AllNumeric_11_normal",
+      "system_group": "sac",
+      "seed": 11,
+      "direction": "-",
+      "prefix": 1.5,
+      "feedback": 1.5,
+      "masked": 1.5,
+      "historical_batch": 1.5,
+      "historical_sequential": 1.5
+    }
+  ]
+}

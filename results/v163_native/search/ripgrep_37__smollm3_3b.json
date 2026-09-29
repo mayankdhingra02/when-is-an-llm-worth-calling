@@ -1,0 +1,271 @@
+{
+  "case": "ripgrep_37",
+  "engine": "ripgrep",
+  "arm": "smollm3_3b",
+  "state": {
+    "ids": [
+      17,
+      50,
+      1,
+      15,
+      14,
+      60,
+      44,
+      48,
+      40,
+      32,
+      24,
+      8,
+      16,
+      0,
+      12,
+      56,
+      20
+    ],
+    "labels": [
+      [
+        0.4802852919965517
+      ],
+      [
+        0.2792637500024284
+      ],
+      [
+        1.202241832994332
+      ],
+      [
+        0.7223851250018924
+      ],
+      [
+        0.46033504200022435
+      ],
+      [
+        0.2837012500021956
+      ],
+      [
+        0.27769637500023236
+      ],
+      [
+        0.2819200419980916
+      ],
+      [
+        0.28329437500360655
+      ],
+      [
+        0.2544689579954138
+      ],
+      [
+        0.2922325409963378
+      ],
+      [
+        0.45992320900404593
+      ],
+      [
+        0.3073649159996421
+      ],
+      [
+        0.6680239579945919
+      ],
+      [
+        0.4689910000015516
+      ],
+      [
+        0.28313450000132434
+      ],
+      [
+        0.3200163329966017
+      ]
+    ],
+    "order": [
+      17,
+      50,
+      1,
+      15,
+      12,
+      14,
+      30,
+      41,
+      37,
+      57,
+      60,
+      21,
+      35,
+      8,
+      61,
+      10,
+      22,
+      7,
+      44,
+      63,
+      46,
+      20,
+      55,
+      0,
+      31,
+      13,
+      58,
+      49,
+      19,
+      16,
+      25,
+      54,
+      36,
+      48,
+      52,
+      45,
+      34,
+      4,
+      26,
+      5,
+      3,
+      9,
+      51,
+      27,
+      24,
+      18,
+      38,
+      29,
+      43,
+      6,
+      33,
+      28,
+      23,
+      56,
+      2,
+      32,
+      40,
+      62,
+      47,
+      53,
+      42,
+      39,
+      59,
+      11
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 24,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 8,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 16,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 0,
+      "distance": 0.07142857142857142,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 12,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 56,
+      "distance": 0.10714285714285715,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 20,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 41,
+      "distance": 0.25,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 49,
+      "distance": 0.25,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 25,
+      "distance": 0.25,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    }
+  ]
+}

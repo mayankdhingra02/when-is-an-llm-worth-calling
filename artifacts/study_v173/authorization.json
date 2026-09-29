@@ -1,0 +1,26 @@
+{
+ "recorded_at": "2026-09-28",
+ "owner_messages_verbatim": [
+  "you do what you think is right for thr reserch and how much will it cost",
+  "i have credited $5, i can credit more if you think that is a good idea"
+ ],
+ "context": "Owner created an OpenRouter account, added $5 credit, created a key with a $5 limit, and asked for it to be saved to ~/.config/llm-escalation-study/openrouter_key (done from the clipboard without displaying it). Owner delegated the V173 design choice after Claude recommended arms A + B with an expected cost of about $0.30-1.00.",
+ "authorized": {
+  "paid_inference": true,
+  "service": "OpenRouter (openrouter.ai)",
+  "model": "openai/gpt-oss-120b",
+  "client_side_spend_cap_usd": 3.0,
+  "owner_key_limit_usd": 5.0,
+  "key_file": "~/.config/llm-escalation-study/openrouter_key",
+  "data_sent": "prompts built only from public benchmark tables and acquired labels"
+ },
+ "scope_limit": "V173 only. Not standing permission for other studies, providers, models, larger budgets, cloud resources or credential use.",
+ "not_authorized": [
+  "spend above $3 without a new explicit owner decision",
+  "other credentials or auth stores",
+  "cloud resources",
+  "publishing or remote push",
+  "external contact",
+  "system-wide changes"
+ ]
+}

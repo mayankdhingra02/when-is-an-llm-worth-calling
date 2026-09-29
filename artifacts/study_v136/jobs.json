@@ -1,0 +1,2337 @@
+[
+  {
+    "key": "sac_AllNumeric_37_normal",
+    "dataset": "sac_AllNumeric",
+    "system_group": "sac",
+    "seed": 37,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_37.json",
+    "base_key": "sac_AllNumeric_37",
+    "condition": "normal",
+    "sampling_seed": 127037,
+    "random_proposal_seed": 127922,
+    "messages_path": "artifacts/study_v127/prompts/sac_AllNumeric_37_normal.json",
+    "prefix_sha256": "0165c8146a244685e78dc8306db10790e09948766d5cbc3a66ec6f7de5f72ad4",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        7.0,
+        9.0,
+        10.0,
+        13.0,
+        14.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        1.0,
+        2.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        16.0,
+        17.0,
+        18.0,
+        20.0
+      ],
+      [
+        1.0,
+        3.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        13.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        32.0,
+        128.0,
+        192.0,
+        224.0,
+        256.0,
+        288.0,
+        320.0,
+        352.0,
+        512.0,
+        544.0,
+        640.0,
+        672.0,
+        736.0,
+        768.0,
+        832.0,
+        864.0,
+        896.0,
+        960.0,
+        1024.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1024.0,
+        3072.0,
+        4096.0,
+        5120.0,
+        7168.0,
+        9216.0,
+        10240.0,
+        11264.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136000,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136001,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136002,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136003,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136004,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      }
+    ],
+    "historical_batch": "results/v135_analysis/arms/sac_AllNumeric_37_normal.json",
+    "historical_sequential": "results/v41_transfer/arms/sac_AllNumeric_37_full_sequential_3nn.json"
+  },
+  {
+    "key": "sac_AllNumeric_71_normal",
+    "dataset": "sac_AllNumeric",
+    "system_group": "sac",
+    "seed": 71,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_71.json",
+    "base_key": "sac_AllNumeric_71",
+    "condition": "normal",
+    "sampling_seed": 127071,
+    "random_proposal_seed": 127924,
+    "messages_path": "artifacts/study_v127/prompts/sac_AllNumeric_71_normal.json",
+    "prefix_sha256": "0b96e1ab7557b75571de5f8844e4c303c8835ed59bfb588d21902855f1428d0a",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        7.0,
+        9.0,
+        10.0,
+        13.0,
+        14.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        1.0,
+        2.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        16.0,
+        17.0,
+        18.0,
+        20.0
+      ],
+      [
+        1.0,
+        3.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        13.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        32.0,
+        128.0,
+        192.0,
+        224.0,
+        256.0,
+        288.0,
+        320.0,
+        352.0,
+        512.0,
+        544.0,
+        640.0,
+        672.0,
+        736.0,
+        768.0,
+        832.0,
+        864.0,
+        896.0,
+        960.0,
+        1024.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1024.0,
+        3072.0,
+        4096.0,
+        5120.0,
+        7168.0,
+        9216.0,
+        10240.0,
+        11264.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136100,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136101,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136102,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136103,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136104,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      }
+    ],
+    "historical_batch": "results/v135_analysis/arms/sac_AllNumeric_71_normal.json",
+    "historical_sequential": "results/v41_transfer/arms/sac_AllNumeric_71_full_sequential_3nn.json"
+  },
+  {
+    "key": "LLVM_AllNumeric_23_normal",
+    "dataset": "LLVM_AllNumeric",
+    "system_group": "llvm",
+    "seed": 23,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_23.json",
+    "base_key": "LLVM_AllNumeric_23",
+    "condition": "normal",
+    "sampling_seed": 127023,
+    "random_proposal_seed": 127911,
+    "messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_23_normal.json",
+    "prefix_sha256": "e7a9cedf66adf2f8604269880ffb3e6c97db7109596da1d7ad2a7ace045eacac",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136200,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136201,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136202,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136203,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136204,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      }
+    ],
+    "historical_batch": "results/v127_analysis/arms/LLVM_AllNumeric_23_model.json",
+    "historical_sequential": "results/v41_transfer/arms/LLVM_AllNumeric_23_full_sequential_3nn.json"
+  },
+  {
+    "key": "LLVM_AllNumeric_53_normal",
+    "dataset": "LLVM_AllNumeric",
+    "system_group": "llvm",
+    "seed": 53,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_53.json",
+    "base_key": "LLVM_AllNumeric_53",
+    "condition": "normal",
+    "sampling_seed": 127053,
+    "random_proposal_seed": 127913,
+    "messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_53_normal.json",
+    "prefix_sha256": "0454250ab5fc9586479b6d75010db5333275d2155ba1bf6d9033b3ee13bed9be",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136300,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136301,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136302,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136303,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136304,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      }
+    ],
+    "historical_batch": "results/v127_analysis/arms/LLVM_AllNumeric_53_model.json",
+    "historical_sequential": "results/v41_transfer/arms/LLVM_AllNumeric_53_full_sequential_3nn.json"
+  },
+  {
+    "key": "sac_AllNumeric_23_normal",
+    "dataset": "sac_AllNumeric",
+    "system_group": "sac",
+    "seed": 23,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_23.json",
+    "base_key": "sac_AllNumeric_23",
+    "condition": "normal",
+    "sampling_seed": 127023,
+    "random_proposal_seed": 127921,
+    "messages_path": "artifacts/study_v127/prompts/sac_AllNumeric_23_normal.json",
+    "prefix_sha256": "e50f408d65a751e1f8f5f1e3a6b7bb54f23c6250b6647499cae2a731fd716769",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        7.0,
+        9.0,
+        10.0,
+        13.0,
+        14.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        1.0,
+        2.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        16.0,
+        17.0,
+        18.0,
+        20.0
+      ],
+      [
+        1.0,
+        3.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        13.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        32.0,
+        128.0,
+        192.0,
+        224.0,
+        256.0,
+        288.0,
+        320.0,
+        352.0,
+        512.0,
+        544.0,
+        640.0,
+        672.0,
+        736.0,
+        768.0,
+        832.0,
+        864.0,
+        896.0,
+        960.0,
+        1024.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1024.0,
+        3072.0,
+        4096.0,
+        5120.0,
+        7168.0,
+        9216.0,
+        10240.0,
+        11264.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136400,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136401,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136402,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136403,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136404,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      }
+    ],
+    "historical_batch": "results/v135_analysis/arms/sac_AllNumeric_23_normal.json",
+    "historical_sequential": "results/v41_transfer/arms/sac_AllNumeric_23_full_sequential_3nn.json"
+  },
+  {
+    "key": "LLVM_AllNumeric_11_normal",
+    "dataset": "LLVM_AllNumeric",
+    "system_group": "llvm",
+    "seed": 11,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_11.json",
+    "base_key": "LLVM_AllNumeric_11",
+    "condition": "normal",
+    "sampling_seed": 127011,
+    "random_proposal_seed": 127910,
+    "messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_11_normal.json",
+    "prefix_sha256": "fa8ef94900936d7752830c44ae25ae2e4196f1d0fbf3ecfc2dd4258d9316e243",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136500,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136501,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136502,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136503,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136504,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      }
+    ],
+    "historical_batch": "results/v127_analysis/arms/LLVM_AllNumeric_11_model.json",
+    "historical_sequential": "results/v41_transfer/arms/LLVM_AllNumeric_11_full_sequential_3nn.json"
+  },
+  {
+    "key": "sac_AllNumeric_53_normal",
+    "dataset": "sac_AllNumeric",
+    "system_group": "sac",
+    "seed": 53,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_53.json",
+    "base_key": "sac_AllNumeric_53",
+    "condition": "normal",
+    "sampling_seed": 127053,
+    "random_proposal_seed": 127923,
+    "messages_path": "artifacts/study_v127/prompts/sac_AllNumeric_53_normal.json",
+    "prefix_sha256": "288a6b90da3837e366e7ce832ee6b50e3eec444f5ab1bdb788153f0bfabeb59e",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        7.0,
+        9.0,
+        10.0,
+        13.0,
+        14.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        1.0,
+        2.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        16.0,
+        17.0,
+        18.0,
+        20.0
+      ],
+      [
+        1.0,
+        3.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        13.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        32.0,
+        128.0,
+        192.0,
+        224.0,
+        256.0,
+        288.0,
+        320.0,
+        352.0,
+        512.0,
+        544.0,
+        640.0,
+        672.0,
+        736.0,
+        768.0,
+        832.0,
+        864.0,
+        896.0,
+        960.0,
+        1024.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1024.0,
+        3072.0,
+        4096.0,
+        5120.0,
+        7168.0,
+        9216.0,
+        10240.0,
+        11264.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136600,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136601,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136602,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136603,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136604,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      }
+    ],
+    "historical_batch": "results/v135_analysis/arms/sac_AllNumeric_53_normal.json",
+    "historical_sequential": "results/v41_transfer/arms/sac_AllNumeric_53_full_sequential_3nn.json"
+  },
+  {
+    "key": "LLVM_AllNumeric_71_normal",
+    "dataset": "LLVM_AllNumeric",
+    "system_group": "llvm",
+    "seed": 71,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_71.json",
+    "base_key": "LLVM_AllNumeric_71",
+    "condition": "normal",
+    "sampling_seed": 127071,
+    "random_proposal_seed": 127914,
+    "messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_71_normal.json",
+    "prefix_sha256": "12628b59bb4fe03b68c2c21ded3311510307120ebc92e20a97f277913120a456",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136700,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136701,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136702,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136703,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136704,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      }
+    ],
+    "historical_batch": "results/v127_analysis/arms/LLVM_AllNumeric_71_model.json",
+    "historical_sequential": "results/v41_transfer/arms/LLVM_AllNumeric_71_full_sequential_3nn.json"
+  },
+  {
+    "key": "LLVM_AllNumeric_37_normal",
+    "dataset": "LLVM_AllNumeric",
+    "system_group": "llvm",
+    "seed": 37,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_37.json",
+    "base_key": "LLVM_AllNumeric_37",
+    "condition": "normal",
+    "sampling_seed": 127037,
+    "random_proposal_seed": 127912,
+    "messages_path": "artifacts/study_v127/prompts/LLVM_AllNumeric_37_normal.json",
+    "prefix_sha256": "c05153b46ad8130ea74b52761354a2b96e8dcb886133c02fc157e75a1d1bf40e",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136800,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136801,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136802,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136803,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136804,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      }
+    ],
+    "historical_batch": "results/v127_analysis/arms/LLVM_AllNumeric_37_model.json",
+    "historical_sequential": "results/v41_transfer/arms/LLVM_AllNumeric_37_full_sequential_3nn.json"
+  },
+  {
+    "key": "sac_AllNumeric_11_normal",
+    "dataset": "sac_AllNumeric",
+    "system_group": "sac",
+    "seed": 11,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_11.json",
+    "base_key": "sac_AllNumeric_11",
+    "condition": "normal",
+    "sampling_seed": 127011,
+    "random_proposal_seed": 127920,
+    "messages_path": "artifacts/study_v127/prompts/sac_AllNumeric_11_normal.json",
+    "prefix_sha256": "67a408ed6b7a322369459ebffae64b39dd31af1856190f4a26ad0a65cbec1ee2",
+    "domains": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        7.0,
+        9.0,
+        10.0,
+        13.0,
+        14.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        1.0,
+        2.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        16.0,
+        17.0,
+        18.0,
+        20.0
+      ],
+      [
+        1.0,
+        3.0,
+        4.0,
+        7.0,
+        8.0,
+        10.0,
+        13.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      [
+        32.0,
+        128.0,
+        192.0,
+        224.0,
+        256.0,
+        288.0,
+        320.0,
+        352.0,
+        512.0,
+        544.0,
+        640.0,
+        672.0,
+        736.0,
+        768.0,
+        832.0,
+        864.0,
+        896.0,
+        960.0,
+        1024.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        1024.0,
+        3072.0,
+        4096.0,
+        5120.0,
+        7168.0,
+        9216.0,
+        10240.0,
+        11264.0
+      ]
+    ],
+    "schedule": [
+      {
+        "round": 0,
+        "sampling_seed": 136900,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 1,
+        "sampling_seed": 136901,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      },
+      {
+        "round": 2,
+        "sampling_seed": 136902,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 3,
+        "sampling_seed": 136903,
+        "arm_order": [
+          "feedback",
+          "masked"
+        ]
+      },
+      {
+        "round": 4,
+        "sampling_seed": 136904,
+        "arm_order": [
+          "masked",
+          "feedback"
+        ]
+      }
+    ],
+    "historical_batch": "results/v135_analysis/arms/sac_AllNumeric_11_normal.json",
+    "historical_sequential": "results/v41_transfer/arms/sac_AllNumeric_11_full_sequential_3nn.json"
+  }
+]

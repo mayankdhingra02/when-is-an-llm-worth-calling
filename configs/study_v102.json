@@ -1,0 +1,21 @@
+{
+  "stage": "v102_short_thought_feasibility",
+  "new_generation_request_cap": 3,
+  "scientific_request_cap": 3,
+  "compatibility_request_cap": 0,
+  "context_tokens": 4096,
+  "max_generation_stage_seconds": 600,
+  "max_server_rss_bytes": 8589934592,
+  "max_allocated_output_tokens": 384,
+  "max_new_recorded_objective_acquisitions": 0,
+  "retries": 0,
+  "allow_paid_api": false,
+  "max_external_spend_usd": 0,
+  "allow_cloud": false,
+  "host": "127.0.0.1",
+  "stage_download_cap_bytes": 0,
+  "thinking_output_cap": 128,
+  "nonthinking_output_cap": 128,
+  "final_output_cap": 128,
+  "load_mode": "none"
+}

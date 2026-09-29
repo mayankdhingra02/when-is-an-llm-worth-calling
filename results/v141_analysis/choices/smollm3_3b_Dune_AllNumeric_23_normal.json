@@ -1,0 +1,277 @@
+{
+  "key": "smollm3_3b_Dune_AllNumeric_23_normal",
+  "dataset": "Dune_AllNumeric",
+  "system_group": "dune_hsmgp",
+  "seed": 23,
+  "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_23.json",
+  "base_key": "Dune_AllNumeric_23",
+  "condition": "normal",
+  "sampling_seed": 141023,
+  "random_proposal_seed": 127906,
+  "messages_path": "artifacts/study_v141/prompts/Dune_AllNumeric_23_normal.json",
+  "prefix_sha256": "7d73d796e88597ba7105aafcf1bc47d3254712411df2d8df493bf5672974a25e",
+  "domains": [
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      50.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ]
+  ],
+  "model_arm": "results/v127_analysis/arms/Dune_AllNumeric_23_model.json",
+  "classical_arm": "results/v41_transfer/arms/Dune_AllNumeric_23_full_sequential_3nn.json",
+  "old_messages_path": "artifacts/study_v127/prompts/Dune_AllNumeric_23_normal.json",
+  "case_key": "Dune_AllNumeric_23_normal",
+  "model": "smollm3_3b",
+  "selected_rows": [
+    233,
+    310,
+    230,
+    162,
+    136,
+    290,
+    90,
+    345,
+    254,
+    292
+  ],
+  "projection": [
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        2.0,
+        3.0
+      ],
+      "row_id": 233,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        2.0,
+        3.0
+      ],
+      "row_id": 310,
+      "hamming_distance": 2,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        2.0,
+        3.0
+      ],
+      "row_id": 230,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        50.0,
+        2.0,
+        3.0
+      ],
+      "row_id": 162,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        50.0,
+        2.0,
+        3.0
+      ],
+      "row_id": 136,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        2.0,
+        3.0
+      ],
+      "row_id": 290,
+      "hamming_distance": 2,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        5.0,
+        2.0
+      ],
+      "row_id": 90,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        2.0,
+        2.0
+      ],
+      "row_id": 345,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        5.0,
+        2.0
+      ],
+      "row_id": 254,
+      "hamming_distance": 2,
+      "repeated_proposal": true,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        50.0,
+        5.0,
+        2.0
+      ],
+      "row_id": 292,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    }
+  ],
+  "fallback": false,
+  "model_status": "valid"
+}

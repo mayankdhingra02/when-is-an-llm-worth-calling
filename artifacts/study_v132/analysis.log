@@ -1,0 +1,165 @@
+{
+  "policies": {
+    "never": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "always": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "84014/1441740495",
+          "gain_percent": 0.005827262277182552,
+          "escalations": 5,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "-6832967385173973767/450710553559438798470",
+          "gain_percent": -1.5160433522604115,
+          "escalations": 5,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 2
+        }
+      },
+      "equal_group_gain_percent": -0.7551080449916145,
+      "escalations": 10,
+      "modeled_requests": 10,
+      "missed_gt_1pct": 0,
+      "harmful_gt_1pct": 2
+    },
+    "benefit": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "uncertainty": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "random_development_rate": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "random_matched_realized_rate": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "0.0",
+          "gain_percent": 0.0,
+          "escalations": 0,
+          "missed_gt_1pct": 1,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.0,
+      "escalations": 0,
+      "modeled_requests": 0,
+      "missed_gt_1pct": 1,
+      "harmful_gt_1pct": 0
+    },
+    "hindsight_oracle_diagnostic": {
+      "by_group": {
+        "wavpack": {
+          "gain_fraction": "7/60045",
+          "gain_percent": 0.01165792322424848,
+          "escalations": 2,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        },
+        "fftw": {
+          "gain_fraction": "103/46735",
+          "gain_percent": 0.2203915694875361,
+          "escalations": 1,
+          "missed_gt_1pct": 0,
+          "harmful_gt_1pct": 0
+        }
+      },
+      "equal_group_gain_percent": 0.11602474635589229,
+      "escalations": 3,
+      "modeled_requests": null,
+      "missed_gt_1pct": 0,
+      "harmful_gt_1pct": 0
+    }
+  }
+}

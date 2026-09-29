@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize xgboost configuration from ten acquired outcomes. Return a JSON array of ten 4-digit strings ordered most promising first. Each digit indexes the listed values for its feature. Avoid duplicate proposals and propose diverse promising settings. Only the first seven projected unseen settings will be measured; three remaining evaluations are reserved for fresh validation of the best observed setting."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"threads\",\"max_bin\",\"max_depth\",\"rounds\"],\"indexed_values\":[[1,2,4,6],[32,64,128,256],[3,6,9,12],[16,32]],\"observed_examples\":[{\"settings\":[6,128,12,16],\"loss_seconds\":0.4133934169949498},{\"settings\":[2,32,3,16],\"loss_seconds\":60.0},{\"settings\":[2,32,3,32],\"loss_seconds\":60.0},{\"settings\":[2,128,6,16],\"loss_seconds\":0.2868104579974897},{\"settings\":[6,256,12,32],\"loss_seconds\":0.7617786670016358},{\"settings\":[1,256,12,16],\"loss_seconds\":0.8649050420062849},{\"settings\":[6,64,12,16],\"loss_seconds\":0.38436179200652987},{\"settings\":[6,64,9,16],\"loss_seconds\":0.29579183300666045},{\"settings\":[6,128,3,16],\"loss_seconds\":60.0},{\"settings\":[4,128,9,16],\"loss_seconds\":0.28757699999550823}],\"objective\":\"Train seven-class CPU histogram XGBoost on65536real Covertype rows and predict8192quality-validation rows. Minimize DMatrix construction plus training and prediction time. Accuracy must be at least75%; infeasible configurations have fixed60second utility penalty, not successful measured runtime. eta0.3, seed16601 and all other settings fixed.\",\"direction\":\"minimize\",\"projection\":\"Normalized ordinal-coordinate L1 nearest unseen setting; seeded order breaks ties.\"}"
+  }
+]

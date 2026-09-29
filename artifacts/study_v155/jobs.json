@@ -1,0 +1,982 @@
+[
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_23",
+    "key": "spark::tpch_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/tpch_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_11",
+    "key": "spark::bayes_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/bayes_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_23_normal",
+    "key": "openvpn::OpenVPN_23_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_71",
+    "key": "spark::bayes_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/bayes_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_53_normal",
+    "key": "hipacc::hipacc_AllNumeric_53_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_53_normal",
+    "key": "hipacc::hipacc_AllNumeric_53_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_23",
+    "key": "spark::pagerank_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_11",
+    "key": "hadoop_mapreduce::wordcount_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_23",
+    "key": "hadoop_mapreduce::wordcount_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_71",
+    "key": "hadoop_mapreduce::wordcount_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_53",
+    "key": "spark::bayes_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/bayes_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_37_normal",
+    "key": "llvm::LLVM_AllNumeric_37_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_11",
+    "key": "hadoop_mapreduce::pagerank_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_53_normal",
+    "key": "sac::sac_AllNumeric_53_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_71_normal",
+    "key": "hipacc::hipacc_AllNumeric_71_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_23",
+    "key": "hadoop_mapreduce::pagerank_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_53",
+    "key": "hadoop_mapreduce::terasort_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/terasort_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_53",
+    "key": "spark::pagerank_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_71",
+    "key": "spark::tpch_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/tpch_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_37_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_37_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_11_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_11_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_37",
+    "key": "hadoop_mapreduce::pagerank_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_71",
+    "key": "spark::pagerank_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_23_normal",
+    "key": "openvpn::OpenVPN_23_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_11",
+    "key": "spark::wordcount_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_37",
+    "key": "spark::terasort_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/terasort_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_23_normal",
+    "key": "hipacc::hipacc_AllNumeric_23_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_37",
+    "key": "hadoop_mapreduce::wordcount_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_71",
+    "key": "hadoop_mapreduce::terasort_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/terasort_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_11_normal",
+    "key": "sac::sac_AllNumeric_11_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_71",
+    "key": "spark::bayes_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/bayes_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_53",
+    "key": "hadoop_mapreduce::wordcount_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_23",
+    "key": "spark::wordcount_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_11_normal",
+    "key": "llvm::LLVM_AllNumeric_11_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_11",
+    "key": "spark::terasort_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/terasort_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_37",
+    "key": "spark::wordcount_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_11_normal",
+    "key": "hipacc::hipacc_AllNumeric_11_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_11_normal",
+    "key": "sac::sac_AllNumeric_11_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_71_normal",
+    "key": "sac::sac_AllNumeric_71_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_53",
+    "key": "spark::wordcount_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_23_normal",
+    "key": "sac::sac_AllNumeric_23_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_37",
+    "key": "spark::bayes_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/bayes_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_11",
+    "key": "spark::bayes_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/bayes_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_37",
+    "key": "spark::terasort_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/terasort_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_23",
+    "key": "hadoop_mapreduce::terasort_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/terasort_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_71",
+    "key": "hadoop_mapreduce::wordcount_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_11_normal",
+    "key": "hipacc::hipacc_AllNumeric_11_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_53_normal",
+    "key": "llvm::LLVM_AllNumeric_53_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_11",
+    "key": "spark::tpch_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/tpch_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_37",
+    "key": "spark::wordcount_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_71",
+    "key": "spark::wordcount_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_23",
+    "key": "spark::bayes_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/bayes_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_71",
+    "key": "spark::wordcount_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_23",
+    "key": "hadoop_mapreduce::pagerank_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_71_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_71_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_37_normal",
+    "key": "sac::sac_AllNumeric_37_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_71_normal",
+    "key": "hipacc::hipacc_AllNumeric_71_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_37",
+    "key": "spark::bayes_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/bayes_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_71_normal",
+    "key": "openvpn::OpenVPN_71_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_71_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_71_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_53_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_53_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_23",
+    "key": "hadoop_mapreduce::wordcount_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_23_normal",
+    "key": "llvm::LLVM_AllNumeric_23_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_11",
+    "key": "hadoop_mapreduce::pagerank_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_53",
+    "key": "spark::terasort_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/terasort_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_11_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_11_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_71",
+    "key": "spark::terasort_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/terasort_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_11",
+    "key": "hadoop_mapreduce::terasort_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/terasort_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_23",
+    "key": "spark::pagerank_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_71_normal",
+    "key": "llvm::LLVM_AllNumeric_71_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_11",
+    "key": "hadoop_mapreduce::wordcount_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_11_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_11_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_23",
+    "key": "spark::terasort_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/terasort_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_37_normal",
+    "key": "sac::sac_AllNumeric_37_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_23_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_23_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_53",
+    "key": "hadoop_mapreduce::terasort_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/terasort_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_53_normal",
+    "key": "openvpn::OpenVPN_53_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_37",
+    "key": "hadoop_mapreduce::terasort_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/terasort_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_53",
+    "key": "spark::wordcount_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_71_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_71_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_53",
+    "key": "spark::terasort_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/terasort_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_71",
+    "key": "hadoop_mapreduce::pagerank_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_23_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_23_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_23_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_23_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_53",
+    "key": "spark::tpch_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/tpch_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_37",
+    "key": "spark::pagerank_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_53",
+    "key": "spark::bayes_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/bayes_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_53",
+    "key": "spark::tpch_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/tpch_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_23_normal",
+    "key": "llvm::LLVM_AllNumeric_23_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_23",
+    "key": "hadoop_mapreduce::terasort_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/terasort_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_37_normal",
+    "key": "llvm::LLVM_AllNumeric_37_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_37_normal",
+    "key": "hipacc::hipacc_AllNumeric_37_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_53",
+    "key": "hadoop_mapreduce::pagerank_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_23",
+    "key": "spark::tpch_23::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/tpch_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_23_normal",
+    "key": "hipacc::hipacc_AllNumeric_23_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_71_normal",
+    "key": "openvpn::OpenVPN_71_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_71_normal",
+    "key": "llvm::LLVM_AllNumeric_71_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_11",
+    "key": "spark::tpch_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/tpch_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_71",
+    "key": "spark::tpch_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/tpch_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_11_normal",
+    "key": "llvm::LLVM_AllNumeric_11_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_53_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_53_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_53_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_53_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_37",
+    "key": "hadoop_mapreduce::pagerank_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_53_normal",
+    "key": "sac::sac_AllNumeric_53_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_37_normal",
+    "key": "openvpn::OpenVPN_37_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_23_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_23_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_71",
+    "key": "spark::terasort_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/terasort_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_71",
+    "key": "hadoop_mapreduce::terasort_71::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/terasort_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_53_normal",
+    "key": "openvpn::OpenVPN_53_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_11_normal",
+    "key": "openvpn::OpenVPN_11_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_11",
+    "key": "spark::terasort_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/terasort_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_11",
+    "key": "spark::wordcount_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_11",
+    "key": "hadoop_mapreduce::terasort_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/terasort_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_37_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_37_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_37",
+    "key": "spark::tpch_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/tpch_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_11_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_11_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_11_normal",
+    "key": "openvpn::OpenVPN_11_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_53",
+    "key": "spark::pagerank_53::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_71",
+    "key": "hadoop_mapreduce::pagerank_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/terasort.json",
+    "case": "hadoop_mapreduce::terasort_37",
+    "key": "hadoop_mapreduce::terasort_37::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v148/prefixes/terasort_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_53",
+    "key": "hadoop_mapreduce::wordcount_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_37_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_37_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_23_normal",
+    "key": "sac::sac_AllNumeric_23_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/sac.json",
+    "case": "sac::sac_AllNumeric_71_normal",
+    "key": "sac::sac_AllNumeric_71_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/sac_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_11",
+    "key": "spark::pagerank_11::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_11.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/wordcount.json",
+    "case": "spark::wordcount_23",
+    "key": "spark::wordcount_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/wordcount_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/bayes.json",
+    "case": "spark::bayes_23",
+    "key": "spark::bayes_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/bayes_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/wordcount.json",
+    "case": "hadoop_mapreduce::wordcount_37",
+    "key": "hadoop_mapreduce::wordcount_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_71",
+    "key": "spark::pagerank_71::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/dune_hsmgp.json",
+    "case": "dune_hsmgp::Dune_AllNumeric_71_normal",
+    "key": "dune_hsmgp::Dune_AllNumeric_71_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_71.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_53_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_53_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/openvpn.json",
+    "case": "openvpn::OpenVPN_37_normal",
+    "key": "openvpn::OpenVPN_37_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/OpenVPN_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/terasort.json",
+    "case": "spark::terasort_23",
+    "key": "spark::terasort_23::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/terasort_23.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/llvm.json",
+    "case": "llvm::LLVM_AllNumeric_53_normal",
+    "key": "llvm::LLVM_AllNumeric_53_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/LLVM_AllNumeric_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v148/candidates/pagerank.json",
+    "case": "hadoop_mapreduce::pagerank_53",
+    "key": "hadoop_mapreduce::pagerank_53::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_53.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/berkeleydb.json",
+    "case": "berkeleydb::BDBC_AllNumeric_37_normal",
+    "key": "berkeleydb::BDBC_AllNumeric_37_normal::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_37",
+    "key": "spark::pagerank_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v141/candidates/hipacc.json",
+    "case": "hipacc::hipacc_AllNumeric_37_normal",
+    "key": "hipacc::hipacc_AllNumeric_37_normal::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "results/v41_transfer/prefixes/hipacc_AllNumeric_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/tpch.json",
+    "case": "spark::tpch_37",
+    "key": "spark::tpch_37::gp_0.2",
+    "lengthscale": 0.2,
+    "prefix": "artifacts/study_v144/prefixes/tpch_37.json"
+  },
+  {
+    "candidate_path": "artifacts/study_v144/candidates/pagerank.json",
+    "case": "spark::pagerank_11",
+    "key": "spark::pagerank_11::gp_1.0",
+    "lengthscale": 1.0,
+    "prefix": "artifacts/study_v144/prefixes/pagerank_11.json"
+  }
+]

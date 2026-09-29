@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "new_outcomes": 768,
+  "native_invocations": 2304,
+  "new_model_requests": 0,
+  "selection_cells": 128,
+  "validation_cells": 128,
+  "reference_fixed_before_validation": true,
+  "frozen_prefix_targets": 30,
+  "frozen_prior_incumbent_targets": 90,
+  "posthoc_targets_checked": 30,
+  "mutations_rejected": [
+    "value",
+    "quality",
+    "configuration",
+    "reference_id_change"
+  ],
+  "scope": "Independent internal replay; not independently collected host evidence"
+}

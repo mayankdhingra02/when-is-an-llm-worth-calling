@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-28T22:32:57.927920+00:00",
+  "stage": "A2",
+  "provider": "deepinfra/turbo",
+  "intended": 70,
+  "requests": 70,
+  "responses_scored": 69,
+  "valid": 69,
+  "invalid": 0,
+  "unattempted": [
+    "spark::tpch_23"
+  ],
+  "error": "refused: Stage wall cap",
+  "seconds": 1860.0129012919933,
+  "spend": {
+    "spent_usd": 0.48629128200000005,
+    "requests": 175,
+    "reported_cost_usd": 0.48629128200000005,
+    "estimated_only_usd": 0.0,
+    "unknown_cost_requests": 0
+  }
+}

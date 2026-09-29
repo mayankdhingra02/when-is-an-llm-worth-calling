@@ -1,0 +1,36 @@
+{
+  "stage": "v119_external_recorded_table_check",
+  "new_generation_request_cap": 5,
+  "scientific_request_cap": 5,
+  "compatibility_request_cap": 0,
+  "context_tokens": 4096,
+  "max_generation_stage_seconds": 900,
+  "max_server_rss_bytes": 8589934592,
+  "max_allocated_output_tokens": 640,
+  "max_new_recorded_objective_acquisitions": 300,
+  "retries": 0,
+  "allow_paid_api": false,
+  "max_external_spend_usd": 0,
+  "allow_cloud": false,
+  "host": "127.0.0.1",
+  "stage_download_cap_bytes": 0,
+  "thinking_output_cap": 128,
+  "nonthinking_output_cap": 128,
+  "final_output_cap": 128,
+  "load_mode": "none",
+  "sampling_seeds": [
+    1009
+  ],
+  "intended_conditions": 5,
+  "optimization_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "practical_relative_gain_margin": 0.05,
+  "max_classical_seconds": 180,
+  "max_classical_acquisitions": 250,
+  "max_llm_continuation_acquisitions": 50
+}

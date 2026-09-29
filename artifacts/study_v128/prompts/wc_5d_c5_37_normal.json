@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"spout\",\"split\",\"count\",\"buffer-size\",\"heap\"],\"symbol_to_value\":[[1.0,2.0,3.0],[1.0,2.0,3.0,6.0],[1.0,2.0,3.0,6.0,9.0,12.0],[262000.0,1050000.0,5240000.0,10500000.0,105000000.0],[512.0,1024.0,2048.0]],\"observed_examples\":[{\"settings\":\"20401\",\"performance\":\"244.750000\"},{\"settings\":\"03200\",\"performance\":\"80.408000\"},{\"settings\":\"11410\",\"performance\":\"141.850000\"},{\"settings\":\"20412\",\"performance\":\"240.320000\"},{\"settings\":\"01200\",\"performance\":\"69.100000\"},{\"settings\":\"01202\",\"performance\":\"67.396000\"},{\"settings\":\"01210\",\"performance\":\"67.328000\"},{\"settings\":\"01220\",\"performance\":\"68.835000\"},{\"settings\":\"21511\",\"performance\":\"199.960000\"},{\"settings\":\"02210\",\"performance\":\"76.613000\"}],\"performance_meaning\":\"Published recorded latency value; physical metric type, exact executed version and correctness not independently certified.\",\"direction\":\"minimize\"}"
+  }
+]

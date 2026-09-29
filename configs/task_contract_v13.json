@@ -1,0 +1,15 @@
+{
+  "version": 13,
+  "status": "proposed_not_application_validated",
+  "task": "minimize compression runtime with an output-size bound and exact decompression equality",
+  "application_utility_approved": false,
+  "practical_relative_runtime_margin": null,
+  "maximum_output_size": null,
+  "minimum_evaluation_configurations": 20,
+  "total_evaluations_per_arm": 20,
+  "decision_checkpoint": 10,
+  "reliability_rule": "record roundtrip equality and measurement repetitions; charge all configuration vectors/probes",
+  "cap_selection": "Must be specified from application constraints or acquired prefix before continuation. V12 prefix cap is a research default, not an application requirement.",
+  "heldout_admission": "Previously exposed families cannot become new untouched test groups; all variants and seeds stay grouped.",
+  "stopping_rule": "No collection authorized by this contract. No outcome-dependent positive-result stopping."
+}

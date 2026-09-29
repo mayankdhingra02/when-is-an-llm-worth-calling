@@ -1,0 +1,14 @@
+A1R.c1 hadoop_mapreduce::pagerank_37 valid
+A1R.c1 berkeleydb::BDBC_AllNumeric_11_normal valid
+A1R.c1 spark::tpch_11 valid
+A1R.c1 openvpn::OpenVPN_53_normal valid
+A1R.c1 openvpn::OpenVPN_37_normal valid
+A1R.c1 dune_hsmgp::Dune_AllNumeric_11_normal valid
+A1R.c1 hipacc::hipacc_AllNumeric_37_normal valid
+A1R.c1 spark::terasort_37 valid
+A1R.c1 sac::sac_AllNumeric_71_normal valid
+A1R.c1 spark::wordcount_53 valid
+A1R.c1 hadoop_mapreduce::wordcount_11 valid
+A1R.c1 hipacc::hipacc_AllNumeric_71_normal valid
+A1R.c1 spark::tpch_23 valid
+{'at': '2026-09-28T22:01:57.718042+00:00', 'stage': 'A1R.c1', 'provider': 'deepinfra/turbo', 'intended': 13, 'requests': 13, 'responses_scored': 13, 'valid': 13, 'invalid': 0, 'unattempted': [], 'error': None, 'seconds': 494.44374979099666, 'spend': {'spent_usd': 0.251676882, 'requests': 103, 'reported_cost_usd': 0.251676882, 'estimated_only_usd': 0.0, 'unknown_cost_requests': 0}}

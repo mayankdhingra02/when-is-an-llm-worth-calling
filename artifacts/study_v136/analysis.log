@@ -1,0 +1,210 @@
+{
+  "groups": {
+    "llvm": {
+      "feedback_vs_prefix": {
+        "mean": 0.01564153278713711,
+        "wins": 2,
+        "ties": 3,
+        "losses": 0
+      },
+      "feedback_vs_historical_sequential": {
+        "mean": -0.009688259007885018,
+        "wins": 0,
+        "ties": 3,
+        "losses": 2
+      },
+      "feedback_vs_historical_batch": {
+        "mean": 0.015009107614048297,
+        "wins": 2,
+        "ties": 3,
+        "losses": 0
+      },
+      "masked_vs_prefix": {
+        "mean": 0.01564153278713711,
+        "wins": 2,
+        "ties": 3,
+        "losses": 0
+      },
+      "masked_vs_historical_sequential": {
+        "mean": -0.009688259007885018,
+        "wins": 0,
+        "ties": 3,
+        "losses": 2
+      },
+      "masked_vs_historical_batch": {
+        "mean": 0.015009107614048297,
+        "wins": 2,
+        "ties": 3,
+        "losses": 0
+      },
+      "feedback_vs_masked": {
+        "mean": 0.0,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0
+      }
+    },
+    "sac": {
+      "feedback_vs_prefix": {
+        "mean": 0.0,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0
+      },
+      "feedback_vs_historical_sequential": {
+        "mean": -0.004036036036036039,
+        "wins": 0,
+        "ties": 3,
+        "losses": 2
+      },
+      "feedback_vs_historical_batch": {
+        "mean": 0.0,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0
+      },
+      "masked_vs_prefix": {
+        "mean": 0.0,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0
+      },
+      "masked_vs_historical_sequential": {
+        "mean": -0.004036036036036039,
+        "wins": 0,
+        "ties": 3,
+        "losses": 2
+      },
+      "masked_vs_historical_batch": {
+        "mean": 0.0,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0
+      },
+      "feedback_vs_masked": {
+        "mean": 0.0,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0
+      }
+    }
+  },
+  "diagnostics": {
+    "valid_rounds": 100,
+    "fallback_rounds": 0,
+    "projected_proposals": 172,
+    "repeated_within_round": 10,
+    "proposals_matching_acquired": 112,
+    "proposals_with_diagnostics": 200,
+    "same_round_zero_output_cases": 10
+  },
+  "cost": {
+    "generation_requests": 100,
+    "compatibility_requests": 0,
+    "scientific_requests": 100,
+    "http_requests": 313,
+    "peak_server_rss_bytes": 6336479232,
+    "retries": 0,
+    "external_spend_usd": 0,
+    "allocated_output_tokens": 25600,
+    "startup_seconds": 3.044558291003341,
+    "stage_seconds": 854.8422358750031,
+    "resource_stop_reason": null,
+    "server_exit_code": 0,
+    "usage": {
+      "tokens_predicted": {
+        "observed_sum": 7378,
+        "missing_intended_responses": 0
+      },
+      "tokens_evaluated": {
+        "observed_sum": 140387,
+        "missing_intended_responses": 0
+      }
+    },
+    "new_recorded_acquisitions": 200,
+    "total_collection_seconds": 854.8437909589993,
+    "evaluation_seconds": 0.09071150698582642,
+    "per_arm": {
+      "sac_AllNumeric_37_normal_feedback": {
+        "observed_request_seconds": 69.15742516799946,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_37_normal_masked": {
+        "observed_request_seconds": 68.82359824899322,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_71_normal_feedback": {
+        "observed_request_seconds": 69.33141837400035,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_71_normal_masked": {
+        "observed_request_seconds": 67.76619624898012,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_23_normal_feedback": {
+        "observed_request_seconds": 17.071710832991812,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_23_normal_masked": {
+        "observed_request_seconds": 16.74646558400127,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_53_normal_feedback": {
+        "observed_request_seconds": 17.048002249997808,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_53_normal_masked": {
+        "observed_request_seconds": 16.402828000005684,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_23_normal_feedback": {
+        "observed_request_seconds": 67.50062945899117,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_23_normal_masked": {
+        "observed_request_seconds": 67.66289283299557,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_11_normal_feedback": {
+        "observed_request_seconds": 16.59295237599872,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_11_normal_masked": {
+        "observed_request_seconds": 15.988552916998742,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_53_normal_feedback": {
+        "observed_request_seconds": 68.47929858200223,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_53_normal_masked": {
+        "observed_request_seconds": 68.97893858200405,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_71_normal_feedback": {
+        "observed_request_seconds": 16.8608625009947,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_71_normal_masked": {
+        "observed_request_seconds": 15.938829333994363,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_37_normal_feedback": {
+        "observed_request_seconds": 16.659747540012177,
+        "requests_returned": 5
+      },
+      "LLVM_AllNumeric_37_normal_masked": {
+        "observed_request_seconds": 15.964504749994376,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_11_normal_feedback": {
+        "observed_request_seconds": 67.7036813329978,
+        "requests_returned": 5
+      },
+      "sac_AllNumeric_11_normal_masked": {
+        "observed_request_seconds": 67.19858070799819,
+        "requests_returned": 5
+      }
+    }
+  }
+}

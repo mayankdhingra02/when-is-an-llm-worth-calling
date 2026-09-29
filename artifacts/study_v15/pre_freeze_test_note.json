@@ -1,0 +1,1 @@
+{"initial_failure":"schedule used a changing list length inside extend generator, producing nonconsecutive trial IDs","resolution":"capture block offset before extending; fixed before protocol freeze or real collection","evidence":"initial tool test output:1 failed,4 passed; no physical trial executed"}

@@ -1,0 +1,23 @@
+# V104: independent-system admission audit
+
+Executed an objective-blind audit of three candidate identities. **No recorded table was admitted; NGINX is the priority for a fresh validated workload.** No new model request, objective acquisition, or native workload ran. This is an admission result, not optimization evidence or journal-readiness evidence.
+
+The frozen protocol precedes all V104 source retrieval. The reproducible scan covers28,078 pre-V104 result/report/configuration and top-level data-manifest files. NGINX/OpenResty and TriMesh/triangular each had zero identity matches; GEMM/Polly/LLVM had311. This establishes absence of those names in the stated inventory, not absolute proof of code independence. Explicit original-paper lineage puts GEMM in the exposed LLVM group. Seeds, versions, and workload names cannot create independent systems.
+
+## Primary-source findings
+
+Grebhahn, Siegmund and Apel's 2019 preprint identifies GEMM as a Polly/LLVM compiler-tuning workload; its prose and table disagree on configuration counts. TriMesh varies multigrid solver settings and triangle geometry while measuring iteration time. Neither supplies a fresh, verified equal-utility group here. The TriMesh feature model independently confirms solver-step and geometry options. A fixed problem, convergence criterion, implementation lineage and license would be needed before a new numerical study. [Original paper, section V-B](https://arxiv.org/abs/1911.12643), [owner feature models](https://www.se.cs.uni-saarland.de/projects/splconqueror/expDesign.php).
+
+The DHDA artifact (Xiang, Gong and Chen, ICSE2026; revision7b1cc01246e615a4477209de72657f5786f42a43) lists four NGINX tables and cites Weber et al.'s2023 artifact. Its four-version description is not yet mapped to exact original configurations. All four would belong to one NGINX group. Only filenames, byte sizes and blob identifiers were inspected; table bodies were not downloaded. [DHDA owner repository](https://github.com/ideas-labo/dhda/tree/7b1cc01246e615a4477209de72657f5786f42a43).
+
+The original NGINX README specifies1.14.0, ApacheBench2.3,100,000requests with1,000concurrent clients, a2.1KB static file, five repetitions, and exclusions for high timing variation. It also mentions fixed/dynamically projected timing. Those transformations and the full attempted-run denominator need reconciliation. Its XML and prose Boolean exclusions differ: for example, with TLS=false, keepalive=false, basicAuth=false, compression=true and multiAccept=true, the prose disallows the configuration while the listed XML Boolean constraints allow it. This is an artifact discrepancy, not evidence that the original study's conclusions are invalid. [Pinned original workload description](https://github.com/AI-4-SE/TwinsOrFalseFriends/blob/a31a1c0411f667728ee5069ae71f2927e6c146c6/data/nginx/README.md).
+
+Authentication/TLS settings change the service contract. A future native adaptation must fix that contract and validate successful response bytes, keeping failures in the denominator. The400-setting admission criterion was not weakened. No eligible recorded feature-vector count was certified, and no target values were used to select NGINX.
+
+## Reproducibility, limits, and next action
+
+Saved sources total4,361,631HTTP-body bytes. The arXiv v1 download returned406; this failed request is retained with zero persisted body bytes. The paper was read through the web tool; no local PDF success is claimed. Two complete owner repository inventories are pinned; eight downloaded blobs match their pinned Git object identifiers. No upstream code ran. GPL-3.0DHDA and GPL-2.0Twins licenses are preserved; these are separate from application licenses. Feature-model redistribution terms remain unresolved. Review-only papers/source metadata are not a license grant.
+
+The metadata-only fetcher rejects objective tables, archives, foreign repositories, non-HTTPS links and credential-bearing URLs. Ten synthetic tests cover those restrictions, source tampering, pinned-blob corruption and alias scanning. They are separate from research results. Detailed scan, schemas, hashes and decisions: `results/v104_admission/summary.json`. Frozen scope: `configs/exposure_scope_v104.json`. Sources and download ledger: `artifacts/sources/v104/`. Replay: `.venv/bin/python scripts/audit_admission_v104.py --verify-only`.
+
+**Next: pin official NGINX source, implement a project-local loopback-only fixed-response validator, and freeze a bounded reference/contrast/reference feasibility run before any timing.** This would be one new development group. It cannot by itself establish generalization of a learned benefit router. Retain V103's negative result and avoid repeatedly tuning exposed outcomes.

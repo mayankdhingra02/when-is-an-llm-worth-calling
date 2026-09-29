@@ -1,0 +1,59 @@
+{
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/llama-b11146/llama-server",
+    "-m",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/models/Qwen3-14B-Q4_K_M/Qwen3-14B-Q4_K_M.gguf",
+    "--load-mode",
+    "none",
+    "--offline",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18721",
+    "--no-webui",
+    "-ngl",
+    "99",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-t",
+    "6",
+    "-b",
+    "512",
+    "-ub",
+    "128",
+    "--reasoning",
+    "off",
+    "--jinja",
+    "--no-warmup",
+    "--perf"
+  ],
+  "config": {
+    "allow_paid_api": false,
+    "allow_cloud": false,
+    "max_external_spend_usd": 0,
+    "retries": 0,
+    "model_key": "qwen3_14b",
+    "ports": {
+      "qwen3_14b": 18721,
+      "qwen3_8b": 18722
+    },
+    "max_server_rss_bytes": 12884901888,
+    "max_generation_stage_seconds": 1800,
+    "scientific_request_cap": 35,
+    "compatibility_request_cap": 0,
+    "new_generation_request_cap": 35,
+    "max_allocated_output_tokens": 35840
+  },
+  "model": {
+    "path": "models/Qwen3-14B-Q4_K_M/Qwen3-14B-Q4_K_M.gguf",
+    "sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+    "repo": "Qwen/Qwen3-14B-GGUF",
+    "revision": "530227a7d994db8eca5ab5ced2fb692b614357fd",
+    "license": "Apache-2.0",
+    "provenance": "artifacts/study_v172/model_manifest.json",
+    "bytes": 9001752960
+  },
+  "seed_support": "Per-case sampling seed; no cross-device determinism guarantee"
+}

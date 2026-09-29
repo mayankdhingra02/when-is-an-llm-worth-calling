@@ -1,0 +1,22 @@
+{
+  "authorization": "User: Continue, after V47 proposed a development-only representation/order/label sensitivity diagnostic.",
+  "cases": 108,
+  "base_prefixes": 9,
+  "development_groups": ["mysql_family", "brotli", "lrzip"],
+  "seeds": [11, 37, 71],
+  "max_generation_requests": 1080,
+  "max_new_tokens_per_request": 1,
+  "choice_requests_per_case": 10,
+  "max_stage_seconds": 900,
+  "request_timeout_seconds": 20,
+  "max_new_objective_accesses": 0,
+  "max_external_spend_usd": 0,
+  "max_new_download_bytes": 0,
+  "retries": 0,
+  "host": "127.0.0.1",
+  "port": 18474,
+  "model_revision": "4965cb60b150737b68a0408c36aeefb65078f894",
+  "context_tokens": 4096,
+  "seed": 11,
+  "analysis": "Exploratory development-only mechanism diagnostic; no optimization quality or router fitting"
+}

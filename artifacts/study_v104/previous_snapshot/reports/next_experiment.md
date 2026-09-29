@@ -1,0 +1,10 @@
+# Next experiment after completed V103
+
+**Highest priority: freeze an independent-system replication before inspecting new continuation outcomes.** Local inference is usable with the short thought/final procedure; there is no current need for another restart or identical feasibility retry. The completed V103 stage consumed its declared36-request allowance.
+
+1. Define the population, independent software-system groups, related-version grouping, primary practical margin and group-count rationale before collection. Exclude the six exposed V103 groups from any claimed fresh held-out evaluation. Keep all seeds/variants with their group. Start with a bounded classical-only admission/smoke check that is clearly development work; do not label outcome-selected tasks as an unbiased population sample.
+2. Freeze paired shared-prefix continuations and strong cheap controls before new model calls. Retain the >=5% gain-over-both screen or document a justified new primary metric before outcomes. Delivery success is separate from optimization benefit. Do not tune this cohort further to obtain a positive result.
+3. Use a small, separately capped admission batch and inspect runtime feasibility before any larger allocation. No new download, spending or cloud permission is implied. The remaining download allowance is867,197,136bytes; existing pinned weights/runtime are available. A second host is not connected; obtaining one would enable independent-machine replication.
+4. Fit a benefit controller only if there are enough independent development groups and observed escalation opportunities to support that objective. Freeze preprocessing/thresholds, then evaluate untouched system groups. Otherwise retain the narrow negative result and mark learned-routing evidence insufficient.
+
+V103's current finding:36realrequests,24intendedconditions,240recorded acquisitions; thinking10/12valid, nonthinking12/12valid; neither mode has a valid >=5% win over both batch and sequential3NN. This is exposed-development evidence with a short reasoning budget, not established Q2 readiness. No new experiment has been silently queued.

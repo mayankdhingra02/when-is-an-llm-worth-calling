@@ -1,0 +1,2130 @@
+{
+  "at": "2026-09-28T18:57:01.636124+00:00",
+  "error": null,
+  "jobs_checked": 70,
+  "all_capacity_ok": true,
+  "rendered_equal_count": 70,
+  "token_equal_count": 70,
+  "peak_server_rss_bytes": 9996156928,
+  "rss_cap_bytes": 12884901888,
+  "rss_ok": true,
+  "seconds": 10.728650249991915,
+  "rows": [
+    {
+      "qualified_key": "sac::sac_AllNumeric_11_normal",
+      "prompt_tokens": 1902,
+      "historical_qwen3_8b_prompt_tokens": 1902,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 621,
+        "constructive_token_upper_bound_including_eos": 622,
+        "cap": 1024,
+        "prompt_tokens": 1902,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::bayes_53",
+      "prompt_tokens": 2524,
+      "historical_qwen3_8b_prompt_tokens": 2524,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2524,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::pagerank_37",
+      "prompt_tokens": 2548,
+      "historical_qwen3_8b_prompt_tokens": 2548,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2548,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "sac::sac_AllNumeric_37_normal",
+      "prompt_tokens": 1900,
+      "historical_qwen3_8b_prompt_tokens": 1900,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 621,
+        "constructive_token_upper_bound_including_eos": 622,
+        "cap": 1024,
+        "prompt_tokens": 1900,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::pagerank_53",
+      "prompt_tokens": 2531,
+      "historical_qwen3_8b_prompt_tokens": 2531,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2531,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "berkeleydb::BDBC_AllNumeric_53_normal",
+      "prompt_tokens": 634,
+      "historical_qwen3_8b_prompt_tokens": 634,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 191,
+        "constructive_token_upper_bound_including_eos": 192,
+        "cap": 1024,
+        "prompt_tokens": 634,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::tpch_53",
+      "prompt_tokens": 2547,
+      "historical_qwen3_8b_prompt_tokens": 2547,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2547,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::wordcount_37",
+      "prompt_tokens": 572,
+      "historical_qwen3_8b_prompt_tokens": 572,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 572,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::terasort_11",
+      "prompt_tokens": 2530,
+      "historical_qwen3_8b_prompt_tokens": 2530,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2530,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::pagerank_71",
+      "prompt_tokens": 2531,
+      "historical_qwen3_8b_prompt_tokens": 2531,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2531,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::terasort_37",
+      "prompt_tokens": 571,
+      "historical_qwen3_8b_prompt_tokens": 571,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 571,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "llvm::LLVM_AllNumeric_23_normal",
+      "prompt_tokens": 509,
+      "historical_qwen3_8b_prompt_tokens": 509,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 131,
+        "constructive_token_upper_bound_including_eos": 132,
+        "cap": 1024,
+        "prompt_tokens": 509,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::pagerank_11",
+      "prompt_tokens": 2514,
+      "historical_qwen3_8b_prompt_tokens": 2514,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2514,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::pagerank_53",
+      "prompt_tokens": 590,
+      "historical_qwen3_8b_prompt_tokens": 590,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 590,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "berkeleydb::BDBC_AllNumeric_37_normal",
+      "prompt_tokens": 634,
+      "historical_qwen3_8b_prompt_tokens": 634,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 191,
+        "constructive_token_upper_bound_including_eos": 192,
+        "cap": 1024,
+        "prompt_tokens": 634,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hipacc::hipacc_AllNumeric_23_normal",
+      "prompt_tokens": 1168,
+      "historical_qwen3_8b_prompt_tokens": 1168,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 361,
+        "constructive_token_upper_bound_including_eos": 362,
+        "cap": 1024,
+        "prompt_tokens": 1168,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "openvpn::OpenVPN_71_normal",
+      "prompt_tokens": 817,
+      "historical_qwen3_8b_prompt_tokens": 817,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 271,
+        "constructive_token_upper_bound_including_eos": 272,
+        "cap": 1024,
+        "prompt_tokens": 817,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::wordcount_37",
+      "prompt_tokens": 2547,
+      "historical_qwen3_8b_prompt_tokens": 2547,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2547,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "openvpn::OpenVPN_23_normal",
+      "prompt_tokens": 817,
+      "historical_qwen3_8b_prompt_tokens": 817,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 271,
+        "constructive_token_upper_bound_including_eos": 272,
+        "cap": 1024,
+        "prompt_tokens": 817,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::wordcount_23",
+      "prompt_tokens": 2554,
+      "historical_qwen3_8b_prompt_tokens": 2554,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2554,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "berkeleydb::BDBC_AllNumeric_71_normal",
+      "prompt_tokens": 633,
+      "historical_qwen3_8b_prompt_tokens": 633,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 191,
+        "constructive_token_upper_bound_including_eos": 192,
+        "cap": 1024,
+        "prompt_tokens": 633,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "openvpn::OpenVPN_11_normal",
+      "prompt_tokens": 817,
+      "historical_qwen3_8b_prompt_tokens": 817,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 271,
+        "constructive_token_upper_bound_including_eos": 272,
+        "cap": 1024,
+        "prompt_tokens": 817,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::wordcount_53",
+      "prompt_tokens": 554,
+      "historical_qwen3_8b_prompt_tokens": 554,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 554,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::terasort_71",
+      "prompt_tokens": 602,
+      "historical_qwen3_8b_prompt_tokens": 602,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 602,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::pagerank_11",
+      "prompt_tokens": 588,
+      "historical_qwen3_8b_prompt_tokens": 588,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 588,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "dune_hsmgp::Dune_AllNumeric_23_normal",
+      "prompt_tokens": 568,
+      "historical_qwen3_8b_prompt_tokens": 568,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 141,
+        "constructive_token_upper_bound_including_eos": 142,
+        "cap": 1024,
+        "prompt_tokens": 568,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::wordcount_23",
+      "prompt_tokens": 605,
+      "historical_qwen3_8b_prompt_tokens": 605,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 605,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "dune_hsmgp::Dune_AllNumeric_53_normal",
+      "prompt_tokens": 566,
+      "historical_qwen3_8b_prompt_tokens": 566,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 141,
+        "constructive_token_upper_bound_including_eos": 142,
+        "cap": 1024,
+        "prompt_tokens": 566,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::wordcount_71",
+      "prompt_tokens": 2550,
+      "historical_qwen3_8b_prompt_tokens": 2550,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2550,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::terasort_71",
+      "prompt_tokens": 2555,
+      "historical_qwen3_8b_prompt_tokens": 2555,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2555,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::wordcount_71",
+      "prompt_tokens": 607,
+      "historical_qwen3_8b_prompt_tokens": 607,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 607,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::pagerank_71",
+      "prompt_tokens": 608,
+      "historical_qwen3_8b_prompt_tokens": 608,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 608,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::terasort_23",
+      "prompt_tokens": 2532,
+      "historical_qwen3_8b_prompt_tokens": 2532,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2532,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::wordcount_11",
+      "prompt_tokens": 2550,
+      "historical_qwen3_8b_prompt_tokens": 2550,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2550,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "dune_hsmgp::Dune_AllNumeric_71_normal",
+      "prompt_tokens": 566,
+      "historical_qwen3_8b_prompt_tokens": 566,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 141,
+        "constructive_token_upper_bound_including_eos": 142,
+        "cap": 1024,
+        "prompt_tokens": 566,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::terasort_53",
+      "prompt_tokens": 2547,
+      "historical_qwen3_8b_prompt_tokens": 2547,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2547,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::terasort_11",
+      "prompt_tokens": 580,
+      "historical_qwen3_8b_prompt_tokens": 580,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 580,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::tpch_71",
+      "prompt_tokens": 2570,
+      "historical_qwen3_8b_prompt_tokens": 2570,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2570,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "sac::sac_AllNumeric_23_normal",
+      "prompt_tokens": 1896,
+      "historical_qwen3_8b_prompt_tokens": 1896,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 621,
+        "constructive_token_upper_bound_including_eos": 622,
+        "cap": 1024,
+        "prompt_tokens": 1896,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::bayes_71",
+      "prompt_tokens": 2516,
+      "historical_qwen3_8b_prompt_tokens": 2516,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2516,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "llvm::LLVM_AllNumeric_37_normal",
+      "prompt_tokens": 509,
+      "historical_qwen3_8b_prompt_tokens": 509,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 131,
+        "constructive_token_upper_bound_including_eos": 132,
+        "cap": 1024,
+        "prompt_tokens": 509,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::tpch_37",
+      "prompt_tokens": 2544,
+      "historical_qwen3_8b_prompt_tokens": 2544,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2544,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::pagerank_23",
+      "prompt_tokens": 609,
+      "historical_qwen3_8b_prompt_tokens": 609,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 609,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "berkeleydb::BDBC_AllNumeric_23_normal",
+      "prompt_tokens": 633,
+      "historical_qwen3_8b_prompt_tokens": 633,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 191,
+        "constructive_token_upper_bound_including_eos": 192,
+        "cap": 1024,
+        "prompt_tokens": 633,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "llvm::LLVM_AllNumeric_53_normal",
+      "prompt_tokens": 509,
+      "historical_qwen3_8b_prompt_tokens": 509,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 131,
+        "constructive_token_upper_bound_including_eos": 132,
+        "cap": 1024,
+        "prompt_tokens": 509,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "sac::sac_AllNumeric_53_normal",
+      "prompt_tokens": 1901,
+      "historical_qwen3_8b_prompt_tokens": 1901,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 621,
+        "constructive_token_upper_bound_including_eos": 622,
+        "cap": 1024,
+        "prompt_tokens": 1901,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::bayes_11",
+      "prompt_tokens": 2523,
+      "historical_qwen3_8b_prompt_tokens": 2523,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2523,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "dune_hsmgp::Dune_AllNumeric_37_normal",
+      "prompt_tokens": 569,
+      "historical_qwen3_8b_prompt_tokens": 569,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 141,
+        "constructive_token_upper_bound_including_eos": 142,
+        "cap": 1024,
+        "prompt_tokens": 569,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::bayes_23",
+      "prompt_tokens": 2520,
+      "historical_qwen3_8b_prompt_tokens": 2520,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2520,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::terasort_23",
+      "prompt_tokens": 602,
+      "historical_qwen3_8b_prompt_tokens": 602,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 602,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hipacc::hipacc_AllNumeric_11_normal",
+      "prompt_tokens": 1168,
+      "historical_qwen3_8b_prompt_tokens": 1168,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 361,
+        "constructive_token_upper_bound_including_eos": 362,
+        "cap": 1024,
+        "prompt_tokens": 1168,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::terasort_53",
+      "prompt_tokens": 581,
+      "historical_qwen3_8b_prompt_tokens": 581,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 581,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "llvm::LLVM_AllNumeric_11_normal",
+      "prompt_tokens": 509,
+      "historical_qwen3_8b_prompt_tokens": 509,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 131,
+        "constructive_token_upper_bound_including_eos": 132,
+        "cap": 1024,
+        "prompt_tokens": 509,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::bayes_37",
+      "prompt_tokens": 2541,
+      "historical_qwen3_8b_prompt_tokens": 2541,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2541,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "llvm::LLVM_AllNumeric_71_normal",
+      "prompt_tokens": 509,
+      "historical_qwen3_8b_prompt_tokens": 509,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 131,
+        "constructive_token_upper_bound_including_eos": 132,
+        "cap": 1024,
+        "prompt_tokens": 509,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::pagerank_23",
+      "prompt_tokens": 2509,
+      "historical_qwen3_8b_prompt_tokens": 2509,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2509,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hipacc::hipacc_AllNumeric_53_normal",
+      "prompt_tokens": 1168,
+      "historical_qwen3_8b_prompt_tokens": 1168,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 361,
+        "constructive_token_upper_bound_including_eos": 362,
+        "cap": 1024,
+        "prompt_tokens": 1168,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::pagerank_37",
+      "prompt_tokens": 574,
+      "historical_qwen3_8b_prompt_tokens": 574,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 574,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "berkeleydb::BDBC_AllNumeric_11_normal",
+      "prompt_tokens": 633,
+      "historical_qwen3_8b_prompt_tokens": 633,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 191,
+        "constructive_token_upper_bound_including_eos": 192,
+        "cap": 1024,
+        "prompt_tokens": 633,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::tpch_11",
+      "prompt_tokens": 2545,
+      "historical_qwen3_8b_prompt_tokens": 2545,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2545,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "openvpn::OpenVPN_53_normal",
+      "prompt_tokens": 817,
+      "historical_qwen3_8b_prompt_tokens": 817,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 271,
+        "constructive_token_upper_bound_including_eos": 272,
+        "cap": 1024,
+        "prompt_tokens": 817,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "openvpn::OpenVPN_37_normal",
+      "prompt_tokens": 817,
+      "historical_qwen3_8b_prompt_tokens": 817,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 271,
+        "constructive_token_upper_bound_including_eos": 272,
+        "cap": 1024,
+        "prompt_tokens": 817,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "dune_hsmgp::Dune_AllNumeric_11_normal",
+      "prompt_tokens": 568,
+      "historical_qwen3_8b_prompt_tokens": 568,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 141,
+        "constructive_token_upper_bound_including_eos": 142,
+        "cap": 1024,
+        "prompt_tokens": 568,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hipacc::hipacc_AllNumeric_37_normal",
+      "prompt_tokens": 1168,
+      "historical_qwen3_8b_prompt_tokens": 1168,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 361,
+        "constructive_token_upper_bound_including_eos": 362,
+        "cap": 1024,
+        "prompt_tokens": 1168,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::terasort_37",
+      "prompt_tokens": 2544,
+      "historical_qwen3_8b_prompt_tokens": 2544,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2544,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "sac::sac_AllNumeric_71_normal",
+      "prompt_tokens": 1901,
+      "historical_qwen3_8b_prompt_tokens": 1901,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 621,
+        "constructive_token_upper_bound_including_eos": 622,
+        "cap": 1024,
+        "prompt_tokens": 1901,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::wordcount_53",
+      "prompt_tokens": 2558,
+      "historical_qwen3_8b_prompt_tokens": 2558,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2558,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hadoop_mapreduce::wordcount_11",
+      "prompt_tokens": 601,
+      "historical_qwen3_8b_prompt_tokens": 601,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 51,
+        "constructive_token_upper_bound_including_eos": 52,
+        "cap": 1024,
+        "prompt_tokens": 601,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "hipacc::hipacc_AllNumeric_71_normal",
+      "prompt_tokens": 1168,
+      "historical_qwen3_8b_prompt_tokens": 1168,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 361,
+        "constructive_token_upper_bound_including_eos": 362,
+        "cap": 1024,
+        "prompt_tokens": 1168,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    },
+    {
+      "qualified_key": "spark::tpch_23",
+      "prompt_tokens": 2565,
+      "historical_qwen3_8b_prompt_tokens": 2565,
+      "rendered_equals_historical_qwen3_8b": true,
+      "tokens_equal_historical_qwen3_8b": true,
+      "capacity": {
+        "maximum_output_ascii_bytes": 331,
+        "constructive_token_upper_bound_including_eos": 332,
+        "cap": 1024,
+        "prompt_tokens": 2565,
+        "context": 4096,
+        "required_singletons": [
+          "\"",
+          ",",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "[",
+          "]"
+        ],
+        "scope": "Structural format capacity only; not a validity or quality guarantee"
+      }
+    }
+  ],
+  "passed": true
+}

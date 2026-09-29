@@ -1,0 +1,60 @@
+{
+  "charge": 230,
+  "case": "cvc5_71",
+  "engine": "cvc5",
+  "arm": "adaptive_neighbor",
+  "phase": "search",
+  "row_id": 54,
+  "at_unix": 1790583852.582686,
+  "status": "correct",
+  "value": 2.1122229999964475,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv-solvers156/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/solver_worker_v157.py",
+    "--engine",
+    "cvc5",
+    "--config",
+    "{\"decision\": \"justification\", \"simplification\": \"none\", \"arith-prop\": \"bi\", \"arith-static-learning\": false, \"arith-rewrite-equalities\": false}",
+    "--n",
+    "10",
+    "--limit",
+    "10"
+  ],
+  "returncode": 0,
+  "stdout": "{\"engine\": \"cvc5\", \"version\": \"1.4.1\", \"config\": {\"decision\": \"justification\", \"simplification\": \"none\", \"arith-prop\": \"bi\", \"arith-static-learning\": false, \"arith-rewrite-equalities\": false}, \"n\": 10, \"limit\": 10.0, \"status\": \"sat\", \"rows\": [0, 2, 5, 8, 6, 9, 3, 1, 7, 4], \"correct\": true, \"solve_seconds\": 2.1122229999964475, \"solve_cpu_seconds\": 2.1121350000000003, \"import_build_seconds\": 0.022349250000843313, \"worker_seconds\": 2.1347635829952196, \"max_rss_bytes\": 40353792, \"stats\": {}}\n",
+  "stderr": "",
+  "measurement": {
+    "engine": "cvc5",
+    "version": "1.4.1",
+    "config": {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    "n": 10,
+    "limit": 10.0,
+    "status": "sat",
+    "rows": [
+      0,
+      2,
+      5,
+      8,
+      6,
+      9,
+      3,
+      1,
+      7,
+      4
+    ],
+    "correct": true,
+    "solve_seconds": 2.1122229999964475,
+    "solve_cpu_seconds": 2.1121350000000003,
+    "import_build_seconds": 0.022349250000843313,
+    "worker_seconds": 2.1347635829952196,
+    "max_rss_bytes": 40353792,
+    "stats": {}
+  },
+  "collection_seconds": 2.159020834005787
+}

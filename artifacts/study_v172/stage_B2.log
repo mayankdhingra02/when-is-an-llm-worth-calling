@@ -1,0 +1,40 @@
+B2 spark::terasort_53 valid 24.0
+B2 hadoop_mapreduce::terasort_11 valid 3.6
+B2 spark::tpch_71 valid 23.1
+B2 sac::sac_AllNumeric_23_normal valid 32.1
+B2 spark::bayes_71 valid 24.5
+B2 llvm::LLVM_AllNumeric_37_normal valid 6.4
+B2 spark::tpch_37 valid 24.4
+B2 hadoop_mapreduce::pagerank_23 valid 3.8
+B2 berkeleydb::BDBC_AllNumeric_23_normal valid 9.1
+B2 llvm::LLVM_AllNumeric_53_normal valid 6.2
+B2 sac::sac_AllNumeric_53_normal valid 31.6
+B2 spark::bayes_11 valid 22.5
+B2 dune_hsmgp::Dune_AllNumeric_37_normal valid 6.8
+B2 spark::bayes_23 valid 22.4
+B2 hadoop_mapreduce::terasort_23 valid 3.5
+B2 hipacc::hipacc_AllNumeric_11_normal valid 17.6
+B2 hadoop_mapreduce::terasort_53 valid 3.5
+B2 llvm::LLVM_AllNumeric_11_normal valid 6.2
+B2 spark::bayes_37 valid 22.5
+B2 llvm::LLVM_AllNumeric_71_normal valid 6.2
+B2 spark::pagerank_23 valid 22.3
+B2 hipacc::hipacc_AllNumeric_53_normal valid 17.6
+B2 hadoop_mapreduce::pagerank_37 valid 3.4
+B2 berkeleydb::BDBC_AllNumeric_11_normal valid 8.9
+B2 spark::tpch_11 valid 22.5
+B2 openvpn::OpenVPN_53_normal valid 12.7
+B2 openvpn::OpenVPN_37_normal valid 12.7
+B2 dune_hsmgp::Dune_AllNumeric_11_normal valid 6.8
+B2 hipacc::hipacc_AllNumeric_37_normal valid 17.6
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_models_v172.py", line 80, in <module>
+    if __name__ == '__main__': main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_models_v172.py", line 78, in main
+    preflight(cfg) if args.stage == 'P' else collect(args.stage, cfg)
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_models_v172.py", line 69, in collect
+    finally: rt.close()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/runtime_models_v148.py", line 78, in close
+    os.killpg(self.proc.pid,signal.SIGTERM)
+PermissionError: [Errno 1] Operation not permitted
+exit=1

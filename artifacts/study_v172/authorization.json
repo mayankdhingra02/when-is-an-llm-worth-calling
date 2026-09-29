@@ -1,0 +1,17 @@
+{
+ "recorded_at": "2026-09-28",
+ "owner_message_verbatim": "you have my permission",
+ "earlier_owner_message_verbatim": "done, continue",
+ "scope_of_request_answered": "I authorize downloading Qwen3-14B-Q4_K_M.gguf (~9 GB) from Qwen/Qwen3-14B-GGUF, raising the project's download limit to 20 GiB and its model-size limit to 19 GiB, and running V172 with the Qwen3-8B re-draw (140 local model requests).",
+ "authorized": {
+  "one_time_download": {"repo": "Qwen/Qwen3-14B-GGUF", "file": "Qwen3-14B-Q4_K_M.gguf", "plus": ["LICENSE", "README.md", "LFS pointer"]},
+  "retained_download_cap_bytes": 21474836480,
+  "model_payload_cap_bytes": 20401094656,
+  "v172_local_scientific_requests": 140,
+  "v172_amendment": "Qwen3-8B re-draw control arm"
+ },
+ "previous_caps": {"retained_download_cap_bytes": 10737418240, "model_payload_cap_bytes": 9663676416},
+ "scope_limit": "Applies to V172 only. It is not standing permission for later stages, other models or other downloads.",
+ "not_authorized": ["paid APIs", "cloud resources", "credentials", "publishing or remote push", "external contact", "system-wide changes", "any other model download"],
+ "owner_context": "Apple M3 Pro with 18 GB unified memory. The owner moved the two unsealed Qwen2.5 model.safetensors files off this machine and kept both sealed GGUF files; 32 GiB free was measured afterward."
+}

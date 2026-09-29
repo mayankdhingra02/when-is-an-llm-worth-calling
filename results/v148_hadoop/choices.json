@@ -1,0 +1,3332 @@
+[
+  {
+    "key": "pagerank_11",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_11.json",
+    "prefix_sha256": "f0cba3c82a056bc0807d236c7a54dfd48661cf18b5685b4beda401689f0b8cb6",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_11.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      44,
+      47,
+      67,
+      49,
+      63,
+      10,
+      16,
+      46,
+      62,
+      11
+    ],
+    "projection": [
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 63,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 10,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 16,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 11,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_11",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_11.json",
+    "prefix_sha256": "04486bbbf6c52f4fd08e10a83d51a422123b409cc25bafda06cc13027d18c6f3",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_11.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      44,
+      62,
+      45,
+      63,
+      46,
+      64,
+      47,
+      65,
+      48,
+      49
+    ],
+    "projection": [
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 63,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "pagerank_71",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_71.json",
+    "prefix_sha256": "213e903ea9d8f3b6b87e1e83bf5c6698e996252bfb3bc7ef826c63ce47a0f54a",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_71.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      1,
+      11,
+      12,
+      20,
+      25,
+      15,
+      38,
+      32,
+      42,
+      3
+    ],
+    "projection": [
+      {
+        "row_id": 1,
+        "distance": 0.012626262626262624,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 11,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.07575757575757575,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 20,
+        "distance": 0.08585858585858586,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 25,
+        "distance": 0.09595959595959597,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.2424242424242424,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 38,
+        "distance": 0.02020202020202022,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 32,
+        "distance": 0.21717171717171715,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 3,
+        "distance": 0.09848484848484848,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_11",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/terasort_11.json",
+    "prefix_sha256": "6bb6f935170c18eb3f26c24703c20ed8df8bd6990f76092b158160f403f5cca4",
+    "messages_path": "artifacts/study_v148/prompts/terasort_11.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      44,
+      65,
+      45,
+      66,
+      46,
+      63,
+      64,
+      47,
+      49,
+      68
+    ],
+    "projection": [
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 66,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 63,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 68,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_37",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/terasort_37.json",
+    "prefix_sha256": "930df9bad2c5f8163c05563000216d2739ed7a23d3aec155f0fcd3ef5e1ff138",
+    "messages_path": "artifacts/study_v148/prompts/terasort_37.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      66,
+      67
+    ],
+    "projection": [
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 66,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_37",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_37.json",
+    "prefix_sha256": "205b8fa73adb46fc4dfd9e3ddd62e1e2a602eb234c4c2cd03c89b93d2d83b17f",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_37.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      45,
+      10,
+      24,
+      30,
+      31,
+      32,
+      9,
+      28,
+      22,
+      36
+    ],
+    "projection": [
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 10,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 24,
+        "distance": 0.015151515151515166,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 31,
+        "distance": 0.050505050505050525,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 32,
+        "distance": 0.10606060606060605,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 9,
+        "distance": 0.297979797979798,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 28,
+        "distance": 0.21717171717171715,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 22,
+        "distance": 0.30808080808080807,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 36,
+        "distance": 0.09090909090909088,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      }
+    ]
+  },
+  {
+    "key": "wordcount_53",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_53.json",
+    "prefix_sha256": "fe2dd373d8cce18f16af8dbab1d26cb10dce7111e961ec3b34227ab24de2aeee",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_53.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      64,
+      13,
+      20,
+      30,
+      15,
+      35,
+      32,
+      25,
+      21,
+      14
+    ],
+    "projection": [
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 13,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 20,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.18686868686868688,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 35,
+        "distance": 0.015151515151515138,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 32,
+        "distance": 0.16161616161616163,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 25,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 21,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 14,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_23",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_23.json",
+    "prefix_sha256": "d990fe8312c9c74cb7241dba3c15cad1d6ecb9cdc3b31a8976010931f61ecb22",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_23.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      61,
+      10,
+      18,
+      27,
+      33,
+      36,
+      39,
+      1,
+      52,
+      42
+    ],
+    "projection": [
+      {
+        "row_id": 61,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 10,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 18,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 27,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 33,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 36,
+        "distance": 0.0757575757575758,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 39,
+        "distance": 0.1111111111111111,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 1,
+        "distance": 0.37626262626262624,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 52,
+        "distance": 0.4772727272727273,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.5,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      }
+    ]
+  },
+  {
+    "key": "pagerank_37",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_37.json",
+    "prefix_sha256": "fca339f5d901752f71f0156bb2f07484d54dac2e6005d2239746519ef4e398a2",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_37.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      66,
+      67
+    ],
+    "projection": [
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 66,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_23",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/terasort_23.json",
+    "prefix_sha256": "9d207ed1dbb487e8e6d58ec654c6184c4a6fdcd4bd3ad0508f1731d857aedd7b",
+    "messages_path": "artifacts/study_v148/prompts/terasort_23.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      61,
+      10,
+      18,
+      27,
+      33,
+      36,
+      39,
+      1,
+      52,
+      42
+    ],
+    "projection": [
+      {
+        "row_id": 61,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 10,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 18,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 27,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 33,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 36,
+        "distance": 0.0757575757575758,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 39,
+        "distance": 0.1111111111111111,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 1,
+        "distance": 0.37626262626262624,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 52,
+        "distance": 0.4772727272727273,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.5,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      }
+    ]
+  },
+  {
+    "key": "terasort_71",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/terasort_71.json",
+    "prefix_sha256": "ff070bccadf5bbaa1474800cebd4f95bffbc5a2bd438625ae405cfeee0022500",
+    "messages_path": "artifacts/study_v148/prompts/terasort_71.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      47,
+      13,
+      45,
+      30,
+      48,
+      49,
+      16,
+      24,
+      46,
+      64
+    ],
+    "projection": [
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 13,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 16,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 24,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "pagerank_53",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_53.json",
+    "prefix_sha256": "79a9367ed702ecf396206735174739a7d985f110e7ca9ef69e718e1ef24cb21e",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_53.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      60,
+      52,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      61,
+      62
+    ],
+    "projection": [
+      {
+        "row_id": 60,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 52,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 61,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_53",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/terasort_53.json",
+    "prefix_sha256": "74f3494f90d15643ec975feeb3d319ecfd2f62f87c1745773f868b8351409fec",
+    "messages_path": "artifacts/study_v148/prompts/terasort_53.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      62,
+      12,
+      20,
+      30,
+      15,
+      31,
+      32,
+      9,
+      43,
+      44
+    ],
+    "projection": [
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 20,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.18686868686868688,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 31,
+        "distance": 0.10606060606060605,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 32,
+        "distance": 0.16161616161616163,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 9,
+        "distance": 0.40909090909090906,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_71",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_71.json",
+    "prefix_sha256": "247e39e52e68551740fef07b0015cd593b1f985227c99a55241dc4a093ccad58",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_71.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      1,
+      11,
+      12,
+      20,
+      30,
+      15,
+      38,
+      32,
+      43,
+      62
+    ],
+    "projection": [
+      {
+        "row_id": 1,
+        "distance": 0.012626262626262624,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 11,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.07575757575757575,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 20,
+        "distance": 0.08585858585858586,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.050505050505050525,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.2424242424242424,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 38,
+        "distance": 0.02020202020202022,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 32,
+        "distance": 0.21717171717171715,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "pagerank_23",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_23.json",
+    "prefix_sha256": "d6cd843bb11f33a37e4161be6eda9946bc9f96c7304bb3daff1a408b3ea01926",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_23.json",
+    "model": "smollm3_3b",
+    "status": "valid",
+    "selected_rows": [
+      61,
+      10,
+      18,
+      27,
+      33,
+      36,
+      39,
+      1,
+      52,
+      42
+    ],
+    "projection": [
+      {
+        "row_id": 61,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 10,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 18,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 27,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 33,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 36,
+        "distance": 0.0757575757575758,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 39,
+        "distance": 0.1111111111111111,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 1,
+        "distance": 0.37626262626262624,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 52,
+        "distance": 0.4772727272727273,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.5,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      }
+    ]
+  },
+  {
+    "key": "pagerank_11",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_11.json",
+    "prefix_sha256": "f0cba3c82a056bc0807d236c7a54dfd48661cf18b5685b4beda401689f0b8cb6",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_11.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      34,
+      65,
+      15,
+      18,
+      12,
+      31,
+      28,
+      40,
+      30,
+      6
+    ],
+    "projection": [
+      {
+        "row_id": 34,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 18,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.1313131313131313,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 31,
+        "distance": 0.050505050505050525,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 28,
+        "distance": 0.10606060606060605,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 40,
+        "distance": 0.1111111111111111,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.21717171717171715,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 6,
+        "distance": 0.4318181818181818,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_11",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_11.json",
+    "prefix_sha256": "04486bbbf6c52f4fd08e10a83d51a422123b409cc25bafda06cc13027d18c6f3",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_11.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      59,
+      49,
+      47,
+      45,
+      44,
+      46,
+      48,
+      43,
+      42,
+      68
+    ],
+    "projection": [
+      {
+        "row_id": 59,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 68,
+        "distance": 0.045454545454545456,
+        "repeated_proposal": true,
+        "matches_prefix": true
+      }
+    ]
+  },
+  {
+    "key": "pagerank_71",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_71.json",
+    "prefix_sha256": "213e903ea9d8f3b6b87e1e83bf5c6698e996252bfb3bc7ef826c63ce47a0f54a",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_71.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      67,
+      49,
+      64,
+      44,
+      62,
+      46,
+      65,
+      47,
+      50,
+      63
+    ],
+    "projection": [
+      {
+        "row_id": 67,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 63,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_11",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 11,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148011,
+    "prefix": "artifacts/study_v148/prefixes/terasort_11.json",
+    "prefix_sha256": "6bb6f935170c18eb3f26c24703c20ed8df8bd6990f76092b158160f403f5cca4",
+    "messages_path": "artifacts/study_v148/prompts/terasort_11.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      43,
+      44,
+      45,
+      42,
+      59
+    ],
+    "projection": [
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 59,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_37",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/terasort_37.json",
+    "prefix_sha256": "930df9bad2c5f8163c05563000216d2739ed7a23d3aec155f0fcd3ef5e1ff138",
+    "messages_path": "artifacts/study_v148/prompts/terasort_37.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      49,
+      43,
+      48,
+      47,
+      50,
+      45,
+      44,
+      46,
+      42,
+      67
+    ],
+    "projection": [
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.045454545454545456,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_37",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_37.json",
+    "prefix_sha256": "205b8fa73adb46fc4dfd9e3ddd62e1e2a602eb234c4c2cd03c89b93d2d83b17f",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_37.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      49,
+      43,
+      48,
+      47,
+      50,
+      45,
+      44,
+      46,
+      42,
+      67
+    ],
+    "projection": [
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.045454545454545456,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_53",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_53.json",
+    "prefix_sha256": "fe2dd373d8cce18f16af8dbab1d26cb10dce7111e961ec3b34227ab24de2aeee",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_53.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      49,
+      50,
+      65,
+      66,
+      12,
+      13,
+      18,
+      24,
+      31,
+      32
+    ],
+    "projection": [
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 66,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 13,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 18,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 24,
+        "distance": 0.015151515151515166,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 31,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 32,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_23",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_23.json",
+    "prefix_sha256": "d990fe8312c9c74cb7241dba3c15cad1d6ecb9cdc3b31a8976010931f61ecb22",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_23.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      29,
+      22,
+      25,
+      65,
+      12,
+      26,
+      15,
+      28,
+      9,
+      41
+    ],
+    "projection": [
+      {
+        "row_id": 29,
+        "distance": 0.005050505050505055,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 22,
+        "distance": 0.030303030303030304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 25,
+        "distance": 0.04040404040404039,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 26,
+        "distance": 0.1515151515151515,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.18686868686868688,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 28,
+        "distance": 0.16161616161616163,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 9,
+        "distance": 0.3535353535353535,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 41,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "pagerank_37",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 37,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148037,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_37.json",
+    "prefix_sha256": "fca339f5d901752f71f0156bb2f07484d54dac2e6005d2239746519ef4e398a2",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_37.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      49,
+      43,
+      48,
+      47,
+      50,
+      45,
+      44,
+      46,
+      42,
+      67
+    ],
+    "projection": [
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 43,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.045454545454545456,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_23",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/terasort_23.json",
+    "prefix_sha256": "9d207ed1dbb487e8e6d58ec654c6184c4a6fdcd4bd3ad0508f1731d857aedd7b",
+    "messages_path": "artifacts/study_v148/prompts/terasort_23.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      47,
+      46,
+      48,
+      49,
+      44,
+      45,
+      50,
+      52,
+      42,
+      59
+    ],
+    "projection": [
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 52,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      },
+      {
+        "row_id": 42,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 59,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_71",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/terasort_71.json",
+    "prefix_sha256": "ff070bccadf5bbaa1474800cebd4f95bffbc5a2bd438625ae405cfeee0022500",
+    "messages_path": "artifacts/study_v148/prompts/terasort_71.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      64,
+      10,
+      12,
+      15,
+      22,
+      30,
+      24,
+      37,
+      39,
+      49
+    ],
+    "projection": [
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 10,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 12,
+        "distance": 0.07575757575757575,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 15,
+        "distance": 0.1313131313131313,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 22,
+        "distance": 0.14141414141414144,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 30,
+        "distance": 0.10606060606060605,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 24,
+        "distance": 0.20707070707070707,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 37,
+        "distance": 0.035353535353535304,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 39,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "pagerank_53",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_53.json",
+    "prefix_sha256": "79a9367ed702ecf396206735174739a7d985f110e7ca9ef69e718e1ef24cb21e",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_53.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      52,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      58,
+      59
+    ],
+    "projection": [
+      {
+        "row_id": 52,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": false,
+        "matches_prefix": true
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 45,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 58,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 59,
+        "distance": 0.022727272727272728,
+        "repeated_proposal": true,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "terasort_53",
+    "app": "terasort",
+    "system_group": "hadoop_mapreduce",
+    "seed": 53,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148053,
+    "prefix": "artifacts/study_v148/prefixes/terasort_53.json",
+    "prefix_sha256": "74f3494f90d15643ec975feeb3d319ecfd2f62f87c1745773f868b8351409fec",
+    "messages_path": "artifacts/study_v148/prompts/terasort_53.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "projection": [
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 60,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 61,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 63,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "wordcount_71",
+    "app": "wordcount",
+    "system_group": "hadoop_mapreduce",
+    "seed": 71,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148071,
+    "prefix": "artifacts/study_v148/prefixes/wordcount_71.json",
+    "prefix_sha256": "247e39e52e68551740fef07b0015cd593b1f985227c99a55241dc4a093ccad58",
+    "messages_path": "artifacts/study_v148/prompts/wordcount_71.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      67,
+      49,
+      62,
+      47,
+      65,
+      44,
+      46,
+      64,
+      48,
+      63
+    ],
+    "projection": [
+      {
+        "row_id": 67,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 62,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 44,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 46,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 48,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 63,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  },
+  {
+    "key": "pagerank_23",
+    "app": "pagerank",
+    "system_group": "hadoop_mapreduce",
+    "seed": 23,
+    "domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "sampling_seed": 148023,
+    "prefix": "artifacts/study_v148/prefixes/pagerank_23.json",
+    "prefix_sha256": "d6cd843bb11f33a37e4161be6eda9946bc9f96c7304bb3daff1a408b3ea01926",
+    "messages_path": "artifacts/study_v148/prompts/pagerank_23.json",
+    "model": "qwen3_8b",
+    "status": "valid",
+    "selected_rows": [
+      47,
+      49,
+      50,
+      64,
+      65,
+      67,
+      13,
+      14,
+      22,
+      4
+    ],
+    "projection": [
+      {
+        "row_id": 47,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 49,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 50,
+        "distance": 0.0,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 64,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 65,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 67,
+        "distance": 0.010101010101010097,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 13,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 14,
+        "distance": 0.020202020202020193,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 22,
+        "distance": 0.02525252525252525,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      },
+      {
+        "row_id": 4,
+        "distance": 0.09848484848484848,
+        "repeated_proposal": false,
+        "matches_prefix": false
+      }
+    ]
+  }
+]

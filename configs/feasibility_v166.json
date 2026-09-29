@@ -1,0 +1,18 @@
+{
+  "outcome_cap": 40,
+  "query_execution_cap": 80,
+  "stage_seconds_cap": 1800,
+  "worker_seconds_cap": 60,
+  "repeats": 5,
+  "candidate_ids": {"polars": [0, 21, 42, 63], "xgboost": [0, 42, 85, 127]},
+  "schedule_seed": 16602,
+  "accuracy_floor": 0.75,
+  "minimum_median_seconds": 0.01,
+  "maximum_relative_mad": 0.05,
+  "minimum_eligible_cells_per_engine": 2,
+  "required_all_native_completions": true,
+  "quality_failure_penalty_seconds": 60,
+  "model_requests": 0,
+  "retries": 0,
+  "allow_paid_api": false
+}

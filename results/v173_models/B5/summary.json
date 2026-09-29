@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-28T23:09:31.935239+00:00",
+  "stage": "B5",
+  "provider": "deepinfra/turbo",
+  "intended_cases": 9,
+  "finished_cases": [
+    "spark::terasort_53",
+    "hadoop_mapreduce::terasort_11",
+    "spark::tpch_71",
+    "sac::sac_AllNumeric_23_normal",
+    "spark::bayes_71",
+    "llvm::LLVM_AllNumeric_37_normal",
+    "spark::tpch_37",
+    "hadoop_mapreduce::pagerank_23",
+    "berkeleydb::BDBC_AllNumeric_23_normal"
+  ],
+  "unfinished_cases": [],
+  "interrupted_case": null,
+  "not_started_cases": [],
+  "requests": 48,
+  "error": null,
+  "seconds": 430.475769208002,
+  "spend": {
+    "spent_usd": 1.0556281319999996,
+    "requests": 405,
+    "reported_cost_usd": 1.0556281319999996,
+    "estimated_only_usd": 0.0,
+    "unknown_cost_requests": 0
+  },
+  "acquisitions_so_far": 440
+}

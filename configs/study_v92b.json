@@ -1,0 +1,22 @@
+{
+  "stage": "v92b",
+  "authorization": "Latest user instruction: Keep running until you have a good enough result for q2 journal. New bounded diagnostic; V91 remains closed.",
+  "scientific_case_source": "artifacts/study_v48/jobs.json",
+  "new_generation_request_cap": 1080,
+  "scientific_request_cap": 1080,
+  "compatibility_request_cap": 0,
+  "cases": 108,
+  "max_new_recorded_objective_acquisitions": 0,
+  "max_generation_stage_seconds": 1799,
+  "max_server_rss_bytes": 8589934592,
+  "context_tokens": 8192,
+  "retries": 0,
+  "max_external_spend_usd": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "host": "127.0.0.1",
+  "stage_download_cap_bytes": 0,
+  "prior_real_model_requests": 2494,
+  "prior_recorded_acquisitions": 26658,
+  "amendment": "Pre-outcome context-only amendment. Original V92 preflight stopped with zero generations after 0.938369 seconds. Combined lifecycle ceiling remains 1800 seconds; combined generation ceiling 1080, RSS 8 GiB. No prompts or cases changed."
+}

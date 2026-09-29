@@ -1,0 +1,29 @@
+"""Regenerate descriptive adaptation comparison from recorded counterfactuals."""
+import json
+from pathlib import Path
+import numpy as np
+ROOT=Path(__file__).resolve().parents[1];A=ROOT/'artifacts/study_v154';O=ROOT/'results/v154_controllers'
+def main():
+ d=json.loads((O/'comparison.json').read_text());s=json.loads((A/'signals.json').read_text());lines=['# V154: conditional-call checkpoint adaptations','','Exploratory reuse of140genuine historical model-cases,70/model, eight engine families or seven ecosystems with Spark/Hadoop merged. No new LLM call, synthetic response, or objective acquisition. Prior collection costs remain paid. These are paper-inspired fixed-checkpoint adaptations, not full BORA/LB-MCTS execution; exact mapping and departures are frozen in [protocol_v154.md](protocol_v154.md). Both kernel scales and capped-history diagnostic remain reported.','']
+ for grouping in ['ecosystem','engine']:
+  lines += ['## '+grouping+' grouping','','| Model / policy | Calls or expected calls /70 | Group mean gain | Above matched random | Gain vs adaptive | Useful / harmful | Joint useful |','|---|---:|---:|---:|---:|---|---:|']
+  for m,policies in d['models'][grouping].items():
+   for p,v in policies.items():lines.append(f"| {m} / {p} | {v['calls']:.2f} | {100*v['family_mean_gain']:+.4f}% | {100*v['above_matched_random']:+.4f}pp | {100*v['family_mean_gain_vs_adaptive']:+.4f}% | {v['useful']:.2f} / {v['harmful']:.2f} | {v['joint_useful']:.2f} |")
+  lines.append('')
+ hist=sum(v['1.0']['plateau_length']>6 for v in s.values());neutral=sum(v['1.0']['undefined_folds'] for v in s.values());ratio=[v['1.0']['uncertainty_ratio'] for v in s.values()]
+ lines+=['## Interpretation','',f'At primary lengthscale1, {hist}/70prefixes have fewer post-initialization updates than the default plateau length requires. That produces no-call decisions by construction; the separately named capped-history policy exposes this sensitivity. The GP uncertainty ratio spans{min(ratio):.4f}–{max(ratio):.4f}; fixed covariance makes it a geometric signal rather than an outcome-calibrated uncertainty estimate. Across350two-point CVfolds, {neutral}have undefined/tied rank correlation and receive the prospectively specified neutral0. Tiny folds and correlated sampled observations limit surrogate-reliability estimation.','',
+ 'In the primary seven-ecosystem analysis, BORA-inspired calls14/70cases/model and loses3.1021%/3.2476% for SmolLM/Qwen. Rank-reliability has23.95expectedcalls and loses1.4361%/1.4877%; fixed draws call23and lose2.8390%/2.8562%. These policies also underperform their matched-rate random expectations. Calibrated GP-uncertainty and rank rules select no calls for either model. The saved benefit predictor likewise selects none. Thus these particular uncertainty/reliability adaptations do not recover the useful exceptions. This is not a finding that the complete original algorithms fail.','',
+ 'Fractional calls, opportunities, harms, tokens and times under rank_expected are exact expectations over a Bernoulli selection of the two real saved outcomes. They are not fractional measured requests, new inference or synthetic outcomes. The separately retained rank_draw is one reproducible outcome-independent randomization. Random comparison uses the same per-group mean rate; no hidden outcome selects a case. Actual model costs and one historical fallback/unknown usage stay in the source denominator.','',
+ 'All fitted scalar thresholds exclude the entire held system/ ecosystem. V151 benefit rules retain their prior nested calibration; no favorable policy is selected across this table. Prior repeated inspection makes all new results exploratory. Seven ecosystems and dependent seeds do not support a population equivalence/generalization claim. The practical1%margin is per case; above-random improvement alone does not establish improvement over never-call. Native Memcached17+3results are excluded from this20-search cohort.','',
+ f"Prefix signal computation took{json.loads((A/'signals_runtime.json').read_text())['wall_seconds']:.6f}seconds under600secondcap; evaluation adds{json.loads((A/'evaluation_runtime.json').read_text())['wall_seconds']:.6f}seconds. This is measured controller-analysis overhead; estimated deployment only pays for its chosen branch and controller. No dollar/energy claim. Independent scalar-kernel/least-squares replay passed, including three semantic-corruption checks. Exact decisions, CVpredictions, monitor histories, calibration grids, per-group outcomes and usage estimates are saved in artifacts/study_v154 and results/v154_controllers."]
+ (ROOT/'reports/controllers_v154.md').write_text('\n'.join(lines)+'\n')
+ import matplotlib
+ matplotlib.use('Agg');matplotlib.rcParams['svg.hashsalt']='v154'
+ import matplotlib.pyplot as plt
+ policies=['never','benefit_v151','bora_1.0','bora_capped_1.0','rank_expected_1.0','rank_draw_1.0','gp_uncertainty_calibrated','rank_calibrated','always'];labels=['Never','Benefit (V151)','BORA-inspired','Capped history','Rank expectation','Rank fixed draw','Calibrated GP','Calibrated rank','Always']
+ fig,ax=plt.subplots(figsize=(10,5.5),layout='constrained');xx=np.arange(len(policies))
+ for offset,(m,name) in enumerate([('smollm3_3b','SmolLM3-3B'),('qwen3_8b','Qwen3-8B')]):ax.bar(xx+(offset-.5)*.38,[100*d['models']['ecosystem'][m][p]['family_mean_gain'] for p in policies],.38,label=name)
+ ax.set_xticks(xx,labels,rotation=25,ha='right');ax.set_ylabel('Equal-ecosystem mean gain over sequential (%)');ax.axhline(0,color='black',lw=.8);ax.legend();ax.grid(axis='y',alpha=.2);ax.set_title('Checkpoint adaptations on saved real continuations\nSeven ecosystems • exploratory • expectation is not new inference')
+ fig.savefig(O/'comparison.png',dpi=150);fig.savefig(O/'comparison.svg',metadata={'Date':None});plt.close(fig)
+ print('Regenerated complete tables and adaptation figure')
+if __name__=='__main__':main()

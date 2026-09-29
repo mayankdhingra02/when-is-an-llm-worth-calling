@@ -1,0 +1,200 @@
+{
+  "scope": "V173: SNAP2's model (openai/gpt-oss-120b via OpenRouter) on the exposed 70-case recorded cohort; arm A model-only contrast with V172, arm B SNAP2-style iterative loop",
+  "authorization": "artifacts/study_v173/authorization.json",
+  "allow_paid_api": true,
+  "api_host": "openrouter.ai",
+  "api_url": "https://openrouter.ai/api/v1/chat/completions",
+  "key_file": "~/.config/llm-escalation-study/openrouter_key",
+  "model": "openai/gpt-oss-120b",
+  "provider_preference": [
+    "coreweave/fp4",
+    "deepinfra/bf16",
+    "dekallm/bf16",
+    "akashml/bf16",
+    "crusoe/bf16",
+    "mancer/fp8",
+    "deepinfra/turbo",
+    "groq",
+    "nebius/fp4",
+    "phala",
+    "parasail/fp4",
+    "cerebras/fp16"
+  ],
+  "provider_prices_usd_per_token": {
+    "coreweave/fp4": [
+      3e-08,
+      1.7e-07
+    ],
+    "deepinfra/bf16": [
+      3.7e-08,
+      1.7e-07
+    ],
+    "dekallm/bf16": [
+      3e-08,
+      1.8e-07
+    ],
+    "akashml/bf16": [
+      3.3e-08,
+      1.87e-07
+    ],
+    "crusoe/bf16": [
+      5e-08,
+      2.5e-07
+    ],
+    "mancer/fp8": [
+      5e-08,
+      3e-07
+    ],
+    "deepinfra/turbo": [
+      1.5e-07,
+      6e-07
+    ],
+    "groq": [
+      1.5e-07,
+      6e-07
+    ],
+    "nebius/fp4": [
+      1.5e-07,
+      6e-07
+    ],
+    "phala": [
+      1.5e-07,
+      6e-07
+    ],
+    "parasail/fp4": [
+      1e-07,
+      7.5e-07
+    ],
+    "cerebras/fp16": [
+      3.5e-07,
+      7.5e-07
+    ]
+  },
+  "reasoning_effort": "medium",
+  "max_tokens": {
+    "A": 16000,
+    "B": 8000
+  },
+  "temperature": 0.7,
+  "top_p": {
+    "A": 0.95,
+    "B": 1.0
+  },
+  "arm_a_draws": {
+    "A1": "sampling_seed",
+    "A1R": "sampling_seed",
+    "A2": "redraw_seed"
+  },
+  "arm_b": {
+    "rounds": 5,
+    "proposals_per_round": 2,
+    "retries_per_round": 1,
+    "seed_offset": 173000,
+    "stages": {
+      "B1": [
+        1,
+        0
+      ],
+      "B2": [
+        1,
+        1
+      ],
+      "B3": [
+        1,
+        2
+      ],
+      "B4": [
+        1,
+        3
+      ],
+      "B5": [
+        2,
+        0
+      ],
+      "B6": [
+        2,
+        1
+      ],
+      "B7": [
+        2,
+        2
+      ],
+      "B8": [
+        2,
+        3
+      ]
+    },
+    "stage_rule": "[V172 split, part]: part k = cases k*ceil(n/4) .. (k+1)*ceil(n/4)-1 of that split in V172 job order",
+    "parts_per_split": 4
+  },
+  "spend_cap_usd": 3.0,
+  "cost_safety_factor": 1.25,
+  "request_caps": {
+    "P": 4,
+    "P2": 12,
+    "A1": 70,
+    "A1R": 70,
+    "A2": 70,
+    "B_per_case": 10
+  },
+  "stage_seconds": {
+    "P": 300,
+    "P2": 900,
+    "A1": 1800,
+    "A1R": 1800,
+    "A2": 1800,
+    "E": 600,
+    "EB": 600,
+    "B": 1800
+  },
+  "request_timeout_seconds": 180,
+  "acquisition_caps": {
+    "E": 1400,
+    "B": 700
+  },
+  "margin": 0.01,
+  "switch_set": [
+    "sequential_3nn",
+    "random_full",
+    "adaptive_neighbor",
+    "gp_ei"
+  ],
+  "decision_threshold_ecosystems": 2,
+  "rate_limit_backoff_seconds": [
+    5,
+    10,
+    20,
+    40,
+    60
+  ],
+  "probe": {
+    "order": [
+      "coreweave/fp4",
+      "deepinfra/bf16",
+      "dekallm/bf16",
+      "akashml/bf16",
+      "crusoe/bf16",
+      "mancer/fp8",
+      "deepinfra/turbo",
+      "groq",
+      "nebius/fp4",
+      "phala",
+      "parasail/fp4",
+      "cerebras/fp16"
+    ],
+    "min_completion_tokens_per_second": 200,
+    "max_probes": 12,
+    "features": 30,
+    "proposals": 10,
+    "seed": 173990,
+    "rule": "first provider in ascending expected-cost order whose synthetic probe returns HTTP 200 (after rate-limit backoff), finish_reason stop, schema-valid output and >= min completion tokens/s; none -> stop"
+  },
+  "amendments": [
+    "reports/protocol_v173_amendment1.md",
+    "reports/protocol_v173_amendment2.md"
+  ],
+  "continuation": {
+    "max_continuations_per_stage": 3,
+    "rule": "X.cN runs only the cases of X (or X.c(N-1)) that were never started because of the wall cap, with identical settings and seeds; interrupted arm-B cases are rebuilt fallback-only in EB"
+  }
+}

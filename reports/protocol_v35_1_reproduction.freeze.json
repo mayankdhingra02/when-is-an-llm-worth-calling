@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-25T12:46:22.422187+00:00",
+  "scope": "Corrected reduction reconstruction; measured scientific outcomes untouched",
+  "sha256": {
+    "reports/protocol_v35_1_reproduction.md": "2cd47c377824d5f780544d8cbb96b563bf79d9f786d2f374eb18761518ce488b",
+    "reports/protocol_v35_reproduction.freeze.json": "ede212ee41e095734bdd8ee0fae4c72719e605a870aa9cd32629b31f31edd894",
+    "scripts/build_reproduction_v35_1.py": "da3a46a038404698421e1a296f29040077269ab159e763644e9d500dee7c239a",
+    "scripts/verify_reproduction_v35_1.py": "de00a7c431b508ea7b7618fb828dcf91cc8550eeafcbc90294d9f6d62a2d5d1f",
+    "scripts/test_reproduction_v35_1.py": "bbc56c6194ea36a35399bd7668f45e4c104561560a1bc2399acf9715815b7302",
+    "scripts/diagnose_reproduction_v35.py": "c72d5f13e5ec2ff5f9576e443a369ff87a730de0a465df20a49de275f8f7bdf0",
+    "tests/synthetic/test_reproduction_v35_1.py": "cd1dd6214b60ce514ddc3f6b2d7a4890af531b9730aca4f13b69227c70511ebe",
+    "BUNDLE_V35_1_README.md": "598fcaa6b8a2c7f45d062e84519872da408a2b03c85cec5daf738fd821f60369",
+    "artifacts/reproduction_v35_1/tests.log": "bd066a0816565aacedc54f291e2710662dc25f7d2f7357bccca37a50a015a6c9",
+    "artifacts/reproduction_v35/build.json": "f61d5f966f11d0e3fc0487816aed7d567b4dd8142e9f0dd31f830598e64f1347",
+    "artifacts/reproduction_v35/python310.json": "3f6f51f08daf75ce2b562bb3131536bf06f4d665c7fac3b041b2dea369b130c5",
+    "artifacts/reproduction_v35/python312.json": "2cea13a9c7e908911b3945850cd8a4cba889b2157e42c77905b398ae7b3a1dee",
+    "artifacts/reproduction_v35/arithmetic_diagnosis310.json": "41d2e65540aefc9d1178262d95e97eb09f794e846a370c3b1a7304538804126a",
+    "artifacts/reproduction_v35/arithmetic_diagnosis312.json": "2e5876414791cbb54959ff0abbe133ca0abab42bff30d330953658a22ee74678"
+  }
+}

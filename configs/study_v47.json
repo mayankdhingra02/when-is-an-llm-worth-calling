@@ -1,0 +1,19 @@
+{
+  "authorization": "User explicitly requested continuing beyond local feasibility: continue and keep running until we have a really good enough result. This implements one bounded, predeclared cross-model robustness batch, not unlimited tuning.",
+  "cases": 30,
+  "max_generation_requests": 300,
+  "max_new_tokens_per_request": 1,
+  "choice_requests_per_case": 10,
+  "max_stage_seconds": 600,
+  "request_timeout_seconds": 20,
+  "max_new_objective_accesses": 300,
+  "max_external_spend_usd": 0,
+  "max_new_download_bytes": 0,
+  "retries": 0,
+  "host": "127.0.0.1",
+  "port": 18473,
+  "model_revision": "4965cb60b150737b68a0408c36aeefb65078f894",
+  "context_tokens": 4096,
+  "seed": 11,
+  "analysis": "exploratory robustness; six exposed families; no threshold fitting"
+}

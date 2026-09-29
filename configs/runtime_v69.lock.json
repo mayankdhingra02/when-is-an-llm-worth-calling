@@ -1,0 +1,12 @@
+{
+  "package": "rocksdict",
+  "version": "0.3.27",
+  "engine_source_version": "9.8.4",
+  "engine_revision": "44e95d8af5d7ec503b3f1d5754c3379ab6c29a9d",
+  "wheel_sha256": "9641e13b06cacffe1ac562874bcfa2d2fd7ae0b21751b6f64fabe60b5da9a13c",
+  "binaries": {
+    ".local-runtime/rocksdb-v69/rocksdict/rocksdict.cpython-310-darwin.so": "8d34ebdfb26191ea4057c84bb807d1e491eeca9b464c7841154d5553aeb4d398"
+  },
+  "installation": "pip --no-index --no-deps --no-compile --target .local-runtime/rocksdb-v69; exit0 observed",
+  "source_build_reproduced": false
+}

@@ -1,0 +1,46 @@
+{
+  "at": "2026-09-28T19:45:00.177370+00:00",
+  "reconstructed_after_collector_crash": true,
+  "reconstruction_basis": [
+    "generation_starts.jsonl",
+    "responses.jsonl",
+    "scores/",
+    "errors.jsonl",
+    "ledger.json (last persisted before final request)"
+  ],
+  "stage": "B2",
+  "arm": "qwen3_8b_redraw",
+  "model_key": "qwen3_8b",
+  "intended": 35,
+  "attempted": 30,
+  "responses": 29,
+  "valid": 29,
+  "invalid": 0,
+  "unattempted": [
+    "sac::sac_AllNumeric_71_normal",
+    "spark::wordcount_53",
+    "hadoop_mapreduce::wordcount_11",
+    "hipacc::hipacc_AllNumeric_71_normal",
+    "spark::tpch_23"
+  ],
+  "attempted_without_response": [
+    "spark::terasort_37"
+  ],
+  "error": "RemoteDisconnected('Remote end closed connection without response'); collector close() then raised PermissionError(1) from os.killpg on the exiting server group, so no summary was written",
+  "seconds": null,
+  "ledger": {
+    "generation_requests": 30,
+    "compatibility_requests": 0,
+    "scientific_requests": 30,
+    "http_requests": 106,
+    "peak_server_rss_bytes": 8261091328,
+    "retries": 0,
+    "external_spend_usd": 0,
+    "allocated_output_tokens": 30720,
+    "port_wait_seconds": 28.181657875000383,
+    "startup_seconds": 31.868814417000976,
+    "resource_stop_reason": "unrecorded (in-memory only; lost when close() raised)",
+    "server_exit_code": "unrecorded",
+    "stage_seconds": null
+  }
+}

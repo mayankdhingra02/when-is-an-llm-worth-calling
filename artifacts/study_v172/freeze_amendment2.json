@@ -1,0 +1,22 @@
+{
+ "at": "2026-09-28T19:45:00.286142+00:00",
+ "purpose": "Amendment 2 freeze, after B1/B2 ended and before evaluation E read any V172 recorded target",
+ "superseded": [
+  "scripts/analyze_v172.py",
+  "scripts/common_v172.py",
+  "scripts/report_v172.py",
+  "tests/synthetic/test_v172.py"
+ ],
+ "added": [
+  "reports/protocol_v172_amendment2.md",
+  "scripts/stage_summary_v172.py"
+ ],
+ "sha256": {
+  "scripts/analyze_v172.py": "3b75a27cbb029dc173027320648b65297f62a52a8bbbeb37e6ce29163a719599",
+  "scripts/common_v172.py": "930af34541bec4f4c3fbea66e7efe26a8ca9764f3594b262e99b7de494699eb0",
+  "scripts/report_v172.py": "df6ff4311b50842f0f76081512885a9aa25bab845cf0ac062691c6d06abb3854",
+  "tests/synthetic/test_v172.py": "c08619b9d0669af6aca4e5ba17eacdcf459388df0a38c7746abbf7cf10545352",
+  "reports/protocol_v172_amendment2.md": "2350adbdd13cfdddb20a2661fd214c3c6d5401df7ef7c980712f2212458adb39",
+  "scripts/stage_summary_v172.py": "b40f3ed01255635d873cb7d99fa96777a6f9b40b32a1c4e847afd06ad4aceccb"
+ }
+}

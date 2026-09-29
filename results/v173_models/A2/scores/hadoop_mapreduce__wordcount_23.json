@@ -1,0 +1,110 @@
+{
+  "origin": "v148",
+  "key": "wordcount_23",
+  "qualified_key": "hadoop_mapreduce::wordcount_23",
+  "system_group": "hadoop_mapreduce",
+  "seed": 23,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/wordcount_23.json",
+  "prefix": "artifacts/study_v148/prefixes/wordcount_23.json",
+  "prefix_sha256": "d990fe8312c9c74cb7241dba3c15cad1d6ecb9cdc3b31a8976010931f61ecb22",
+  "sampling_seed": 148023,
+  "redraw_seed": 320023,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/wordcount_23.json",
+  "app": "wordcount",
+  "split": 1,
+  "stage": "A2",
+  "seed_used": 320023,
+  "status": "valid",
+  "score": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "error": null,
+  "served_by": "DeepInfra",
+  "usage": {
+    "prompt_tokens": 508,
+    "completion_tokens": 988,
+    "total_tokens": 1496,
+    "cost": 0.000669,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000669,
+      "upstream_inference_prompt_cost": 7.62e-05,
+      "upstream_inference_completions_cost": 0.0005928
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 717,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Next after V116–V118
+
+**Obtain an independently validated measurement source before further model sampling.** The original BO4CO archive has now been downloaded and audited; repeating that search is unnecessary. Its BSD-3-Clause metadata, ten schemas and feature aliases are verified, but it contains no per-attempt validation/failure ledger or executed-code manifest. Original metric semantics remain uncertain because the located harness can substitute bolt process latency and averages transferred counts as throughput. A later source revision does not certify the2016 archive.
+
+For the recorded-data route, the missing resource is an original measurement contract or linked run records establishing the WordCount latency definition, fixed workload, successful output checks and failure handling. Alternatively, use another independently admitted owner dataset that supplies those facts. Keep all Storm variants together. Existing V52 gates remain closed; do not silently weaken them to gain a new test group. Redis is exposed by V60/V61 and MongoDB lineage remains unresolved.
+
+For native claims, the already prepared private `output/v113_replication/` packet needs a second quiet CPU host:90 acquisitions/270 solves, no GPU/model/API. Only this Mac is available. No source-host guard bypass, remote provisioning, file transfer, external contact or paid spending is authorized. Original HB redistribution terms remain unresolved. A second host tests measurement portability, not unseen-software routing generalization.
+
+Once an independent family is admitted, freeze paired B20/t10 continuation rules and the current parser/model/controls before opening objective values. Retain every intended seed/failure. One new family would still be weak evidence for a learned router; don't inflate it through workloads/cluster versions.
+
+The paper candidate should emphasize low observed practical routing headroom for tested local-model adaptations. V117 demonstrates that mean loss against the portfolio depends on OpenVPN: report the full-cohort result, nine small wins, zero5%wins and0.568%non-deployable observed headroom. Do not select a favorable family subset or continue tuning prompts/seeds on these exposed groups. The frozen independent-work components are complete and no experiment is running; journal readiness remains unestablished.

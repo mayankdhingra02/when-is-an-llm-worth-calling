@@ -1,0 +1,23 @@
+{
+  "source_audit_saved_download_bytes": 3745927,
+  "discarded_oversized_body_bytes_read": 300001,
+  "prior_cumulative_retained_download_bytes": 10250376799,
+  "cumulative_retained_download_bytes": 10254122726,
+  "retained_ceiling_bytes": 10737418240,
+  "remaining_retained_download_bytes": 483295514,
+  "source_audit_cap": 20000000,
+  "native_executions": 0,
+  "new_model_download_bytes": 0,
+  "failed_attempts": [
+    {
+      "plan": "artifacts/study_v143/metadata_plan.json",
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "saved_bytes": 0
+    },
+    {
+      "plan": "artifacts/study_v143/linked_plan.json",
+      "error": "RuntimeError('Download cap exceeded; oversized body not retained')",
+      "saved_bytes": 0
+    }
+  ]
+}

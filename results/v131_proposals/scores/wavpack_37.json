@@ -1,0 +1,86 @@
+{
+  "key": "wavpack_37",
+  "task": "wavpack",
+  "seed": 37,
+  "sampling_seed": 131037,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      4,
+      6
+    ],
+    [
+      0,
+      2048,
+      8192,
+      32768,
+      65536
+    ]
+  ],
+  "system_group": "wavpack",
+  "split": "prospectively_fixed_two_family_extension",
+  "messages_path": "artifacts/study_v131/prompts/wavpack_37.json",
+  "prefix_path": "results/v131_native/prefixes/wavpack_37.json",
+  "prefix_sha256": "5f89e0ba815f57032ec0b16032dd159fb6e1c1bd47760882861ab6fbedb7dbf6",
+  "score": [
+    [
+      3,
+      4,
+      8192
+    ],
+    [
+      3,
+      2,
+      8192
+    ],
+    [
+      3,
+      4,
+      32768
+    ],
+    [
+      3,
+      2,
+      32768
+    ],
+    [
+      3,
+      2,
+      2048
+    ],
+    [
+      3,
+      4,
+      2048
+    ],
+    [
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      0,
+      2048
+    ],
+    [
+      2,
+      4,
+      65536
+    ],
+    [
+      2,
+      0,
+      8192
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

@@ -1,0 +1,130 @@
+-- The C compiler identification is AppleClang 17.0.0.17000013
+-- The CXX compiler identification is AppleClang 17.0.0.17000013
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for a ASM compiler
+-- Looking for a ASM compiler - /usr/bin/cc
+-- The ASM compiler identification is AppleClang
+-- Found assembler: /usr/bin/cc
+-- Looking for a ASM-ATT compiler
+-- Looking for a ASM-ATT compiler - /usr/bin/as
+-- The ASM-ATT compiler identification is AppleClang
+-- Found assembler: /usr/bin/as
+-- Looking for cos in m
+-- Looking for cos in m - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE___BUILTIN_CLZ
+-- Performing Test HAVE___BUILTIN_CLZ - Success
+-- Checking large files support...
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Checking size of off_t without any definitions:
+-- Check size of off_t
+-- Check size of off_t - done
+-- Checking of off_t without any definitions: 8
+-- Result of checking large files support: supported
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Detecting Target CPU Architecture
+-- Detecting Target CPU Architecture - ARM64
+-- Performing Test ICONV_IN_LIBC
+-- Performing Test ICONV_IN_LIBC - Failed
+-- Performing Test ICONV_IN_LIBICONV
+-- Performing Test ICONV_IN_LIBICONV - Success
+-- The following features have been enabled:
+
+ * WAVPACK_ENABLE_DSD, Enable support for WavPack DSD files.
+ * WAVPACK_INSTALL_CMAKE_MODULE, Generate and install CMake package configuration module.
+ * WAVPACK_BUILD_PROGRAMS, Build programs.
+ * WAVPACK_INSTALL_PKGCONFIG_MODULE, Generate and install wavpack.pc.
+
+-- The following OPTIONAL packages have been found:
+
+ * Threads, Threads library
+   Required to build tests, optional for library.
+
+-- The following features have been disabled:
+
+ * BUILD_SHARED_LIBS, Build shared library.
+ * BUILD_TESTING, Build tests.
+ * WAVPACK_ENABLE_LEGACY, Decode legacy (< 4.0) WavPack files.
+ * WAVPACK_ENABLE_THREADS, Enable support for threading in libwavpack.
+ * WAVPACK_ENABLE_ASM, Enable assembly optimizations.
+ * WAVPACK_BUILD_COOLEDIT_PLUGIN, Build CoolEdit plugin.
+ * WAVPACK_BUILD_WINAMP_PLUGIN, Build WinAmp plugin.
+ * WAVPACK_INSTALL_DOCS, Install documentation.
+
+-- Configuring done (6.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/wavpack
+[  3%] Building C object CMakeFiles/wavpack.dir/src/common_utils.c.o
+[  3%] Building C object CMakeFiles/wavpack.dir/src/decorr_utils.c.o
+[  5%] Building C object CMakeFiles/wavpack.dir/src/entropy_utils.c.o
+[  7%] Building C object CMakeFiles/wavpack.dir/src/extra1.c.o
+[  9%] Building C object CMakeFiles/wavpack.dir/src/extra2.c.o
+[ 11%] Building C object CMakeFiles/wavpack.dir/src/open_utils.c.o
+[ 13%] Building C object CMakeFiles/wavpack.dir/src/open_filename.c.o
+[ 15%] Building C object CMakeFiles/wavpack.dir/src/open_legacy.c.o
+[ 17%] Building C object CMakeFiles/wavpack.dir/src/open_raw.c.o
+[ 19%] Building C object CMakeFiles/wavpack.dir/src/pack.c.o
+[ 21%] Building C object CMakeFiles/wavpack.dir/src/pack_dns.c.o
+[ 23%] Building C object CMakeFiles/wavpack.dir/src/pack_floats.c.o
+[ 25%] Building C object CMakeFiles/wavpack.dir/src/pack_utils.c.o
+[ 26%] Building C object CMakeFiles/wavpack.dir/src/read_words.c.o
+[ 28%] Building C object CMakeFiles/wavpack.dir/src/tags.c.o
+[ 32%] Building C object CMakeFiles/wavpack.dir/src/tag_utils.c.o
+[ 32%] Building C object CMakeFiles/wavpack.dir/src/unpack.c.o
+[ 34%] Building C object CMakeFiles/wavpack.dir/src/unpack_floats.c.o
+[ 36%] Building C object CMakeFiles/wavpack.dir/src/unpack_seek.c.o
+[ 38%] Building C object CMakeFiles/wavpack.dir/src/unpack_utils.c.o
+[ 40%] Building C object CMakeFiles/wavpack.dir/src/write_words.c.o
+[ 42%] Building C object CMakeFiles/wavpack.dir/src/pack_dsd.c.o
+[ 44%] Building C object CMakeFiles/wavpack.dir/src/unpack_dsd.c.o
+[ 46%] Linking C static library libwavpack.a
+[ 46%] Built target wavpack
+[ 50%] Building C object CMakeFiles/wvunpack.dir/cli/wvunpack.c.o
+[ 50%] Building C object CMakeFiles/wavpackapp.dir/cli/wavpack.c.o
+[ 51%] Building C object CMakeFiles/wvunpack.dir/cli/riff_write.c.o
+[ 53%] Building C object CMakeFiles/wvunpack.dir/cli/wave64_write.c.o
+[ 55%] Building C object CMakeFiles/wvunpack.dir/cli/aiff_write.c.o
+[ 57%] Building C object CMakeFiles/wvunpack.dir/cli/caff_write.c.o
+[ 59%] Building C object CMakeFiles/wvunpack.dir/cli/dsdiff_write.c.o
+[ 61%] Building C object CMakeFiles/wavpackapp.dir/cli/riff.c.o
+[ 63%] Building C object CMakeFiles/wvunpack.dir/cli/dsf_write.c.o
+[ 65%] Building C object CMakeFiles/wvunpack.dir/cli/utils.c.o
+[ 67%] Building C object CMakeFiles/wavpackapp.dir/cli/wave64.c.o
+[ 71%] Building C object CMakeFiles/wvunpack.dir/cli/md5.c.o
+[ 71%] Building C object CMakeFiles/wavpackapp.dir/cli/aiff.c.o
+[ 75%] Building C object CMakeFiles/wavpackapp.dir/cli/caff.c.o
+[ 75%] Linking C executable wvunpack
+[ 75%] Built target wvunpack
+[ 76%] Building C object CMakeFiles/wvgain.dir/cli/wvgain.c.o
+[ 78%] Building C object CMakeFiles/wavpackapp.dir/cli/dsdiff.c.o
+[ 80%] Building C object CMakeFiles/wavpackapp.dir/cli/dsf.c.o
+[ 82%] Building C object CMakeFiles/wavpackapp.dir/cli/utils.c.o
+[ 84%] Building C object CMakeFiles/wvgain.dir/cli/utils.c.o
+[ 86%] Building C object CMakeFiles/wavpackapp.dir/cli/md5.c.o
+[ 88%] Linking C executable wvgain
+[ 90%] Building C object CMakeFiles/wavpackapp.dir/cli/import_id3.c.o
+[ 90%] Built target wvgain
+[ 92%] Building C object CMakeFiles/wvtag.dir/cli/wvtag.c.o
+[ 94%] Linking C executable wavpack
+[ 94%] Built target wavpackapp
+[ 96%] Building C object CMakeFiles/wvtag.dir/cli/utils.c.o
+[ 98%] Building C object CMakeFiles/wvtag.dir/cli/import_id3.c.o
+[100%] Linking C executable wvtag
+[100%] Built target wvtag

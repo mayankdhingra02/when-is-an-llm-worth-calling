@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-28T19:31:29.773479+00:00",
+  "stage": "A2",
+  "arm": "qwen3_14b",
+  "model_key": "qwen3_14b",
+  "intended": 35,
+  "attempted": 35,
+  "responses": 35,
+  "valid": 35,
+  "invalid": 0,
+  "unattempted": [],
+  "error": null,
+  "seconds": 971.8054042500007,
+  "ledger": {
+    "generation_requests": 35,
+    "compatibility_requests": 0,
+    "scientific_requests": 35,
+    "http_requests": 118,
+    "peak_server_rss_bytes": 11300208640,
+    "retries": 0,
+    "external_spend_usd": 0,
+    "allocated_output_tokens": 35840,
+    "port_wait_seconds": 12.083381207994535,
+    "startup_seconds": 19.083279166996363,
+    "stage_seconds": 971.8695536669984,
+    "resource_stop_reason": null,
+    "server_exit_code": 0
+  }
+}

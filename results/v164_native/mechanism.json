@@ -1,0 +1,37 @@
+{
+  "scope": "Post-outcome descriptive mechanism summary, not causal mediation or independent-system significance",
+  "totals": {
+    "numeric": {
+      "observed_evaluated_proposals": 140,
+      "evaluated_projected": 77,
+      "evaluated_duplicates": 68,
+      "all_proposals": 200,
+      "all_projected": 128,
+      "all_duplicates": 117
+    },
+    "catalog": {
+      "observed_evaluated_proposals": 140,
+      "evaluated_projected": 0,
+      "evaluated_duplicates": 0,
+      "all_proposals": 200,
+      "all_projected": 2,
+      "all_duplicates": 2
+    }
+  },
+  "cost_ratios": [
+    {
+      "model": "smollm3_3b",
+      "input_token_ratio_catalog_over_numeric": 2.3240919836664515,
+      "request_time_ratio_catalog_over_numeric": 1.431683967398502
+    },
+    {
+      "model": "qwen3_8b",
+      "input_token_ratio_catalog_over_numeric": 2.433001107419712,
+      "request_time_ratio_catalog_over_numeric": 1.5279168589260916
+    }
+  ],
+  "interface_robust_wins": 0,
+  "interface_robust_losses": 0,
+  "same_setting_pairs": 17,
+  "secondary_joint_robust_wins": 0
+}

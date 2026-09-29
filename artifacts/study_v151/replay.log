@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v151.py", line 128, in <module>
+    if __name__=='__main__':main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v151.py", line 116, in main
+    folds=read(OUT/'folds.json');c=read(OUT/'comparison.json');count=verify(folds,c,rows);mut=[]
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v151.py", line 83, in verify
+    for r,s in zip(val,scores):close(s,inner['scores'][r['key']]);oof[r['key']]=float(s)
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v151.py", line 6, in close
+    def close(a,b):assert math.isclose(float(a),float(b),rel_tol=1e-8,abs_tol=1e-10),(a,b)
+AssertionError: (np.float64(-0.37173361080061723), -0.00014339054897926712)

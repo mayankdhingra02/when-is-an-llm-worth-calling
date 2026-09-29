@@ -1,0 +1,33 @@
+{
+  "stage": "v125_format_demonstration_development",
+  "new_generation_request_cap": 18,
+  "scientific_request_cap": 18,
+  "compatibility_request_cap": 0,
+  "max_allocated_output_tokens": 576,
+  "context_tokens": 4096,
+  "max_generation_stage_seconds": 500,
+  "max_server_rss_bytes": 8589934592,
+  "max_new_recorded_objective_acquisitions": 0,
+  "max_evaluation_seconds": 180,
+  "retries": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "max_external_spend_usd": 0,
+  "stage_download_cap_bytes": 0,
+  "request_timeout_seconds": 120,
+  "seed": 11,
+  "n_predict": 32,
+  "families": [
+    "hipacc"
+  ],
+  "optimization_seed": 11,
+  "practical_quality_margin": 0.05,
+  "sampling_seeds": [
+    101,
+    102,
+    103
+  ],
+  "source_download_cap_bytes": 0,
+  "source_request_cap": 0,
+  "source_time_cap_seconds": 90
+}

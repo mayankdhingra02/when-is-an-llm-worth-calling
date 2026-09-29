@@ -1,0 +1,109 @@
+{
+  "key": "cvc5_37",
+  "engine": "cvc5",
+  "system_group": "cvc5",
+  "seed": 37,
+  "prefix": "artifacts/study_v159/prefixes/cvc5_37.json",
+  "messages_path": "artifacts/study_v159/prompts/cvc5_37.json",
+  "sampling_seed": 159037,
+  "domains": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "prefix_sha256": "a5d92604f90dd223886a8edd95f80ec76d94d42dd4f50e213de9ebbd543122bb",
+  "model": "smollm3_3b",
+  "score": [
+    [
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

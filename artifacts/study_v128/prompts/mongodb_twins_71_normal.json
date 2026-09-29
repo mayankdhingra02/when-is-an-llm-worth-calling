@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"root\",\"journal\",\"nojournal\",\"journalCompression\",\"journalCompressionSnappy\",\"journalCompressionZlib\",\"ssl\",\"networkCompression\",\"networkCompressionSnappy\",\"networkCompressionZlib\",\"wireObjectCheck\",\"dataCompression\",\"dataCompressionSnappy\",\"dataCompressionZlib\",\"indexPrefixCompression\",\"journalCommitInterval\",\"cacheSize\"],\"symbol_to_value\":[[1.0],[1.0],[0.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[100.0],[256.0,512.0,1024.0,2048.0,4096.0]],\"observed_examples\":[{\"settings\":\"00010101100101100\",\"performance\":\"334701.000000\"},{\"settings\":\"00010100000110001\",\"performance\":\"335903.200000\"},{\"settings\":\"00010100000110101\",\"performance\":\"333310.000000\"},{\"settings\":\"00000001100000100\",\"performance\":\"298550.600000\"},{\"settings\":\"00000000000000100\",\"performance\":\"300946.800000\"},{\"settings\":\"00000000000000000\",\"performance\":\"296724.800000\"},{\"settings\":\"00000000000000002\",\"performance\":\"291266.400000\"},{\"settings\":\"00000000000000003\",\"performance\":\"298604.800000\"},{\"settings\":\"00000000000000001\",\"performance\":\"290206.000000\"},{\"settings\":\"00000000000000004\",\"performance\":\"305856.400000\"}],\"performance_meaning\":\"Owner-reported performance run time; MongoDB4.0.1 PolePosition0.6.0 custom configuration; per-run correctness not independently verified\",\"direction\":\"minimize\"}"
+  }
+]

@@ -1,0 +1,282 @@
+{
+ "decision": "close_router_question",
+ "evaluation": {
+  "acquisitions": 1400,
+  "at": "2026-09-28T19:45:55.002012+00:00",
+  "complete": true,
+  "failures": [],
+  "intended_arms": 140,
+  "scored_arms": 140,
+  "seconds": 7.416944742202759
+ },
+ "inputs_sha256": {
+  "choices": "0983c2b606497bdd76dd3475e845b688c6bca094db333f7f497361973c8d5788",
+  "completion": "9776649c2556dfb8197df77d9cfffa38c3b4b14e22ce6e98413f1def696857c8",
+  "native_v169": "7b7a1d544fa27175a5747bc9d0bc0861a19d71f45ae49ed2044c2f067d778caf",
+  "native_v170": "6687d84606efbc08136b9405b074740b79c1b1ccea75259458ec317ba7f4e339",
+  "recorded_gp": "06ddff021bf3c7bd41c735cd63c2540d6ca09ac1962f44e4f9aca001ece99c08",
+  "recorded_hadoop": "a1622ef0647a6b25e0273bc32d44d93f36ac548474237e059273bcca1117aac9",
+  "recorded_rows": "31e550662fa89f3ad42be4d46f22c98120c495a868aa057479ebea12bd9e2bd1",
+  "recorded_spark": "0eb7c5c0f42d0317f139c8725b52f3efb44d0d2a5050a0e6465486b968105287",
+  "recorded_v141": "d33dd246672abbaea34e0cc0ba8b6d8c3a870d9819e156e98514a549476d9d0d"
+ },
+ "margin": 0.01,
+ "paired": [
+  {
+   "identical": 44,
+   "mean_relative_gain": 0.020402722990360868,
+   "pairs": 70,
+   "reference": "qwen3_8b",
+   "treatment": "qwen3_14b",
+   "treatment_better_by_margin": 16,
+   "treatment_worse_by_margin": 5
+  },
+  {
+   "identical": 40,
+   "mean_relative_gain": 0.014824905931992137,
+   "pairs": 70,
+   "reference": "qwen3_8b",
+   "treatment": "qwen3_8b_redraw",
+   "treatment_better_by_margin": 18,
+   "treatment_worse_by_margin": 4
+  },
+  {
+   "identical": 37,
+   "mean_relative_gain": 0.005146772047122628,
+   "pairs": 70,
+   "reference": "qwen3_8b_redraw",
+   "treatment": "qwen3_14b",
+   "treatment_better_by_margin": 12,
+   "treatment_worse_by_margin": 12
+  },
+  {
+   "identical": 38,
+   "mean_relative_gain": -0.010869316618009668,
+   "pairs": 70,
+   "reference": "smollm3_3b",
+   "treatment": "qwen3_8b",
+   "treatment_better_by_margin": 6,
+   "treatment_worse_by_margin": 17
+  }
+ ],
+ "redraw_count_is_lower_bound": true,
+ "reliability": {
+  "A1R": {
+   "arm": "qwen3_14b",
+   "error": null,
+   "generated_tokens_observed": 7646,
+   "intended": 35,
+   "invalid": 0,
+   "peak_server_rss_bytes": 10421567488,
+   "prefill_tokens_observed": 49841,
+   "request_seconds": 875.8574297499727,
+   "responses": 35,
+   "server_exit_code": 0,
+   "stage_seconds": 883.5687100409996,
+   "startup_seconds": 7.039785250002751,
+   "unattempted": 0,
+   "unknown_usage_responses": 0,
+   "valid": 35
+  },
+  "A2": {
+   "arm": "qwen3_14b",
+   "error": null,
+   "generated_tokens_observed": 8653,
+   "intended": 35,
+   "invalid": 0,
+   "peak_server_rss_bytes": 11300208640,
+   "prefill_tokens_observed": 50472,
+   "request_seconds": 952.1925666199677,
+   "responses": 35,
+   "server_exit_code": 0,
+   "stage_seconds": 971.8695536669984,
+   "startup_seconds": 19.083279166996363,
+   "unattempted": 0,
+   "unknown_usage_responses": 0,
+   "valid": 35
+  },
+  "B1": {
+   "arm": "qwen3_8b_redraw",
+   "error": "RemoteDisconnected('Remote end closed connection without response')",
+   "generated_tokens_observed": 4294,
+   "intended": 35,
+   "invalid": 0,
+   "peak_server_rss_bytes": 8656781312,
+   "prefill_tokens_observed": 26205,
+   "request_seconds": 270.8001547929889,
+   "responses": 16,
+   "server_exit_code": -9,
+   "stage_seconds": 275.54844366700854,
+   "startup_seconds": 3.946976875013206,
+   "unattempted": 18,
+   "unknown_usage_responses": 0,
+   "valid": 16
+  },
+  "B2": {
+   "arm": "qwen3_8b_redraw",
+   "error": "RemoteDisconnected('Remote end closed connection without response'); collector close() then raised PermissionError(1) from os.killpg on the exiting server group, so no summary was written",
+   "generated_tokens_observed": 6767,
+   "intended": 35,
+   "invalid": 0,
+   "peak_server_rss_bytes": 8261091328,
+   "prefill_tokens_observed": 39135,
+   "request_seconds": 424.1061537920468,
+   "responses": 29,
+   "server_exit_code": "unrecorded",
+   "stage_seconds": null,
+   "startup_seconds": 31.868814417000976,
+   "unattempted": 5,
+   "unknown_usage_responses": 0,
+   "valid": 29
+  },
+  "failed_stages": {
+   "A1": {
+    "ledger": {
+     "allocated_output_tokens": 0,
+     "compatibility_requests": 0,
+     "external_spend_usd": 0,
+     "generation_requests": 0,
+     "http_requests": 0,
+     "peak_server_rss_bytes": 0,
+     "resource_stop_reason": null,
+     "retries": 0,
+     "scientific_requests": 0,
+     "server_exit_code": null,
+     "stage_seconds": 3.692267709004227
+    },
+    "reason": "pre-start port bind failure (OSError 48); zero requests; superseded by A1R under amendment 1",
+    "summary_error": "OSError(48, 'Address already in use')"
+   }
+  },
+  "qwen3_14b_selection": {
+   "arms": 70,
+   "fallbacks": 0,
+   "matches_prefix": 31,
+   "nonzero_projection_distance": 537,
+   "projected_proposals": 700,
+   "repeated_proposals": 207
+  },
+  "qwen3_8b_redraw_selection": {
+   "arms": 70,
+   "fallbacks": 25,
+   "matches_prefix": 20,
+   "nonzero_projection_distance": 351,
+   "projected_proposals": 450,
+   "repeated_proposals": 131
+  }
+ },
+ "sensitivity_valid_responses_only": {
+  "label": "Amendment 2 descriptive sensitivity; does not replace the primary estimand or the frozen decision rule",
+  "qwen3_14b": {
+   "ecosystems_covered": 7,
+   "ecosystems_with_llm_specific_win": 1,
+   "equal_ecosystem_hindsight_headroom": 0.004454751352491873,
+   "equal_ecosystem_mean_gain_vs_sequential": -0.0399680239970849,
+   "fallback_cases": 0,
+   "llm_specific_win_cases": 2,
+   "llm_specific_win_keys": [
+    "spark::terasort_23",
+    "spark::terasort_71"
+   ],
+   "valid_response_cases": 70
+  },
+  "qwen3_8b_redraw": {
+   "ecosystems_covered": 7,
+   "ecosystems_with_llm_specific_win": 0,
+   "equal_ecosystem_hindsight_headroom": 0.00911142001655654,
+   "equal_ecosystem_mean_gain_vs_sequential": -0.08018329265813338,
+   "fallback_cases": 25,
+   "llm_specific_win_cases": 0,
+   "llm_specific_win_keys": [],
+   "valid_response_cases": 45
+  }
+ },
+ "status": "V172 frozen analysis; exposed recorded tasks, new model draws; exploratory beyond the pre-registered decision rule",
+ "summaries": {
+  "qwen3_14b": {
+   "better_than_single_switch_by_margin": {
+    "adaptive_neighbor": 11,
+    "gp_ei": 9,
+    "random_full": 11
+   },
+   "cases": 70,
+   "ecosystems": 7,
+   "ecosystems_with_llm_specific_win": 1,
+   "engines_with_llm_specific_win": 1,
+   "equal_ecosystem_hindsight_headroom": 0.004454751352491873,
+   "equal_ecosystem_mean_gain_vs_sequential": -0.0399680239970849,
+   "equal_ecosystem_mean_log_gain_vs_sequential": -0.035965993459555604,
+   "llm_specific_win_cases": 2,
+   "llm_specific_win_keys": [
+    "spark::terasort_23",
+    "spark::terasort_71"
+   ],
+   "scored": 70,
+   "unscorable": 0,
+   "useful_over_sequential": 9
+  },
+  "qwen3_8b": {
+   "better_than_single_switch_by_margin": {
+    "adaptive_neighbor": 6,
+    "gp_ei": 4,
+    "random_full": 4
+   },
+   "cases": 70,
+   "ecosystems": 7,
+   "ecosystems_with_llm_specific_win": 0,
+   "engines_with_llm_specific_win": 0,
+   "equal_ecosystem_hindsight_headroom": 0.0017843242880679097,
+   "equal_ecosystem_mean_gain_vs_sequential": -0.05239845814776747,
+   "equal_ecosystem_mean_log_gain_vs_sequential": -0.04791957722815695,
+   "llm_specific_win_cases": 0,
+   "llm_specific_win_keys": [],
+   "scored": 70,
+   "unscorable": 0,
+   "useful_over_sequential": 5
+  },
+  "qwen3_8b_redraw": {
+   "better_than_single_switch_by_margin": {
+    "adaptive_neighbor": 10,
+    "gp_ei": 6,
+    "random_full": 14
+   },
+   "cases": 70,
+   "ecosystems": 7,
+   "ecosystems_with_llm_specific_win": 0,
+   "engines_with_llm_specific_win": 0,
+   "equal_ecosystem_hindsight_headroom": 0.006754322536620963,
+   "equal_ecosystem_mean_gain_vs_sequential": -0.03719172286317007,
+   "equal_ecosystem_mean_log_gain_vs_sequential": -0.030328462460045207,
+   "llm_specific_win_cases": 0,
+   "llm_specific_win_keys": [],
+   "scored": 70,
+   "unscorable": 0,
+   "useful_over_sequential": 7
+  },
+  "smollm3_3b": {
+   "better_than_single_switch_by_margin": {
+    "adaptive_neighbor": 11,
+    "gp_ei": 5,
+    "random_full": 12
+   },
+   "cases": 70,
+   "ecosystems": 7,
+   "ecosystems_with_llm_specific_win": 0,
+   "engines_with_llm_specific_win": 0,
+   "equal_ecosystem_hindsight_headroom": 0.0022203722686595716,
+   "equal_ecosystem_mean_gain_vs_sequential": -0.04955875329697803,
+   "equal_ecosystem_mean_log_gain_vs_sequential": -0.04555906136569935,
+   "llm_specific_win_cases": 0,
+   "llm_specific_win_keys": [],
+   "scored": 70,
+   "unscorable": 0,
+   "useful_over_sequential": 10
+  }
+ },
+ "switch_set": [
+  "sequential_3nn",
+  "random_full",
+  "adaptive_neighbor",
+  "gp_ei"
+ ]
+}

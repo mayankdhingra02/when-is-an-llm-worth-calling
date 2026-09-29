@@ -1,0 +1,105 @@
+{
+  "verified": true,
+  "freezes": [
+    {
+      "path": "reports/protocol_v10_headroom.freeze.json",
+      "references": 156
+    },
+    {
+      "path": "reports/protocol_v11_quality.freeze.json",
+      "references": 148
+    },
+    {
+      "path": "reports/protocol_v12_controls.freeze.json",
+      "references": 152
+    },
+    {
+      "path": "reports/protocol_v13_1_admission.freeze.json",
+      "references": 17
+    },
+    {
+      "path": "reports/protocol_v13_admission.freeze.json",
+      "references": 13
+    },
+    {
+      "path": "reports/protocol_v14_external_admission.freeze.json",
+      "references": 29
+    },
+    {
+      "path": "reports/protocol_v15_live.freeze.json",
+      "references": 21
+    },
+    {
+      "path": "reports/protocol_v16_classical.freeze.json",
+      "references": 11
+    },
+    {
+      "path": "reports/protocol_v17_expansion.freeze.json",
+      "references": 22
+    },
+    {
+      "path": "reports/protocol_v18_checkpoint.freeze.json",
+      "references": 71
+    },
+    {
+      "path": "reports/protocol_v19_order.freeze.json",
+      "references": 25
+    },
+    {
+      "path": "reports/protocol_v4.freeze.json",
+      "references": 46
+    },
+    {
+      "path": "reports/protocol_v6.freeze.json",
+      "references": 46
+    },
+    {
+      "path": "reports/protocol_v7.freeze.json",
+      "references": 97
+    },
+    {
+      "path": "reports/protocol_v8.freeze.json",
+      "references": 120
+    },
+    {
+      "path": "reports/protocol_v9_analysis.freeze.json",
+      "references": 142
+    },
+    {
+      "path": "reports/registry_v5.freeze.json",
+      "references": 18
+    }
+  ],
+  "source_references": 1134,
+  "prior_v18_index_verified": 96,
+  "historical_docs": [
+    {
+      "path": "README.md",
+      "preserved": "artifacts/history/v19_before_order_probe/README.md"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "preserved": "artifacts/history/v19_before_order_probe/REPRODUCE.md"
+    },
+    {
+      "path": "STATUS.md",
+      "preserved": "artifacts/history/v19_before_order_probe/STATUS.md"
+    },
+    {
+      "path": "reports/decisions.md",
+      "preserved": "artifacts/history/v19_before_order_probe/reports/decisions.md"
+    },
+    {
+      "path": "reports/next_experiment.md",
+      "preserved": "artifacts/history/v19_before_order_probe/reports/next_experiment.md"
+    },
+    {
+      "path": "reports/review_note.md",
+      "preserved": "artifacts/history/v19_before_order_probe/reports/review_note.md"
+    }
+  ],
+  "model_requests_unchanged": 128,
+  "no_measured_v19_directory": true,
+  "authorization_granted": false,
+  "tests_passed": 134
+}

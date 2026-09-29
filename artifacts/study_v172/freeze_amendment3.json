@@ -1,0 +1,18 @@
+{
+ "at": "2026-09-28T19:47:19.767507+00:00",
+ "purpose": "Amendment 3: post-evaluation correction of the independent verifier alphabet only; no data, selection or analysis change",
+ "superseded": [
+  "scripts/common_v172.py",
+  "scripts/verify_v172.py",
+  "tests/synthetic/test_v172.py"
+ ],
+ "added": [
+  "reports/protocol_v172_amendment3.md"
+ ],
+ "sha256": {
+  "scripts/common_v172.py": "4c017d2522f84f1f4ddf26c1ff545af38278916f425b3550dd771b37a3b153d4",
+  "scripts/verify_v172.py": "de5ecff820396ea65ee3f2425047da7699312a909edc8174c0549f0607086b08",
+  "tests/synthetic/test_v172.py": "b12c686b21bacc75bf150138e1b1ff1f598e5a96b523518bdbad4be79baebac0",
+  "reports/protocol_v172_amendment3.md": "6bf06191ddb0f6c8d5a1e1149ec96776ccad407b36c901386b50a675ad9a7b25"
+ }
+}

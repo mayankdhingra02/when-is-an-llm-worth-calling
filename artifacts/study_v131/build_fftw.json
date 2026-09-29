@@ -1,0 +1,48 @@
+{
+  "at": "2026-09-28T01:41:21.731768+00:00",
+  "commands": [
+    [
+      "/Users/mayankdhingra/Downloads/llm-escalation-study/artifacts/sources/v131/fftw-3.3.11/configure",
+      "--enable-neon",
+      "--enable-threads",
+      "--disable-fortran",
+      "--disable-shared",
+      "--enable-static"
+    ],
+    [
+      "make",
+      "-j2"
+    ]
+  ],
+  "status": "complete",
+  "cwd": "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/fftw",
+  "process_environment": {
+    "SDKROOT": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "CC": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+    "CXX": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+    "CFLAGS": "-O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "LDFLAGS": "-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer"
+  },
+  "artifacts": {
+    ".local-runtime/native-v131/fftw/config.h": "bf3d4cec0421e84c4b64859697976fdd982ef2baae15a51aa63333cb646da1a7",
+    ".local-runtime/native-v131/fftw/libbench2/libbench2.a": "bf9960901247cf263ee338bd0a3dbf820692c4e581c633f03a28cc199ae72b7c",
+    ".local-runtime/native-v131/fftw/simd-support/.libs/libsimd_support.a": "0e86bde0c30d8cf7a6e9d4a355f3bfc65b8e81b0ec4dd681f836f1ca32b0227d",
+    ".local-runtime/native-v131/fftw/dft/simd/neon/.libs/libdft_neon_codelets.a": "fe4ecdb63d64b50a7fdd338075c13577dbef748742a14554facb2288f72945eb",
+    ".local-runtime/native-v131/fftw/dft/scalar/codelets/.libs/libdft_scalar_codelets.a": "2e068fe4536ce34f374df95e3490ca7640b675526889a1a2799c9b952bc958bf",
+    ".local-runtime/native-v131/fftw/dft/scalar/.libs/libdft_scalar.a": "e5433bab003351a928028c512cee209502b4dc7872f1462cd835271c4ec767e8",
+    ".local-runtime/native-v131/fftw/dft/.libs/libdft.a": "eaa138937c684fede8f8c5bc0ecf41d389d3a2a6f60bc70278ffece4bca1a6a7",
+    ".local-runtime/native-v131/fftw/reodft/.libs/libreodft.a": "21a86972c9bc968ef5c05c783c0eb0182b29c8f150657d4fe39228f7489c48d1",
+    ".local-runtime/native-v131/fftw/rdft/simd/neon/.libs/librdft_neon_codelets.a": "27449463d45ddf19a4d3f630a9b19ba8cbeed87e3ad50ff1338cc2092825020f",
+    ".local-runtime/native-v131/fftw/rdft/scalar/r2cf/.libs/librdft_scalar_r2cf.a": "d542d0ffab2fe9acbed82bb765516bbbb98ca80ea6fad197b1d8f37a44b8a517",
+    ".local-runtime/native-v131/fftw/rdft/scalar/r2r/.libs/librdft_scalar_r2r.a": "0554fcb95218f0fd06485d7150c69a0e9ed6c988e7887cc2ff43b4498035f7c2",
+    ".local-runtime/native-v131/fftw/rdft/scalar/r2cb/.libs/librdft_scalar_r2cb.a": "9ae9eb320907d9c945da4b0526307ba6527d24060566b827170257eaf3c52d61",
+    ".local-runtime/native-v131/fftw/rdft/scalar/.libs/librdft_scalar.a": "e2cb6403c5ae7035143f2ab526751d46bf37f91a3e8bb3f294cedc3af070f2e5",
+    ".local-runtime/native-v131/fftw/rdft/.libs/librdft.a": "eeb36cfe0ffd87b2e98995b649f21dd283e3c8c20957a5851bbddc62a51fe4b6",
+    ".local-runtime/native-v131/fftw/threads/.libs/libfftw3_threads.a": "24005ac43e9cc63e6f5fa57d45cdd9f7e195a0705caf1a77be314dd0b2a59474",
+    ".local-runtime/native-v131/fftw/api/.libs/libapi.a": "5114560960af63c5e715c9164cda707a951373d413aa0e191f25e76c0a0a89fc",
+    ".local-runtime/native-v131/fftw/.libs/libfftw3.a": "8ddef5e3e581263312099cdd655ca4bf6f9c67f708b5b47f4bf71006ad58191a",
+    ".local-runtime/native-v131/fftw/kernel/.libs/libkernel.a": "71de464a0c7fd87ece988cf2534785dcc53fd7e1cfd15354decdf368d0280116"
+  },
+  "seconds": 97.39713208300236
+}

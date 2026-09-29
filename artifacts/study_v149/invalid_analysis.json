@@ -1,0 +1,9 @@
+{
+  "valid_for_research_aggregate": false,
+  "reason": "V149 reused unqualified case keys across Spark and Hadoop, e.g. pagerank_11. Dictionary scores/decisions overwrote cases. Independent V149 replay rejected the calibration grid. Raw source experiments are unchanged.",
+  "affected": ["results/v149_router/folds.json", "results/v149_router/comparison.json"],
+  "corrective_version": 151,
+  "correction": "Qualify every analysis case identifier by original engine family before inner/outer fitting; assert per-model uniqueness; rerun the identical declared candidate predictors and grouping analyses with no tuning.",
+  "new_requests": 0,
+  "new_acquisitions": 0
+}

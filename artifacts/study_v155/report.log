@@ -1,0 +1,180 @@
+{
+  "smollm3_3b": {
+    "intended": 70,
+    "scorable": 70,
+    "family_mean_gain": -0.027741087453078357,
+    "gp_family_gain_vs_sequential": -0.02194468481389526,
+    "gp_family_gain_vs_adaptive": -0.0014228704507826327,
+    "useful": 5,
+    "harmful": 29,
+    "joint_useful": 2,
+    "groups": [
+      {
+        "group": "berkeleydb",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.055341497830918795,
+        "gp_gain_vs_sequential": 0.04511798468772789,
+        "gp_gain_vs_adaptive": 0.036553679939419714,
+        "useful": 0,
+        "harmful": 3,
+        "joint_useful": 0
+      },
+      {
+        "group": "dune_hsmgp",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.019478878779736936,
+        "gp_gain_vs_sequential": -0.18057485456638483,
+        "gp_gain_vs_adaptive": -0.08221305775622702,
+        "useful": 0,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "hipacc",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.015546544004789789,
+        "gp_gain_vs_sequential": -0.010566462399301335,
+        "gp_gain_vs_adaptive": -0.0033498169037802106,
+        "useful": 0,
+        "harmful": 2,
+        "joint_useful": 0
+      },
+      {
+        "group": "llvm",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.0042150825908602646,
+        "gp_gain_vs_sequential": -0.016114109734032923,
+        "gp_gain_vs_adaptive": -0.017458081447462526,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "openvpn",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.046232949626346886,
+        "gp_gain_vs_sequential": -0.021941523536828076,
+        "gp_gain_vs_adaptive": 0.003100865438827147,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "sac",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.0026756152125279667,
+        "gp_gain_vs_sequential": -0.0013693693693693709,
+        "gp_gain_vs_adaptive": 0.002657836644591614,
+        "useful": 0,
+        "harmful": 0,
+        "joint_useful": 0
+      },
+      {
+        "group": "spark_hadoop_ecosystem",
+        "intended": 40,
+        "scorable": 40,
+        "mean_gain": -0.05069704412636786,
+        "gp_gain_vs_sequential": 0.031835541220921845,
+        "gp_gain_vs_adaptive": 0.05074848092915285,
+        "useful": 3,
+        "harmful": 21,
+        "joint_useful": 2
+      }
+    ]
+  },
+  "qwen3_8b": {
+    "intended": 70,
+    "scorable": 70,
+    "family_mean_gain": -0.03058529957289513,
+    "gp_family_gain_vs_sequential": -0.02194468481389526,
+    "gp_family_gain_vs_adaptive": -0.0014228704507826327,
+    "useful": 4,
+    "harmful": 34,
+    "joint_useful": 1,
+    "groups": [
+      {
+        "group": "berkeleydb",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.05133688620712865,
+        "gp_gain_vs_sequential": 0.04511798468772789,
+        "gp_gain_vs_adaptive": 0.036553679939419714,
+        "useful": 1,
+        "harmful": 3,
+        "joint_useful": 0
+      },
+      {
+        "group": "dune_hsmgp",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.022342709509538292,
+        "gp_gain_vs_sequential": -0.18057485456638483,
+        "gp_gain_vs_adaptive": -0.08221305775622702,
+        "useful": 0,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "hipacc",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.01877181976657934,
+        "gp_gain_vs_sequential": -0.010566462399301335,
+        "gp_gain_vs_adaptive": -0.0033498169037802106,
+        "useful": 0,
+        "harmful": 2,
+        "joint_useful": 0
+      },
+      {
+        "group": "llvm",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.005930776321538278,
+        "gp_gain_vs_sequential": -0.016114109734032923,
+        "gp_gain_vs_adaptive": -0.017458081447462526,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "openvpn",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.044327028526559384,
+        "gp_gain_vs_sequential": -0.021941523536828076,
+        "gp_gain_vs_adaptive": 0.003100865438827147,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "sac",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.0026756152125279667,
+        "gp_gain_vs_sequential": -0.0013693693693693709,
+        "gp_gain_vs_adaptive": 0.002657836644591614,
+        "useful": 0,
+        "harmful": 0,
+        "joint_useful": 0
+      },
+      {
+        "group": "spark_hadoop_ecosystem",
+        "intended": 40,
+        "scorable": 40,
+        "mean_gain": -0.068712261466394,
+        "gp_gain_vs_sequential": 0.031835541220921845,
+        "gp_gain_vs_adaptive": 0.05074848092915285,
+        "useful": 1,
+        "harmful": 26,
+        "joint_useful": 1
+      }
+    ]
+  }
+}

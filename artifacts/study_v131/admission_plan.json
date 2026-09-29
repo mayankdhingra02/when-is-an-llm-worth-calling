@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-28T01:39:11.501241+00:00",
+  "families": [
+    "wavpack",
+    "fftw"
+  ],
+  "source_versions": [
+    "WavPack5.9.0",
+    "FFTW3.3.11"
+  ],
+  "selection": "Owner-documented independent implementations; no prior outcomes located in reports; retain application/workload correlations",
+  "workloads": "Reuse three V130 CC BY4.0 raw speech clips; WavPack entire clips; FFTW first8192samples of each, no outcome-driven choice",
+  "downloads_cap_bytes": 20000000,
+  "downloads_cap_seconds": 180,
+  "build_cap_seconds_per_family": 300,
+  "max_extraction_bytes_per_archive": 80000000,
+  "prior_download_bytes": 10228941699,
+  "total_cap_bytes": 10737418240,
+  "objective_outcomes_in_admission": 0,
+  "new_model_requests_in_admission": 0,
+  "paid_or_cloud": false
+}

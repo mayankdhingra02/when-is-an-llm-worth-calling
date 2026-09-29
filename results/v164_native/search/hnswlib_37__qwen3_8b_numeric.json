@@ -1,0 +1,271 @@
+{
+  "case": "hnswlib_37",
+  "engine": "hnswlib",
+  "arm": "qwen3_8b_numeric",
+  "state": {
+    "ids": [
+      17,
+      50,
+      1,
+      15,
+      37,
+      21,
+      49,
+      41,
+      33,
+      51,
+      27,
+      29,
+      13,
+      31,
+      25,
+      45,
+      47
+    ],
+    "labels": [
+      [
+        0.0967595
+      ],
+      [
+        0.110002667
+      ],
+      [
+        0.093851042
+      ],
+      [
+        0.175704167
+      ],
+      [
+        0.096628667
+      ],
+      [
+        0.100935292
+      ],
+      [
+        0.094442792
+      ],
+      [
+        0.17901575
+      ],
+      [
+        0.095277917
+      ],
+      [
+        0.097828208
+      ],
+      [
+        0.184727792
+      ],
+      [
+        0.187673542
+      ],
+      [
+        0.178446666
+      ],
+      [
+        0.196917458
+      ],
+      [
+        0.184435958
+      ],
+      [
+        0.188568708
+      ],
+      [
+        0.195633667
+      ]
+    ],
+    "order": [
+      17,
+      50,
+      1,
+      15,
+      12,
+      14,
+      30,
+      41,
+      37,
+      57,
+      60,
+      21,
+      35,
+      8,
+      61,
+      10,
+      22,
+      7,
+      44,
+      63,
+      46,
+      20,
+      55,
+      0,
+      31,
+      13,
+      58,
+      49,
+      19,
+      16,
+      25,
+      54,
+      36,
+      48,
+      52,
+      45,
+      34,
+      4,
+      26,
+      5,
+      3,
+      9,
+      51,
+      27,
+      24,
+      18,
+      38,
+      29,
+      43,
+      6,
+      33,
+      28,
+      23,
+      56,
+      2,
+      32,
+      40,
+      62,
+      47,
+      53,
+      42,
+      39,
+      59,
+      11
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      1
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 27,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 29,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 13,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 31,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 25,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 45,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 47,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 43,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 11,
+      "distance": 0.16666666666666666,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 63,
+      "distance": 0.16666666666666669,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    }
+  ]
+}

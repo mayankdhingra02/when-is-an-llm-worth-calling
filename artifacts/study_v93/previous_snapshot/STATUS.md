@@ -1,0 +1,13 @@
+# STATUS — V92 diagnostic completed; V93 is the next fixed experiment
+
+All 108 conditions / 1,080 real Qwen3 requests completed with no invalid responses or retries. Both symbol and numeric representations failed the frozen responsiveness/stability screen. Loss removal changed 4/9 and 3/9 baseline sets; reverse-order overlap was 68.9% and 33.3%. This is a three-family development diagnostic, not optimization benefit or Q2 readiness. Read `reports/sensitivity_v92.md`.
+
+The zero-generation 4,096-context failure is preserved. V92b changed only context to 8,192 before any generation, kept all conditions and shared request/memory/time limits, and completed in 1,330.323 seconds, peak 8,166,637,568 bytes RSS, exit 0. No server remains running. Independent verification checked all prompts, requests and 126 contrasts. All 731 tests passed in 22.17 seconds. Raw logs: `results/v92b_sensitivity/`; analysis/figures: `results/v92b_analysis/`; audits: `artifacts/study_v92/`. Both protocol freezes and original V91 evidence remain intact.
+
+Next in this active research task: prepare jobs, freeze and execute `reports/protocol_v93_decoder.md`, which was specified before V92 interpretation. Same nine development prefixes; 54 unconstrained multi-token answers plus nine forced repeats; maximum 144 new requests / 7,002 output tokens / 1,800 seconds / 8 GiB; no downloads, objective labels, paid services or retries. Do not count prepared code as executed. V92 must be sealed first. Do not reopen its exhausted 1,080-request allowance.
+
+Cumulative real-model requests: 3,574. Recorded acquisitions: 26,658. Native counts unchanged: DuckDB 78 physical (77 valid, one timeout; 71 V89 unattempted separately); H2 299 (298 valid, one failure; eight historical unattempted); Kanzi 1,265; RocksDB 350. External spend USD 0; electricity/hardware unknown.
+
+Download totals unchanged: 9,867,753,109 bytes / 10 GiB, leaving 869,665,131; model payload 9,126,358,023 / 9 GiB, leaving 537,318,393. Model already local. No paid API, cloud, credentials, publishing, pushing or external contact authorized. More exposed seeds cannot replace independent systems. The forced decoder, non-thinking mode, contamination, untouched-system evaluation and independent native replication remain limitations.
+
+Reproduce analysis with the V92b analyze/verify/report scripts; offline arithmetic with `scripts/replay_sensitivity_v92.py`; portable saved-response bundle `output/sensitivity_v92_reproduction.zip`. Seal/verify using `scripts/seal_sensitivity_v92.py`. Exact prior root docs are in `artifacts/study_v92/previous_snapshot/`. Do not rerun completed inference in place.

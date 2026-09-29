@@ -1,0 +1,49 @@
+{
+  "identity": "LLVM_AllNumeric_71_normal_masked_4",
+  "rows": [
+    980,
+    843
+  ],
+  "diagnostics": [
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "row_id": 980,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_acquired": true
+    },
+    {
+      "proposal": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "row_id": 843,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_acquired": true
+    }
+  ],
+  "fallback": false,
+  "reason": null,
+  "decision_sha256": "8f1232dfff4817a862dca680a228da7eb0b300e751ae2d3855f2036e7e8d7901",
+  "at_unix": 1790567238.5556211
+}

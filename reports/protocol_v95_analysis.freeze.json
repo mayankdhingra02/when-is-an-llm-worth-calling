@@ -1,0 +1,21 @@
+{
+  "at": "2026-09-27T06:17:43.279949+00:00",
+  "scope": "freeze evaluator before acquiring V95 continuation labels; fixed primary comparisons",
+  "sha256": {
+    "scripts/analyze_reasoning_v95.py": "bb51a4e68f235836f27a761510f5d8c09ad1a8a820bb9f08c4e2a0ab5afa742b",
+    "src/escalation/core.py": "b541a7bd3bc73368e14d4f70552abea9bb184f1859e8737a49be03d3f7f86eab",
+    "src/escalation/finite_v6.py": "a0d11d6cabdf8c45441f7c3cc092dcf67a5bae05357dd75096202457cb8d8c13",
+    "src/escalation/finite_domain.py": "f20e792762a30b73c5864fa408ad7d5613ce0669b3024a77b9f4307a29a4e84e",
+    "src/escalation/transfer_v41.py": "11ec5fdf83089f7b90aa64616a63ebe727c340eb4bdaef9bc15f521f86381e4a",
+    "src/escalation/io.py": "2b9da6b2e3714c0b75e3adbd0ba984cbdc099621efcd232ad61b2c766d9fd63e",
+    "data/manifest_v41.json": "3184d7a2647bf1d6d3f50c765024af110aa01badd0b5d30dc140eb9401d50831",
+    "results/v91_analysis/cases.json": "7fe843f17b453f3f98d658929f21154d9da3deeb3d8ff1c4da35c815411cd38a",
+    "reports/protocol_v95b.freeze.json": "7e3dbde88328c9279f211b250252c1c1f409d61ada611192119c6627b8f288e2",
+    "data/registry_raw_v5/DeepPerf__DeepPerf/Data/BDBC_AllNumeric.csv": "96a0cf663d7d35983acdc728b444f39dcf455bde5dad2a6a439338d0ce66578d",
+    "data/registry_raw_v5/DeepPerf__DeepPerf/Data/Dune_AllNumeric.csv": "3acd1bb0f62252601d480854c6a3cb799da7fed3e369102a04c431a188289d9e",
+    "data/registry_raw_v5/DeepPerf__DeepPerf/Data/LLVM_AllNumeric.csv": "a8a73daf4f6c91aa4a9a553e2b95bd093701462725cdcfbd86d61b288b69986e",
+    "data/registry_raw_v5/DeepPerf__DeepPerf/Data/hipacc_AllNumeric.csv": "af8f4ad6ab474f02b8171d51fede092c07ed676808f7f4d1b134ac4270f19e5a",
+    "data/registry_raw_v5/DeepPerf__DeepPerf/Data/sac_AllNumeric.csv": "f069ec7c16ab43d9981391e515992ef4827dad5f3fe1841616bd979f9e78c7b4",
+    "data/registry_raw_v5/ChristianKaltenecker__PerformanceEvolution_Website/PerformanceEvolution_Data/OpenVPN/measurements.csv": "628d51fb0cd6c1bfce166631a6ccc53776f69e594e0428a0e309f2374e6b7a68"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"planner_0estimate_1measure_2patient\",\"threads\",\"inplace_0no_1yes\",\"complex_element_stride\"],\"symbol_to_value\":[[0,1,2],[1,2,4],[0,1],[1,2]],\"observed_examples\":[{\"settings\":\"2000\",\"performance\":\"27862000.000000\"},{\"settings\":\"1000\",\"performance\":\"18809000.000000\"},{\"settings\":\"1211\",\"performance\":\"37867000.000000\"},{\"settings\":\"1001\",\"performance\":\"38505000.000000\"},{\"settings\":\"2010\",\"performance\":\"21946000.000000\"},{\"settings\":\"0110\",\"performance\":\"26622000.000000\"},{\"settings\":\"1010\",\"performance\":\"21834000.000000\"},{\"settings\":\"1110\",\"performance\":\"27757000.000000\"},{\"settings\":\"2200\",\"performance\":\"22589000.000000\"},{\"settings\":\"0200\",\"performance\":\"20302000.000000\"}],\"performance_meaning\":\"Integer nanoseconds for fixed8192-point forward complex FFTs of three real speech windows;256 executions per window including input restoration, excluding planning. Lower is better. FFTW3.3.11 double/ARM NEON; planner0estimate,1measure,2patient with fixed0.02s planning time limit. One plan reused per trial; no shared wisdom. Output must match independent reference.\",\"direction\":\"minimize\"}"
+  }
+]

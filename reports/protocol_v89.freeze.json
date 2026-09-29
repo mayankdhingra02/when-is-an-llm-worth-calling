@@ -1,0 +1,494 @@
+{
+  "at_unix": 1790479995.271081,
+  "sha256": {
+    "reports/protocol_v88.md": "2e603d619ed9b5e08d748f26401afe6b28f5c82b381ec115252b5a07b0109218",
+    "scripts/run_flights_v88.py": "87471c4570182743715d0ea1ae255008645ae581679af563f6c7100208a6cca1",
+    "scripts/worker_flights_v88.py": "86b8bc250ba7b1d04d82c8a6b574c52c6b9dc4242bad8336f315257f740477f3",
+    "scripts/fetch_flights_v88.py": "04b000500b78a8e8afe957e4683c57ce395ba81acc7cc4a8328ed9ba1c5d7651",
+    "scripts/extract_flights_v88.py": "2a43b488b7a9879d25744838b1d36d408959357f2cd98b69226cd31ec56e4ea5",
+    "scripts/analyze_flights_v88.py": "a11a6e27ef492d3a562d96426d3455730ee76f8fe446c07dc0cd2abf4d8d1e39",
+    "src/escalation/flights_v88.py": "0882610151760e9f51e7cd5e876074d0e5b037e19016bc366b68f8581797fb6a",
+    "src/escalation/bounded_process_v57.py": "a8c924ffb9858e16bcb18a769998fd837d7bc7a57afa3d72f827aec862e5396f",
+    "scripts/run_planning_v55.py": "ce7a9be31fbccc7dbc37f1e976532f57e21a529803a0d726e0e36b0f35d5de08",
+    "tests/synthetic/test_flights_v88.py": "f9507b470701eb835d150e1310b855869e7fd476df3e1a4b8191fc4cf96a106c",
+    "data/flights_v88/query_contract.json": "974012b76b9ca2b8c05fb88685e1b35c47fb71d37acb46432ccd38bb34d248f4",
+    "data/flights_v88/flights.duckdb": "05db7e74c1f65949452ea064cf3802e85d1697eb526b5c568a8c83cddfca8100",
+    "artifacts/study_v88/data_manifest.json": "b06b69bda1e93fa9261466c25a9dddd43f760a687110d7791d8e4d43e2e9c56a",
+    "data/flights_v88/airlines.csv": "162551bd3401a12d63db3d92b7e66af3017d2e40d55919d6a678489323c10609",
+    "data/flights_v88/airports.csv": "36c290b69800422f36618f471a042b670b9329e8eb0686eff44f371a9761e148",
+    "data/flights_v88/planes.csv": "778962edec8339f6f6edb1d6506869f61cab573eda03d7e162d2899c76d04c1a",
+    "data/flights_v88/flights.csv": "563db8f117faf6ffd76aa868099df37dfa78dc17b5ac6d3d9ea6476e051a0bc4",
+    "data/flights_v88/normalized/airlines.csv": "637f23cf562894f0b786cf24e5598e1c3e12bdbb3be06f2607f4cbf86a20bd1f",
+    "data/flights_v88/normalized/airports.csv": "92de94fed323c9c7ee46b1bd9f1a88c17df0f653a2889c9bfa7ee2d9f5c92371",
+    "data/flights_v88/normalized/planes.csv": "60cb6635c794a1e81b148f88648b5394dd35a7dbbf9ea8b3152f76d864f035a0",
+    "data/flights_v88/normalized/flights.csv": "c1df9334e968d4ca0f178f357a775b561a4cfd3d68344c221f0e36ab7184e658",
+    "artifacts/study_v88/data_extraction.json": "737d98f1b858d3392c2edf8abc3b8ace70bc1846ffd565e5d002d1c8255b16e1",
+    ".local-runtime/duckdb-v87/_duckdb.cpython-310-darwin.so": "575dbb44a5f26aeb685c17d4cecaac8712763193d7c8769d08073ff2b9b56eb9",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/RECORD": "b2d0a713c9272354d070a7b292a42a417e1375c2cea58d541b736cac950004bc",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/direct_url.json": "38910ac3a3fe139f96b9f811e887e6c96aee5a635fdc9b5183517ea8cbb49f7e",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/WHEEL": "011be96446e016ef9c03164834d7a6a87592625b18807910aa4b009a13c9a85c",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/INSTALLER": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/METADATA": "097c9d03bc92bc447abf0e7caa9fd98a10a483a632c726ac49b0424ab6e7dace",
+    ".local-runtime/duckdb-v87/duckdb-1.4.4.dist-info/licenses/LICENSE": "7e17fd31249fa875cb3b1c5e05c6c3e99b75509f6a2804ca176c217834de1dcb",
+    ".local-runtime/duckdb-v87/duckdb/polars_io.py": "9d1d6b3f050664bff639b919463d2c5533a5fb5c488ac43b91fcd75d4054c07f",
+    ".local-runtime/duckdb-v87/duckdb/_version.py": "6040f40d403aed1dd8421cf7858ff4400fe0a136962b61c4d9ea68a710f1ac87",
+    ".local-runtime/duckdb-v87/duckdb/_dbapi_type_object.py": "356fa6dd8729270c29438502f658faf1e8a8501d4d6dd9a069a4080fabfd79c5",
+    ".local-runtime/duckdb-v87/duckdb/filesystem.py": "1a3297f24359ac64d5b59911aeeea93ceebe039a163f50ddf108bcf49eb64ea0",
+    ".local-runtime/duckdb-v87/duckdb/__init__.py": "2b20aa68f219791777a195cfec5f87fff610299d26bfbc1e6ef7692476c704a1",
+    ".local-runtime/duckdb-v87/duckdb/bytes_io_wrapper.py": "ca66802e9d502508216f5771f23feb2ea196cf7a19ea084ade3b76b23a231102",
+    ".local-runtime/duckdb-v87/duckdb/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".local-runtime/duckdb-v87/duckdb/udf.py": "274b8d4f99c0cb17acb915bf3853a926822e7032234586e66a8821e0af39d7d2",
+    ".local-runtime/duckdb-v87/duckdb/experimental/__init__.py": "42e84870dc8a9da9212423d343fcba88ee4c2ac5ea327caab04ee93e9bb924a4",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/exception.py": "9725a91cb3cfc0094152b262714fc5edf960351dab3baaeb864777f9b68c6871",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/_typing.py": "b9cb03eb7c92a8066b9b15e36ebb94951708fc1fcdd75624680b9b1c4f6b3384",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/LICENSE": "ff5aa49c52e9830627582e9854fa76827d19c3b040b856162d172d72a9e95067",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/_globals.py": "70e663ced86d6d8f69ae2b24be9c3e549238a10449a6d78b72d875bae9d9986b",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/conf.py": "4e06ebb6e67cb75848438ab001027537d4011aa6d1b5b1d16106b2cb1bef9dea",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/__init__.py": "9fcf20ed45ae92c8449eac61a98288c6ea9ea8104820f252abfd0b300ab792f0",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/context.py": "10e379724429f60d5880c54d06f1e53aa00d9adecdbfcea2c16ae1e28dd78a61",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/errors/error_classes.py": "bf18c78ee956ac5cb9cb21d5d956f89912eb37a832a039d31f941f82d9ae55d7",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/errors/__init__.py": "6d9b877a67a94569465974ec312fa1d47fc82381a734b417d34161c726f1245f",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/errors/utils.py": "c46193aeda28fd18f8bd8bbd92718b3749f1abba1fd86f22c13f8bbfdaac9412",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/errors/exceptions/__init__.py": "a6d474a901ac0b7035c6a80d0e3e3300c69d70d1c20aabae933415d32b5ecbdc",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/errors/exceptions/base.py": "b6da2ee0bfa208f61262074d321d2ff2ab5ba3bb30cf773f6edbdafbdfa31717",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/catalog.py": "027d610c5848edec9fda29dd9f46e92458c4139416170f85983faed3724c1535",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/functions.py": "1f9fd9bac54397849a969e742670d1dd62f3ee909f91b41d8158bc603391e8e4",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/_typing.py": "1671a0ce3f2e545ed34eb2765fde08068ed75bf7b3610f03614c19f303fe3c84",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/dataframe.py": "82d15c605062385f545ccb156817127b5fd11592a059648c08f82af1c6e67968",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/conf.py": "0d0d3866826eec8417f39e69db679264b301cfb696866f3260c58d3e2e94e546",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/session.py": "60a478da6f76a6e140fada9f9a16cf2d2ea9624ca16e5eb5b31c08f42f586ded",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/type_utils.py": "c66fe074701c4fbbbefdf20c167fe0dede569b82c615b0f33fece9207351bb1f",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/__init__.py": "0ec6b1ee72e8c329f21ff6ec641ed9845b2d3b0dfce82f4582043632692130c0",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/types.py": "8a31018df6fb5fddef675d962bca23e5c11b06588c408ccf7708f0a592340943",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/readwriter.py": "60d5ed1fce9d5054a23c25be4d8bd9b7dfa8efcd5da1ee71352181d0747586dd",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/group.py": "5072822b05c1d8ce7d2a2feda6c682e6cd74131a9574c2c55619dc639711e9da",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/udf.py": "e08f87c8b21978c2446336ac0b6df1543b52d0535d3c3597200cd04d60b1ee1b",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/streaming.py": "45ed6fdcf3042bddc96a5557004d2838c64ce3b9be60eef9aa59f09c98b4f82e",
+    ".local-runtime/duckdb-v87/duckdb/experimental/spark/sql/column.py": "edb4d95a59c2a92d1abe83fb3e0d74668a7570d8effbf325ceedf2f98e17f05b",
+    ".local-runtime/duckdb-v87/duckdb/query_graph/__main__.py": "1cf8884486aceb7b359ba206406c0caa2f6de2aafef76db3dc44990f33c52db7",
+    ".local-runtime/duckdb-v87/duckdb/value/__init__.py": "d1e5457d57766995d364715770b667164f0c7ed208e1c321441058b771e6dcb2",
+    ".local-runtime/duckdb-v87/duckdb/value/constant/__init__.py": "6a705253ce3b09e5a6b67b2373956d33407dbab064a3c4d69c18820775cf5ace",
+    ".local-runtime/duckdb-v87/duckdb/sqltypes/__init__.py": "d3ba60f18929f74e4c7fe2aa26d09f1810a12cf8ade675bab7b284a40cfd2d1f",
+    ".local-runtime/duckdb-v87/duckdb/typing/__init__.py": "5e699151356040c3a86c399eafb1a669b9ee159f2deeb55f6eda0974ae6e0fa6",
+    ".local-runtime/duckdb-v87/duckdb/functional/__init__.py": "f9600fc09be8c5d936c508a9cfaba7afc3303326a59d0d9a3947cc2e100f070d",
+    ".local-runtime/duckdb-v87/duckdb/func/__init__.py": "a22b176a70e92988c11beb52d4030656da1d0c6a8a66ca586c22d7e5895b58b4",
+    ".local-runtime/duckdb-v87/_duckdb-stubs/_func.pyi": "d7fdfdbe64d56597a9fef48d5565510702e5cf7614938db241e02f7d94179353",
+    ".local-runtime/duckdb-v87/_duckdb-stubs/_sqltypes.pyi": "cc90fe7eb065b841363eb65c72c1ebf538e44ee59c0902cf7bd1681b462928c2",
+    ".local-runtime/duckdb-v87/_duckdb-stubs/__init__.pyi": "a90f8621fbf90c5098ee85f5d1432bd79ad042d5a48aa0c4fe952b284b33a36e",
+    ".local-runtime/duckdb-v87/adbc_driver_duckdb/dbapi.py": "260e895a9cb6594a1ec3c5cdf8b539056eff4450c940a9a168e603eee3d8eb1a",
+    ".local-runtime/duckdb-v87/adbc_driver_duckdb/__init__.py": "56b605124379123d6f1bb4258e8859b5c940c03e102be72d521ce71537edbe09",
+    "reports/protocol_v89.md": "0d78e6427d897123c9cb2a44494535ba3813802340961a829fd1d72be3742e8e",
+    "src/escalation/flights_v89.py": "30ecf790b0f9c130d3e5909dd36f92ba9f069d854eb289bd03ffba44abd50e17",
+    "scripts/worker_flights_v89.py": "951f2504c23ccac4e9c99aa4593e262bdd51d9ed270c36f7257f2c3eb007228f",
+    "scripts/run_flights_v89.py": "0001df8145a6ef6a436bab5711599f9599b019815e89412b5013ed039ee2b44e",
+    "scripts/analyze_flights_v89.py": "6bcbef4f85004f81613f7df016073bc3cd3ea991830fdac70b699679cb9b9c6e",
+    "tests/synthetic/test_flights_v89.py": "f2c4f5e18df4ff9b9adef9b3d7399f63e5af56768522a065e44f8e852df96d09",
+    "artifacts/study_v89/runtime_metadata.json": "686c6b60e5b596a94040f7051b6d66696864e68089a2dee1ce43abb4610cf82f",
+    "reports/protocol_v88.freeze.json": "57288429b1530576a6678801bf7007a7592e70a86a8b62fa028dcc772c39f471"
+  },
+  "schedule": [
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 10
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 5
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 0
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 1
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 9
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 4
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 6
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 2
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 3
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 15
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 11
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 7
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 12
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 8
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 13
+    },
+    {
+      "block": 0,
+      "seed": 11,
+      "configuration_index": 14
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 11
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 5
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 3
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 7
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 12
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 2
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 10
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 8
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 6
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 4
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 15
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 0
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 1
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 13
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 14
+    },
+    {
+      "block": 1,
+      "seed": 23,
+      "configuration_index": 9
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 7
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 1
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 15
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 6
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 13
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 4
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 3
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 5
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 0
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 8
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 12
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 11
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 10
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 9
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 14
+    },
+    {
+      "block": 2,
+      "seed": 37,
+      "configuration_index": 2
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 4
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 9
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 3
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 2
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 1
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 10
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 15
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 0
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 12
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 5
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 13
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 14
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 11
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 8
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 7
+    },
+    {
+      "block": 3,
+      "seed": 53,
+      "configuration_index": 6
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 5
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 14
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 13
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 6
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 7
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 1
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 11
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 15
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 3
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 2
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 4
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 0
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 12
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 9
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 8
+    },
+    {
+      "block": 4,
+      "seed": 71,
+      "configuration_index": 10
+    }
+  ],
+  "intended_physical_trials": 80,
+  "new_model_calls": 0
+}

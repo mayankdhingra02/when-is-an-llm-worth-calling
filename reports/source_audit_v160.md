@@ -1,0 +1,25 @@
+# V160: real-input application cohort source audit
+
+Two candidate application families proceed to feasibility: ripgrep text search and hnswlib/nmslib nearest-neighbor indexing. GNU sort is **excluded from new-family evidence**: the deeper coreutils alias check found actual V66–67 history. Its copied binary and unused prepared sort input remain admission artifacts, with zero new sort objective executions.
+
+The audit scanned the prior 852-file manifest plus V156–159 report/config additions, with paths/hashes and all matches in preparation.json. No ripgrep or hnswlib/nmslib identity match was found. This is a scoped lexical/manifest check, not proof about all deleted, unnamed or external history. Related versions and data variants remain with their implementation family.
+
+## Owners, versions and licenses
+
+- [ripgrep owner release15.2.0](https://github.com/BurntSushi/ripgrep/releases/tag/15.2.0): official aarch64-apple-darwin archive and owner SHA256 file downloaded and matched. Installed project-local executable reports revision e89fff89ac, PCRE2 10.45 and NEON. Package MIT/UNLICENSE notices are preserved. No app-bundled executable is needed for reproduction.
+- [hnswlib owner v0.8.0](https://github.com/nmslib/hnswlib/tree/v0.8.0): pinned downloaded archive SHA256, Apache-2.0 license and unmodified header sources retained. Its [parameter documentation](https://raw.githubusercontent.com/nmslib/hnswlib/v0.8.0/ALGO_PARAMS.md) defines M, construction ef, query ef and the accuracy/runtime tradeoff. An original project C++ adapter builds and queries the index; the upstream algorithm is not patched.
+- [Python3.10.13 official release](https://www.python.org/downloads/release/python-31013/): source archive is used only as real text input, never executed. The complete PSF and historical license notices remain with the archive. A fixed suffix allowlist selects3,407 regular source/documentation files,71,690,294 combined bytes including normalized final newlines for the unused sort input. Search preserves the original per-file bytes and exact paths; embedded-NUL exclusions are recorded separately.
+- [Optical Recognition of Handwritten Digits, UCI](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits): Alpaydin and Kaynak (1998), DOI10.24432/C50P49, CC BY4.0. Official archive includes the published3,823training/1,797test vectors,64integer features0..16; class labels are discarded. These are real handwritten-digit features, not generated random vectors. ANN is a new workload use of this public classification dataset, not a claim to replicate its original classification experiment.
+- Existing GNU sort9.7 is GPL3+; version, copied executable hash, Homebrew provenance receipt and license were recorded. No new installation or objective run; excluded lineage.
+
+The source stage retained22,137,051 HTTP content bytes in4.112seconds, below100MB/600s caps. Every URL, size and SHA256 is in artifacts/sources/v160/receipt.json. Archives were extracted with regular-file-only, path-containment and per-file/total-size checks. No symlink execution or downloaded shell installer. Source/input hashes bind later protocols.
+
+## Build and reference preparation
+
+The first C++ link failed because the selected default toolchain could not read macOS27SDK stubs. The known installed Xcode toolchain and macOS15.5SDK were selected only in the build process environment, as in V150; no system setting changed. A120second bounded local compile succeeded. Flags, compiler version, binary SHA256, failure and repair logs are preserved in artifacts/study_v160/build_repair.json and build*.log. This is a local build, not independently rebuilt on another host.
+
+Correctness references are constructed without running any tuned configuration. Text counts use Python byte regular expressions. ANN references use exact integer squared distances and the tenth-neighbor distance, accepting ties. Reference input has low integer range, avoiding floating-point ambiguity in these checks. The initial reference-receipt script failed after producing references because the binary had not linked; original elapsed time was not captured and is explicitly unknown. Existing reference bytes were reused. V162's additional five-query reference construction has its own measured preprocessing receipt.
+
+Reference construction necessarily reads inputs and can warm OS caches. No privileged cache flush, background workload manipulation or uncharged application warmup was performed. Randomized feasibility and validation orders and complete timing logs remain necessary; this is one-host application benchmarking, not a production I/O model.
+
+V161/V162 are separately frozen feasibility protocols. No request to either local model occurs during source/admission work. Scientific outcomes, feasibility failures and later collection costs are separate from source download/build/reference costs. No paid/cloud service, credentials, new model weights, new package installation, publication, contact or remote push was used.

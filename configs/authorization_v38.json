@@ -1,0 +1,16 @@
+{
+  "granted": true,
+  "request_cap": 230,
+  "additional_requests": 30,
+  "runtime_cap_seconds": 3600,
+  "stage_seconds": 600,
+  "max_new_vectors": 300,
+  "external_spend_usd": 0,
+  "new_downloads": 0,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "protocol_freeze_sha256": "1b7660efed0d449ef3722ba5e34e6d4a95d160cec7b17a7df8cc3caea4b76fdb",
+  "user_authorization": "Do not stop until you have the next concrete result",
+  "authorization_context": "Direct user instruction to proceed immediately after the exact30-call extension request. Interpreted as approval of that specific proposed experiment, with cap200->230,maximum300vectors,600-second stage,unchanged3600-second global runtime,USD0,no downloads. Bounds explicitly restated to the user before execution. No broader allowance inferred.",
+  "recorded_at": "2026-09-25T14:01:00.136000+00:00"
+}

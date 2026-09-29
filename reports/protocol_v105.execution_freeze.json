@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-09-27T17:34:54.253809+00:00",
+  "intended_cases": [
+    "reference",
+    "contrast",
+    "reference",
+    "reference",
+    "contrast",
+    "reference"
+  ],
+  "max_native_config_attempts": 6,
+  "max_model_requests": 0,
+  "max_runtime_seconds": 1800,
+  "sha256": {
+    "reports/protocol_v105.md": "712cf160672a7ad11364134ab00e36d5ea44e9516be03509d3fccffc6dcc105b",
+    "reports/protocol_v105.source_freeze.json": "c6ae44aaf217d660803b6eaa820c144a72b43a9ce7d85d21f6c62199c3d237e7",
+    "scripts/native_nginx_v105.py": "8d00e45e8ef6f0748f1aca1a071799f35aee6a43f8655f6f6aab3b20dd632e4a",
+    "scripts/build_nginx_v105.py": "fee7d54ee0c4df47dbdbdf2f95d1b3dfac8c825d65c9477fd380f4d0118b13ff",
+    "scripts/repair_nginx_build_v105.py": "53099b3818270f94ecc6f081c9c64794fddf1b617778b61aee8c1406d8bb473d",
+    "tests/synthetic/test_nginx_v105.py": "9b41500464a7d59dc745bd095ac5812d00dd365895a49cb67c57267c177c2eba",
+    "artifacts/study_v105/build_manifest.json": "1fad1fc060ff1dd63baababf45fcc6a10cb94736b4399f6e7a375e188e13bbfe",
+    "artifacts/study_v105/build_repair_manifest.json": "20ec6aa7647f2892444aec8e2af0412b9d0749ccf8226e884e62ec91711169dd",
+    "artifacts/sources/v105/manifest.json": "415c882952d44652acf2337a5e4cc5db22f2dbec87eb16c1279930423e21b5a8",
+    ".local-runtime/nginx-v105/nginx-1.28.3/objs/nginx": "3861521068a3c36bb5a0e6f4d114123a2844fa6db29bf2d4aa56dee1fddec8ae"
+  }
+}

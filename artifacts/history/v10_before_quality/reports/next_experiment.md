@@ -1,0 +1,8 @@
+# Next action after the headroom check
+
+1. **Validate the practical objective and improvement criterion before more inference.** The V10 headroom check found only1/15 possible material improvements over cheap static ranking within the current shortlist, all in one family. The .02 normalized threshold corresponds to7.85seconds for Brotli despite selected runtimes near1–2seconds. Define minimum useful raw/relative gains and compression quality/size constraints from task needs; do not choose a threshold just because it makes current results positive.
+2. Redesign shortlist/task admission in a new exploratory protocol if that validation warrants it. Current static ranking already attains the shortlist optimum on every Brotli case; a stronger model cannot select rows it is not offered. Use development data for method choices, validate source/workload semantics, and reserve genuinely new software groups for evaluation.
+3. Only after meaningful headroom exists across independent families, propose one stronger-local-model/order-permutation test against fixed cheap and random controls. No model swap or inference request is currently recommended or authorized by this headroom analysis.
+4. Treat the exact current result as a useful negative methods finding, with real-model response and exact-reference evidence in reports/concrete_result.md. Do not frame it as a useful learned router, generalization, novelty or publication acceptance.
+
+Start with reports/headroom_decision.md and STATUS.md. The same-design rerun is stopped on scientific grounds. No further model calls, downloads, remote publication or external contact occurred.

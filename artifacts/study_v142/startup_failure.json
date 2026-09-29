@@ -1,0 +1,28 @@
+{
+  "original_ledger": {
+    "generation_requests": 0,
+    "compatibility_requests": 0,
+    "scientific_requests": 0,
+    "http_requests": 0,
+    "peak_server_rss_bytes": 0,
+    "retries": 0,
+    "external_spend_usd": 0,
+    "allocated_output_tokens": 0,
+    "stop_reason": "OSError(48, 'Address already in use')",
+    "stage_seconds": 0.7635046249997686,
+    "resource_stop_reason": null,
+    "server_exit_code": null
+  },
+  "original_errors": "results/v141_models/smollm3_3b/errors.jsonl",
+  "listener_check_command": "lsof -nP -iTCP:18591 -sTCP:LISTEN",
+  "listener_check_exit_code": 1,
+  "listener_stdout": "",
+  "diagnosis": "Original pre-start bind failed after previous server exited. No live listener found; retained socket state is suspected, not proven. Use a distinct frozen loopback port.",
+  "new_objective_acquisitions_before_amendment": 0,
+  "additional_model_request_allowance": 0,
+  "remaining_intended_model_requests": 30,
+  "remaining_recorded_acquisition_allowance": 600,
+  "per_model_lifecycle_combined_cap_seconds": 800,
+  "repair_lifecycle_cap_seconds": 799,
+  "original_global_deadline_unix": 1790573963.100287
+}

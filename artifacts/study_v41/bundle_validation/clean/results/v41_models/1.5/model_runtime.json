@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "model_load_seconds": 5.630195333040319,
+  "torch": "2.6.0",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "provider": "local_transformers",
+  "seed_support": "greedy; no sampling seed; numerical nondeterminism possible",
+  "adapter": "larger_v22",
+  "startup_wall_seconds": 9.510673124983441
+}

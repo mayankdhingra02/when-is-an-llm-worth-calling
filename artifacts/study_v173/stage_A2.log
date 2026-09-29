@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_v173.py", line 261, in <module>
+    if __name__ == '__main__': main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_v173.py", line 254, in main
+    require_previous(a.stage); base = a.stage.partition('.')[0]
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/collect_v173.py", line 41, in require_previous
+    if not chain_done(s): raise RuntimeError('Previous stage chain not ended: '+s)
+RuntimeError: Previous stage chain not ended: A1R
+exit=1

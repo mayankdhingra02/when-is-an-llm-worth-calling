@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/analyze_models_v41.py", line 127, in <module>
+    if __name__=='__main__':main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/analyze_models_v41.py", line 41, in main
+    if not (source/'started.json').exists():raise RuntimeError('No real V41 model collection exists; do not create model results')
+RuntimeError: No real V41 model collection exists; do not create model results

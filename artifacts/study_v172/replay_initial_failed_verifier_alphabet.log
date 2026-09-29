@@ -1,0 +1,45 @@
+{
+ "errors": [
+  "parse/fallback qwen3_14b sac::sac_AllNumeric_11_normal",
+  "parse/fallback qwen3_14b sac::sac_AllNumeric_37_normal",
+  "parse/fallback qwen3_14b hipacc::hipacc_AllNumeric_23_normal",
+  "parse/fallback qwen3_14b sac::sac_AllNumeric_23_normal",
+  "parse/fallback qwen3_14b sac::sac_AllNumeric_53_normal",
+  "parse/fallback qwen3_14b hipacc::hipacc_AllNumeric_11_normal",
+  "parse/fallback qwen3_14b hipacc::hipacc_AllNumeric_53_normal",
+  "parse/fallback qwen3_14b hipacc::hipacc_AllNumeric_37_normal",
+  "parse/fallback qwen3_14b sac::sac_AllNumeric_71_normal",
+  "parse/fallback qwen3_14b hipacc::hipacc_AllNumeric_71_normal",
+  "parse/fallback qwen3_8b_redraw sac::sac_AllNumeric_11_normal",
+  "parse/fallback qwen3_8b_redraw sac::sac_AllNumeric_37_normal",
+  "parse/fallback qwen3_8b_redraw hipacc::hipacc_AllNumeric_11_normal",
+  "parse/fallback qwen3_8b_redraw hipacc::hipacc_AllNumeric_37_normal",
+  "selection qwen3_8b_redraw__hipacc__hipacc_AllNumeric_11_normal",
+  "selection qwen3_14b__sac__sac_AllNumeric_37_normal",
+  "selection qwen3_14b__hipacc__hipacc_AllNumeric_71_normal",
+  "selection qwen3_8b_redraw__sac__sac_AllNumeric_37_normal",
+  "selection qwen3_14b__hipacc__hipacc_AllNumeric_53_normal",
+  "selection qwen3_14b__hipacc__hipacc_AllNumeric_23_normal",
+  "selection qwen3_14b__hipacc__hipacc_AllNumeric_11_normal",
+  "selection qwen3_14b__sac__sac_AllNumeric_11_normal",
+  "selection qwen3_14b__sac__sac_AllNumeric_53_normal",
+  "selection qwen3_14b__sac__sac_AllNumeric_23_normal",
+  "selection qwen3_8b_redraw__hipacc__hipacc_AllNumeric_37_normal",
+  "selection qwen3_14b__sac__sac_AllNumeric_71_normal",
+  "selection qwen3_14b__hipacc__hipacc_AllNumeric_37_normal",
+  "selection qwen3_8b_redraw__sac__sac_AllNumeric_11_normal"
+ ],
+ "primary_recomputed": {
+  "qwen3_14b": 1,
+  "qwen3_8b_redraw": 0
+ },
+ "charges": 1400,
+ "arms_checked": 140,
+ "mutations_rejected": {
+  "target_value": true,
+  "selected_row": true,
+  "incumbent": true,
+  "response_content": true
+ },
+ "passed": false
+}

@@ -1,0 +1,636 @@
+
+===== audit_v171: scripts/audit_v171.py --check
+{"reproduced": true, "sha256": "15a371967085e35069f6c303049e982fc4f68127e4fde920928a2de0625bb32c"}
+
+
+
+===== analyze_v172: scripts/analyze_v172.py --check
+{"reproduced": true, "sha256": "69793e3ca4cbc66ef14ebf9603b51362efccb1cc948f08247c86cc5fe8409a71"}
+
+
+
+===== report_v172: scripts/report_v172.py --check
+report reproduced
+
+
+
+===== verify_v172: scripts/verify_v172_relocated_v176.py
+{
+ "errors": [],
+ "primary_recomputed": {
+  "qwen3_14b": 1,
+  "qwen3_8b_redraw": 0
+ },
+ "charges": 1400,
+ "arms_checked": 140,
+ "mutations_rejected": {
+  "target_value": true,
+  "selected_row": true,
+  "incumbent": true,
+  "response_content": true
+ },
+ "passed": true
+}
+
+
+
+===== analyze_v173: scripts/analyze_v173.py --check
+{"reproduced": true, "sha256": "fd26e8f4d5325e9efd07372d506b15bec608a144f60480d7fb4e3f03d713efa4"}
+
+
+
+===== report_v173: scripts/report_v173.py --check
+report reproduced
+
+
+
+===== verify_v173: scripts/verify_v173.py
+{
+ "errors": [],
+ "primary_recomputed": {
+  "gptoss_a1": 2,
+  "gptoss_a2": 1,
+  "gptoss_b": 1
+ },
+ "requests": 539,
+ "spent_usd": 1.3775728319999994,
+ "arms_a": 140,
+ "arms_b": 70,
+ "mutations_rejected": {
+  "B_target": true,
+  "B_leakage": true,
+  "A_selection": true
+ },
+ "passed": true
+}
+
+
+
+===== revision_v174: scripts/revision_v174.py --check
+{"reproduced": true, "sha256": "c430bf8afdbe47e97f9df01dfd335bcb92226913c79dc64ad3585fde05fbbc54"}
+
+
+
+===== revision_v175: scripts/revision_v175.py --check
+{"reproduced": true, "sha256": "f73656c62683cceb7a78a5724944c51002e7dabf067958201e18179d310140ce"}
+
+
+
+===== check_tables_v176: scripts/check_tables_v176.py
+{
+ "tables_checked": 11,
+ "rows_checked": 80,
+ "text_phrases_checked": 12,
+ "mismatches": 0,
+ "detail": {}
+}
+
+
+
+===== verify_models_v141: scripts/verify_models_v141.py --compact
+{"verified": true, "compact": true, "real_model_requests": 60, "intended_requests": 60, "recorded_acquisitions": 600, "B20_arms": 60, "exposed_groups": 6, "models": 2, "new_collection": 0}
+
+
+
+===== verify_spark_v145: scripts/verify_spark_v145.py
+{
+  "verified": true,
+  "original_and_repair_request_starts": 50,
+  "complete_responses": 49,
+  "incomplete_response_usage_unknown": 1,
+  "unattempted_intents": 0,
+  "total_charged_acquisitions": 2000,
+  "missing_acquisitions": 1,
+  "finite_acquisitions": 1999,
+  "independent_software_families": 1,
+  "B20_arms": 175,
+  "no_new_collection": true
+}
+
+
+
+===== verify_hadoop_v148: scripts/verify_hadoop_v148.py
+{"verified": true, "charged_outcomes": 1200, "source_records": 200, "prefixes": 15, "B20_arms": 105, "real_requests": 30, "independent_router_fit": "augmented least squares", "all_model_server_exits": 0, "semantic_mutations": [{"name": "raw_outcome", "rejected": true}, {"name": "reported_gain", "rejected": true}, {"name": "request_undercount", "rejected": true}, {"name": "late_selection", "rejected": true}]}
+
+
+
+===== verify_router_v151: scripts/verify_router_v151.py
+Verified140cases,30outerfolds,allfixedpredictors;4semanticmutationsrejected
+
+
+
+===== report_router_v151: scripts/report_router_v151.py
+Saved V151 full report and figures
+
+Matplotlib is building the font cache; this may take a moment.
+
+
+===== verify_controllers_v154: scripts/verify_controllers_v154.py
+{"verified": true, "prefixes": 70, "kernel_variants": 2, "real_historical_model_cases": 140, "mutations": [{"name": "probability", "rejected": true}, {"name": "decision", "rejected": true}, {"name": "gain", "rejected": true}], "scope": "independent scalar mixed covariance, least-squares posterior, probabilities, memberships, threshold utility/selection, decisions and aggregate quality; no new acquisitions/inference"}
+
+
+
+===== report_controllers_v154: scripts/report_controllers_v154.py
+Regenerated complete tables and adaptation figure
+
+
+
+===== verify_gp_v155: scripts/verify_gp_v155.py
+{"verified": true, "arms": 140, "complete_arms": 139, "unscorable_arms": 1, "charged_attempts": 1393, "near_tie_argmax_differences": 2, "near_tie_details": [{"key": "sac::sac_AllNumeric_37_normal::gp_0.2", "step": 8, "selected_row": 442, "alternative_argmax_row": 441, "EI_gap": 0.0}, {"key": "sac::sac_AllNumeric_37_normal::gp_1.0", "step": 8, "selected_row": 858, "alternative_argmax_row": 861, "EI_gap": 2.7908231281514873e-14}], "EI_numerical_absolute_tolerance": 1e-08, "mutations": [{"name": "source_value", "rejected": true}, {"name": "selected_row", "rejected": true}, {"name": "aggregate", "rejected": true}], "scope": "independent covariance/lstsq/EI maximum; selected source values including missing target; full acquisition/arm budget and aggregates; no new collection"}
+
+
+
+===== report_gp_v155: scripts/report_gp_v155.py
+{
+  "smollm3_3b": {
+    "intended": 70,
+    "scorable": 70,
+    "family_mean_gain": -0.027741087453078357,
+    "gp_family_gain_vs_sequential": -0.02194468481389526,
+    "gp_family_gain_vs_adaptive": -0.0014228704507826327,
+    "useful": 5,
+    "harmful": 29,
+    "joint_useful": 2,
+    "groups": [
+      {
+        "group": "berkeleydb",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.055341497830918795,
+        "gp_gain_vs_sequential": 0.04511798468772789,
+        "gp_gain_vs_adaptive": 0.036553679939419714,
+        "useful": 0,
+        "harmful": 3,
+        "joint_useful": 0
+      },
+      {
+        "group": "dune_hsmgp",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.019478878779736936,
+        "gp_gain_vs_sequential": -0.18057485456638483,
+        "gp_gain_vs_adaptive": -0.08221305775622702,
+        "useful": 0,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "hipacc",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.015546544004789789,
+        "gp_gain_vs_sequential": -0.010566462399301335,
+        "gp_gain_vs_adaptive": -0.0033498169037802106,
+        "useful": 0,
+        "harmful": 2,
+        "joint_useful": 0
+      },
+      {
+        "group": "llvm",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.0042150825908602646,
+        "gp_gain_vs_sequential": -0.016114109734032923,
+        "gp_gain_vs_adaptive": -0.017458081447462526,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "openvpn",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.046232949626346886,
+        "gp_gain_vs_sequential": -0.021941523536828076,
+        "gp_gain_vs_adaptive": 0.003100865438827147,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "sac",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.0026756152125279667,
+        "gp_gain_vs_sequential": -0.0013693693693693709,
+        "gp_gain_vs_adaptive": 0.002657836644591614,
+        "useful": 0,
+        "harmful": 0,
+        "joint_useful": 0
+      },
+      {
+        "group": "spark_hadoop_ecosystem",
+        "intended": 40,
+        "scorable": 40,
+        "mean_gain": -0.05069704412636786,
+        "gp_gain_vs_sequential": 0.031835541220921845,
+        "gp_gain_vs_adaptive": 0.05074848092915285,
+        "useful": 3,
+        "harmful": 21,
+        "joint_useful": 2
+      }
+    ]
+  },
+  "qwen3_8b": {
+    "intended": 70,
+    "scorable": 70,
+    "family_mean_gain": -0.03058529957289513,
+    "gp_family_gain_vs_sequential": -0.02194468481389526,
+    "gp_family_gain_vs_adaptive": -0.0014228704507826327,
+    "useful": 4,
+    "harmful": 34,
+    "joint_useful": 1,
+    "groups": [
+      {
+        "group": "berkeleydb",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.05133688620712865,
+        "gp_gain_vs_sequential": 0.04511798468772789,
+        "gp_gain_vs_adaptive": 0.036553679939419714,
+        "useful": 1,
+        "harmful": 3,
+        "joint_useful": 0
+      },
+      {
+        "group": "dune_hsmgp",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.022342709509538292,
+        "gp_gain_vs_sequential": -0.18057485456638483,
+        "gp_gain_vs_adaptive": -0.08221305775622702,
+        "useful": 0,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "hipacc",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.01877181976657934,
+        "gp_gain_vs_sequential": -0.010566462399301335,
+        "gp_gain_vs_adaptive": -0.0033498169037802106,
+        "useful": 0,
+        "harmful": 2,
+        "joint_useful": 0
+      },
+      {
+        "group": "llvm",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.005930776321538278,
+        "gp_gain_vs_sequential": -0.016114109734032923,
+        "gp_gain_vs_adaptive": -0.017458081447462526,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "openvpn",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.044327028526559384,
+        "gp_gain_vs_sequential": -0.021941523536828076,
+        "gp_gain_vs_adaptive": 0.003100865438827147,
+        "useful": 1,
+        "harmful": 1,
+        "joint_useful": 0
+      },
+      {
+        "group": "sac",
+        "intended": 5,
+        "scorable": 5,
+        "mean_gain": -0.0026756152125279667,
+        "gp_gain_vs_sequential": -0.0013693693693693709,
+        "gp_gain_vs_adaptive": 0.002657836644591614,
+        "useful": 0,
+        "harmful": 0,
+        "joint_useful": 0
+      },
+      {
+        "group": "spark_hadoop_ecosystem",
+        "intended": 40,
+        "scorable": 40,
+        "mean_gain": -0.068712261466394,
+        "gp_gain_vs_sequential": 0.031835541220921845,
+        "gp_gain_vs_adaptive": 0.05074848092915285,
+        "useful": 1,
+        "harmful": 26,
+        "joint_useful": 1
+      }
+    ]
+  }
+}
+
+
+
+===== report_native_v153: scripts/report_native_v153.py
+{
+  "smollm3_3b": {
+    "gain_vs_sequential": 0.0008806795167587278,
+    "gain_vs_adaptive": -0.013494808666626902,
+    "joint_wins": 0,
+    "benefit": {
+      "calls": 0,
+      "mean_gain": 0.0,
+      "matched_random_expected_gain": 0.0,
+      "gain_above_matched_random": 0.0,
+      "useful": 0,
+      "harmful": 0,
+      "joint_useful": 0,
+      "missed": 1,
+      "observed_selected_tokens_lower_bound": 0,
+      "observed_selected_request_seconds_lower_bound": 0,
+      "unknown_selected_usage": 0,
+      "selected_keys": []
+    }
+  },
+  "qwen3_8b": {
+    "gain_vs_sequential": -0.0041883928414863285,
+    "gain_vs_adaptive": -0.018654853973915517,
+    "joint_wins": 0,
+    "benefit": {
+      "calls": 0,
+      "mean_gain": 0.0,
+      "matched_random_expected_gain": -0.0,
+      "gain_above_matched_random": 0.0,
+      "useful": 0,
+      "harmful": 0,
+      "joint_useful": 0,
+      "missed": 1,
+      "observed_selected_tokens_lower_bound": 0,
+      "observed_selected_request_seconds_lower_bound": 0,
+      "unknown_selected_usage": 0,
+      "selected_keys": []
+    }
+  }
+}
+
+
+
+===== verify_solvers_v159: scripts/verify_solvers_v159.py
+{"verified": true, "native_acquisitions": 800, "prefixes": 10, "B20_arms": 70, "fresh_validation": 210, "GP_choices_independently_checked": 70, "max_EI_gap": 0.0, "model_starts": 20, "mutations_rejected": ["objective", "solution", "identity"], "policy_prefix_recomputation": 20, "policy_feature_replay_uses_existing_tested_helpers": true, "limitation": "Internal replay, not independently collected host replication. Policy decisions use frozen previously tested implementations."}
+
+
+
+===== verify_apps_v163: scripts/verify_apps_v163.py
+{"verified": true, "native_acquisitions": 800, "prefixes": 10, "B20_arms": 70, "fresh_validation": 210, "GP_choices_independently_checked": 70, "max_EI_gap": 0.0, "model_starts": 20, "native_invocations": 2400, "mutations_rejected": ["objective", "output", "identity"], "policy_prefix_recomputation": 20, "policy_feature_replay_uses_existing_tested_helpers": true, "limitation": "Internal replay, not independently collected host replication. Policy decisions use frozen previously tested implementations."}
+
+
+
+===== verify_apps_v164: scripts/verify_apps_v164.py
+{"verified": true, "new_configuration_outcomes": 900, "new_native_invocations": 2700, "historical_prefixes_reused": 10, "historical_prefix_outcomes": 100, "B20_arms": 90, "fresh_validations": 270, "model_starts": 40, "independent_GP_choices": 70, "max_EI_gap": 0.0, "mutations_rejected": ["objective", "quality", "identity", "hidden_prompt_field"], "scope": "Independent numerical/raw-data replay in same repository; not external replication"}
+
+
+
+===== report_headroom_v165: scripts/report_headroom_v165.py
+{
+  "collection": {
+    "new_outcomes": 768,
+    "native_invocations": 2304,
+    "quality_penalties": 0,
+    "objective_seconds": 244.3816585518403,
+    "subprocess_seconds": 305.94606672802183,
+    "stage_seconds": 309.22309395800403,
+    "new_model_requests": 0
+  },
+  "references": [
+    {
+      "engine": "ripgrep",
+      "selected_id": 38,
+      "selection_median": 0.26286308298585936,
+      "validation_median": 0.26971787500951905,
+      "validation_relative_mad": 0.02332606995062018,
+      "validation_valid": true,
+      "validation_rank": 2,
+      "posthoc_validation_minimum_id": 34,
+      "posthoc_validation_minimum": 0.2688574579951819,
+      "validation_candidates_robustly_better_than_reference": 0,
+      "unstable_selection_cells": 2,
+      "unstable_validation_cells": 1,
+      "quality_failing_selection_cells": 0,
+      "quality_failing_validation_cells": 0
+    },
+    {
+      "engine": "hnswlib",
+      "selected_id": 49,
+      "selection_median": 0.090252833,
+      "validation_median": 0.100014959,
+      "validation_relative_mad": 0.035220571354731,
+      "validation_valid": true,
+      "validation_rank": 9,
+      "posthoc_validation_minimum_id": 1,
+      "posthoc_validation_minimum": 0.094850292,
+      "validation_candidates_robustly_better_than_reference": 0,
+      "unstable_selection_cells": 2,
+      "unstable_validation_cells": 0,
+      "quality_failing_selection_cells": 0,
+      "quality_failing_validation_cells": 0
+    }
+  ],
+  "prefix_summary": [
+    {
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "cases": 5,
+      "mean_headroom": 0.08021519723482748,
+      "min_headroom": 0.0,
+      "max_headroom": 0.18015550020849336,
+      "robust_practical_cases": 2,
+      "same_reference_setting_cases": 1,
+      "unstable_or_invalid_comparisons": 0
+    },
+    {
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "cases": 5,
+      "mean_headroom": 0.06902503803645137,
+      "min_headroom": 0.0,
+      "max_headroom": 0.1269477921650649,
+      "robust_practical_cases": 2,
+      "same_reference_setting_cases": 1,
+      "unstable_or_invalid_comparisons": 0
+    },
+    {
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "cases": 5,
+      "mean_headroom": 0.05293158843639397,
+      "min_headroom": 0.0,
+      "max_headroom": 0.1269477921650649,
+      "robust_practical_cases": 1,
+      "same_reference_setting_cases": 1,
+      "unstable_or_invalid_comparisons": 1
+    },
+    {
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "cases": 5,
+      "mean_headroom": -0.0012165153694802186,
+      "min_headroom": -0.05445072325133166,
+      "max_headroom": 0.056790033783745586,
+      "robust_practical_cases": 0,
+      "same_reference_setting_cases": 0,
+      "unstable_or_invalid_comparisons": 0
+    },
+    {
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "cases": 5,
+      "mean_headroom": -0.01508038324990254,
+      "min_headroom": -0.05445072325133166,
+      "max_headroom": 0.056790033783745586,
+      "robust_practical_cases": 0,
+      "same_reference_setting_cases": 0,
+      "unstable_or_invalid_comparisons": 0
+    },
+    {
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "cases": 5,
+      "mean_headroom": -0.03738934838473983,
+      "min_headroom": -0.05445072325133166,
+      "max_headroom": -0.019811993556812638,
+      "robust_practical_cases": 0,
+      "same_reference_setting_cases": 0,
+      "unstable_or_invalid_comparisons": 0
+    }
+  ]
+}
+
+
+
+===== posthoc_headroom_v165: scripts/posthoc_headroom_v165.py
+[
+  {
+    "engine": "ripgrep",
+    "checkpoint": 4,
+    "mean": 0.08314936870492362,
+    "maximum": 0.18277085581555663,
+    "minimum": 0.003190063003079712,
+    "descriptive_above_ten_percent": 2
+  },
+  {
+    "engine": "ripgrep",
+    "checkpoint": 7,
+    "mean": 0.07199490681940482,
+    "maximum": 0.1297328837130362,
+    "minimum": 0.003190063003079712,
+    "descriptive_above_ten_percent": 2
+  },
+  {
+    "engine": "ripgrep",
+    "checkpoint": 10,
+    "mean": 0.0559527963375085,
+    "maximum": 0.1297328837130362,
+    "minimum": 0.003190063003079712,
+    "descriptive_above_ten_percent": 2
+  },
+  {
+    "engine": "hnswlib",
+    "checkpoint": 4,
+    "mean": 0.05048524953134572,
+    "maximum": 0.1054964016640564,
+    "minimum": 0.0,
+    "descriptive_above_ten_percent": 1
+  },
+  {
+    "engine": "hnswlib",
+    "checkpoint": 7,
+    "mean": 0.037337297166465194,
+    "maximum": 0.1054964016640564,
+    "minimum": 0.0,
+    "descriptive_above_ten_percent": 1
+  },
+  {
+    "engine": "hnswlib",
+    "checkpoint": 10,
+    "mean": 0.016180343462598386,
+    "maximum": 0.032850022225517285,
+    "minimum": 0.0,
+    "descriptive_above_ten_percent": 0
+  }
+]
+
+
+
+===== verify_headroom_v165: scripts/verify_headroom_v165.py
+{"verified": true, "new_outcomes": 768, "native_invocations": 2304, "new_model_requests": 0, "selection_cells": 128, "validation_cells": 128, "reference_fixed_before_validation": true, "frozen_prefix_targets": 30, "frozen_prior_incumbent_targets": 90, "posthoc_targets_checked": 30, "mutations_rejected": ["value", "quality", "configuration", "reference_id_change"], "scope": "Independent internal replay; not independently collected host evidence"}
+
+
+
+===== report_ezr_v170: scripts/report_ezr_v170.py
+{"collection": {"at": "2026-09-28T15:12:44.530913+00:00", "acquisitions": 820, "query_training_executions": 1640, "intended": 820, "model_requests": 0, "retries": 0, "status": "completed", "finished_at": "2026-09-28T15:16:52.134126+00:00", "seconds": 247.60308283299673, "quality_penalties": 0, "native_objective_seconds": 132.9425200439955, "subprocess_seconds": 243.4576689960668, "source_optimizer_process_cpu_seconds": 0.098974, "historical_prefix_outcomes_reused": 200, "new_source_B20_arms": 40, "historical_selections_revalidated": 140, "new_validation_outcomes": 540, "historical_model_requests_reused": 40, "new_model_requests": 0}, "joint_robust_wins": 0}
+
+
+
+===== synthesis_ezr_v170: scripts/synthesis_ezr_v170.py
+{'new_native_outcomes': 1230, 'new_native_workload_executions': 2460, 'new_search_labels': 420, 'new_validation_outcomes': 810, 'new_source_arms': 60, 'historical_fixed_selections': 210, 'source_optimizer_cpu_seconds': 0.176132, 'collection_wall_seconds': 460.61664774898964, 'quality_penalties': 14, 'new_model_requests': 0, 'new_downloads': 0}
+
+
+
+===== pytest: -m pytest -q -p no:cacheprovider tests/synthetic/test_audit_v171.py tests/synthetic/test_v172.py tests/synthetic/test_v173.py tests/synthetic/test_revision_v175.py tests/synthetic/test_audit_bundle_v176.py tests/synthetic/test_router_v151.py tests/synthetic/test_router_v147.py tests/synthetic/test_controllers_v154.py tests/synthetic/test_gp_continuations_v155.py tests/synthetic/test_native_study_v153.py tests/synthetic/test_headroom_v165.py tests/synthetic/test_headroom_analysis_v165.py tests/synthetic/test_ezr_v170.py tests/synthetic/test_spark_v145.py tests/synthetic/test_hadoop_v148.py tests/synthetic/test_models_v141.py --deselect tests/synthetic/test_v172.py::test_server_command_is_historical_command
+........................................................................ [ 51%]
+....................................................................     [100%]
+=============================== warnings summary ===============================
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /private/tmp/claude-501/-Users-mayankdhingra-Downloads-llm-escalation-study/c93bc693-d650-4e12-9ef3-070023464748/scratchpad/venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+  /private/tmp/claude-501/-Users-mayankdhingra-Downloads-llm-escalation-study/c93bc693-d650-4e12-9ef3-070023464748/scratchpad/venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+  /private/tmp/claude-501/-Users-mayankdhingra-Downloads-llm-escalation-study/c93bc693-d650-4e12-9ef3-070023464748/scratchpad/venv_bundle176/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../venv_bundle176/lib/python3.10/site-packages/matplotlib/_mathtext.py:45
+  /private/tmp/claude-501/-Users-mayankdhingra-Downloads-llm-escalation-study/c93bc693-d650-4e12-9ef3-070023464748/scratchpad/venv_bundle176/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+140 passed, 1 deselected, 14 warnings in 1.66s
+
+
+
+===== pytest_ezr_bridge: -m pytest -q -p no:cacheprovider tests/synthetic/test_ezr_v169.py
+.......                                                                  [100%]
+7 passed in 0.42s
+
+
+
+===== verify_bundle_v176: scripts/verify_bundle_v176.py
+{
+ "bundle_files": 16811,
+ "bundle_files_mismatched": [],
+ "latest_manifest_sha256_matches": true,
+ "manifest_chain_checkpoints": 75,
+ "manifest_chain_missing": [],
+ "sealed_file_entries_verified": 12721,
+ "sealed_file_entries_superseded_version_not_included": 0,
+ "sealed_file_entries_absent_by_category": {
+  "earlier_or_unrelated_iterations": 51723,
+  "earlier_packaged_bundles": 8835,
+  "model_weights": 12,
+  "other_files_not_needed_to_reproduce_the_paper": 72,
+  "third_party_runtimes_and_native_builds": 1518,
+  "third_party_source_archives": 1140,
+  "workflow_notes": 5
+ },
+ "integrity_failures": [],
+ "coverage_matches_build_record": true,
+ "passed": true
+}
+
+

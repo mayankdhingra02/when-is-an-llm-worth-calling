@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "acquisitions": 410,
+  "query_training_executions": 820,
+  "source_continuations_replayed": 20,
+  "cached_prefix_callback_hits": 200,
+  "new_acquired_labels_replayed": 140,
+  "validation_outcomes": 270,
+  "historical_selections_preserved": 70,
+  "mutations_rejected": [
+    "value",
+    "native_output",
+    "configuration"
+  ],
+  "new_objective_or_model_calls": 0,
+  "limitation": "Deterministic replay executes the same pinned upstream implementation; objective checks use separate evaluator code. It is not independent reimplementation or independent-host replication."
+}

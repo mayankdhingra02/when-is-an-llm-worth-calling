@@ -1,0 +1,80 @@
+{
+  "key": "pagerank_37",
+  "app": "pagerank",
+  "system_group": "hadoop_mapreduce",
+  "seed": 37,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "sampling_seed": 148037,
+  "prefix": "artifacts/study_v148/prefixes/pagerank_37.json",
+  "prefix_sha256": "fca339f5d901752f71f0156bb2f07484d54dac2e6005d2239746519ef4e398a2",
+  "messages_path": "artifacts/study_v148/prompts/pagerank_37.json",
+  "model": "qwen3_8b",
+  "score": [
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

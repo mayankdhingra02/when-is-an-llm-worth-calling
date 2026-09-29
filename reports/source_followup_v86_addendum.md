@@ -1,0 +1,5 @@
+# V86 source-follow-up clarification
+
+Further inspection of the [current BenchBase POM](https://github.com/cmu-db/benchbase/blob/main/pom.xml) found java.version, compiler.source and compiler.target set to23, despite the README's modernization note mentioning21. The project-local runtime is Java17, so the current build remains incompatible without a separately audited runtime/dependency setup. [V68](admission_v68.md) already pinned BenchBase at33c00473807ebd49304d114a6d769d2d2b2bbb34 and reported the Java23 requirement and a YCSB correctness gap. This is a previously inspected lead, not discovery/admission of a new independent system. Do not repeat that audit or assume the source-follow-up's README mention is the compiler requirement.
+
+The portable V86 archive preserves the source-follow-up snapshot before this clarification. Its result/code/input hashes and exact reconstruction are unaffected; it neither bundles nor executes BenchBase. No new files were downloaded or run from that repository. Future realistic-workload work should reuse the existing V68 audit and address its concrete gaps rather than relabeling a metadata revisit as research progress.

@@ -1,0 +1,573 @@
+{
+  "scope": "post-v7 exploratory development-only candidate selection; no generalization or router claim",
+  "complete": false,
+  "records": [
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 11,
+      "split": "development",
+      "classical": 0.041956991010192124,
+      "original_llm": 0.020269030638733098,
+      "excluded_llm": 0.046398980573913,
+      "uniform_selection": 0.07133597124579995,
+      "static_rank": 0.0,
+      "shortlist_hindsight_loss": 0.0
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 23,
+      "split": "development",
+      "classical": 0.07373923875276449,
+      "original_llm": 0.10110725530022198,
+      "excluded_llm": 0.11617419417239075,
+      "uniform_selection": 0.019272331715974644,
+      "static_rank": 0.05342748624984875,
+      "shortlist_hindsight_loss": 0.019272331715974644
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 37,
+      "split": "development",
+      "classical": 0.04378535667985623,
+      "original_llm": 0.04378535667985623,
+      "excluded_llm": 0.041956991010192124,
+      "uniform_selection": 0.04378535667985623,
+      "static_rank": 0.04378535667985623,
+      "shortlist_hindsight_loss": 0.04378535667985623
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 53,
+      "split": "development",
+      "classical": 0.012520325414825029,
+      "original_llm": 0.019272331715974644,
+      "excluded_llm": 0.019272331715974644,
+      "uniform_selection": 0.012520325414825029,
+      "static_rank": 0.012520325414825029,
+      "shortlist_hindsight_loss": 0.012520325414825029
+    },
+    {
+      "dataset": "MySQL",
+      "system_group": "mysql_family",
+      "seed": 71,
+      "split": "development",
+      "classical": 0.05129659773483039,
+      "original_llm": 0.05129659773483039,
+      "excluded_llm": 0.03870969560780201,
+      "uniform_selection": 0.05129659773483039,
+      "static_rank": 0.05129659773483039,
+      "shortlist_hindsight_loss": 0.05129659773483039
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 11,
+      "split": "development",
+      "classical": 0.000976862872085081,
+      "original_llm": 0.0020772993484874836,
+      "excluded_llm": 0.002003335585319455,
+      "uniform_selection": 0.0008875651580163648,
+      "static_rank": 0.000976862872085081,
+      "shortlist_hindsight_loss": 0.0008875651580163648
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 23,
+      "split": "development",
+      "classical": 0.0004951964143810819,
+      "original_llm": 0.0018369171181913883,
+      "excluded_llm": 0.0018369171181913883,
+      "uniform_selection": 0.0004951964143810819,
+      "static_rank": 0.0004951964143810819,
+      "shortlist_hindsight_loss": 0.0004951964143810819
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 37,
+      "split": "development",
+      "classical": 0.0030537112220166644,
+      "original_llm": 0.006391551534251986,
+      "excluded_llm": 0.0030537112220166644,
+      "uniform_selection": 0.0012091271283749324,
+      "static_rank": 0.0030537112220166644,
+      "shortlist_hindsight_loss": 0.0
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 53,
+      "split": "development",
+      "classical": 0.001782346292927169,
+      "original_llm": 0.0019451567716080181,
+      "excluded_llm": 0.0029332946075906687,
+      "uniform_selection": 0.0019451567716080181,
+      "static_rank": 0.001782346292927169,
+      "shortlist_hindsight_loss": 0.001782346292927169
+    },
+    {
+      "dataset": "lrzip",
+      "system_group": "lrzip",
+      "seed": 71,
+      "split": "development",
+      "classical": 0.0006512419147233874,
+      "original_llm": 0.0006512419147233874,
+      "excluded_llm": 0.0006512419147233874,
+      "uniform_selection": 0.0006512419147233874,
+      "static_rank": 0.0006512419147233874,
+      "shortlist_hindsight_loss": 0.0006512419147233874
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 11,
+      "split": "development",
+      "classical": 0.0011204538856831455,
+      "original_llm": 0.00015278916622952002,
+      "excluded_llm": 0.0012274063020438096,
+      "uniform_selection": 0.0012274063020438096,
+      "static_rank": 0.0011204538856831455,
+      "shortlist_hindsight_loss": 0.0011204538856831455
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 23,
+      "split": "development",
+      "classical": 0.001441311134765137,
+      "original_llm": 0.0003870658877814507,
+      "excluded_llm": 0.0003870658877814507,
+      "uniform_selection": 0.00042780966544265543,
+      "static_rank": 0.0003310431934972933,
+      "shortlist_hindsight_loss": 0.0003310431934972933
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 37,
+      "split": "development",
+      "classical": 0.0002801134714207867,
+      "original_llm": 0.0002801134714207867,
+      "excluded_llm": 0.0002801134714207867,
+      "uniform_selection": 0.0002801134714207867,
+      "static_rank": 0.0002801134714207867,
+      "shortlist_hindsight_loss": 0.0002801134714207867
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 53,
+      "split": "development",
+      "classical": 0.00017316105506012268,
+      "original_llm": 0.00017316105506012268,
+      "excluded_llm": 0.00017316105506012268,
+      "uniform_selection": 0.00017316105506012268,
+      "static_rank": 0.00017316105506012268,
+      "shortlist_hindsight_loss": 0.00017316105506012268
+    },
+    {
+      "dataset": "brotli",
+      "system_group": "brotli",
+      "seed": 71,
+      "split": "development",
+      "classical": 0.00043290263765030613,
+      "original_llm": 0.000168068082852472,
+      "excluded_llm": 0.00043290263765030613,
+      "uniform_selection": 0.00042780966544265543,
+      "static_rank": 0.000168068082852472,
+      "shortlist_hindsight_loss": 0.000168068082852472
+    }
+  ],
+  "systems": [
+    {
+      "system_group": "brotli",
+      "n": 5,
+      "classical": 0.0006895884369158996,
+      "original_llm": 0.00023223953266887043,
+      "excluded_llm": 0.0005001298707912951,
+      "uniform_selection": 0.0005072600318820059,
+      "static_rank": 0.0004145679377027641,
+      "shortlist_hindsight_loss": 0.0004145679377027641
+    },
+    {
+      "system_group": "lrzip",
+      "n": 5,
+      "classical": 0.0013918717432266769,
+      "original_llm": 0.0025804333374524527,
+      "excluded_llm": 0.0020957000895683127,
+      "uniform_selection": 0.001037657477420757,
+      "static_rank": 0.0013918717432266769,
+      "shortlist_hindsight_loss": 0.0007632699560096007
+    },
+    {
+      "system_group": "mysql_family",
+      "n": 5,
+      "classical": 0.04465970191849365,
+      "original_llm": 0.04714611441392327,
+      "excluded_llm": 0.052502438616054505,
+      "uniform_selection": 0.03964211655825725,
+      "static_rank": 0.03220595321587208,
+      "shortlist_hindsight_loss": 0.02537492230909726
+    }
+  ],
+  "reliability": [
+    {
+      "arm": "uniform_selection",
+      "completed_or_fallback": 15,
+      "intended": 15,
+      "fallback_runs": 0,
+      "new_acquisitions": 150
+    },
+    {
+      "arm": "static_rank",
+      "completed_or_fallback": 15,
+      "intended": 15,
+      "fallback_runs": 0,
+      "new_acquisitions": 150
+    },
+    {
+      "arm": "llm",
+      "completed_or_fallback": 0,
+      "intended": 15,
+      "fallback_runs": 0,
+      "new_acquisitions": 0
+    }
+  ],
+  "intended": [
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    }
+  ],
+  "collection": {
+    "new_objective_accesses": 300,
+    "model_attempts": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "request_wall_seconds": 0,
+    "external_spend_usd": 0
+  },
+  "interpretation": "Direct selection guarantees table membership; this alone is not model benefit. Shortlist hindsight uses hidden targets retrospectively and is nondeployable.",
+  "deployment_scenario": {
+    "cases": 15,
+    "logical_labels": 300,
+    "model_requests": 15,
+    "status": "hypothetical LLM-only deployment, not actual research cost"
+  }
+}

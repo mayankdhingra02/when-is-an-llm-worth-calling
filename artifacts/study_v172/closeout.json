@@ -1,0 +1,47 @@
+{
+  "at": "2026-09-28T19:47:39.365268+00:00",
+  "stage": "v172_model_scale_headroom",
+  "new_generation_requests": 118,
+  "new_scientific_requests": 117,
+  "new_compatibility_requests": 1,
+  "model_starts_cumulative": 4973,
+  "server_launches": {
+    "P": true,
+    "A1": false,
+    "A1R": true,
+    "A2": true,
+    "B1": true,
+    "B2": true
+  },
+  "peak_server_rss_bytes": {
+    "P": 9996156928,
+    "A1": 0,
+    "A1R": 10421567488,
+    "A2": 11300208640,
+    "B1": 8656781312,
+    "B2": 8261091328
+  },
+  "allocated_output_tokens": 120832,
+  "new_recorded_acquisitions": 1400,
+  "recorded_acquisition_charges_cumulative": 43013,
+  "historical_incidental_exposures": 2,
+  "new_download_bytes": 9001785040,
+  "retained_download_bytes": 19381944226,
+  "retained_download_cap_bytes": 21474836480,
+  "download_bytes_remaining": 2092892254,
+  "model_payload_bytes": 18128110983,
+  "model_payload_cap_bytes": 20401094656,
+  "model_file": {
+    "path": "models/Qwen3-14B-Q4_K_M/Qwen3-14B-Q4_K_M.gguf",
+    "sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+    "bytes": 9001752960,
+    "revision": "530227a7d994db8eca5ab5ced2fb692b614357fd"
+  },
+  "evaluation_complete": true,
+  "external_spend_usd": 0,
+  "paid_or_cloud_requests": 0,
+  "caps_authorized_by": "artifacts/study_v172/authorization.json",
+  "failed_stages": {
+    "A1": "pre-start port bind failure (OSError 48); zero requests; superseded by A1R under amendment 1"
+  }
+}

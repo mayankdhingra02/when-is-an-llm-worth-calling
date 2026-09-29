@@ -1,0 +1,271 @@
+{
+  "key": "qwen3_8b_terasort_23",
+  "app": "terasort",
+  "system_group": "hadoop_mapreduce",
+  "seed": 23,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "sampling_seed": 148023,
+  "prefix": "artifacts/study_v148/prefixes/terasort_23.json",
+  "prefix_sha256": "9d207ed1dbb487e8e6d58ec654c6184c4a6fdcd4bd3ad0508f1731d857aedd7b",
+  "messages_path": "artifacts/study_v148/prompts/terasort_23.json",
+  "model": "qwen3_8b",
+  "status": "valid",
+  "selected_rows": [
+    47,
+    46,
+    48,
+    49,
+    44,
+    45,
+    50,
+    52,
+    42,
+    59
+  ],
+  "projection": [
+    {
+      "row_id": 47,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 46,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 48,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 49,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 44,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 45,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 50,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 52,
+      "distance": 0.022727272727272728,
+      "repeated_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 42,
+      "distance": 0.0,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 59,
+      "distance": 0.022727272727272728,
+      "repeated_proposal": true,
+      "matches_prefix": false
+    }
+  ],
+  "case": "terasort_23",
+  "state": {
+    "ids": [
+      43,
+      57,
+      35,
+      20,
+      16,
+      7,
+      34,
+      30,
+      29,
+      32,
+      47,
+      46,
+      48,
+      49,
+      44,
+      45,
+      50,
+      52,
+      42,
+      59
+    ],
+    "labels": [
+      [
+        7200.0
+      ],
+      [
+        889.35
+      ],
+      [
+        761.71
+      ],
+      [
+        1272.718
+      ],
+      [
+        1722.228
+      ],
+      [
+        1873.476
+      ],
+      [
+        695.247
+      ],
+      [
+        575.287
+      ],
+      [
+        925.062
+      ],
+      [
+        399.054
+      ],
+      [
+        7200.0
+      ],
+      [
+        7200.0
+      ],
+      [
+        915.311
+      ],
+      [
+        7200.0
+      ],
+      [
+        7200.0
+      ],
+      [
+        1105.027
+      ],
+      [
+        1824.755
+      ],
+      [
+        2661.386
+      ],
+      [
+        7200.0
+      ],
+      [
+        1372.351
+      ]
+    ],
+    "order": [
+      43,
+      57,
+      35,
+      20,
+      42,
+      7,
+      16,
+      60,
+      4,
+      55,
+      44,
+      58,
+      34,
+      63,
+      9,
+      50,
+      52,
+      30,
+      19,
+      24,
+      64,
+      56,
+      25,
+      41,
+      49,
+      15,
+      59,
+      38,
+      47,
+      67,
+      21,
+      18,
+      62,
+      36,
+      53,
+      11,
+      23,
+      68,
+      66,
+      13,
+      3,
+      61,
+      27,
+      40,
+      32,
+      51,
+      26,
+      31,
+      45,
+      5,
+      6,
+      1,
+      29,
+      65,
+      14,
+      0,
+      28,
+      17,
+      12,
+      46,
+      8,
+      22,
+      33,
+      48,
+      54,
+      39,
+      2,
+      10,
+      37
+    ]
+  },
+  "target": 399.054,
+  "fallback": false
+}

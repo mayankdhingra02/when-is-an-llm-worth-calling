@@ -1,0 +1,22 @@
+{
+  "all_rejected": true,
+  "scope": "In-memory decoded semantic mutations; original files unchanged and transport hashes still pass",
+  "cases": [
+    {
+      "mutation": "reported_gain",
+      "rejected": true
+    },
+    {
+      "mutation": "request_undercount",
+      "rejected": true
+    },
+    {
+      "mutation": "acquired_target",
+      "rejected": true
+    },
+    {
+      "mutation": "late_selection",
+      "rejected": true
+    }
+  ]
+}

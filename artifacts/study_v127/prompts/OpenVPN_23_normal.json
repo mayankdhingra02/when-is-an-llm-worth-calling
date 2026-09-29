@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"root\",\"tcp\",\"compression\",\"none\",\"lzo\",\"cipher\",\"AES_256_CBC\",\"AES_128_CBC\",\"TCP_NODEAL\",\"prng\",\"prng_none\",\"prng_rsa_sha512\",\"prng_sha512\",\"prng_sha1\",\"auth\",\"auth_none\",\"auth_sha1\",\"auth_sha512\",\"auth_rsa_sha512\",\"reneg_bytes_10\",\"reneg_bytes_30\",\"reneg_bytes_50\",\"reneg_bytes_70\",\"reneg_bytes\"],\"symbol_to_value\":[[1.0],[1.0],[1.0],[0.0,1.0],[0.0,1.0],[1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[1.0]],\"observed_examples\":[{\"settings\":\"000010011000010000110000\",\"performance\":\"441.125026\"},{\"settings\":\"000100100000010000100010\",\"performance\":\"636.335838\"},{\"settings\":\"000010100000010001000100\",\"performance\":\"443.753028\"},{\"settings\":\"000100010000010010000010\",\"performance\":\"761.205428\"},{\"settings\":\"000100010000010001000010\",\"performance\":\"648.240611\"},{\"settings\":\"000100010000010100000010\",\"performance\":\"867.376980\"},{\"settings\":\"000100010000010000100010\",\"performance\":\"651.854881\"},{\"settings\":\"000100011000010100000010\",\"performance\":\"861.946493\"},{\"settings\":\"000100010000010100010000\",\"performance\":\"862.135017\"},{\"settings\":\"000100010000010100001000\",\"performance\":\"863.375757\"}],\"performance_meaning\":\"iperf3 TCP throughput in Mbits/s\",\"direction\":\"maximize\"}"
+  }
+]

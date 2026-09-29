@@ -1,0 +1,12 @@
+{
+ "at": "2026-09-28T18:07:18.944511+00:00",
+ "purpose": "Freeze the V171 post-hoc audit outputs and the V172 proposal design before any V172 authorization, download, request or acquisition.",
+ "v172_status": "not authorized for collection; requires owner approval of cap increases and freed disk",
+ "sha256": {
+  "scripts/audit_v171.py": "0bdda41e6643cd2fd55b2fce22738216afeb3d6bb85fc809efc941ff4d44fef8",
+  "tests/synthetic/test_audit_v171.py": "8628e526098f2b035ebb2dd1542a92b689d1a5936a478272fc7f5f300859294f",
+  "results/v171_audit/audit.json": "15a371967085e35069f6c303049e982fc4f68127e4fde920928a2de0625bb32c",
+  "reports/proposal_v172.md": "7fc9ff5a4ba9728b1208fc9971547b1bd879e84763d2d459f9fc7d8c56b4c988",
+  "configs/proposal_v172.json": "8cadddedfc43b561197b56fb8e763ed9d07274bd30cfaba6e2c0220cf7e3bd9d"
+ }
+}

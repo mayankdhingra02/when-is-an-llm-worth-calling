@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize polars configuration from ten acquired outcomes. Return a JSON array of ten 5-digit strings ordered most promising first. Each digit indexes the listed values for its feature. Avoid duplicate proposals and propose diverse promising settings. Only the first seven projected unseen settings will be measured; three remaining evaluations are reserved for fresh validation of the best observed setting."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"threads\",\"engine\",\"predicate_pushdown\",\"projection_pushdown\",\"comm_subplan_elim\"],\"indexed_values\":[[1,2,4,6],[\"in-memory\",\"streaming\"],[false,true],[false,true],[false,true]],\"observed_examples\":[{\"settings\":[2,\"in-memory\",false,false,true],\"loss_seconds\":0.08829962500021793},{\"settings\":[6,\"in-memory\",false,true,false],\"loss_seconds\":0.04507529200054705},{\"settings\":[1,\"in-memory\",false,false,true],\"loss_seconds\":0.15063800000643823},{\"settings\":[1,\"streaming\",true,true,true],\"loss_seconds\":0.06975870799215045},{\"settings\":[2,\"streaming\",true,true,false],\"loss_seconds\":0.07114179099153262},{\"settings\":[1,\"streaming\",true,true,false],\"loss_seconds\":0.12864087498746812},{\"settings\":[6,\"in-memory\",true,true,true],\"loss_seconds\":0.025796707996050827},{\"settings\":[6,\"streaming\",false,true,true],\"loss_seconds\":0.02418779100116808},{\"settings\":[6,\"in-memory\",false,true,true],\"loss_seconds\":0.03791133299819194},{\"settings\":[6,\"streaming\",true,false,true],\"loss_seconds\":0.02232874999754131}],\"objective\":\"Minimize elapsed time for the three fixed nycflights13 queries (monthly carrier delay totals, high-altitude routes, delayed summer flights with older aircraft), including CSV scanning/parsing of336776flights and joins to airline/airport/plane tables. All integer/string results must be exact.\",\"direction\":\"minimize\",\"projection\":\"Normalized ordinal-coordinate L1 nearest unseen setting; seeded order breaks ties.\"}"
+  }
+]

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v149.py", line 128, in <module>
+    if __name__=='__main__':main()
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v149.py", line 116, in main
+    folds=read(OUT/'folds.json');c=read(OUT/'comparison.json');count=verify(folds,c,rows);mut=[]
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v149.py", line 86, in verify
+    cals[kind]=calibration(ss,train,v['calibration']);close(v['quantile80'],quant(ss,train,.8))
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v149.py", line 62, in calibration
+    else:close(a[k],b[k])
+  File "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/verify_router_v149.py", line 6, in close
+    def close(a,b):assert math.isclose(float(a),float(b),rel_tol=1e-8,abs_tol=1e-10),(a,b)
+AssertionError: (-0.07625400587142171, -0.07251741518336877)

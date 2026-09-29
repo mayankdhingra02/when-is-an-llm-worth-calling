@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"gvn\",\"instcombine\",\"inline\",\"jump_threading\",\"simplifycfg\",\"sccp\",\"print_used_types\",\"ipsccp\",\"iv_users\",\"licm\"],\"symbol_to_value\":[[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0],[0.0,1.0]],\"observed_examples\":[{\"settings\":\"1001011111\",\"performance\":\"239.036667\"},{\"settings\":\"0010010111\",\"performance\":\"265.380000\"},{\"settings\":\"0101010011\",\"performance\":\"233.416667\"},{\"settings\":\"1000000101\",\"performance\":\"232.616667\"},{\"settings\":\"0000000001\",\"performance\":\"258.826667\"},{\"settings\":\"0100000001\",\"performance\":\"257.333333\"},{\"settings\":\"1001000000\",\"performance\":\"232.200000\"},{\"settings\":\"1000000000\",\"performance\":\"234.680000\"},{\"settings\":\"1000010000\",\"performance\":\"229.166667\"},{\"settings\":\"1000000010\",\"performance\":\"219.153333\"}],\"performance_meaning\":\"Compiler optimization time\",\"direction\":\"minimize\"}"
+  }
+]

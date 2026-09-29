@@ -1,0 +1,4724 @@
+{
+  "ecosystem": {
+    "qwen3_8b": [
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.06123960248456796,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.06123960248456796,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.0225564156012864,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.016616876643115064,
+                "rate": 0.525,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.0027261608923425194,
+                "rate": 0.275,
+                "threshold": 0.6888756867187921
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.03333333333333333,
+                "threshold": 0.738489737332607
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.06123960248456796,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.04137276672267482,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.03348099068922246,
+                "rate": 0.3333333333333333,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "berkeleydb",
+        "held_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.02573901747135282,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.02573901747135282,
+                "rate": 1.0,
+                "threshold": 0.3694246242952091
+              },
+              {
+                "gain": -0.017016513185717733,
+                "rate": 0.7666666666666668,
+                "threshold": 0.6419843849299399
+              },
+              {
+                "gain": -0.013837244636119087,
+                "rate": 0.5208333333333333,
+                "threshold": 0.6806085436726581
+              },
+              {
+                "gain": -0.0022697578279624736,
+                "rate": 0.2666666666666666,
+                "threshold": 0.696278309446432
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.02573901747135282,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.020998711810587645,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.012932746748158709,
+                "rate": 0.3,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "dune_hsmgp",
+        "held_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.056286807207690734,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.056286807207690734,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.017603620324409177,
+                "rate": 0.7708333333333335,
+                "threshold": 0.6226344385781339
+              },
+              {
+                "gain": -0.013879531010181162,
+                "rate": 0.5041666666666667,
+                "threshold": 0.6739363248732112
+              },
+              {
+                "gain": -0.0022697578279624736,
+                "rate": 0.2666666666666666,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.056286807207690734,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03931708808062858,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.032859471617902564,
+                "rate": 0.3333333333333333,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "hipacc",
+        "held_keys": [
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05753281650326672,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05753281650326672,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.018849629619985167,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.012752638720691732,
+                "rate": 0.5249999999999999,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.0022697578279624736,
+                "rate": 0.26666666666666666,
+                "threshold": 0.696278309446432
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05753281650326672,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03766598074137358,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.032859471617902564,
+                "rate": 0.36666666666666664,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "llvm",
+        "held_keys": [
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04967136986391341,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.04967136986391341,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.010988182980631856,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.003017107343390222,
+                "rate": 0.5166666666666667,
+                "threshold": 0.6703430590166494
+              },
+              {
+                "gain": -0.0016482387566425821,
+                "rate": 0.26666666666666666,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04967136986391341,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.029943649263321805,
+                "rate": 0.7166666666666668,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.021538422137388796,
+                "rate": 0.3333333333333333,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "openvpn",
+        "held_keys": [
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.06045886183305603,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.06045886183305603,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.021775674949774483,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.01583613599160314,
+                "rate": 0.525,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.0011977883061921317,
+                "rate": 0.26666666666666666,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.06045886183305603,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.0405920260711629,
+                "rate": 0.6166666666666667,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.032859471617902564,
+                "rate": 0.3,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "sac",
+        "held_keys": [
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05586073167052458,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05586073167052458,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.019645131167439784,
+                "rate": 0.7666666666666667,
+                "threshold": 0.6310484712576344
+              },
+              {
+                "gain": -0.01297026008977455,
+                "rate": 0.5,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.0009639015429310947,
+                "rate": 0.2666666666666667,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05586073167052458,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.0376979697732641,
+                "rate": 0.6333333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.031415967792892255,
+                "rate": 0.33333333333333337,
+                "threshold": 0.30000000000000004
+              },
+              {
+                "gain": -0.011321049480513769,
+                "rate": 0.06666666666666667,
+                "threshold": 0.6
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "spark_hadoop_ecosystem",
+        "held_keys": [
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ]
+      }
+    ],
+    "smollm3_3b": [
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05726719409005017,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05726719409005017,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.020197014769423274,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.015019336025787618,
+                "rate": 0.525,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.001869472728105106,
+                "rate": 0.275,
+                "threshold": 0.6888756867187921
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.03333333333333333,
+                "threshold": 0.738489737332607
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05726719409005017,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03903647203467834,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.03178601932918196,
+                "rate": 0.3333333333333333,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "berkeleydb",
+        "held_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.02300002774232081,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.02300002774232081,
+                "rate": 1.0,
+                "threshold": 0.3694246242952091
+              },
+              {
+                "gain": -0.01564149784476167,
+                "rate": 0.7666666666666668,
+                "threshold": 0.6419843849299399
+              },
+              {
+                "gain": -0.014034279927137655,
+                "rate": 0.5208333333333333,
+                "threshold": 0.6806085436726581
+              },
+              {
+                "gain": -0.0014149131508899551,
+                "rate": 0.2666666666666666,
+                "threshold": 0.696278309446432
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.02300002774232081,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.019776122539438005,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.012147023558708319,
+                "rate": 0.3,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "dune_hsmgp",
+        "held_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05348902757762693,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05348902757762693,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.01641884825700002,
+                "rate": 0.7708333333333335,
+                "threshold": 0.6226344385781339
+              },
+              {
+                "gain": -0.014027865297223767,
+                "rate": 0.5041666666666667,
+                "threshold": 0.6739363248732112
+              },
+              {
+                "gain": -0.0014149131508899551,
+                "rate": 0.2666666666666666,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05348902757762693,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03740081576617435,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.031786019329181944,
+                "rate": 0.3333333333333333,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "hipacc",
+        "held_keys": [
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05453256663966729,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05453256663966729,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.01746238731904039,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.0129496740117103,
+                "rate": 0.5249999999999999,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.0014149131508899551,
+                "rate": 0.26666666666666666,
+                "threshold": 0.696278309446432
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05453256663966729,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03630184458429546,
+                "rate": 0.6833333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.031786019329181944,
+                "rate": 0.36666666666666664,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "llvm",
+        "held_keys": [
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04602417729548309,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.04602417729548309,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.00895399797485619,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.002319410087265072,
+                "rate": 0.5166666666666667,
+                "threshold": 0.6703430590166494
+              },
+              {
+                "gain": -0.0014149131508899551,
+                "rate": 0.26666666666666666,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04602417729548309,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.02779345524011126,
+                "rate": 0.7166666666666668,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.019991651111524015,
+                "rate": 0.3333333333333333,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "openvpn",
+        "held_keys": [
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05714587284046835,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05714587284046835,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.02007569351984145,
+                "rate": 0.7708333333333335,
+                "threshold": 0.5975857945306128
+              },
+              {
+                "gain": -0.014898014776205797,
+                "rate": 0.525,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.0009644627004395047,
+                "rate": 0.26666666666666666,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05714587284046835,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.038915150785096525,
+                "rate": 0.6166666666666667,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.03178601932918195,
+                "rate": 0.3,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.004166666666666667,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "sac",
+        "held_keys": [
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05545240689322951,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05545240689322951,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.019974803487691258,
+                "rate": 0.7666666666666667,
+                "threshold": 0.6310484712576344
+              },
+              {
+                "gain": -0.014102998228848815,
+                "rate": 0.5,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.0009639015429310947,
+                "rate": 0.2666666666666667,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0005134510924806442,
+                "rate": 0.03333333333333333,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05545240689322951,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03830307979682124,
+                "rate": 0.6333333333333333,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.03205651958643958,
+                "rate": 0.33333333333333337,
+                "threshold": 0.30000000000000004
+              },
+              {
+                "gain": -0.011794368217657936,
+                "rate": 0.06666666666666667,
+                "threshold": 0.6
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "spark_hadoop_ecosystem",
+        "held_keys": [
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ]
+      }
+    ]
+  },
+  "engine": {
+    "qwen3_8b": [
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05821039887816268,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05821039887816268,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.025023335342881352,
+                "rate": 0.7523809523809525,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.015025360178601963,
+                "rate": 0.5028571428571429,
+                "threshold": 0.6523197436923536
+              },
+              {
+                "gain": -0.0028349916641897265,
+                "rate": 0.2571428571428571,
+                "threshold": 0.6888756867187921
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.02857142857142857,
+                "threshold": 0.738489737332607
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05821039887816268,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.0387472912756362,
+                "rate": 0.7047619047619048,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.030233446912855674,
+                "rate": 0.38857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "berkeleydb",
+        "held_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.027781326009692575,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.027781326009692575,
+                "rate": 1.0,
+                "threshold": 0.3694246242952091
+              },
+              {
+                "gain": -0.017097892531149853,
+                "rate": 0.7657142857142858,
+                "threshold": 0.6396626028358633
+              },
+              {
+                "gain": -0.012306373169079263,
+                "rate": 0.5085714285714286,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.0026170899419839726,
+                "rate": 0.2742857142857143,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.027781326009692575,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.02128381563670434,
+                "rate": 0.7047619047619048,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.01262066639194389,
+                "rate": 0.36,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "dune_hsmgp",
+        "held_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05059623809880181,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05059623809880181,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.017097892531149853,
+                "rate": 0.7657142857142858,
+                "threshold": 0.6396626028358633
+              },
+              {
+                "gain": -0.012306373169079263,
+                "rate": 0.5085714285714287,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.002617089941983973,
+                "rate": 0.2742857142857143,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05059623809880181,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03502815647257855,
+                "rate": 0.6857142857142857,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.02873335719658806,
+                "rate": 0.33142857142857146,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "hadoop_mapreduce",
+        "held_keys": [
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.0539651457836965,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.0539651457836965,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.02077808224841516,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.012828586778962463,
+                "rate": 0.5085714285714287,
+                "threshold": 0.6716158260372312
+              },
+              {
+                "gain": -0.0020843593094240654,
+                "rate": 0.27428571428571424,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.0539651457836965,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03698528101102514,
+                "rate": 0.7047619047619049,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.029700716280295768,
+                "rate": 0.38857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "hipacc",
+        "held_keys": [
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05503315375133305,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05503315375133305,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.021846090216051724,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.01158889131746552,
+                "rate": 0.5028571428571429,
+                "threshold": 0.6723476999472705
+              },
+              {
+                "gain": -0.0026170899419839726,
+                "rate": 0.27428571428571424,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05503315375133305,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.030377612720828215,
+                "rate": 0.5028571428571429,
+                "threshold": 0.30000000000000004
+              },
+              {
+                "gain": -0.029700716280295768,
+                "rate": 0.41714285714285715,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "llvm",
+        "held_keys": [
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04829477091760165,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.04829477091760165,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.015107707382320316,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.005199830081819622,
+                "rate": 0.5257142857142858,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.0020843593094240654,
+                "rate": 0.25142857142857145,
+                "threshold": 0.6935455680970704
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04829477091760165,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.028950904881905052,
+                "rate": 0.7333333333333334,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.01999695958271254,
+                "rate": 0.38857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "openvpn",
+        "held_keys": [
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.057541192605438184,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.057541192605438184,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.02435412907015685,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.014356153905877463,
+                "rate": 0.502857142857143,
+                "threshold": 0.6523197436923536
+              },
+              {
+                "gain": -0.0016982589233236795,
+                "rate": 0.25142857142857145,
+                "threshold": 0.6935455680970704
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.057541192605438184,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.0380780850029117,
+                "rate": 0.6476190476190478,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.029700716280295768,
+                "rate": 0.36,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "sac",
+        "held_keys": [
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05540215822937687,
+                "rate": 0.9999999999999999,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05540215822937687,
+                "rate": 0.9999999999999999,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.022215094694095536,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.012895108505054253,
+                "rate": 0.5142857142857142,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.00029347068995245963,
+                "rate": 0.2571428571428571,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05540215822937687,
+                "rate": 0.9999999999999999,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03593905062685039,
+                "rate": 0.6476190476190476,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.02721843503708291,
+                "rate": 0.2857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": -0.010057482734743143,
+                "rate": 0.08571428571428572,
+                "threshold": 0.6
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "spark",
+        "held_keys": [
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ]
+      }
+    ],
+    "smollm3_3b": [
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.052361699641535045,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.052361699641535045,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.020127851006855067,
+                "rate": 0.7523809523809525,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.01273013470288023,
+                "rate": 0.5028571428571429,
+                "threshold": 0.6523197436923536
+              },
+              {
+                "gain": -0.0016601050389498453,
+                "rate": 0.2571428571428571,
+                "threshold": 0.6888756867187921
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.02857142857142857,
+                "threshold": 0.738489737332607
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.052361699641535045,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03519051650983982,
+                "rate": 0.7047619047619048,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.027432824645614782,
+                "rate": 0.38857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "berkeleydb",
+        "held_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.022989842772052724,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.022989842772052724,
+                "rate": 1.0,
+                "threshold": 0.3694246242952091
+              },
+              {
+                "gain": -0.015210090100018732,
+                "rate": 0.7657142857142858,
+                "threshold": 0.6396626028358633
+              },
+              {
+                "gain": -0.011994041953809391,
+                "rate": 0.5085714285714286,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.00144473152771309,
+                "rate": 0.2742857142857143,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.022989842772052724,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.01868164551391953,
+                "rate": 0.7047619047619048,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.010599399699494524,
+                "rate": 0.36,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "dune_hsmgp",
+        "held_keys": [
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.047687631604626204,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.047687631604626204,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.01521009010001873,
+                "rate": 0.7657142857142858,
+                "threshold": 0.6396626028358633
+              },
+              {
+                "gain": -0.011994041953809391,
+                "rate": 0.5085714285714287,
+                "threshold": 0.6786828143520254
+              },
+              {
+                "gain": -0.00144473152771309,
+                "rate": 0.2742857142857143,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.047687631604626204,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.032988208379133396,
+                "rate": 0.6857142857142857,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.027417075604032504,
+                "rate": 0.33142857142857146,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "hadoop_mapreduce",
+        "held_keys": [
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04912327120231511,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.04912327120231511,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.016889422567635138,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.012103068300486448,
+                "rate": 0.5085714285714287,
+                "threshold": 0.6716158260372312
+              },
+              {
+                "gain": -0.00144473152771309,
+                "rate": 0.27428571428571424,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.04912327120231511,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03378852542255069,
+                "rate": 0.7047619047619049,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.027432824645614785,
+                "rate": 0.38857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "hipacc",
+        "held_keys": [
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05001773325549257,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05001773325549257,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.017783884620812596,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.011209770153885757,
+                "rate": 0.5028571428571429,
+                "threshold": 0.6723476999472705
+              },
+              {
+                "gain": -0.00144473152771309,
+                "rate": 0.27428571428571424,
+                "threshold": 0.6940934104461491
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05001773325549257,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.027966958015593082,
+                "rate": 0.5028571428571429,
+                "threshold": 0.30000000000000004
+              },
+              {
+                "gain": -0.027432824645614785,
+                "rate": 0.41714285714285715,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "llvm",
+        "held_keys": [
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.042724828103334694,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.042724828103334694,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.01049097946865471,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.0032287525694722225,
+                "rate": 0.5257142857142858,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.0010661933829147258,
+                "rate": 0.25142857142857145,
+                "threshold": 0.6935455680970704
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.042724828103334694,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.025553644971639467,
+                "rate": 0.7333333333333334,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.017323366173336557,
+                "rate": 0.38857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "openvpn",
+        "held_keys": [
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.052257709999036346,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.052257709999036346,
+                "rate": 1.0,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.020023861364356365,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.012626145060381528,
+                "rate": 0.502857142857143,
+                "threshold": 0.6523197436923536
+              },
+              {
+                "gain": -0.0006800929968143396,
+                "rate": 0.25142857142857145,
+                "threshold": 0.6935455680970704
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.052257709999036346,
+                "rate": 1.0,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03508652686734112,
+                "rate": 0.6476190476190478,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.027432824645614785,
+                "rate": 0.36,
+                "threshold": 0.4
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.005714285714285714,
+                "threshold": 0.95
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "sac",
+        "held_keys": [
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ]
+      },
+      {
+        "calibrations": {
+          "gp_uncertainty_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05267728945089772,
+                "rate": 0.9999999999999999,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.05267728945089772,
+                "rate": 0.9999999999999999,
+                "threshold": 0.3245422416658617
+              },
+              {
+                "gain": -0.020443440816217743,
+                "rate": 0.7523809523809524,
+                "threshold": 0.47641446240974894
+              },
+              {
+                "gain": -0.013359791004042889,
+                "rate": 0.5142857142857142,
+                "threshold": 0.660069556618086
+              },
+              {
+                "gain": -0.0008262013225123668,
+                "rate": 0.2571428571428571,
+                "threshold": 0.6935868750282229
+              },
+              {
+                "gain": -0.0004401009364119807,
+                "rate": 0.02857142857142857,
+                "threshold": 0.7464465087558975
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          },
+          "rank_calibrated": {
+            "grid": [
+              {
+                "gain": -0.05267728945089772,
+                "rate": 0.9999999999999999,
+                "threshold": 0.0
+              },
+              {
+                "gain": -0.03550610631920249,
+                "rate": 0.6476190476190476,
+                "threshold": 0.19999999999999996
+              },
+              {
+                "gain": -0.026958632459980772,
+                "rate": 0.2857142857142857,
+                "threshold": 0.4
+              },
+              {
+                "gain": -0.01196681294716033,
+                "rate": 0.08571428571428572,
+                "threshold": 0.6
+              },
+              {
+                "gain": 0.0,
+                "rate": 0.0,
+                "threshold": null
+              }
+            ],
+            "selected": {
+              "gain": 0.0,
+              "rate": 0.0,
+              "threshold": null
+            }
+          }
+        },
+        "held_group": "spark",
+        "held_keys": [
+          "spark::bayes_11",
+          "spark::bayes_23",
+          "spark::bayes_37",
+          "spark::bayes_53",
+          "spark::bayes_71",
+          "spark::pagerank_11",
+          "spark::pagerank_23",
+          "spark::pagerank_37",
+          "spark::pagerank_53",
+          "spark::pagerank_71",
+          "spark::terasort_11",
+          "spark::terasort_23",
+          "spark::terasort_37",
+          "spark::terasort_53",
+          "spark::terasort_71",
+          "spark::tpch_11",
+          "spark::tpch_23",
+          "spark::tpch_37",
+          "spark::tpch_53",
+          "spark::tpch_71",
+          "spark::wordcount_11",
+          "spark::wordcount_23",
+          "spark::wordcount_37",
+          "spark::wordcount_53",
+          "spark::wordcount_71"
+        ],
+        "training_keys": [
+          "berkeleydb::BDBC_AllNumeric_11_normal",
+          "berkeleydb::BDBC_AllNumeric_23_normal",
+          "berkeleydb::BDBC_AllNumeric_37_normal",
+          "berkeleydb::BDBC_AllNumeric_53_normal",
+          "berkeleydb::BDBC_AllNumeric_71_normal",
+          "dune_hsmgp::Dune_AllNumeric_11_normal",
+          "dune_hsmgp::Dune_AllNumeric_23_normal",
+          "dune_hsmgp::Dune_AllNumeric_37_normal",
+          "dune_hsmgp::Dune_AllNumeric_53_normal",
+          "dune_hsmgp::Dune_AllNumeric_71_normal",
+          "hadoop_mapreduce::pagerank_11",
+          "hadoop_mapreduce::pagerank_23",
+          "hadoop_mapreduce::pagerank_37",
+          "hadoop_mapreduce::pagerank_53",
+          "hadoop_mapreduce::pagerank_71",
+          "hadoop_mapreduce::terasort_11",
+          "hadoop_mapreduce::terasort_23",
+          "hadoop_mapreduce::terasort_37",
+          "hadoop_mapreduce::terasort_53",
+          "hadoop_mapreduce::terasort_71",
+          "hadoop_mapreduce::wordcount_11",
+          "hadoop_mapreduce::wordcount_23",
+          "hadoop_mapreduce::wordcount_37",
+          "hadoop_mapreduce::wordcount_53",
+          "hadoop_mapreduce::wordcount_71",
+          "hipacc::hipacc_AllNumeric_11_normal",
+          "hipacc::hipacc_AllNumeric_23_normal",
+          "hipacc::hipacc_AllNumeric_37_normal",
+          "hipacc::hipacc_AllNumeric_53_normal",
+          "hipacc::hipacc_AllNumeric_71_normal",
+          "llvm::LLVM_AllNumeric_11_normal",
+          "llvm::LLVM_AllNumeric_23_normal",
+          "llvm::LLVM_AllNumeric_37_normal",
+          "llvm::LLVM_AllNumeric_53_normal",
+          "llvm::LLVM_AllNumeric_71_normal",
+          "openvpn::OpenVPN_11_normal",
+          "openvpn::OpenVPN_23_normal",
+          "openvpn::OpenVPN_37_normal",
+          "openvpn::OpenVPN_53_normal",
+          "openvpn::OpenVPN_71_normal",
+          "sac::sac_AllNumeric_11_normal",
+          "sac::sac_AllNumeric_23_normal",
+          "sac::sac_AllNumeric_37_normal",
+          "sac::sac_AllNumeric_53_normal",
+          "sac::sac_AllNumeric_71_normal"
+        ]
+      }
+    ]
+  }
+}

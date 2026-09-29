@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You optimize software configurations from ten acquired measurements. Infer useful settings from their relationship to performance. Propose ten diverse, promising configurations. Each setting string encodes each feature by its index in symbol_to_value using 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz. Proposals will be projected by feature distance to valid unobserved configurations. Output only a JSON array of ten setting strings. Do not repeat observed settings or your own proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"mode_0fast_1normal_2high_3veryhigh\",\"extra_processing\",\"block_samples_0automatic\"],\"symbol_to_value\":[[0,1,2,3],[0,2,4,6],[0,2048,8192,32768,65536]],\"observed_examples\":[{\"settings\":\"330\",\"performance\":\"432438.000000\"},{\"settings\":\"100\",\"performance\":\"445636.000000\"},{\"settings\":\"300\",\"performance\":\"437470.000000\"},{\"settings\":\"010\",\"performance\":\"451068.000000\"},{\"settings\":\"204\",\"performance\":\"441234.000000\"},{\"settings\":\"304\",\"performance\":\"436898.000000\"},{\"settings\":\"314\",\"performance\":\"436624.000000\"},{\"settings\":\"334\",\"performance\":\"432324.000000\"},{\"settings\":\"331\",\"performance\":\"447692.000000\"},{\"settings\":\"324\",\"performance\":\"432198.000000\"}],\"performance_meaning\":\"Sum of lossless WavPack 5.9.0 file bytes on three fixed16kHz mono16-bit speech clips. Smaller is better. All results must reconstruct identical samples; one thread, no lossy/hybrid mode. Mode0fast,1normal,2high,3veryhigh; extra processing0,2,4,6; block0means encoder automatic.\",\"direction\":\"minimize\"}"
+  }
+]

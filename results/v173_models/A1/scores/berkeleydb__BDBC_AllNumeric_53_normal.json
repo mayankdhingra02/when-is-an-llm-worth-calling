@@ -1,0 +1,88 @@
+{
+  "origin": "v141",
+  "key": "BDBC_AllNumeric_53_normal",
+  "qualified_key": "berkeleydb::BDBC_AllNumeric_53_normal",
+  "system_group": "berkeleydb",
+  "seed": 53,
+  "domains": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "messages_path": "artifacts/study_v141/prompts/BDBC_AllNumeric_53_normal.json",
+  "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_53.json",
+  "prefix_sha256": "3459f85ebd981929153b0910d7e2a55229e9c96ef8d7d0c4b0afac688020767a",
+  "sampling_seed": 141053,
+  "redraw_seed": 313053,
+  "historical_qwen3_8b_preflight": "results/v141_models/qwen3_8b/preflight/BDBC_AllNumeric_53_normal.json",
+  "dataset": "BDBC_AllNumeric",
+  "split": 1,
+  "stage": "A1",
+  "seed_used": 141053,
+  "status": "invalid",
+  "score": null,
+  "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"openai/gpt-oss-120b is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"CoreWeave\",\"is_byok\":false,\"provider_error_code\":\"rate_limit_exceeded\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy_hint\":\"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing\"}},\"user_id\":\"user_3IKLiZomTFZHWG0RPO51izuLYqd\"}",
+  "served_by": null,
+  "usage": null
+}

@@ -1,0 +1,23 @@
+{
+  "at_unix": 1790585710.9488142,
+  "sha256": {
+    "reports/protocol_v162.md": "6d8ddc10ad080812202e77e789f5dcdbdc2ef9b9980ac9070d6ad53d063522f5",
+    "scripts/app_worker_v162.py": "e5995e5697a6b884314b8df73150720cd6a2f5298dcb172a3d575a30eb1c440e",
+    "scripts/app_feasibility_v162.py": "37c5e10a8800e84314024c888c15164f0ac8e7641b1db9fa6f2302f56164c194",
+    "scripts/hnsw_worker_v161.cpp": "4c9b7dd4d8b8e72b7365642c0728b153e7dd4e60272923f631b18a72c02e0bde",
+    "tests/synthetic/test_apps_v161.py": "f76be30012055c9c7b0642df83e5a781bbf255a932546856f08319b0b833ad5f",
+    "artifacts/study_v162/candidates.json": "99368c7d5618ad31965ee730b6fdb2210da579aeb7413ccee951bd7818acbb4e",
+    "artifacts/study_v162/jobs.json": "fefe3f16e3e15649fe4a22d8b954fb66250606ff2f96e013e87372b7ce95c816",
+    "artifacts/study_v160/ann_train.f32": "8759baab089c3742d5e0d23810ee9f130c25ef2bb82c6e3ff7f788dda8eb3447",
+    "artifacts/study_v160/ann_query.f32": "a627aed550b0b29bf76a981bc1ecbab5ef775aac454c94154f20ec9f61a04c83",
+    "artifacts/study_v160/ann_kth_squared.npy": "9071fb40a44ab48547d01bc90a319dadd600717bfeb8107b7cbc8b1151b35cc5",
+    "artifacts/study_v160/rg_reference.json": "8520faa78bf90a20dc9868f600713964cea4877d54c05beb9adadbf263bbfd78",
+    "artifacts/study_v160/references.json": "87e7fe6ba4ad02218a19830ee8d5ffac7a156af0669b1741b065f02c5c299268",
+    "artifacts/study_v162/query_references.json": "0c6a4d5174d8164ae65d35c37a5794848f927aac50a28b5eb69bbfe1ad956782",
+    "artifacts/study_v160/corpus_files.json": "2b9cc462de42a2fe931cdb0dc36780837c8f2ee5358056ca919557fe75a79fec",
+    ".native-v160/bin/hnsw_worker_v161": "39b3831cbb97500de2c744064c56a800ed44612fbde2799432c6d96f43036477",
+    ".native-v160/ripgrep-15.2.0-aarch64-apple-darwin/rg": "a326a1fb48074202e9ad41e4cd1e389eeea372c8c6f7d7e80da81176d5d9430e"
+  },
+  "native_cap": 40,
+  "seconds_cap": 600
+}

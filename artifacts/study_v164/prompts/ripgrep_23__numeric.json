@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize ripgrep configuration from ten acquired outcomes. Return a JSON array of ten 4-digit strings ordered most promising first. Each digit indexes the listed values for its feature. Avoid duplicate proposals and propose diverse promising settings. Only the first seven projected unseen settings will be measured; three remaining evaluations are reserved for fresh validation of the best observed setting."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"threads\",\"mmap\",\"buffering\",\"engine\"],\"indexed_values\":[[1,2,3,4,6,8,10,12],[false,true],[\"block\",\"line\"],[\"default\",\"pcre2\"]],\"observed_examples\":[{\"settings\":[6,false,\"line\",\"default\"],\"loss_seconds\":0.2627064580010483},{\"settings\":[8,true,\"line\",\"pcre2\"],\"loss_seconds\":0.3483149579988094},{\"settings\":[3,false,\"block\",\"default\"],\"loss_seconds\":0.3058065829973202},{\"settings\":[6,true,\"line\",\"default\"],\"loss_seconds\":0.2495384580033715},{\"settings\":[6,true,\"block\",\"default\"],\"loss_seconds\":0.2516142500026035},{\"settings\":[4,true,\"line\",\"default\"],\"loss_seconds\":0.28281366599549074},{\"settings\":[10,true,\"block\",\"default\"],\"loss_seconds\":0.27908320799906505},{\"settings\":[8,true,\"block\",\"default\"],\"loss_seconds\":0.2895851670036791},{\"settings\":[10,false,\"line\",\"default\"],\"loss_seconds\":0.27672604200051865},{\"settings\":[12,false,\"line\",\"default\"],\"loss_seconds\":0.2803920000005746}],\"objective\":\"Complete five fixed keyword-count queries over a fixed 3407-file CPython source tree. All file counts must be exact. Minimize total elapsed time for all five queries, including native process launch and count emission. Every setting does the same work.\",\"direction\":\"minimize\",\"projection\":\"Normalized ordinal-coordinate L1 nearest unseen setting; seeded order breaks ties.\"}"
+  }
+]

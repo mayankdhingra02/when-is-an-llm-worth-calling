@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize polars configuration from ten acquired outcomes. Return a JSON array of ten 5-digit strings ordered most promising first. Each digit indexes the listed values for its feature. Avoid duplicate proposals and propose diverse promising settings. Only the first seven projected unseen settings will be measured; three remaining evaluations are reserved for fresh validation of the best observed setting."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"threads\",\"engine\",\"predicate_pushdown\",\"projection_pushdown\",\"comm_subplan_elim\"],\"indexed_values\":[[1,2,4,6],[\"in-memory\",\"streaming\"],[false,true],[false,true],[false,true]],\"observed_examples\":[{\"settings\":[2,\"in-memory\",false,false,true],\"loss_seconds\":0.08924941600707825},{\"settings\":[2,\"streaming\",true,true,false],\"loss_seconds\":0.07010083300701808},{\"settings\":[2,\"streaming\",false,true,true],\"loss_seconds\":0.0500570419972064},{\"settings\":[4,\"in-memory\",true,false,false],\"loss_seconds\":0.05862712499219924},{\"settings\":[6,\"streaming\",true,true,true],\"loss_seconds\":0.021367084002122283},{\"settings\":[1,\"streaming\",true,true,true],\"loss_seconds\":0.07334683299995959},{\"settings\":[4,\"streaming\",false,true,false],\"loss_seconds\":0.04451375000644475},{\"settings\":[4,\"streaming\",false,true,true],\"loss_seconds\":0.02849858399713412},{\"settings\":[6,\"streaming\",false,true,true],\"loss_seconds\":0.023388290996081196},{\"settings\":[6,\"streaming\",false,true,false],\"loss_seconds\":0.03526812500786036}],\"objective\":\"Minimize elapsed time for the three fixed nycflights13 queries (monthly carrier delay totals, high-altitude routes, delayed summer flights with older aircraft), including CSV scanning/parsing of336776flights and joins to airline/airport/plane tables. All integer/string results must be exact.\",\"direction\":\"minimize\",\"projection\":\"Normalized ordinal-coordinate L1 nearest unseen setting; seeded order breaks ties.\"}"
+  }
+]

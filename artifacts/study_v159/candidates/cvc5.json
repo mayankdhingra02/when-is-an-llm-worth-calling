@@ -1,0 +1,1858 @@
+{
+  "names": [
+    "decision",
+    "simplification",
+    "arith-prop",
+    "arith-static-learning",
+    "arith-rewrite-equalities"
+  ],
+  "domains": [
+    [
+      "internal",
+      "justification"
+    ],
+    [
+      "batch",
+      "none"
+    ],
+    [
+      "both",
+      "bi",
+      "unate",
+      "none"
+    ],
+    [
+      true,
+      false
+    ],
+    [
+      false,
+      true
+    ]
+  ],
+  "grid_domains": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "raw_features": [
+    [
+      "internal",
+      "batch",
+      "both",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "both",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "both",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "both",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "bi",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "bi",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "bi",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "bi",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "unate",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "unate",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "unate",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "unate",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "none",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "none",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "batch",
+      "none",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "batch",
+      "none",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "both",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "both",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "both",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "both",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "bi",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "bi",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "bi",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "bi",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "unate",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "unate",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "unate",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "unate",
+      false,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "none",
+      true,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "none",
+      true,
+      true
+    ],
+    [
+      "internal",
+      "none",
+      "none",
+      false,
+      false
+    ],
+    [
+      "internal",
+      "none",
+      "none",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "both",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "both",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "both",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "both",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "bi",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "bi",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "bi",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "bi",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "unate",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "unate",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "unate",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "unate",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "none",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "none",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "batch",
+      "none",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "batch",
+      "none",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "both",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "both",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "both",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "both",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "bi",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "bi",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "bi",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "bi",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "unate",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "unate",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "unate",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "unate",
+      false,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "none",
+      true,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "none",
+      true,
+      true
+    ],
+    [
+      "justification",
+      "none",
+      "none",
+      false,
+      false
+    ],
+    [
+      "justification",
+      "none",
+      "none",
+      false,
+      true
+    ]
+  ],
+  "indices": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      1
+    ]
+  ],
+  "x": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "configs": [
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "unate",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": true
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": false
+    },
+    {
+      "decision": "justification",
+      "simplification": "none",
+      "arith-prop": "none",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    }
+  ],
+  "n": 10
+}

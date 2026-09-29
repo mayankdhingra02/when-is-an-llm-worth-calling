@@ -1,0 +1,109 @@
+{
+  "key": "polars_23",
+  "engine": "polars",
+  "system_group": "polars",
+  "seed": 23,
+  "prefix": "artifacts/study_v168/prefixes/polars_23.json",
+  "messages_path": "artifacts/study_v168/prompts/polars_23.json",
+  "sampling_seed": 168023,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "prefix_sha256": "b85ef5c7248e23210bfc866c4021ef371372ed62ff126fcee5dcc363897404d3",
+  "model": "smollm3_3b",
+  "score": [
+    [
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

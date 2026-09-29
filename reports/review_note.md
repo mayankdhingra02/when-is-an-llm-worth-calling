@@ -1,0 +1,19 @@
+# Discussion note: configuration selections change with candidate-list formatting
+
+**The latest controlled test produced mixed behavior.** With interleaved candidate IDs0,J,1,I,…,9,A, MySQL's response selected the first ten displayed entries. lrzip and Brotli returned IDs0–9 instead, selecting alternating display positions. All three real calls completed, their token provenance and mappings were verified, and140 tests passed. [V21 results and figure](nonmonotone_probe_v21.md).
+
+This is a useful limit on the preceding result, not a successful benefit router. The experiments progressed as follows:
+
+1. V8's15 real selections were exactly reproduced by a first-ten rule. In V19's nine fresh controlled conditions, reversing display order replaced every selected configuration, while reassigning IDs and retaining feature order preserved the selections. That established display-order dependence for those conditions. [V19](order_probe_v19.md).
+2. V20 found an ambiguity: all tested IDs were ascending or descending, so continuing a canonical ID sequence also reproduced every output. The experiment did not uniquely identify prefix copying as an internal mechanism. [Rule audit](rule_identifiability_v20.md).
+3. V21 fixed an interleaved assignment before inference, making those rule predictions differ. The model matched the prefix rule for one case and the endpoint-sequence/lowest-ID rules for two. Neither simple rule describes all three new outputs. Comparisons with V19 originals are across sessions; no fresh original repeats were included in this three-call budget. [V21](nonmonotone_probe_v21.md).
+
+These small observations support sensitivity to candidate-list formatting and reject an overly broad “always select the first ten” account. They do not establish one internal algorithm, generalization across models/prompts or whether changed selections improve objective quality. The twelve V19/V21 calls are conditions over three exposed cases, not twelve independent systems. Actual responses are preserved alongside all counterexamples; rule predictions are kept separate from model evidence.
+
+The original question—whether a cheap controller can choose worthwhile LLM continuation after10 of20 configuration evaluations—remains unresolved. V6's development-fitted policies selected zero escalation on three held-out families; matched-rate policies therefore coincide and do not demonstrate useful discrimination at a nonzero rate. Always escalating was worse on average. Separately, the local compression tasks offered under3% recorded improvement even from their initial reference, limiting opportunities regardless of model sophistication. [V6](pilot_report_v6.md), [V18](checkpoint_opportunity_v18.md).
+
+The repository contains pinned sources/model/data, actual prompts/responses and physical payloads, objective/request ledgers, frozen protocols, independent replay checks, failed-run denominators and reproducible figures. The exact SNAP2 artifact was not located in the bounded audit; these changed-model/classical implementations are adaptations, not a numerical replication. Conditional escalation itself was already discussed by SNAP2 and is not a standalone novelty claim. [Source audit](source_audit.md).
+
+**Next action:** discuss whether this limited methodological result about formatting controls and task headroom warrants a larger prospectively specified study. Stronger models, arbitrary permutations, repeated conditions, untouched families and selection-quality consequences remain untested. Novelty/publication potential and professor acceptance are unestablished.
+
+The approved experiments are complete:140/140 follow-up attempts used, about9.3 experiment seconds remaining,USD0 external spend. No further run, contact or publication is scheduled. This note has not been sent or submitted.

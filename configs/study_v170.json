@@ -1,0 +1,39 @@
+{
+  "scope": "fixed source controls on all four earlier native implementations",
+  "engines": [
+    "cvc5",
+    "ortools",
+    "ripgrep",
+    "hnswlib"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "new_arms": [
+    "ezr_upstream_centroid",
+    "ezr_upstream_bayes"
+  ],
+  "prefix_labels": 10,
+  "new_search_per_arm": 7,
+  "validation_per_arm": 3,
+  "new_outcome_cap": 820,
+  "query_training_execution_cap": 1640,
+  "stage_seconds_cap": 1800,
+  "worker_seconds_cap": 60,
+  "schedule_seed": 17001,
+  "new_model_request_cap": 0,
+  "new_download_bytes_cap": 0,
+  "retries": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "external_spend_usd_cap": 0,
+  "practical_margin": 0.1,
+  "max_relative_mad": 0.05,
+  "minimum_median_seconds": 0.01,
+  "accuracy_floor": null,
+  "quality_penalty_seconds": 20
+}

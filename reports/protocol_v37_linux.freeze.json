@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-25T13:44:09.682513+00:00",
+  "scope": "Offline local Linux portability validation, no new inference",
+  "sha256": {
+    "reports/protocol_v37_linux.md": "483685231a28acce272bb784220815a6a24a36a5bf99d7bb40976be58aad9f8e",
+    "scripts/linux_replay_v37.py": "3136ad0de5b49ec9d84e06813bdc32c3037b0c281abeae52f97b2e846b2ee7b3",
+    "scripts/run_linux_v37.py": "ff86d79036c40f679586a0f0ce393b9c13395afe7b7f178fcd00be928b00b190",
+    "tests/synthetic/test_linux_v37.py": "29af99ee89db9477cb5e14509e2ef62fbf4ae0398ec02a727afca0c45e586366",
+    "artifacts/study_v37/tests.log": "05d201bed7e1b01c4656ba6835cdab80ff8b7457a2658379b1e90306bc8a6a4b",
+    "artifacts/study_v37/image_selection.json": "3b02e282a9ab9cc88300002f239e97619748cc0960aeab954e57e292b1cde766",
+    "output/llm_escalation_v34_reproduction_v35_1.zip": "75333386b2ab80ac5a49ec554050fc1f4ba92e708a2c1908c1cdfcccecb663f9",
+    "artifacts/reproduction_v35_1/python310.json": "84b2ae8ba444bdffe2ae086cfb28ae970a9a3e6e4dbc35dd28cd4eb2970ddf3c",
+    "artifacts/reproduction_v35_1/python312.json": "47487d9ed885653fbea9dfbefbeb6cce7f57bc4d40ea102bf1e675dacb0fb19f"
+  }
+}

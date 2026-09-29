@@ -1,0 +1,68 @@
+{
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/llama-b11146/llama-server",
+    "-m",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/models/Qwen3-8B-Q4_K_M/Qwen3-8B-Q4_K_M.gguf",
+    "--load-mode",
+    "none",
+    "--offline",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18616",
+    "--no-webui",
+    "-ngl",
+    "99",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-t",
+    "6",
+    "-b",
+    "512",
+    "-ub",
+    "128",
+    "--reasoning",
+    "off",
+    "--jinja",
+    "--no-warmup",
+    "--perf"
+  ],
+  "config": {
+    "allow_paid_api": false,
+    "allow_cloud": false,
+    "max_external_spend_usd": 0,
+    "retries": 0,
+    "total_request_cap": 10,
+    "total_models": 2,
+    "new_generation_request_cap": 5,
+    "scientific_request_cap": 5,
+    "compatibility_request_cap": 0,
+    "max_allocated_output_tokens": 5120,
+    "max_generation_stage_seconds": 300,
+    "max_server_rss_bytes": 8589934592,
+    "ports": {
+      "smollm3_3b": 18615,
+      "qwen3_8b": 18616
+    },
+    "model_order": [
+      "smollm3_3b",
+      "qwen3_8b"
+    ],
+    "total_new_recorded_acquisitions": 0,
+    "total_collection_seconds_cap": 1800,
+    "total_new_native_acquisitions": 400,
+    "model_key": "qwen3_8b"
+  },
+  "model": {
+    "path": "models/Qwen3-8B-Q4_K_M/Qwen3-8B-Q4_K_M.gguf",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "repo": "Qwen/Qwen3-8B-GGUF",
+    "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+    "license": "Apache-2.0",
+    "provenance": "artifacts/study_v91/model_manifest.json",
+    "bytes": 5027783488
+  },
+  "seed_support": "Per-case sampling seed; no cross-device determinism guarantee"
+}

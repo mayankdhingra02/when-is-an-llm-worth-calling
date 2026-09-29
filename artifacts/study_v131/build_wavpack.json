@@ -1,0 +1,46 @@
+{
+  "at": "2026-09-28T01:41:12.816394+00:00",
+  "commands": [
+    [
+      "/opt/homebrew/bin/cmake",
+      "-S",
+      "/Users/mayankdhingra/Downloads/llm-escalation-study/artifacts/sources/v131/wavpack-5.9.0",
+      "-B",
+      "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/wavpack",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DWAVPACK_BUILD_PROGRAMS=ON",
+      "-DWAVPACK_ENABLE_THREADS=OFF",
+      "-DBUILD_TESTING=OFF",
+      "-DWAVPACK_INSTALL_DOCS=OFF",
+      "-DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-DCMAKE_C_COMPILER=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
+    ],
+    [
+      "/opt/homebrew/bin/cmake",
+      "--build",
+      "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/wavpack",
+      "--parallel",
+      "2"
+    ]
+  ],
+  "status": "complete",
+  "cwd": "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/native-v131/wavpack",
+  "process_environment": {
+    "SDKROOT": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "CC": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+    "CXX": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+    "CFLAGS": "-O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "LDFLAGS": "-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer"
+  },
+  "artifacts": {
+    ".local-runtime/native-v131/wavpack/wavpack": "910b9cb5c18030d949f16e2e8953d3fea99329dd89ba6f6100e3dd961226d649",
+    ".local-runtime/native-v131/wavpack/libwavpack.a": "63662b3fc87b18da68f1b7b36e77abd62697d4944f3691b97d8cd948ef1dc233",
+    ".local-runtime/native-v131/wavpack/wvunpack": "ee2615fddedafaab2338513e6c9450858819ecfe512225000112727e9b60d7f8",
+    ".local-runtime/native-v131/wavpack/CMakeCache.txt": "b89c848fc76a8e476a81cded72b29456d0a5a3dd361e6e1b9fc02a1bc5493ec7",
+    ".local-runtime/native-v131/wavpack/CMakeFiles/CheckASM/CMakeCache.txt": "ba9b165dc91a8eccc2d0d934e1dbc2ed23f18fa3ee343b03ee4853d2cc8c4ab1",
+    ".local-runtime/native-v131/wavpack/CMakeFiles/CheckASM-ATT/CMakeCache.txt": "29bf33c1585f3c62a24e7236f5d611e1799c9863cb9423d9dfccc3ac114ba57d"
+  },
+  "seconds": 8.914996916999371
+}

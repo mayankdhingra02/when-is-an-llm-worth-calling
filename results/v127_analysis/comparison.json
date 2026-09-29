@@ -1,0 +1,995 @@
+{
+  "scope": "Full-domain proposal exploratory development,not held-out routing or a source-method replication",
+  "cases": [
+    {
+      "key": "OpenVPN_37",
+      "dataset": "OpenVPN",
+      "system_group": "openvpn",
+      "seed": 37,
+      "target": 867.56787,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 867.56787,
+        "full_sequential_3nn": 867.56787,
+        "random_full": 867.56787,
+        "presentation_first10": 867.56787,
+        "single_portfolio": 867.56787,
+        "random_projection": 867.56787,
+        "full_batch_3nn": 867.56787
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "single_portfolio": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 9
+    },
+    {
+      "key": "BDBC_AllNumeric_11",
+      "dataset": "BDBC_AllNumeric",
+      "system_group": "berkeleydb",
+      "seed": 11,
+      "target": 0.36643059,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 0.366015632,
+        "full_sequential_3nn": 0.36643059,
+        "random_full": 0.36643059,
+        "presentation_first10": 0.36643059,
+        "single_portfolio": 0.366015632,
+        "random_projection": 0.36643059,
+        "full_batch_3nn": 0.36643059
+      },
+      "gains": {
+        "batch_3nn": -0.0011337166058525633,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "single_portfolio": -0.0011337166058525633,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "LLVM_AllNumeric_71",
+      "dataset": "LLVM_AllNumeric",
+      "system_group": "llvm",
+      "seed": 71,
+      "target": 201.8966667,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 201.8966667,
+        "full_sequential_3nn": 201.8966667,
+        "random_full": 201.8966667,
+        "presentation_first10": 201.8966667,
+        "random_projection": 201.8966667,
+        "full_batch_3nn": 201.8966667
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "LLVM_AllNumeric_53",
+      "dataset": "LLVM_AllNumeric",
+      "system_group": "llvm",
+      "seed": 53,
+      "target": 219.1533333,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 219.1533333,
+        "full_sequential_3nn": 200.38,
+        "random_full": 214.72,
+        "presentation_first10": 219.1533333,
+        "random_projection": 204.6866667,
+        "full_batch_3nn": 219.1533333
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": -0.09368865804970565,
+        "random_full": -0.02064704405737712,
+        "presentation_first10": 0.0,
+        "random_projection": -0.07067713219055526,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "sac_AllNumeric_11",
+      "dataset": "sac_AllNumeric",
+      "system_group": "sac",
+      "seed": 11,
+      "target": 1.5,
+      "fallback": true,
+      "references": {
+        "batch_3nn": 1.5,
+        "full_sequential_3nn": 1.5,
+        "random_full": 1.49,
+        "presentation_first10": 1.5,
+        "single_portfolio": 1.5,
+        "random_projection": 1.5,
+        "full_batch_3nn": 1.5
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": -0.00671140939597316,
+        "presentation_first10": 0.0,
+        "single_portfolio": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "BDBC_AllNumeric_53",
+      "dataset": "BDBC_AllNumeric",
+      "system_group": "berkeleydb",
+      "seed": 53,
+      "target": 0.353774026,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 0.353774026,
+        "full_sequential_3nn": 0.353774026,
+        "random_full": 0.353774026,
+        "presentation_first10": 0.353774026,
+        "random_projection": 0.353774026,
+        "full_batch_3nn": 0.353774026
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 9
+    },
+    {
+      "key": "LLVM_AllNumeric_23",
+      "dataset": "LLVM_AllNumeric",
+      "system_group": "llvm",
+      "seed": 23,
+      "target": 206.2266667,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 200.38,
+        "full_sequential_3nn": 200.38,
+        "random_full": 206.9,
+        "presentation_first10": 206.9,
+        "random_projection": 206.9,
+        "full_batch_3nn": 199.6833333
+      },
+      "gains": {
+        "batch_3nn": -0.029177895498552823,
+        "full_sequential_3nn": -0.029177895498552823,
+        "random_full": 0.003254390043499255,
+        "presentation_first10": 0.003254390043499255,
+        "random_projection": 0.003254390043499255,
+        "full_batch_3nn": -0.03276855054382259
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "Dune_AllNumeric_23",
+      "dataset": "Dune_AllNumeric",
+      "system_group": "dune_hsmgp",
+      "seed": 23,
+      "target": 6585.599999999999,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 6567.896428571427,
+        "full_sequential_3nn": 6575.885714285714,
+        "random_full": 6585.599999999999,
+        "presentation_first10": 6585.599999999999,
+        "random_projection": 6585.599999999999,
+        "full_batch_3nn": 6575.885714285714
+      },
+      "gains": {
+        "batch_3nn": -0.0026954705545536107,
+        "full_sequential_3nn": -0.0014772589026572688,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.0014772589026572688
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "OpenVPN_11",
+      "dataset": "OpenVPN",
+      "system_group": "openvpn",
+      "seed": 11,
+      "target": 701.683083,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 863.375757,
+        "full_sequential_3nn": 865.541902,
+        "random_full": 828.930987,
+        "presentation_first10": 578.254103,
+        "single_portfolio": 857.841325,
+        "random_projection": 857.85886,
+        "full_batch_3nn": 765.698154
+      },
+      "gains": {
+        "batch_3nn": -0.18727960877873018,
+        "full_sequential_3nn": -0.18931356023477652,
+        "random_full": -0.1535084415899631,
+        "presentation_first10": 0.21345110974508733,
+        "single_portfolio": -0.18203627809606862,
+        "random_projection": -0.18205299762247606,
+        "full_batch_3nn": -0.0836035331489124
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "Dune_AllNumeric_37",
+      "dataset": "Dune_AllNumeric",
+      "system_group": "dune_hsmgp",
+      "seed": 37,
+      "target": 6601.925714285714,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 4422.172142857142,
+        "full_sequential_3nn": 4545.783214285715,
+        "random_full": 6601.925714285714,
+        "presentation_first10": 6601.925714285714,
+        "single_portfolio": 4545.783214285715,
+        "random_projection": 6601.925714285714,
+        "full_batch_3nn": 6578.662857142857
+      },
+      "gains": {
+        "batch_3nn": -0.49291468106898373,
+        "full_sequential_3nn": -0.45231864413118156,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "single_portfolio": -0.45231864413118156,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.0035361072071961957
+      },
+      "outside_old_shortlist": 8
+    },
+    {
+      "key": "sac_AllNumeric_53",
+      "dataset": "sac_AllNumeric",
+      "system_group": "sac",
+      "seed": 53,
+      "target": 1.5,
+      "fallback": true,
+      "references": {
+        "batch_3nn": 1.5,
+        "full_sequential_3nn": 1.5,
+        "random_full": 1.51,
+        "presentation_first10": 1.51,
+        "random_projection": 1.51,
+        "full_batch_3nn": 1.5
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.006622516556291397,
+        "presentation_first10": 0.006622516556291397,
+        "random_projection": 0.006622516556291397,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 3
+    },
+    {
+      "key": "BDBC_AllNumeric_23",
+      "dataset": "BDBC_AllNumeric",
+      "system_group": "berkeleydb",
+      "seed": 23,
+      "target": 0.448242513,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 0.44398,
+        "full_sequential_3nn": 0.432443897,
+        "random_full": 0.448242513,
+        "presentation_first10": 0.448242513,
+        "random_projection": 0.448242513,
+        "full_batch_3nn": 0.435210821
+      },
+      "gains": {
+        "batch_3nn": -0.00960068696788149,
+        "full_sequential_3nn": -0.036533330935180214,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.02994340069499325
+      },
+      "outside_old_shortlist": 9
+    },
+    {
+      "key": "Dune_AllNumeric_53",
+      "dataset": "Dune_AllNumeric",
+      "system_group": "dune_hsmgp",
+      "seed": 53,
+      "target": 6595.388214285713,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 6595.388214285713,
+        "full_sequential_3nn": 6595.388214285713,
+        "random_full": 6567.896428571427,
+        "presentation_first10": 6575.885714285714,
+        "random_projection": 6595.388214285713,
+        "full_batch_3nn": 6595.388214285713
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": -0.004185782466771506,
+        "presentation_first10": -0.0029657601800515917,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 9
+    },
+    {
+      "key": "Dune_AllNumeric_71",
+      "dataset": "Dune_AllNumeric",
+      "system_group": "dune_hsmgp",
+      "seed": 71,
+      "target": 6567.896428571427,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 6567.896428571427,
+        "full_sequential_3nn": 6567.896428571427,
+        "random_full": 6590.012142857144,
+        "presentation_first10": 6656.536428571429,
+        "random_projection": 6672.104642857144,
+        "full_batch_3nn": 6567.896428571427
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.003355944390737952,
+        "presentation_first10": 0.01331623449389346,
+        "random_projection": 0.015618492194554788,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 7
+    },
+    {
+      "key": "BDBC_AllNumeric_71",
+      "dataset": "BDBC_AllNumeric",
+      "system_group": "berkeleydb",
+      "seed": 71,
+      "target": 0.368982231,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 0.362512641,
+        "full_sequential_3nn": 0.363384821,
+        "random_full": 0.368982231,
+        "presentation_first10": 0.368982231,
+        "random_projection": 0.368982231,
+        "full_batch_3nn": 0.363384821
+      },
+      "gains": {
+        "batch_3nn": -0.017846522488577078,
+        "full_sequential_3nn": -0.01540353277441924,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.01540353277441924
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "sac_AllNumeric_23",
+      "dataset": "sac_AllNumeric",
+      "system_group": "sac",
+      "seed": 23,
+      "target": 1.5,
+      "fallback": true,
+      "references": {
+        "batch_3nn": 1.5,
+        "full_sequential_3nn": 1.5,
+        "random_full": 1.5,
+        "presentation_first10": 1.5,
+        "random_projection": 1.5,
+        "full_batch_3nn": 1.5
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "OpenVPN_53",
+      "dataset": "OpenVPN",
+      "system_group": "openvpn",
+      "seed": 53,
+      "target": 867.37698,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 867.37698,
+        "full_sequential_3nn": 867.37698,
+        "random_full": 867.37698,
+        "presentation_first10": 867.37698,
+        "random_projection": 867.37698,
+        "full_batch_3nn": 867.37698
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "hipacc_AllNumeric_23",
+      "dataset": "hipacc_AllNumeric",
+      "system_group": "hipacc",
+      "seed": 23,
+      "target": 21.187,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 21.187,
+        "full_sequential_3nn": 21.187,
+        "random_full": 21.187,
+        "presentation_first10": 21.187,
+        "random_projection": 21.187,
+        "full_batch_3nn": 21.187
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "sac_AllNumeric_37",
+      "dataset": "sac_AllNumeric",
+      "system_group": "sac",
+      "seed": 37,
+      "target": 1.5,
+      "fallback": true,
+      "references": {
+        "batch_3nn": 1.5,
+        "full_sequential_3nn": 1.5,
+        "random_full": 1.5,
+        "presentation_first10": 1.5,
+        "single_portfolio": 1.5,
+        "random_projection": 1.5,
+        "full_batch_3nn": 1.5
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "single_portfolio": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 7
+    },
+    {
+      "key": "OpenVPN_23",
+      "dataset": "OpenVPN",
+      "system_group": "openvpn",
+      "seed": 23,
+      "target": 867.37698,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 867.56787,
+        "full_sequential_3nn": 867.37698,
+        "random_full": 867.37698,
+        "presentation_first10": 867.37698,
+        "random_projection": 867.37698,
+        "full_batch_3nn": 867.56787
+      },
+      "gains": {
+        "batch_3nn": -0.00022002889526091785,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.00022002889526091785
+      },
+      "outside_old_shortlist": 9
+    },
+    {
+      "key": "BDBC_AllNumeric_37",
+      "dataset": "BDBC_AllNumeric",
+      "system_group": "berkeleydb",
+      "seed": 37,
+      "target": 0.382528667,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 0.362512641,
+        "full_sequential_3nn": 0.382528667,
+        "random_full": 0.382528667,
+        "presentation_first10": 0.363384821,
+        "single_portfolio": 0.362512641,
+        "random_projection": 0.367623282,
+        "full_batch_3nn": 0.363682974
+      },
+      "gains": {
+        "batch_3nn": -0.05521469801655817,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": -0.0526820188782733,
+        "single_portfolio": -0.05521469801655817,
+        "random_projection": -0.04054526938258495,
+        "full_batch_3nn": -0.05181901366655673
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "Dune_AllNumeric_11",
+      "dataset": "Dune_AllNumeric",
+      "system_group": "dune_hsmgp",
+      "seed": 11,
+      "target": 7263.260357142855,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 6620.012857142859,
+        "full_sequential_3nn": 4545.783214285715,
+        "random_full": 6610.518928571428,
+        "presentation_first10": 6647.824642857144,
+        "single_portfolio": 6620.012857142859,
+        "random_projection": 7263.260357142855,
+        "full_batch_3nn": 7210.2410714285725
+      },
+      "gains": {
+        "batch_3nn": -0.09716710735779703,
+        "full_sequential_3nn": -0.5978017460923158,
+        "random_full": -0.09874284237356974,
+        "presentation_first10": -0.09257700787083424,
+        "single_portfolio": -0.09716710735779703,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.007353330518223314
+      },
+      "outside_old_shortlist": 8
+    },
+    {
+      "key": "hipacc_AllNumeric_37",
+      "dataset": "hipacc_AllNumeric",
+      "system_group": "hipacc",
+      "seed": 37,
+      "target": 22.461,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 22.377,
+        "full_sequential_3nn": 21.582,
+        "random_full": 21.532,
+        "presentation_first10": 22.51,
+        "single_portfolio": 23.039,
+        "random_projection": 21.96,
+        "full_batch_3nn": 22.579
+      },
+      "gains": {
+        "batch_3nn": -0.003753854404075597,
+        "full_sequential_3nn": -0.04072838476508191,
+        "random_full": -0.0431450863830577,
+        "presentation_first10": 0.002176810306530566,
+        "single_portfolio": 0.02508789443986297,
+        "random_projection": -0.022814207650273116,
+        "full_batch_3nn": 0.005226095044067589
+      },
+      "outside_old_shortlist": 4
+    },
+    {
+      "key": "OpenVPN_71",
+      "dataset": "OpenVPN",
+      "system_group": "openvpn",
+      "seed": 71,
+      "target": 864.75166,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 864.75166,
+        "full_sequential_3nn": 864.75166,
+        "random_full": 859.413428,
+        "presentation_first10": 860.515821,
+        "random_projection": 864.75166,
+        "full_batch_3nn": 864.75166
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.006211483118692977,
+        "presentation_first10": 0.004922441745553979,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 6
+    },
+    {
+      "key": "hipacc_AllNumeric_11",
+      "dataset": "hipacc_AllNumeric",
+      "system_group": "hipacc",
+      "seed": 11,
+      "target": 21.332,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 22.416,
+        "full_sequential_3nn": 21.729,
+        "random_full": 21.94,
+        "presentation_first10": 22.101,
+        "single_portfolio": 22.325,
+        "random_projection": 21.932,
+        "full_batch_3nn": 23.081
+      },
+      "gains": {
+        "batch_3nn": 0.04835831548893646,
+        "full_sequential_3nn": 0.01827051405955168,
+        "random_full": 0.027711941659070215,
+        "presentation_first10": 0.034794805664901965,
+        "single_portfolio": 0.04447928331466959,
+        "random_projection": 0.02735728615721311,
+        "full_batch_3nn": 0.07577661279840556
+      },
+      "outside_old_shortlist": 6
+    },
+    {
+      "key": "hipacc_AllNumeric_53",
+      "dataset": "hipacc_AllNumeric",
+      "system_group": "hipacc",
+      "seed": 53,
+      "target": 22.077,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 21.545,
+        "full_sequential_3nn": 21.545,
+        "random_full": 22.077,
+        "presentation_first10": 21.545,
+        "random_projection": 22.077,
+        "full_batch_3nn": 21.545
+      },
+      "gains": {
+        "batch_3nn": -0.024692504061267113,
+        "full_sequential_3nn": -0.024692504061267113,
+        "random_full": 0.0,
+        "presentation_first10": -0.024692504061267113,
+        "random_projection": 0.0,
+        "full_batch_3nn": -0.024692504061267113
+      },
+      "outside_old_shortlist": 9
+    },
+    {
+      "key": "LLVM_AllNumeric_11",
+      "dataset": "LLVM_AllNumeric",
+      "system_group": "llvm",
+      "seed": 11,
+      "target": 201.5466667,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 201.5466667,
+        "full_sequential_3nn": 200.38,
+        "random_full": 201.5466667,
+        "presentation_first10": 201.5466667,
+        "single_portfolio": 200.38,
+        "random_projection": 201.5466667,
+        "full_batch_3nn": 201.5466667
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": -0.005822271184749014,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "single_portfolio": -0.005822271184749014,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "sac_AllNumeric_71",
+      "dataset": "sac_AllNumeric",
+      "system_group": "sac",
+      "seed": 71,
+      "target": 1.49,
+      "fallback": true,
+      "references": {
+        "batch_3nn": 1.5,
+        "full_sequential_3nn": 1.48,
+        "random_full": 1.5,
+        "presentation_first10": 1.5,
+        "random_projection": 1.5,
+        "full_batch_3nn": 1.49
+      },
+      "gains": {
+        "batch_3nn": 0.006666666666666672,
+        "full_sequential_3nn": -0.006756756756756763,
+        "random_full": 0.006666666666666672,
+        "presentation_first10": 0.006666666666666672,
+        "random_projection": 0.006666666666666672,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "LLVM_AllNumeric_37",
+      "dataset": "LLVM_AllNumeric",
+      "system_group": "llvm",
+      "seed": 37,
+      "target": 199.9533333,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 199.9533333,
+        "full_sequential_3nn": 199.9533333,
+        "random_full": 199.9533333,
+        "presentation_first10": 199.9533333,
+        "single_portfolio": 199.9533333,
+        "random_projection": 199.9533333,
+        "full_batch_3nn": 199.9533333
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "single_portfolio": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 10
+    },
+    {
+      "key": "hipacc_AllNumeric_71",
+      "dataset": "hipacc_AllNumeric",
+      "system_group": "hipacc",
+      "seed": 71,
+      "target": 21.571,
+      "fallback": false,
+      "references": {
+        "batch_3nn": 21.571,
+        "full_sequential_3nn": 21.571,
+        "random_full": 21.571,
+        "presentation_first10": 21.571,
+        "random_projection": 21.571,
+        "full_batch_3nn": 21.571
+      },
+      "gains": {
+        "batch_3nn": 0.0,
+        "full_sequential_3nn": 0.0,
+        "random_full": 0.0,
+        "presentation_first10": 0.0,
+        "random_projection": 0.0,
+        "full_batch_3nn": 0.0
+      },
+      "outside_old_shortlist": 8
+    }
+  ],
+  "families": [
+    {
+      "system_group": "berkeleydb",
+      "cases": 5,
+      "means": {
+        "batch_3nn": -0.016759124815773862,
+        "full_batch_3nn": -0.019433189427193843,
+        "full_sequential_3nn": -0.01038737274191989,
+        "presentation_first10": -0.01053640377565466,
+        "random_full": 0.0,
+        "random_projection": -0.00810905387651699,
+        "single_portfolio": -0.028174207311205367
+      }
+    },
+    {
+      "system_group": "dune_hsmgp",
+      "cases": 5,
+      "means": {
+        "batch_3nn": -0.11855545179626688,
+        "full_batch_3nn": -0.0024733393256153556,
+        "full_sequential_3nn": -0.21031952982523094,
+        "presentation_first10": -0.016445306711398475,
+        "random_full": -0.019914536089920658,
+        "random_projection": 0.0031236984389109578,
+        "single_portfolio": -0.2747428757444893
+      }
+    },
+    {
+      "system_group": "hipacc",
+      "cases": 5,
+      "means": {
+        "batch_3nn": 0.00398239140471875,
+        "full_batch_3nn": 0.011262040756241206,
+        "full_sequential_3nn": -0.009430074953359468,
+        "presentation_first10": 0.0024558223820330834,
+        "random_full": -0.0030866289447974973,
+        "random_projection": 0.0009086157013879984,
+        "single_portfolio": 0.03478358887726628
+      }
+    },
+    {
+      "system_group": "llvm",
+      "cases": 5,
+      "means": {
+        "batch_3nn": -0.005835579099710565,
+        "full_batch_3nn": -0.006553710108764518,
+        "full_sequential_3nn": -0.0257377649466015,
+        "presentation_first10": 0.0006508780086998511,
+        "random_full": -0.003478530802775573,
+        "random_projection": -0.0134845484294112,
+        "single_portfolio": -0.002911135592374507
+      }
+    },
+    {
+      "system_group": "openvpn",
+      "cases": 5,
+      "means": {
+        "batch_3nn": -0.03749992753479822,
+        "full_batch_3nn": -0.016764712408834665,
+        "full_sequential_3nn": -0.03786271204695531,
+        "presentation_first10": 0.043674710298128264,
+        "random_full": -0.029459391694254024,
+        "random_projection": -0.03641059952449521,
+        "single_portfolio": -0.09101813904803431
+      }
+    },
+    {
+      "system_group": "sac",
+      "cases": 5,
+      "means": {
+        "batch_3nn": 0.0013333333333333344,
+        "full_batch_3nn": 0.0,
+        "full_sequential_3nn": -0.0013513513513513527,
+        "presentation_first10": 0.002657836644591614,
+        "random_full": 0.0013155547653969817,
+        "random_projection": 0.002657836644591614,
+        "single_portfolio": 0.0
+      }
+    }
+  ],
+  "contrasts": {
+    "batch_3nn": {
+      "cases": 30,
+      "equal_family_mean": -0.02888905975141624,
+      "wins": 2,
+      "ties": 16,
+      "losses": 12
+    },
+    "full_batch_3nn": {
+      "cases": 30,
+      "equal_family_mean": -0.005660485085694529,
+      "wins": 2,
+      "ties": 18,
+      "losses": 10
+    },
+    "full_sequential_3nn": {
+      "cases": 30,
+      "equal_family_mean": -0.04918146764423641,
+      "wins": 1,
+      "ties": 17,
+      "losses": 12
+    },
+    "presentation_first10": {
+      "cases": 30,
+      "equal_family_mean": 0.0037429228077332797,
+      "wins": 8,
+      "ties": 18,
+      "losses": 4
+    },
+    "random_full": {
+      "cases": 30,
+      "equal_family_mean": -0.009103922127725128,
+      "wins": 6,
+      "ties": 18,
+      "losses": 6
+    },
+    "random_projection": {
+      "cases": 30,
+      "equal_family_mean": -0.008552341840922139,
+      "wins": 5,
+      "ties": 21,
+      "losses": 4
+    },
+    "single_portfolio": {
+      "cases": 12,
+      "equal_family_mean": -0.06034379480313953,
+      "wins": 2,
+      "ties": 4,
+      "losses": 6
+    }
+  },
+  "joint_5pct_cases": 0,
+  "normal_valid": 25,
+  "positive_families_vs_sequential": 0,
+  "development_screen_met": false,
+  "projection": {
+    "proposals_with_diagnostics": 250,
+    "nonzero_projection_distance": 167,
+    "repeated_proposals": 12,
+    "matches_observed": 20,
+    "selected_outside_old_pool": 261
+  },
+  "actual_cost": {
+    "ledger": {
+      "generation_requests": 36,
+      "compatibility_requests": 0,
+      "scientific_requests": 36,
+      "http_requests": 119,
+      "peak_server_rss_bytes": 6993985536,
+      "retries": 0,
+      "external_spend_usd": 0,
+      "allocated_output_tokens": 18432,
+      "startup_seconds": 2.5900067090005905,
+      "stage_seconds": 504.0518069589998,
+      "resource_stop_reason": null,
+      "server_exit_code": 0
+    },
+    "usage": {
+      "tokens_predicted": {
+        "observed_sum": 9361,
+        "missing_responses": 0
+      },
+      "tokens_evaluated": {
+        "observed_sum": 33571,
+        "missing_responses": 0
+      }
+    },
+    "new_recorded_acquisitions": 900,
+    "historical_prefixes_reused": 30,
+    "scope": "Research collection of3paired arms,not deployment budget"
+  },
+  "label_rotation_probes": [
+    {
+      "key": "BDBC_AllNumeric_11",
+      "both_valid": true,
+      "selection_set_overlap": 5,
+      "same_order": false
+    },
+    {
+      "key": "Dune_AllNumeric_11",
+      "both_valid": true,
+      "selection_set_overlap": 0,
+      "same_order": false
+    },
+    {
+      "key": "OpenVPN_11",
+      "both_valid": true,
+      "selection_set_overlap": 2,
+      "same_order": false
+    },
+    {
+      "key": "hipacc_AllNumeric_11",
+      "both_valid": true,
+      "selection_set_overlap": 6,
+      "same_order": false
+    },
+    {
+      "key": "sac_AllNumeric_11",
+      "both_valid": false,
+      "selection_set_overlap": null,
+      "same_order": null
+    },
+    {
+      "key": "LLVM_AllNumeric_11",
+      "both_valid": true,
+      "selection_set_overlap": 0,
+      "same_order": false
+    }
+  ],
+  "estimated_deployment": {
+    "requests_per_escalation": 1,
+    "max_allocated_output_tokens": 512,
+    "objective_evaluations": 20,
+    "new_objective_evaluations": 10,
+    "scope": "Projection overhead and per-run startup/objective time not measured as end-to-end deployment"
+  }
+}

@@ -1,0 +1,5 @@
+# H2 dependency attribution
+
+H2 Database Engine 2.3.232, H2 Group. Retrieved from Maven Central (`com.h2database:h2:2.3.232`) and verified against the registry SHA1; local SHA256 pins in `configs/runtime_v81.lock.json`. Tagged license is retained at `artifacts/sources/v81/LICENSE.txt`. Dual MPL 2.0 / EPL 1.0: https://h2database.com/html/license.html . Owner release: https://github.com/h2database/h2database/releases/tag/version-2.3.232 . Unmodified JAR; no application source modifications. The JDBC workload harness is original project code, not an upstream benchmark.
+
+Existing Java runtime and ECJ compiler retain their prior attribution and pins (V53/V74). No new runtime/compiler download. V82/V83 use H2 internal getters solely to verify result-reuse state; version pins are required because this is not a stable JDBC API. Verified tagged sources: https://raw.githubusercontent.com/h2database/h2database/version-2.3.232/h2/src/main/org/h2/engine/Database.java and https://raw.githubusercontent.com/h2database/h2database/version-2.3.232/h2/src/main/org/h2/jdbc/JdbcConnection.java . No source from those getter implementations was copied.

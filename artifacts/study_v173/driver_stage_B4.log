@@ -1,0 +1,9 @@
+B4 dune_hsmgp::Dune_AllNumeric_53_normal fallback_rounds 0 target 6567.896428571427
+B4 spark::wordcount_71 fallback_rounds 0 target 3818620.0
+B4 spark::terasort_71 fallback_rounds 0 target 266747.0
+B4 hadoop_mapreduce::wordcount_71 fallback_rounds 0 target 433.123
+B4 hadoop_mapreduce::pagerank_71 fallback_rounds 0 target 725.737
+B4 spark::terasort_23 fallback_rounds 0 target 210807.0
+B4 spark::wordcount_11 fallback_rounds 0 target 3676211.0
+B4 dune_hsmgp::Dune_AllNumeric_71_normal fallback_rounds 0 target 6567.896428571427
+{'at': '2026-09-28T23:02:21.336723+00:00', 'stage': 'B4', 'provider': 'deepinfra/turbo', 'intended_cases': 8, 'finished_cases': ['dune_hsmgp::Dune_AllNumeric_53_normal', 'spark::wordcount_71', 'spark::terasort_71', 'hadoop_mapreduce::wordcount_71', 'hadoop_mapreduce::pagerank_71', 'spark::terasort_23', 'spark::wordcount_11', 'dune_hsmgp::Dune_AllNumeric_71_normal'], 'unfinished_cases': [], 'interrupted_case': None, 'not_started_cases': [], 'requests': 41, 'error': None, 'seconds': 372.98215408300166, 'spend': {'spent_usd': 0.9226895819999997, 'requests': 357, 'reported_cost_usd': 0.9226895819999997, 'estimated_only_usd': 0.0, 'unknown_cost_requests': 0}, 'acquisitions_so_far': 350}

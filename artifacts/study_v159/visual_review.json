@@ -1,0 +1,10 @@
+{
+  "at_unix": 1790584831.5739698,
+  "reviewed": [
+    "results/v157_solvers/feasibility.png",
+    "results/v158_solvers/feasibility.png",
+    "results/v159_native/paired_gains.png"
+  ],
+  "checks": "All labels readable, every measured repetition/seed shown, failures marked, paired gains share a common y axis and include the predeclared 10% threshold. No clipping observed.",
+  "repair": "Initial V157 tight log-axis minor tick labels clipped its ylabel; widened timeout-axis limits, regenerated and re-inspected. Final labels readable; data unchanged."
+}

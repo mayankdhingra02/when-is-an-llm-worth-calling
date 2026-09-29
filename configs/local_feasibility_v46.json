@@ -1,0 +1,13 @@
+{
+  "scope": "SmolLM3 local hardware feasibility only; excluded from research aggregates",
+  "authorization": "User: okay do it; continue, you got this, after approving local download and small memory/speed test",
+  "max_additional_download_bytes": 3221225472,
+  "max_requests": 2,
+  "max_new_tokens_per_request": 128,
+  "inference_stage_timeout_seconds": 180,
+  "max_external_spend_usd": 0,
+  "objective_acquisitions": 0,
+  "retries": 0,
+  "old_research_request_cap": 350,
+  "note": "Separate bounded setup allowance pursuant to new user instruction. Old research ledgers and stopping rule remain unchanged."
+}

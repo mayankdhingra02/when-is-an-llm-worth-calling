@@ -1,0 +1,16 @@
+{
+  "stage": "v128_two_exposed_application_families",
+  "new_generation_request_cap": 12,
+  "scientific_request_cap": 12,
+  "compatibility_request_cap": 0,
+  "max_allocated_output_tokens": 12288,
+  "max_generation_stage_seconds": 900,
+  "max_server_rss_bytes": 8589934592,
+  "max_new_recorded_objective_acquisitions": 300,
+  "max_evaluation_seconds": 180,
+  "retries": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "max_external_spend_usd": 0,
+  "new_download_bytes": 0
+}

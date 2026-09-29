@@ -1,0 +1,71 @@
+Matplotlib is building the font cache; this may take a moment.
+{
+  "collection": {
+    "configuration_outcomes": 800,
+    "native_workload_invocations": 2400,
+    "quality_feasible": 800,
+    "quality_penalties": 0,
+    "subprocess_collection_seconds": 258.32367217296996,
+    "native_objective_seconds": 195.99665366203064,
+    "end_to_end_seconds": 330.8177978992462,
+    "minimum_ann_recall": 0.9816917084028937
+  },
+  "joint_robust_wins": {
+    "smollm3_3b": 0,
+    "qwen3_8b": 0
+  },
+  "models": {
+    "smollm3_3b": {
+      "ledger": {
+        "generation_requests": 10,
+        "compatibility_requests": 0,
+        "scientific_requests": 10,
+        "http_requests": 35,
+        "peak_server_rss_bytes": 2985312256,
+        "retries": 0,
+        "external_spend_usd": 0,
+        "allocated_output_tokens": 10240,
+        "startup_seconds": 1.7638063749982393,
+        "stage_seconds": 17.535781749997113,
+        "resource_stop_reason": null,
+        "server_exit_code": 0
+      },
+      "responses": 10,
+      "observed_usage": {
+        "tokens_evaluated": 4653,
+        "tokens_predicted": 376
+      },
+      "unknown_usage_requests": {
+        "tokens_evaluated": 0,
+        "tokens_predicted": 0
+      },
+      "request_wall_seconds": 15.608494206993782
+    },
+    "qwen3_8b": {
+      "ledger": {
+        "generation_requests": 10,
+        "compatibility_requests": 0,
+        "scientific_requests": 10,
+        "http_requests": 40,
+        "peak_server_rss_bytes": 6561988608,
+        "retries": 0,
+        "external_spend_usd": 0,
+        "allocated_output_tokens": 10240,
+        "startup_seconds": 4.326035999998567,
+        "stage_seconds": 47.12922187499498,
+        "resource_stop_reason": null,
+        "server_exit_code": 0
+      },
+      "responses": 10,
+      "observed_usage": {
+        "tokens_evaluated": 5418,
+        "tokens_predicted": 543
+      },
+      "unknown_usage_requests": {
+        "tokens_evaluated": 0,
+        "tokens_predicted": 0
+      },
+      "request_wall_seconds": 42.5832095839869
+    }
+  }
+}

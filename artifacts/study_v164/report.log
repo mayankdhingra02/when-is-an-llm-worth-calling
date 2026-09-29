@@ -1,0 +1,167 @@
+Matplotlib is building the font cache; this may take a moment.
+{
+  "collection": {
+    "new_configuration_outcomes": 900,
+    "new_native_invocations": 2700,
+    "reused_historical_prefix_outcomes": 100,
+    "reused_historical_prefix_invocations": 300,
+    "quality_penalties": 0,
+    "native_objective_seconds": 231.39359916800973,
+    "subprocess_seconds": 301.9835433361004,
+    "stage_seconds": 465.35189485549927,
+    "unstable_validation_cells": 1,
+    "below_floor_validation_cells": 0
+  },
+  "summary": [
+    {
+      "engine": "ripgrep",
+      "model": "smollm3_3b",
+      "cases": 5,
+      "mean_catalog_gain": -0.01186504789171083,
+      "same_setting_pairs": 3,
+      "catalog_robust_wins": 0,
+      "catalog_robust_losses": 0
+    },
+    {
+      "engine": "hnswlib",
+      "model": "smollm3_3b",
+      "cases": 5,
+      "mean_catalog_gain": -0.005213315010780809,
+      "same_setting_pairs": 5,
+      "catalog_robust_wins": 0,
+      "catalog_robust_losses": 0
+    },
+    {
+      "engine": "ripgrep",
+      "model": "qwen3_8b",
+      "cases": 5,
+      "mean_catalog_gain": 0.010959452723519647,
+      "same_setting_pairs": 4,
+      "catalog_robust_wins": 0,
+      "catalog_robust_losses": 0
+    },
+    {
+      "engine": "hnswlib",
+      "model": "qwen3_8b",
+      "cases": 5,
+      "mean_catalog_gain": 0.005767203583898847,
+      "same_setting_pairs": 5,
+      "catalog_robust_wins": 0,
+      "catalog_robust_losses": 0
+    }
+  ],
+  "mechanisms": [
+    {
+      "engine": "ripgrep",
+      "model": "smollm3_3b",
+      "condition": "numeric",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 13,
+      "evaluated_duplicates": 7,
+      "all_proposals": 50,
+      "all_projected": 22,
+      "all_duplicates": 16,
+      "prefix_incumbents": 4,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "ripgrep",
+      "model": "smollm3_3b",
+      "condition": "catalog",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 0,
+      "evaluated_duplicates": 0,
+      "all_proposals": 50,
+      "all_projected": 0,
+      "all_duplicates": 0,
+      "prefix_incumbents": 3,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "hnswlib",
+      "model": "smollm3_3b",
+      "condition": "numeric",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 24,
+      "evaluated_duplicates": 24,
+      "all_proposals": 50,
+      "all_projected": 39,
+      "all_duplicates": 38,
+      "prefix_incumbents": 5,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "hnswlib",
+      "model": "smollm3_3b",
+      "condition": "catalog",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 0,
+      "evaluated_duplicates": 0,
+      "all_proposals": 50,
+      "all_projected": 2,
+      "all_duplicates": 2,
+      "prefix_incumbents": 5,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "ripgrep",
+      "model": "qwen3_8b",
+      "condition": "numeric",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 14,
+      "evaluated_duplicates": 12,
+      "all_proposals": 50,
+      "all_projected": 26,
+      "all_duplicates": 23,
+      "prefix_incumbents": 4,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "ripgrep",
+      "model": "qwen3_8b",
+      "condition": "catalog",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 0,
+      "evaluated_duplicates": 0,
+      "all_proposals": 50,
+      "all_projected": 0,
+      "all_duplicates": 0,
+      "prefix_incumbents": 5,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "hnswlib",
+      "model": "qwen3_8b",
+      "condition": "numeric",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 26,
+      "evaluated_duplicates": 25,
+      "all_proposals": 50,
+      "all_projected": 41,
+      "all_duplicates": 40,
+      "prefix_incumbents": 5,
+      "fallback_cases": 0
+    },
+    {
+      "engine": "hnswlib",
+      "model": "qwen3_8b",
+      "condition": "catalog",
+      "intended_evaluated_proposals": 35,
+      "observed_evaluated_proposals": 35,
+      "evaluated_projected": 0,
+      "evaluated_duplicates": 0,
+      "all_proposals": 50,
+      "all_projected": 0,
+      "all_duplicates": 0,
+      "prefix_incumbents": 5,
+      "fallback_cases": 0
+    }
+  ]
+}

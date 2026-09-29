@@ -1,0 +1,94 @@
+{
+  "at": "2026-09-28T01:44:57.101507+00:00",
+  "workloads": [
+    {
+      "path": "artifacts/sources/v130/LibriSpeech/test-clean/61/70968/61-70968-0000.flac",
+      "sha256": "fd3c84146d8b357efc7f0d21de86de770721fc5ddac7e6577688dbf3cdabff5b",
+      "bytes": 97158,
+      "decode_command": [
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/flac-v130-xcode/src/flac/flac",
+        "-d",
+        "--silent",
+        "-o",
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/data/native_v130/61-70968-0000.wav",
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/artifacts/sources/v130/LibriSpeech/test-clean/61/70968/61-70968-0000.flac"
+      ],
+      "decode_seconds": 0.006246166998607805,
+      "decode_stderr": "",
+      "wav_path": "data/native_v130/61-70968-0000.wav",
+      "wav_sha256": "3f53c11bcec66e60659c3e53015f4f914d79b04eba0770347e644a4776fbe633",
+      "raw_path": "data/native_v130/61-70968-0000.raw",
+      "raw_sha256": "b104204ddd3eb47ad4cb8d15dad9339231484438fb28b4dc3527a5b62d229c45",
+      "raw_bytes": 156960,
+      "frames": 78480,
+      "rate": 16000,
+      "channels": 1,
+      "sample_bits": 16,
+      "fftw_samples": 8192,
+      "fftw_sample_rule": "First8192signed samples scaled by32768, no target-dependent selection"
+    },
+    {
+      "path": "artifacts/sources/v130/LibriSpeech/test-clean/121/121726/121-121726-0000.flac",
+      "sha256": "81378fdb3e648b43efb1cb8c4f87da3fc9cfbe19c5dda97e9e7361c4a2470d2f",
+      "bytes": 151338,
+      "decode_command": [
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/flac-v130-xcode/src/flac/flac",
+        "-d",
+        "--silent",
+        "-o",
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/data/native_v130/121-121726-0000.wav",
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/artifacts/sources/v130/LibriSpeech/test-clean/121/121726/121-121726-0000.flac"
+      ],
+      "decode_seconds": 0.006083042000682326,
+      "decode_stderr": "",
+      "wav_path": "data/native_v130/121-121726-0000.wav",
+      "wav_sha256": "3b046c957d3014ff744d589229e81112366a4912c59deaf00b8e816621db120f",
+      "raw_path": "data/native_v130/121-121726-0000.raw",
+      "raw_sha256": "b8de39ddef1a007687751706faa83c06eceb339b92cd8166e103efcd1e717ce4",
+      "raw_bytes": 270720,
+      "frames": 135360,
+      "rate": 16000,
+      "channels": 1,
+      "sample_bits": 16,
+      "fftw_samples": 8192,
+      "fftw_sample_rule": "First8192signed samples scaled by32768, no target-dependent selection"
+    },
+    {
+      "path": "artifacts/sources/v130/LibriSpeech/test-clean/237/126133/237-126133-0000.flac",
+      "sha256": "25466538df82602d1e597b0cb016e4dd0ce11031cb8994a4289d1c07170878ee",
+      "bytes": 232489,
+      "decode_command": [
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/.local-runtime/flac-v130-xcode/src/flac/flac",
+        "-d",
+        "--silent",
+        "-o",
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/data/native_v130/237-126133-0000.wav",
+        "/Users/mayankdhingra/Downloads/llm-escalation-study/artifacts/sources/v130/LibriSpeech/test-clean/237/126133/237-126133-0000.flac"
+      ],
+      "decode_seconds": 0.007245958997373236,
+      "decode_stderr": "",
+      "wav_path": "data/native_v130/237-126133-0000.wav",
+      "wav_sha256": "600640180ec9918c158d5df8bcc9096fc9b75b46a94b85a03ffdba9a5cdadfe7",
+      "raw_path": "data/native_v130/237-126133-0000.raw",
+      "raw_sha256": "33fce5fa108deeeafd3c1cd9a8d091e82a991468e2e93f6d794f867b873cba48",
+      "raw_bytes": 425280,
+      "frames": 212640,
+      "rate": 16000,
+      "channels": 1,
+      "sample_bits": 16,
+      "fftw_samples": 8192,
+      "fftw_sample_rule": "First8192signed samples scaled by32768, no target-dependent selection"
+    }
+  ],
+  "fftw_input": {
+    "path": "data/native_v131/signals.f64",
+    "sha256": "acf05f502ce7095668a7da7ae313403b27f754082c27bb790778a1cbe8e9fda9"
+  },
+  "fftw_reference": {
+    "path": "data/native_v131/reference.c128",
+    "sha256": "9297917d8fa011f2e9c69d59fa07180712a8e858b9aa65787d31dc55b57f2fdb",
+    "implementation": "NumPy pocketfft 2.2.6",
+    "criterion": "max abs complex error <= 1e-10*max(1,max abs reference), finite all samples"
+  },
+  "wavpack": "Whole three original licensed raw clips; same source sample hashes as V130"
+}

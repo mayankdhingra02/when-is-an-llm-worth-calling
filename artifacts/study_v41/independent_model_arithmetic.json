@@ -1,0 +1,20 @@
+{
+  "receipts": [
+    {
+      "interpreter": ".venv/bin/python",
+      "returncode": 0,
+      "stdout": "{\n  \"verified_fraction_contrasts\": 420,\n  \"verified_summaries\": 14,\n  \"verified_policy_means\": 108,\n  \"new_model_calls\": 0,\n  \"new_acquisitions\": 0,\n  \"scope\": \"Independent acquired-journal arithmetic replay; source authenticity checked separately\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "interpreter": "/Users/mayankdhingra/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "returncode": 0,
+      "stdout": "{\n  \"verified_fraction_contrasts\": 420,\n  \"verified_summaries\": 14,\n  \"verified_policy_means\": 108,\n  \"new_model_calls\": 0,\n  \"new_acquisitions\": 0,\n  \"scope\": \"Independent acquired-journal arithmetic replay; source authenticity checked separately\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "interpreters_agree": true,
+  "seconds": 0.25267962500220165,
+  "new_model_calls": 0,
+  "new_objective_acquisitions": 0
+}

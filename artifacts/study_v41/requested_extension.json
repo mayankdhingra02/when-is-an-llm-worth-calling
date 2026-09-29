@@ -1,0 +1,16 @@
+{
+  "granted": false,
+  "additional_requests": 60,
+  "request_cap": 290,
+  "runtime_cap_seconds": 3600,
+  "stage_seconds": 700,
+  "max_new_vectors": 600,
+  "external_spend_usd": 0,
+  "new_downloads": 0,
+  "protocol_freeze_sha256": "9ada494788668ba51ec4e871980afb616e15bbc7f9d1e5216d74d409dcfa5c18",
+  "model_sizes": [
+    "0.5B",
+    "1.5B"
+  ],
+  "reason": "Execute frozen transfer on six additional families; both local models already installed; all60 saved prompts pass token preflight. Not an authorization record."
+}

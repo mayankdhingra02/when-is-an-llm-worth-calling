@@ -1,0 +1,32 @@
+{
+  "at_unix": 1790583759.389007,
+  "sha256": {
+    "reports/protocol_v159.md": "51989a5c8ad6c4d07a6bfa9ab8d97aec82558390c721fd138746fc0ae7abb943",
+    "configs/study_v159.json": "408b8795987fa36f62c1073ac19d5d3fb3d86b032167889de1dc7fd44faa5bb7",
+    "scripts/native_solvers_v159.py": "3e8991ae0e30c3c57b6f1670231850eb1370706ded2ac24880f791a0752157b7",
+    "scripts/run_solvers_v159.py": "1eddbf8188c11a4d5b868dd58750e146a760395ca750c0553dd476024bc687c2",
+    "scripts/collect_models_v159.py": "0df42a77cc065b6320c982934928ced82ed9093a0a13fb75187f6b19f72ec104",
+    "scripts/runtime_models_v159.py": "deca5986b766c2a9dc46a2640953f7c2708be768ca49e63462bf295b36242fa6",
+    "scripts/solver_worker_v157.py": "e29ab78bbf2ecef53036daea1911c6c202ad03db3472f3f7ad67d7a3fbb9f534",
+    "scripts/native_study_v153.py": "d36f7ae57cac5c979faef55bc896185aba487eb19175d55011a02afcf5a6559c",
+    "scripts/router_v132.py": "971d739fb893f3ce9be2db5fa874cb14f53c43d54e5885835ef290ab3aa60a54",
+    "scripts/router_v151.py": "8e38afa508c961df85e9c28d2d32aed574f162707ed5d4768ac98afa66a530d7",
+    "scripts/controllers_v154.py": "5fdccde273cd183eb641a8606a15e52739d82b81878d2078bbaf04c42006108f",
+    "scripts/gp_continuations_v155.py": "ce5392715b3322107e79dc4b79ba2323aa490ae720ef2062a3ca198c350d4d91",
+    "scripts/proposal_v128.py": "bfa7e00236ba308c9c095c9283e84d48bd64428197d2ebee6243bb1fb54bf72d",
+    "scripts/proposal_v127.py": "1d590dc5ea1c714ecfc4105911f839f8656cf589fcfbf4ec7a44244a10d1ff3d",
+    "scripts/audit_output_capacity_v127.py": "11a7f0d6ad860346721954d271da29c61f1373adf8d1d0a20f0e73ee657059fa",
+    "scripts/process_rss_v129.py": "8b9e77cbe978895346b44b7acfbddb6e2f77bc0e28e09672f92f6a90986e9e0b",
+    "src/escalation/receipts_v70.py": "a0fbdbbd1ae0b1ec02499d78380739e18dfdd0df21082b161b6056f2565b6423",
+    "tests/synthetic/test_solvers_v159.py": "b8451bfbde841b10574a060c3ca908c8acca48abee26eddab68a9f4f5cbea01f",
+    "artifacts/study_v159/plan.json": "f2278937d12c28d2bef7a131ce6c203969dc627119fdb411477cead70855141f",
+    "artifacts/study_v159/models.json": "c39e3d08de5a072951e932c8ee4bd958bc4fdddcd22426202e0757f3420d9174",
+    "artifacts/study_v159/routers.json": "ab787aa11dad9fbe82fc67d05d3baf83b7dad1bc197dc9cf9534b0c4f92f9f0f",
+    "artifacts/study_v159/candidates/cvc5.json": "efcc9063cfa67df48d67399474e5640318c897267338dc9d9776ad09960f39ae",
+    "artifacts/study_v159/candidates/ortools.json": "b071fe554e665eb95a0f0840dfbb9c7b083ad33f617e308bdaac659862885ec9",
+    "artifacts/study_v158/freeze.json": "1ed8e0decd3ab3a601b3b8ea28dfbe96a96bf97c719afc651bfd4dec6d92dd85",
+    "results/v158_solvers/summary.json": "db3ebd73226edefb52f20b20f237df4701495d84bc82fe7c2f4b62592107dce9",
+    "configs/solvers_v156.lock.txt": "e6eae75bd193af29d80866e0aa8278c3a4c505df0ada46e37a9084ad8a102072"
+  },
+  "precollection_repair": "Static review caught module rename native_study_v159 vs native_solvers_v159 before any native acquisition/model request; corrected import only. Initial freeze and collector preserved."
+}

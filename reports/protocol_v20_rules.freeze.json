@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-25T00:28:43.032282+00:00",
+  "scope": "Post-hoc audit, after actual V8/V19 outcomes; not prospective confirmation",
+  "sha256": {
+    "reports/protocol_v20_rules.md": "143caf1f86f9008db64cff80a9e4bda2b0403a0158ba62f5d647dd3a23e3d276",
+    "src/escalation/rule_audit_v20.py": "e024749a44fa9694bd69599cf940886615bc2a184210e461411bea3e0dffd53f",
+    "scripts/audit_rules_v20.py": "83b66f6a95943f4ea4afb8e07866531d7a14e4047edc1789bdc19460d3d1ce6b",
+    "tests/synthetic/test_rule_audit_v20.py": "97243a33adf7684d0ff1a463884a2bfc574ed5d27ce18457d7d57e78ced428a5",
+    "src/escalation/resources.py": "8ff495de39416aea848e58336b0fad78c9775ce2295ae24bbe5bfb586366504c",
+    "src/escalation/io.py": "2b9da6b2e3714c0b75e3adbd0ba984cbdc099621efcd232ad61b2c766d9fd63e",
+    "results/v8/requests.jsonl": "477456313bd9b0a001fa623391779f7a42e8f10b1a518db6b0ce85fca2dd7054",
+    "results/v19_order_probe/requests.jsonl": "e89477852e06b477d71423ec0c0a4cc4900e3821f7db5cd18e76ca7ec850e3bf",
+    "data/order_probe_v19.json": "66ce412e84622a315a8f66121cdec5928471cf11b470eab8ab0e010217972774",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139"
+  }
+}

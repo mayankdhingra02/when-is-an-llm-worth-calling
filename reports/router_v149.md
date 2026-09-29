@@ -1,0 +1,5 @@
+# V149 analysis rejected by independent replay
+
+**Do not use V149 controller scores or policy summaries as research findings.** Spark and Hadoop have overlapping short case names such as `pagerank_11`. The combined exploratory analysis used those names as dictionary keys, overwriting some inner predictions and decisions. The independent verifier rejected the threshold grid before evidence sealing. This invalidates the preliminary apparent tree improvement and ecosystem comparison, not the historical V147/V148 experiments, stored prefixes or real responses.
+
+The initial16synthetic tests missed this cross-system collision; retained failed replay logs document detection. V151 adds qualified engine-family/case identifiers and an exact regression test, then repeats the same fixed predictors, feature set, threshold rules and grouping analyses. No model calls or acquired outcomes are added by this correction. Original V149 code, inputs, freeze and invalid outputs remain unchanged for audit. No claim of prospective confirmation is possible for either exploratory analysis.

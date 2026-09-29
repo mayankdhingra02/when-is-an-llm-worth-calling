@@ -1,0 +1,88 @@
+{
+  "origin": "v148",
+  "key": "pagerank_53",
+  "qualified_key": "hadoop_mapreduce::pagerank_53",
+  "system_group": "hadoop_mapreduce",
+  "seed": 53,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/pagerank_53.json",
+  "prefix": "artifacts/study_v148/prefixes/pagerank_53.json",
+  "prefix_sha256": "79a9367ed702ecf396206735174739a7d985f110e7ca9ef69e718e1ef24cb21e",
+  "sampling_seed": 148053,
+  "redraw_seed": 320053,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/pagerank_53.json",
+  "app": "pagerank",
+  "split": 1,
+  "stage": "B1",
+  "arm": "qwen3_8b_redraw",
+  "model_key": "qwen3_8b",
+  "seed_used": 320053,
+  "score": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

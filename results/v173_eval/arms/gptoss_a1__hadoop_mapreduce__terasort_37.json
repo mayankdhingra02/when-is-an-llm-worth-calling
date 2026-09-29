@@ -1,0 +1,279 @@
+{
+  "origin": "v148",
+  "key": "terasort_37",
+  "qualified_key": "hadoop_mapreduce::terasort_37",
+  "system_group": "hadoop_mapreduce",
+  "seed": 37,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/terasort_37.json",
+  "prefix": "artifacts/study_v148/prefixes/terasort_37.json",
+  "prefix_sha256": "930df9bad2c5f8163c05563000216d2739ed7a23d3aec155f0fcd3ef5e1ff138",
+  "sampling_seed": 148037,
+  "redraw_seed": 320037,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/terasort_37.json",
+  "app": "terasort",
+  "split": 1,
+  "arm": "gptoss_a1",
+  "inference_stage": "A1R",
+  "model_status": "valid",
+  "fallback": false,
+  "fallback_kind": null,
+  "selected_rows": [
+    36,
+    34,
+    31,
+    33,
+    29,
+    22,
+    27,
+    20,
+    16,
+    28
+  ],
+  "projection": [
+    {
+      "row_id": 36,
+      "distance": 0.09090909090909088,
+      "repeated_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 34,
+      "distance": 0.18181818181818182,
+      "repeated_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 31,
+      "distance": 0.2727272727272727,
+      "repeated_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 33,
+      "distance": 0.12626262626262624,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 29,
+      "distance": 0.21717171717171715,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 22,
+      "distance": 0.30808080808080807,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 27,
+      "distance": 0.16161616161616163,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 20,
+      "distance": 0.25252525252525254,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 16,
+      "distance": 0.297979797979798,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 28,
+      "distance": 0.10606060606060605,
+      "repeated_proposal": false,
+      "matches_prefix": false
+    }
+  ],
+  "state": {
+    "ids": [
+      52,
+      64,
+      39,
+      21,
+      35,
+      41,
+      38,
+      58,
+      40,
+      37,
+      36,
+      34,
+      31,
+      33,
+      29,
+      22,
+      27,
+      20,
+      16,
+      28
+    ],
+    "labels": [
+      [
+        2661.386
+      ],
+      [
+        2044.762
+      ],
+      [
+        525.605
+      ],
+      [
+        845.376
+      ],
+      [
+        761.71
+      ],
+      [
+        533.09
+      ],
+      [
+        659.142
+      ],
+      [
+        2663.869
+      ],
+      [
+        510.474
+      ],
+      [
+        590.912
+      ],
+      [
+        589.43
+      ],
+      [
+        695.247
+      ],
+      [
+        855.729
+      ],
+      [
+        644.633
+      ],
+      [
+        925.062
+      ],
+      [
+        1265.729
+      ],
+      [
+        860.013
+      ],
+      [
+        1272.718
+      ],
+      [
+        1722.228
+      ],
+      [
+        423.34
+      ]
+    ],
+    "order": [
+      52,
+      64,
+      39,
+      21,
+      1,
+      15,
+      59,
+      19,
+      12,
+      8,
+      58,
+      35,
+      46,
+      14,
+      60,
+      6,
+      17,
+      25,
+      49,
+      53,
+      42,
+      10,
+      30,
+      7,
+      45,
+      22,
+      61,
+      68,
+      16,
+      20,
+      31,
+      0,
+      55,
+      48,
+      32,
+      63,
+      33,
+      2,
+      40,
+      44,
+      36,
+      37,
+      54,
+      41,
+      23,
+      57,
+      34,
+      66,
+      26,
+      5,
+      3,
+      51,
+      9,
+      28,
+      27,
+      67,
+      24,
+      18,
+      50,
+      38,
+      29,
+      43,
+      62,
+      13,
+      56,
+      47,
+      4,
+      65,
+      11
+    ]
+  },
+  "direction": "minimize",
+  "target": 423.34,
+  "missing_acquisitions": 0
+}

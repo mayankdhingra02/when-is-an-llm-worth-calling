@@ -1,0 +1,340 @@
+{
+  "key": "smollm3_3b_BDBC_AllNumeric_11_normal",
+  "dataset": "BDBC_AllNumeric",
+  "system_group": "berkeleydb",
+  "seed": 11,
+  "prefix": "results/v41_transfer/prefixes/BDBC_AllNumeric_11.json",
+  "base_key": "BDBC_AllNumeric_11",
+  "condition": "normal",
+  "sampling_seed": 141011,
+  "random_proposal_seed": 127900,
+  "messages_path": "artifacts/study_v141/prompts/BDBC_AllNumeric_11_normal.json",
+  "prefix_sha256": "1314a87f259680a6f347cd73173ce100e50a4c0ec65ddeabaa5db4952cf432ea",
+  "domains": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "model_arm": "results/v127_analysis/arms/BDBC_AllNumeric_11_model.json",
+  "classical_arm": "results/v41_transfer/arms/BDBC_AllNumeric_11_full_sequential_3nn.json",
+  "old_messages_path": "artifacts/study_v127/prompts/BDBC_AllNumeric_11_normal.json",
+  "case_key": "BDBC_AllNumeric_11_normal",
+  "model": "smollm3_3b",
+  "selected_rows": [
+    542,
+    529,
+    545,
+    39,
+    409,
+    912,
+    176,
+    463,
+    437,
+    177
+  ],
+  "projection": [
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 542,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": true
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 529,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": true
+    },
+    {
+      "proposal": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 545,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": true
+    },
+    {
+      "proposal": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 39,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 409,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": true
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 912,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": true
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "row_id": 176,
+      "hamming_distance": 0,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 463,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "row_id": 437,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": false
+    },
+    {
+      "proposal": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "row_id": 177,
+      "hamming_distance": 1,
+      "repeated_proposal": false,
+      "matches_initial_observation": true
+    }
+  ],
+  "fallback": false,
+  "model_status": "valid"
+}

@@ -1,0 +1,60 @@
+{
+  "charge": 789,
+  "case": "cvc5_53",
+  "engine": "cvc5",
+  "arm": "adaptive_neighbor",
+  "phase": "validation",
+  "row_id": 20,
+  "at_unix": 1790584158.925781,
+  "status": "correct",
+  "value": 0.031990540999686345,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv-solvers156/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/solver_worker_v157.py",
+    "--engine",
+    "cvc5",
+    "--config",
+    "{\"decision\": \"internal\", \"simplification\": \"none\", \"arith-prop\": \"bi\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": false}",
+    "--n",
+    "10",
+    "--limit",
+    "10"
+  ],
+  "returncode": 0,
+  "stdout": "{\"engine\": \"cvc5\", \"version\": \"1.4.1\", \"config\": {\"decision\": \"internal\", \"simplification\": \"none\", \"arith-prop\": \"bi\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": false}, \"n\": 10, \"limit\": 10.0, \"status\": \"sat\", \"rows\": [3, 6, 8, 1, 5, 0, 2, 4, 7, 9], \"correct\": true, \"solve_seconds\": 0.031990540999686345, \"solve_cpu_seconds\": 0.031991000000000006, \"import_build_seconds\": 0.022869250002258923, \"worker_seconds\": 0.05502433299989207, \"max_rss_bytes\": 31948800, \"stats\": {}}\n",
+  "stderr": "",
+  "measurement": {
+    "engine": "cvc5",
+    "version": "1.4.1",
+    "config": {
+      "decision": "internal",
+      "simplification": "none",
+      "arith-prop": "bi",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    "n": 10,
+    "limit": 10.0,
+    "status": "sat",
+    "rows": [
+      3,
+      6,
+      8,
+      1,
+      5,
+      0,
+      2,
+      4,
+      7,
+      9
+    ],
+    "correct": true,
+    "solve_seconds": 0.031990540999686345,
+    "solve_cpu_seconds": 0.031991000000000006,
+    "import_build_seconds": 0.022869250002258923,
+    "worker_seconds": 0.05502433299989207,
+    "max_rss_bytes": 31948800,
+    "stats": {}
+  },
+  "collection_seconds": 0.07751070800441084
+}

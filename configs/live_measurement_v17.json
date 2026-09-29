@@ -1,0 +1,25 @@
+{
+  "stage": "single_exploratory_expanded_development_grid",
+  "families": [
+    "zstd",
+    "lz4",
+    "zlib"
+  ],
+  "settings_per_family": {
+    "zstd": 96,
+    "lz4": 96,
+    "zlib": 90
+  },
+  "repetitions": 3,
+  "intended_physical_trials": 846,
+  "stage_wall_seconds": 80,
+  "trial_timeout_seconds": 2,
+  "global_runtime_seconds": 1800,
+  "request_cap_unchanged": 128,
+  "allow_model_calls": false,
+  "new_families_role": "development_exposed; not untouched held-out systems",
+  "objective_accounting": "Each attempted physical repetition is one charged runtime/size/correctness vector; no free warmups/retries. The initial grid is data collection, not a20-evaluation optimizer arm.",
+  "diagnostic_noise_cv_threshold": 0.1,
+  "threshold_interpretation": "Descriptive stability check chosen before collection, not a practical LLM success margin",
+  "stage_stop": "complete fixed denominator or hit resource cap; never stop based on favorable performance"
+}

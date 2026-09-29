@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "new_configuration_outcomes": 900,
+  "new_native_invocations": 2700,
+  "historical_prefixes_reused": 10,
+  "historical_prefix_outcomes": 100,
+  "B20_arms": 90,
+  "fresh_validations": 270,
+  "model_starts": 40,
+  "independent_GP_choices": 70,
+  "max_EI_gap": 0.0,
+  "mutations_rejected": [
+    "objective",
+    "quality",
+    "identity",
+    "hidden_prompt_field"
+  ],
+  "scope": "Independent numerical/raw-data replay in same repository; not external replication"
+}

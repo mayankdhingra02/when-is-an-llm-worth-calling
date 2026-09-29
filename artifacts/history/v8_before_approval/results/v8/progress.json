@@ -1,0 +1,323 @@
+{
+  "at": "2026-09-24T19:46:21.779707+00:00",
+  "intended": [
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "MySQL",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "lrzip",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 11,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 23,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 37,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 53,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "uniform_selection",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "static_rank",
+      "status": "completed",
+      "reason": null
+    },
+    {
+      "dataset": "brotli",
+      "seed": 71,
+      "arm": "llm",
+      "status": "blocked",
+      "reason": "LLM arm not started"
+    }
+  ],
+  "complete": false,
+  "actual_new_accesses": 300,
+  "actual_request_attempts": 0
+}

@@ -1,0 +1,47 @@
+........................................................................ [  5%]
+........................................................................ [ 11%]
+........................................................................ [ 16%]
+........................................................................ [ 22%]
+........................................................................ [ 28%]
+........................................................................ [ 33%]
+........................................................................ [ 39%]
+........................................................................ [ 44%]
+........................................................................ [ 50%]
+........................................................................ [ 56%]
+........................................................................ [ 61%]
+........................................................................ [ 67%]
+........................................................................ [ 73%]
+........................................................................ [ 78%]
+........................................................................ [ 84%]
+........................................................................ [ 89%]
+........................................................................ [ 95%]
+..........................................................               [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /Users/mayankdhingra/Downloads/llm-escalation-study/.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85
+  /Users/mayankdhingra/Downloads/llm-escalation-study/.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89
+  /Users/mayankdhingra/Downloads/llm-escalation-study/.venv/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+.venv/lib/python3.10/site-packages/matplotlib/_mathtext.py:45
+  /Users/mayankdhingra/Downloads/llm-escalation-study/.venv/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1282 passed, 14 warnings in 43.66s

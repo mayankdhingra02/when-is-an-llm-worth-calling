@@ -1,0 +1,60 @@
+{
+  "charge": 505,
+  "case": "cvc5_37",
+  "engine": "cvc5",
+  "arm": "smollm3_3b",
+  "phase": "search",
+  "row_id": 32,
+  "at_unix": 1790584066.081425,
+  "status": "correct",
+  "value": 2.156347457996162,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv-solvers156/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/solver_worker_v157.py",
+    "--engine",
+    "cvc5",
+    "--config",
+    "{\"decision\": \"justification\", \"simplification\": \"batch\", \"arith-prop\": \"both\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": false}",
+    "--n",
+    "10",
+    "--limit",
+    "10"
+  ],
+  "returncode": 0,
+  "stdout": "{\"engine\": \"cvc5\", \"version\": \"1.4.1\", \"config\": {\"decision\": \"justification\", \"simplification\": \"batch\", \"arith-prop\": \"both\", \"arith-static-learning\": true, \"arith-rewrite-equalities\": false}, \"n\": 10, \"limit\": 10.0, \"status\": \"sat\", \"rows\": [0, 2, 5, 8, 6, 9, 3, 1, 7, 4], \"correct\": true, \"solve_seconds\": 2.156347457996162, \"solve_cpu_seconds\": 2.1563380000000003, \"import_build_seconds\": 0.022490167000796646, \"worker_seconds\": 2.1790502079966245, \"max_rss_bytes\": 41091072, \"stats\": {}}\n",
+  "stderr": "",
+  "measurement": {
+    "engine": "cvc5",
+    "version": "1.4.1",
+    "config": {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": true,
+      "arith-rewrite-equalities": false
+    },
+    "n": 10,
+    "limit": 10.0,
+    "status": "sat",
+    "rows": [
+      0,
+      2,
+      5,
+      8,
+      6,
+      9,
+      3,
+      1,
+      7,
+      4
+    ],
+    "correct": true,
+    "solve_seconds": 2.156347457996162,
+    "solve_cpu_seconds": 2.1563380000000003,
+    "import_build_seconds": 0.022490167000796646,
+    "worker_seconds": 2.1790502079966245,
+    "max_rss_bytes": 41091072,
+    "stats": {}
+  },
+  "collection_seconds": 2.2047442920011235
+}

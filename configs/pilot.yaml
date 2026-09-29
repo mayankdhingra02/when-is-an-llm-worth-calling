@@ -1,0 +1,57 @@
+# Proposed pilot specification. Codex must implement validation and enforcement.
+# This file alone does not configure Codex or enforce billing limits.
+project: llm-escalation-study
+stage: smoke
+seed_list: [11, 23, 37, 53, 71]
+
+data:
+  source: moot
+  target_datasets: 3
+  require_distinct_system_groups: true
+  select_before_outcome_analysis: true
+  record_versions_and_hashes: true
+
+optimization:
+  total_evaluations_per_arm: 20
+  decision_after_evaluations: 10
+  hidden_labels_via_oracle_only: true
+  counterfactual_branches_share_frozen_prefix: true
+  metric: verify_and_freeze_from_primary_source
+
+inference:
+  backend: local_or_verified_cache
+  allow_paid_api: false
+  max_external_spend_usd: 0
+  local_endpoint_only: true
+  max_concurrent_requests: 1
+  max_new_model_requests: 100
+  count_retries_in_request_cap: true
+  max_retries_per_request: 1
+  request_timeout_seconds: 180
+  max_output_tokens_per_request: 1024
+  model_id: null  # Select only after inspecting actual environment and license.
+  record_model_revision_and_prompt_hash: true
+  mocks_allowed_only_in_tests: true
+
+resources:
+  max_model_download_gib: 4
+  max_total_new_download_gib: 5
+  max_experiment_runtime_minutes: 30
+  max_parallel_experiments: 1
+  allow_cloud_provisioning: false
+  allow_system_wide_installs: false
+  stop_and_checkpoint_at_limit: true
+
+analysis:
+  split_unit: software_system_group
+  group_related_versions_and_all_seeds: true
+  thresholds_from_development_only: true
+  smoke_results_are_descriptive_only: true
+  retain_failed_run_denominators: true
+  separate_collection_and_deployment_cost: true
+  prohibit_test_set_adaptive_tuning: true
+
+permissions:
+  allow_remote_publish: false
+  allow_author_contact: false
+  allow_credentials_discovery: false

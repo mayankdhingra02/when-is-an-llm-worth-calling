@@ -1,0 +1,20 @@
+{
+  "qwen3_8b": {
+    "path": "models/Qwen3-8B-Q4_K_M/Qwen3-8B-Q4_K_M.gguf",
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "repo": "Qwen/Qwen3-8B-GGUF",
+    "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+    "license": "Apache-2.0",
+    "provenance": "artifacts/study_v91/model_manifest.json",
+    "bytes": 5027783488
+  },
+  "smollm3_3b": {
+    "path": "models/SmolLM3-3B-Q4_K_M/SmolLM3-Q4_K_M.gguf",
+    "sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
+    "repo": "ggml-org/SmolLM3-3B-GGUF",
+    "revision": "4965cb60b150737b68a0408c36aeefb65078f894",
+    "license": "Apache-2.0",
+    "provenance": "artifacts/study_v46/model_metadata.json",
+    "bytes": 1915305312
+  }
+}

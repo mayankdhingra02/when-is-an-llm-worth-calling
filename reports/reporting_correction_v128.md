@@ -1,0 +1,5 @@
+# V128 reporting correction identified during collection
+
+The frozen report counted missing token fields only among returned responses. This would undercount missing usage if a request timed out without a response. Before analysis and before any new objective acquisition, a separate corrected report changes this denominator to all charged generation attempts. Observed token sums still include only returned integer receipts; unreturned usage is unknown, never zero. Original code, request protocol, time/resource caps, raw responses, cohort and comparison formulas are unchanged. Use `scripts/report_proposal_v128_corrected.py`. The original frozen report remains as evidence. This correction is not a retry or extra model authorization.
+
+Precollection full tests initially had one two-second timeout launching the legacy V107 native parser;1011 passed. Its unchanged focused suite then passed13 tests in0.14s and the full suite passed1012 tests with14 warnings in62.16s. Both logs are preserved. Before freezing, two standalone-script import paths were corrected; no request or acquisition had occurred.

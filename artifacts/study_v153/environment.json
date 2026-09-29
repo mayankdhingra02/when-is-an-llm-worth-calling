@@ -1,0 +1,13 @@
+{
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "python": "3.10.13",
+  "processor": "arm64",
+  "toolchain": {
+    "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer",
+    "SDKROOT": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "CC": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+    "CFLAGS": "-O2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+    "LDFLAGS": "-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk"
+  },
+  "native_binary_sha256": "40ef5a110b0ac2f9d488ec7fdd27689708877b9b2884d789e95d7fc15d0174a4"
+}

@@ -1,0 +1,204 @@
+{
+  "key": "Dune_AllNumeric_53_normal",
+  "dataset": "Dune_AllNumeric",
+  "system_group": "dune_hsmgp",
+  "seed": 53,
+  "prefix": "results/v41_transfer/prefixes/Dune_AllNumeric_53.json",
+  "base_key": "Dune_AllNumeric_53",
+  "condition": "normal",
+  "sampling_seed": 141053,
+  "random_proposal_seed": 127908,
+  "messages_path": "artifacts/study_v141/prompts/Dune_AllNumeric_53_normal.json",
+  "prefix_sha256": "ea5c5a7cd11e18ea944e9fc7e8443d9b7f273ab023b6a7d01d175934ed5bf485",
+  "domains": [
+    [
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0
+    ],
+    [
+      50.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ]
+  ],
+  "model_arm": "results/v127_analysis/arms/Dune_AllNumeric_53_model.json",
+  "classical_arm": "results/v41_transfer/arms/Dune_AllNumeric_53_full_sequential_3nn.json",
+  "old_messages_path": "artifacts/study_v127/prompts/Dune_AllNumeric_53_normal.json",
+  "model": "qwen3_8b",
+  "score": [
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      50.0,
+      6.0,
+      3.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      4.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      50.0,
+      5.0,
+      2.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      50.0,
+      6.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      6.0,
+      3.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      50.0,
+      5.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      50.0,
+      4.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      50.0,
+      6.0,
+      2.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      50.0,
+      5.0,
+      3.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      50.0,
+      4.0,
+      1.0
+    ]
+  ],
+  "status": "valid",
+  "error": null
+}

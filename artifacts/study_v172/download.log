@@ -1,0 +1,33 @@
+model MiB 512 32 s
+model MiB 1024 57 s
+model MiB 1536 80 s
+model MiB 2048 104 s
+model MiB 2560 184 s
+model MiB 3072 207 s
+model MiB 3584 231 s
+model MiB 4096 253 s
+model MiB 4608 277 s
+model MiB 5120 300 s
+model MiB 5632 322 s
+model MiB 6144 345 s
+model MiB 6656 368 s
+model MiB 7168 391 s
+model MiB 7680 413 s
+model MiB 8192 435 s
+{
+ "model_repo": "Qwen/Qwen3-14B-GGUF",
+ "revision": "530227a7d994db8eca5ab5ced2fb692b614357fd",
+ "path": "models/Qwen3-14B-Q4_K_M/Qwen3-14B-Q4_K_M.gguf",
+ "sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+ "bytes": 9001752960,
+ "license": "Apache-2.0",
+ "license_sha256": "5de36594c10839788a8c589443a8ef9d8b8d17c65a1b5807206ae037fc36c6bd",
+ "readme_sha256": "3e0df8a0e59bc900f7bcbc943b3163830abec87a19d2bca94651868362def947",
+ "pointer_sha256": "6c00b407d01ba5e8aba3d6acd13ddb1ee04a409b1d7d4fa9310d6368b51fd657",
+ "download_bytes": 9001785040,
+ "retained_download_bytes_after": 19381944226,
+ "model_payload_bytes_after": 18128110983,
+ "external_spend_usd": 0,
+ "seconds": 457.21334929199656
+}
+exit=0

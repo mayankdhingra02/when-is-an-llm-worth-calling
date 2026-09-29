@@ -1,0 +1,271 @@
+{
+  "case": "hnswlib_37",
+  "engine": "hnswlib",
+  "arm": "qwen3_8b",
+  "state": {
+    "ids": [
+      17,
+      50,
+      1,
+      15,
+      37,
+      21,
+      49,
+      41,
+      33,
+      51,
+      61,
+      43,
+      27,
+      29,
+      59,
+      63,
+      25
+    ],
+    "labels": [
+      [
+        0.0967595
+      ],
+      [
+        0.110002667
+      ],
+      [
+        0.093851042
+      ],
+      [
+        0.175704167
+      ],
+      [
+        0.096628667
+      ],
+      [
+        0.100935292
+      ],
+      [
+        0.094442792
+      ],
+      [
+        0.17901575
+      ],
+      [
+        0.095277917
+      ],
+      [
+        0.097828208
+      ],
+      [
+        0.189727375
+      ],
+      [
+        0.183995041
+      ],
+      [
+        0.184563333
+      ],
+      [
+        0.189542667
+      ],
+      [
+        0.185208834
+      ],
+      [
+        0.196163458
+      ],
+      [
+        0.181575916
+      ]
+    ],
+    "order": [
+      17,
+      50,
+      1,
+      15,
+      12,
+      14,
+      30,
+      41,
+      37,
+      57,
+      60,
+      21,
+      35,
+      8,
+      61,
+      10,
+      22,
+      7,
+      44,
+      63,
+      46,
+      20,
+      55,
+      0,
+      31,
+      13,
+      58,
+      49,
+      19,
+      16,
+      25,
+      54,
+      36,
+      48,
+      52,
+      45,
+      34,
+      4,
+      26,
+      5,
+      3,
+      9,
+      51,
+      27,
+      24,
+      18,
+      38,
+      29,
+      43,
+      6,
+      33,
+      28,
+      23,
+      56,
+      2,
+      32,
+      40,
+      62,
+      47,
+      53,
+      42,
+      39,
+      59,
+      11
+    ]
+  },
+  "status": "valid",
+  "fallback": false,
+  "proposals": [
+    [
+      3,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      3,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      1
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 61,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 43,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 27,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 29,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 59,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 63,
+      "distance": 0.08333333333333334,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 25,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 13,
+      "distance": 0.08333333333333333,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 45,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 31,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    }
+  ]
+}

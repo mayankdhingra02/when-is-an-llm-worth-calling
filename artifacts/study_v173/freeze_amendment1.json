@@ -1,0 +1,26 @@
+{
+ "at": "2026-09-28T21:17:23.137046+00:00",
+ "purpose": "V173 amendment 1 freeze: after the operator-stopped A1 (truncation/HTTP 429), before P2 and any recorded target read",
+ "superseded": [
+  "configs/study_v173.json",
+  "scripts/analyze_v173.py",
+  "scripts/collect_v173.py",
+  "scripts/openrouter_v173.py",
+  "scripts/verify_v173.py",
+  "tests/synthetic/test_v173.py"
+ ],
+ "added": [
+  "reports/protocol_v173_amendment1.md",
+  "scripts/report_v173.py"
+ ],
+ "sha256": {
+  "configs/study_v173.json": "c9c973996962e2d372f1855726a4b6758828e16c0bdc3f99a86422e5687b1db3",
+  "scripts/analyze_v173.py": "724209799902683e4d28b661ba6d790998bae3a3b1084972fa18d33475564b51",
+  "scripts/collect_v173.py": "6b8ed86c414bf7e8559f94a09b4662463d0ffdfe57a36d20fe00c07cbe8168e8",
+  "scripts/openrouter_v173.py": "07ad463c7f580e1fea1867cbdc2606cb628a5767587566877e621204fe8d6bda",
+  "scripts/verify_v173.py": "90fee17276fa5f7fd00d1d1aa057f5ae0f86e1eb4e4a54472418931a10d3e67a",
+  "tests/synthetic/test_v173.py": "74d0141e5e4722f795518a3c3606e063c87257b46131fb29c177744203ffb7fc",
+  "reports/protocol_v173_amendment1.md": "324d90c69f602cb6044de0d69883995737942e74a17b51d427501f69fc6b9ebb",
+  "scripts/report_v173.py": "7f158660e36a55e130f0885a555d452cfc1f6be0b9d500396c908400d15acf83"
+ }
+}

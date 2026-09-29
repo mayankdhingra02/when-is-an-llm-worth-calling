@@ -1,0 +1,271 @@
+{
+  "case": "ripgrep_23",
+  "engine": "ripgrep",
+  "arm": "random_proposal",
+  "state": {
+    "ids": [
+      34,
+      47,
+      16,
+      38,
+      36,
+      30,
+      52,
+      44,
+      50,
+      58,
+      61,
+      42,
+      60,
+      7,
+      28,
+      6,
+      43
+    ],
+    "labels": [
+      [
+        0.2627064580010483
+      ],
+      [
+        0.3483149579988094
+      ],
+      [
+        0.3058065829973202
+      ],
+      [
+        0.2495384580033715
+      ],
+      [
+        0.2516142500026035
+      ],
+      [
+        0.28281366599549074
+      ],
+      [
+        0.27908320799906505
+      ],
+      [
+        0.2895851670036791
+      ],
+      [
+        0.27672604200051865
+      ],
+      [
+        0.2803920000005746
+      ],
+      [
+        0.3588999999992666
+      ],
+      [
+        0.2798089580028318
+      ],
+      [
+        0.2843163329962408
+      ],
+      [
+        1.344500708997657
+      ],
+      [
+        0.28774487499322277
+      ],
+      [
+        0.7934999999997672
+      ],
+      [
+        0.33957716599979904
+      ]
+    ],
+    "order": [
+      34,
+      47,
+      16,
+      38,
+      36,
+      54,
+      4,
+      52,
+      51,
+      48,
+      45,
+      20,
+      7,
+      50,
+      30,
+      49,
+      44,
+      15,
+      58,
+      35,
+      10,
+      9,
+      55,
+      25,
+      18,
+      11,
+      40,
+      42,
+      62,
+      41,
+      21,
+      23,
+      2,
+      13,
+      3,
+      61,
+      56,
+      32,
+      43,
+      26,
+      31,
+      60,
+      6,
+      59,
+      29,
+      39,
+      14,
+      0,
+      28,
+      17,
+      12,
+      46,
+      8,
+      22,
+      33,
+      24,
+      27,
+      19,
+      63,
+      1,
+      5,
+      53,
+      57,
+      37
+    ]
+  },
+  "status": "classical",
+  "fallback": false,
+  "proposals": [
+    [
+      7,
+      1,
+      0,
+      1
+    ],
+    [
+      6,
+      0,
+      1,
+      0
+    ],
+    [
+      7,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      4,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      1
+    ],
+    [
+      6,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0
+    ]
+  ],
+  "projection": [
+    {
+      "row_id": 61,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 42,
+      "distance": 0.0357142857142857,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 60,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 7,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 28,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": false,
+      "matches_prefix": true
+    },
+    {
+      "row_id": 6,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 43,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 55,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 14,
+      "distance": 0.03571428571428571,
+      "duplicate_proposal": true,
+      "matches_prefix": false
+    },
+    {
+      "row_id": 32,
+      "distance": 0.0,
+      "duplicate_proposal": false,
+      "matches_prefix": false
+    }
+  ]
+}

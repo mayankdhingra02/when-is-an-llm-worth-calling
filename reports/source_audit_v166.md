@@ -1,0 +1,20 @@
+# V166 source and application admission audit
+
+The prior V165 manifest verified unchanged:817files,67historical checkpoints, SHA256 f03c45727f6a2a002ed2037c869417d462e6eaa6882e9af790c98c4da34c88ac. Existing SNAP2/EZR/MOOT audit and adaptation labels remain unchanged. This stage introduces two custom application workloads, not original-method replications.
+
+| Artifact | Primary source / version | License / use |
+|---|---|---|
+| Polars Python and ARM runtime | [Owner](https://github.com/pola-rs/polars/tree/py-1.35.2), [registry](https://pypi.org/project/polars/1.35.2/),1.35.2 | MIT, Ritchie Vink; some NVIDIA portions. Owner LICENSE and wheel notices retained. |
+| XGBoost ARM Python wheel | [Owner](https://github.com/dmlc/xgboost/tree/v3.1.1), [registry](https://pypi.org/project/xgboost/3.1.1/),3.1.1 | Apache2.0; owner LICENSE and pinned parameter source retained. CPU histogram training is a custom use of the implementation. |
+| Covertype | [UCI dataset31](https://archive.ics.uci.edu/dataset/31/covertype), Blackard1998, DOI10.24432/C50K5N | CC BY4.0. Official archive contains581012rows,54features and7classes. Attribution/page/archive/info files retained. |
+| nycflights13 | Existing V88 original tables, Python port0.0.3 | Existing CC0 provenance and four table hashes reused unchanged; flight workload previously executed with DuckDB. |
+
+Registry JSON selected exactly one compatible wheel per package and supplied its SHA256. Every wheel digest checked before offline `pip --no-index --no-deps --target .local-runtime/apps-v166`. Polars requires exactly its1.35.2 runtime; XGBoost requires existing NumPy/SciPy on this platform. No optional extras installed. Existing NumPy2.2.6/SciPy1.13.1 and local Python3.10.13 are recorded; existing Homebrew libomp is hashed and its installation/SBOM receipts copied, not modified. Runtime manifest binds all installed non-pycache files, absolute libomp path and pinned API signatures. Reproduction on another OS requires its own compatible binaries/manifest, not pretending these ARM wheels are portable.
+
+Downloaded51,341,771bytes in6.551seconds, below100,000,000byte/600second frozen stage limits. Retained cumulative10,380,159,186/10GiB;357,259,054bytes remain. No model weights, APIs, credentials, cloud or global installation. Ignored owner-source archives are retained locally with URL/hash/size receipts; no installer from a webpage executed. One web-viewer attempt to open the UCI ZIP returned a content-length limit; the bounded owner downloader subsequently fetched it successfully. Shell inspections with nonexistent guessed paths/globs failed harmlessly and did not run experiments.
+
+The retained reports/configs plus prior explicit evidence inventory show zero Polars/XGBoost name/alias hits. This is a scoped audit, not proof about external/deleted histories. Prior DuckDB runtime inventories contain an optional Polars bridge filename; this does not establish a native Polars experiment. Polars' input/query contract is explicitly previously exposed regardless of implementation novelty. GNU sort and DuckDB were not counted as new native families.
+
+Dataset preparation verified source shape, seven-class range and one-hot wilderness/soil schema. Fixed random permutation splits65536training and8192quality-validation rows, leaving507284unused. No tuned application was executed during preparation. The validation subset is used as an acquired optimization constraint, not held-out classifier accuracy. Polars exact references use the retained independent Python dictionary implementation. Covertype preparation and split hashes, package source digests and licenses are in artifacts/study_v166 and artifacts/sources/v166.
+
+V166 exposed a null-schema implementation error: all20Polars attempts failed on `NA`. All40intended attempts remain charged. V167 changed only null markers to accept empty and `NA`, froze20additional attempts and preserved the prior failure. All20repair outputs match exact references; all4cells pass. XGBoost3/4cells pass; candidate0 fails the frozen75%accuracy requirement. Admission uses fixed correctness/quality/noise criteria, never model gains.

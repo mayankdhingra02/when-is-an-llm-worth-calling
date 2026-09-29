@@ -1,0 +1,24 @@
+{
+  "verified": true,
+  "arms": 140,
+  "complete_arms": 139,
+  "unscorable_arms": 1,
+  "charged_attempts": 1393,
+  "near_tie_argmax_differences": 2,
+  "EI_numerical_absolute_tolerance": 1e-08,
+  "mutations": [
+    {
+      "name": "source_value",
+      "rejected": true
+    },
+    {
+      "name": "selected_row",
+      "rejected": true
+    },
+    {
+      "name": "aggregate",
+      "rejected": true
+    }
+  ],
+  "scope": "independent covariance/lstsq/EI maximum; selected source values including missing target; full acquisition/arm budget and aggregates; no new collection"
+}

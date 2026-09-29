@@ -1,0 +1,156 @@
+[
+  {
+    "engine": "ripgrep",
+    "arm": "sequential_3nn",
+    "prefix_selected_cases": 3,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.017068113608465434,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ripgrep",
+    "arm": "adaptive_neighbor",
+    "prefix_selected_cases": 3,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0174021694170694,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ripgrep",
+    "arm": "gp_ei",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.009172108614493416,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ripgrep",
+    "arm": "random_full",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "ripgrep",
+    "arm": "random_proposal",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.017225840166309132,
+    "evaluated_proposals": 35,
+    "projected": 9,
+    "duplicate": 3,
+    "prefix_match": 7
+  },
+  {
+    "engine": "ripgrep",
+    "arm": "smollm3_3b",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 17,
+    "duplicate": 11,
+    "prefix_match": 7
+  },
+  {
+    "engine": "ripgrep",
+    "arm": "qwen3_8b",
+    "prefix_selected_cases": 3,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.017341869736243548,
+    "evaluated_proposals": 35,
+    "projected": 9,
+    "duplicate": 8,
+    "prefix_match": 1
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "sequential_3nn",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "adaptive_neighbor",
+    "prefix_selected_cases": 4,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0038448521329796327,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "gp_ei",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "random_full",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 0,
+    "projected": 0,
+    "duplicate": 0,
+    "prefix_match": 0
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "random_proposal",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 8,
+    "duplicate": 3,
+    "prefix_match": 4
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "smollm3_3b",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 21,
+    "duplicate": 21,
+    "prefix_match": 0
+  },
+  {
+    "engine": "hnswlib",
+    "arm": "qwen3_8b",
+    "prefix_selected_cases": 5,
+    "cases": 5,
+    "search_mean_relative_improvement": 0.0,
+    "evaluated_proposals": 35,
+    "projected": 24,
+    "duplicate": 23,
+    "prefix_match": 6
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "charge": 590,
+  "case": "cvc5_71",
+  "engine": "cvc5",
+  "arm": "smollm3_3b",
+  "phase": "search",
+  "row_id": 35,
+  "at_unix": 1790584117.514709,
+  "status": "correct",
+  "value": 0.1348347089951858,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv-solvers156/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/solver_worker_v157.py",
+    "--engine",
+    "cvc5",
+    "--config",
+    "{\"decision\": \"justification\", \"simplification\": \"batch\", \"arith-prop\": \"both\", \"arith-static-learning\": false, \"arith-rewrite-equalities\": true}",
+    "--n",
+    "10",
+    "--limit",
+    "10"
+  ],
+  "returncode": 0,
+  "stdout": "{\"engine\": \"cvc5\", \"version\": \"1.4.1\", \"config\": {\"decision\": \"justification\", \"simplification\": \"batch\", \"arith-prop\": \"both\", \"arith-static-learning\": false, \"arith-rewrite-equalities\": true}, \"n\": 10, \"limit\": 10.0, \"status\": \"sat\", \"rows\": [9, 7, 4, 1, 3, 0, 6, 8, 2, 5], \"correct\": true, \"solve_seconds\": 0.1348347089951858, \"solve_cpu_seconds\": 0.13483499999999998, \"import_build_seconds\": 0.022382250004739035, \"worker_seconds\": 0.15738558400335023, \"max_rss_bytes\": 33112064, \"stats\": {}}\n",
+  "stderr": "",
+  "measurement": {
+    "engine": "cvc5",
+    "version": "1.4.1",
+    "config": {
+      "decision": "justification",
+      "simplification": "batch",
+      "arith-prop": "both",
+      "arith-static-learning": false,
+      "arith-rewrite-equalities": true
+    },
+    "n": 10,
+    "limit": 10.0,
+    "status": "sat",
+    "rows": [
+      9,
+      7,
+      4,
+      1,
+      3,
+      0,
+      6,
+      8,
+      2,
+      5
+    ],
+    "correct": true,
+    "solve_seconds": 0.1348347089951858,
+    "solve_cpu_seconds": 0.13483499999999998,
+    "import_build_seconds": 0.022382250004739035,
+    "worker_seconds": 0.15738558400335023,
+    "max_rss_bytes": 33112064,
+    "stats": {}
+  },
+  "collection_seconds": 0.18013629100460093
+}

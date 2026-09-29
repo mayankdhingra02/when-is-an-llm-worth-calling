@@ -1,0 +1,7 @@
+{
+  "mutation": "Change one reported native LLM target and refresh file transport hash; independent semantic reconstruction must still reject",
+  "rejected": true,
+  "stderr": "Traceback (most recent call last):\n  File \"/private/tmp/v132-corruption-6008c91h/bundle/replay.py\", line 8, in <module>\n    runpy.run_path(str(r/'scripts/verify_native_v131.py'),run_name='__main__')\n  File \"/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"/Users/mayankdhingra/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/private/tmp/v132-corruption-6008c91h/bundle/scripts/verify_native_v131.py\", line 106, in <module>\n    if __name__=='__main__':main()\n  File \"/private/tmp/v132-corruption-6008c91h/bundle/scripts/verify_native_v131.py\", line 89, in main\n    for mode,v in values.items():assert comp[mode]==v\nAssertionError\n",
+  "returncode": 1,
+  "zip_crc_verified": true
+}

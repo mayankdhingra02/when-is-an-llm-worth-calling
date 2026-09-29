@@ -1,0 +1,202 @@
+{
+  "group_count": 1,
+  "paired_cases": 5,
+  "rows": [
+    {
+      "seed": 11,
+      "group": "flac",
+      "preset_bytes": 455080,
+      "prefix_best_bytes": 442705,
+      "llm_bytes": 442705,
+      "model_status": "valid",
+      "fallback": false,
+      "sequential_3nn_bytes": 441983,
+      "batch_3nn_bytes": 442705,
+      "random_projection_bytes": 441983,
+      "random_full_bytes": 442705
+    },
+    {
+      "seed": 23,
+      "group": "flac",
+      "preset_bytes": 455080,
+      "prefix_best_bytes": 445651,
+      "llm_bytes": 445167,
+      "model_status": "valid",
+      "fallback": false,
+      "sequential_3nn_bytes": 441983,
+      "batch_3nn_bytes": 441740,
+      "random_projection_bytes": 445651,
+      "random_full_bytes": 441740
+    },
+    {
+      "seed": 37,
+      "group": "flac",
+      "preset_bytes": 455080,
+      "prefix_best_bytes": 441740,
+      "llm_bytes": 441740,
+      "model_status": "valid",
+      "fallback": false,
+      "sequential_3nn_bytes": 441740,
+      "batch_3nn_bytes": 441740,
+      "random_projection_bytes": 441740,
+      "random_full_bytes": 441740
+    },
+    {
+      "seed": 53,
+      "group": "flac",
+      "preset_bytes": 455080,
+      "prefix_best_bytes": 441740,
+      "llm_bytes": 441740,
+      "model_status": "valid",
+      "fallback": false,
+      "sequential_3nn_bytes": 441740,
+      "batch_3nn_bytes": 441740,
+      "random_projection_bytes": 441740,
+      "random_full_bytes": 441740
+    },
+    {
+      "seed": 71,
+      "group": "flac",
+      "preset_bytes": 455080,
+      "prefix_best_bytes": 445167,
+      "llm_bytes": 442930,
+      "model_status": "valid",
+      "fallback": false,
+      "sequential_3nn_bytes": 442705,
+      "batch_3nn_bytes": 441740,
+      "random_projection_bytes": 444237,
+      "random_full_bytes": 441983
+    }
+  ],
+  "comparisons": {
+    "sequential_3nn": {
+      "mean_gain_fraction": "-365730381/195668084015",
+      "mean_gain_percent": -0.1869136618989753,
+      "wins": 0,
+      "ties": 2,
+      "losses": 3,
+      "paired_gain_percent": [
+        -0.16335469916263748,
+        -0.7203896982463126,
+        0.0,
+        0.0,
+        -0.05082391208592629
+      ]
+    },
+    "batch_3nn": {
+      "mean_gain_fraction": "-4617/2208700",
+      "mean_gain_percent": -0.2090369900846652,
+      "wins": 0,
+      "ties": 3,
+      "losses": 2,
+      "paired_gain_percent": [
+        0.0,
+        -0.7757957169375651,
+        0.0,
+        0.0,
+        -0.2693892334857609
+      ]
+    },
+    "random_projection": {
+      "mean_gain_fraction": "209533377735181/437507178017890605",
+      "mean_gain_percent": 0.047892557714016,
+      "wins": 2,
+      "ties": 2,
+      "losses": 1,
+      "paired_gain_percent": [
+        -0.16335469916263748,
+        0.10860516413067625,
+        0.0,
+        0.0,
+        0.29421232360204125
+      ]
+    },
+    "random_full": {
+      "mean_gain_fraction": "-1933003521/976207852100",
+      "mean_gain_percent": -0.1980114702869639,
+      "wins": 0,
+      "ties": 3,
+      "losses": 2,
+      "paired_gain_percent": [
+        0.0,
+        -0.7757957169375651,
+        0.0,
+        0.0,
+        -0.2142616344972544
+      ]
+    },
+    "preset": {
+      "mean_gain_fraction": "30559/1137700",
+      "mean_gain_percent": 2.686033224927485,
+      "wins": 5,
+      "ties": 0,
+      "losses": 0,
+      "paired_gain_percent": [
+        2.719302100729542,
+        2.178298321174299,
+        2.931352729190472,
+        2.931352729190472,
+        2.669860244352641
+      ]
+    }
+  },
+  "native_ledgers": [
+    {
+      "phase": "classical",
+      "at": "2026-09-28T01:23:59.152809+00:00",
+      "configuration_attempts": 250,
+      "completed_configurations": 250,
+      "encode_attempts": 750,
+      "decode_attempts": 750,
+      "max_configurations": 250,
+      "max_seconds": 900,
+      "seconds": 11.816446415999962
+    },
+    {
+      "phase": "continuations",
+      "at": "2026-09-28T01:25:48.276275+00:00",
+      "configuration_attempts": 53,
+      "completed_configurations": 53,
+      "encode_attempts": 159,
+      "decode_attempts": 159,
+      "max_configurations": 53,
+      "max_seconds": 300,
+      "seconds": 2.6249997499980964
+    }
+  ],
+  "model_ledger": {
+    "generation_requests": 5,
+    "compatibility_requests": 0,
+    "scientific_requests": 5,
+    "http_requests": 27,
+    "peak_server_rss_bytes": 5943099392,
+    "retries": 0,
+    "external_spend_usd": 0,
+    "allocated_output_tokens": 5120,
+    "startup_seconds": 2.7906031670027005,
+    "stage_seconds": 20.243896042000415,
+    "resource_stop_reason": null,
+    "server_exit_code": 0
+  },
+  "usage": {
+    "generated_observed": 211,
+    "prefill_observed": 2395,
+    "attempts_with_missing_usage": 0
+  },
+  "projection": {
+    "proposals": 50,
+    "projected_nonzero": 2,
+    "repeated": 0,
+    "matches_acquired": 1
+  },
+  "determinism": {
+    "kind": "Three separately charged post-selection correctness/size repeat probes, not arm acquisitions or optimization input",
+    "row": 79,
+    "targets": [
+      455080,
+      455080,
+      455080
+    ]
+  },
+  "scope": "Prospective new-family descriptive pilot; all seeds/clips grouped; no learned-router or population/journal claim"
+}

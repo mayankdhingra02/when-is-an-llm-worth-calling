@@ -1,0 +1,132 @@
+{
+  "smollm3_3b": {
+    "contrasts": {
+      "sequential_3nn": {
+        "n": 15,
+        "mean_gain": -0.03602658479690695,
+        "wins": 3,
+        "ties": 5,
+        "losses": 7,
+        "practical_wins": 3,
+        "practical_harms": 7
+      },
+      "adaptive_neighbor": {
+        "n": 15,
+        "mean_gain": 0.027282618759423564,
+        "wins": 4,
+        "ties": 9,
+        "losses": 2,
+        "practical_wins": 4,
+        "practical_harms": 2
+      },
+      "fixed_neighbor": {
+        "n": 15,
+        "mean_gain": 0.026397028560946733,
+        "wins": 4,
+        "ties": 9,
+        "losses": 2,
+        "practical_wins": 4,
+        "practical_harms": 2
+      },
+      "random_full": {
+        "n": 15,
+        "mean_gain": -0.01839661602216351,
+        "wins": 3,
+        "ties": 7,
+        "losses": 5,
+        "practical_wins": 3,
+        "practical_harms": 5
+      },
+      "random_proposal": {
+        "n": 15,
+        "mean_gain": -0.08899577183783587,
+        "wins": 1,
+        "ties": 6,
+        "losses": 8,
+        "practical_wins": 1,
+        "practical_harms": 8
+      }
+    },
+    "joint_wins": 3,
+    "cost": {
+      "request_starts": 15,
+      "responses": 15,
+      "unattempted": 0,
+      "unknown_usage_requests": 0,
+      "generated_tokens_lower_bound": 390,
+      "prefill_tokens_lower_bound": 7405,
+      "allocated_output_tokens": 15360,
+      "lifecycle_seconds": 21.75443712499691,
+      "startup_seconds": 1.769278542000393,
+      "request_seconds": 19.783975207996264,
+      "peak_server_rss_bytes": 3181674496,
+      "retries": 0,
+      "server_exit_code": 0
+    }
+  },
+  "qwen3_8b": {
+    "contrasts": {
+      "sequential_3nn": {
+        "n": 15,
+        "mean_gain": -0.05265071758249063,
+        "wins": 2,
+        "ties": 6,
+        "losses": 7,
+        "practical_wins": 2,
+        "practical_harms": 7
+      },
+      "adaptive_neighbor": {
+        "n": 15,
+        "mean_gain": 0.013970646596325673,
+        "wins": 3,
+        "ties": 10,
+        "losses": 2,
+        "practical_wins": 3,
+        "practical_harms": 2
+      },
+      "fixed_neighbor": {
+        "n": 15,
+        "mean_gain": 0.013096779273452637,
+        "wins": 3,
+        "ties": 10,
+        "losses": 2,
+        "practical_wins": 3,
+        "practical_harms": 2
+      },
+      "random_full": {
+        "n": 15,
+        "mean_gain": -0.03138898126467944,
+        "wins": 1,
+        "ties": 8,
+        "losses": 6,
+        "practical_wins": 1,
+        "practical_harms": 6
+      },
+      "random_proposal": {
+        "n": 15,
+        "mean_gain": -0.10552724966405799,
+        "wins": 2,
+        "ties": 5,
+        "losses": 8,
+        "practical_wins": 2,
+        "practical_harms": 8
+      }
+    },
+    "joint_wins": 2,
+    "cost": {
+      "request_starts": 15,
+      "responses": 15,
+      "unattempted": 0,
+      "unknown_usage_requests": 0,
+      "generated_tokens_lower_bound": 492,
+      "prefill_tokens_lower_bound": 8844,
+      "allocated_output_tokens": 15360,
+      "lifecycle_seconds": 57.198500583006535,
+      "startup_seconds": 3.710319875004643,
+      "request_seconds": 53.1813728310226,
+      "peak_server_rss_bytes": 6861307904,
+      "retries": 0,
+      "server_exit_code": 0
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "origin": "v148",
+  "key": "terasort_71",
+  "qualified_key": "hadoop_mapreduce::terasort_71",
+  "system_group": "hadoop_mapreduce",
+  "seed": 71,
+  "domains": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "messages_path": "artifacts/study_v148/prompts/terasort_71.json",
+  "prefix": "artifacts/study_v148/prefixes/terasort_71.json",
+  "prefix_sha256": "ff070bccadf5bbaa1474800cebd4f95bffbc5a2bd438625ae405cfeee0022500",
+  "sampling_seed": 148071,
+  "redraw_seed": 320071,
+  "historical_qwen3_8b_preflight": "results/v148_models/qwen3_8b/preflight/terasort_71.json",
+  "app": "terasort",
+  "split": 1,
+  "arm": "qwen3_8b_redraw",
+  "inference_stage": "B1",
+  "model_status": "unattempted",
+  "fallback": true,
+  "fallback_kind": "stepwise_sequential_3nn",
+  "selected_rows": [],
+  "projection": [],
+  "state": {
+    "ids": [
+      61,
+      14,
+      53,
+      35,
+      28,
+      34,
+      40,
+      29,
+      38,
+      31,
+      13,
+      37,
+      30,
+      25,
+      26,
+      32,
+      17,
+      50,
+      23,
+      21
+    ],
+    "labels": [
+      [
+        1788.172
+      ],
+      [
+        812.473
+      ],
+      [
+        1321.761
+      ],
+      [
+        761.71
+      ],
+      [
+        423.34
+      ],
+      [
+        695.247
+      ],
+      [
+        510.474
+      ],
+      [
+        925.062
+      ],
+      [
+        659.142
+      ],
+      [
+        855.729
+      ],
+      [
+        1714.376
+      ],
+      [
+        590.912
+      ],
+      [
+        575.287
+      ],
+      [
+        601.583
+      ],
+      [
+        544.124
+      ],
+      [
+        399.054
+      ],
+      [
+        840.575
+      ],
+      [
+        1824.755
+      ],
+      [
+        667.088
+      ],
+      [
+        845.376
+      ]
+    ],
+    "order": [
+      61,
+      14,
+      53,
+      35,
+      21,
+      26,
+      17,
+      39,
+      43,
+      34,
+      15,
+      58,
+      13,
+      31,
+      49,
+      45,
+      55,
+      42,
+      47,
+      0,
+      18,
+      36,
+      11,
+      62,
+      50,
+      63,
+      30,
+      51,
+      4,
+      64,
+      7,
+      40,
+      6,
+      28,
+      27,
+      20,
+      9,
+      56,
+      37,
+      24,
+      54,
+      57,
+      46,
+      2,
+      10,
+      68,
+      22,
+      8,
+      48,
+      29,
+      23,
+      67,
+      44,
+      52,
+      66,
+      59,
+      60,
+      38,
+      3,
+      32,
+      12,
+      5,
+      16,
+      25,
+      19,
+      33,
+      1,
+      65,
+      41
+    ]
+  },
+  "direction": "minimize",
+  "target": 399.054,
+  "missing_acquisitions": 0
+}

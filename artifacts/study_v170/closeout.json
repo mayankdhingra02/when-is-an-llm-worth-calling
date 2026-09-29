@@ -1,0 +1,69 @@
+{
+  "stages": [
+    {
+      "stage": 169,
+      "completion": {
+        "at": "2026-09-28T15:04:42.957569+00:00",
+        "acquisitions": 410,
+        "query_training_executions": 820,
+        "intended": 410,
+        "model_requests": 0,
+        "retries": 0,
+        "status": "completed",
+        "finished_at": "2026-09-28T15:08:15.971243+00:00",
+        "seconds": 213.0135649159929
+      },
+      "successful_source_bridges": 20,
+      "unstable_cells": [
+        {
+          "case": "polars_71",
+          "arm": "smollm3_3b"
+        },
+        {
+          "case": "polars_53",
+          "arm": "adaptive_neighbor"
+        },
+        {
+          "case": "polars_53",
+          "arm": "random_full"
+        },
+        {
+          "case": "polars_23",
+          "arm": "adaptive_neighbor"
+        }
+      ],
+      "below_10ms_by_engine": {}
+    },
+    {
+      "stage": 170,
+      "completion": {
+        "at": "2026-09-28T15:12:44.530913+00:00",
+        "acquisitions": 820,
+        "query_training_executions": 1640,
+        "intended": 820,
+        "model_requests": 0,
+        "retries": 0,
+        "status": "completed",
+        "finished_at": "2026-09-28T15:16:52.134126+00:00",
+        "seconds": 247.60308283299673
+      },
+      "successful_source_bridges": 40,
+      "unstable_cells": [],
+      "below_10ms_by_engine": {
+        "ortools": 40
+      }
+    }
+  ],
+  "new_model_requests": 0,
+  "new_download_bytes": 0,
+  "model_starts_cumulative": 4855,
+  "recorded_table_charges_cumulative": 41613,
+  "historical_incidental_exposures": 2,
+  "retained_download_bytes": 10380159186,
+  "download_bytes_remaining": 357259054,
+  "model_payload_bytes": 9126358023,
+  "collector_and_analysis_sessions_exit_code": 0,
+  "no_model_server_or_automation_started": true,
+  "process_cleanup_evidence": "finite collector completion and waited native/bridge child exit receipts; not a system-wide process scan",
+  "next_external_access": "second physical host; not established"
+}

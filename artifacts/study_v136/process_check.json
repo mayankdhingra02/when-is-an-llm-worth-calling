@@ -1,0 +1,12 @@
+{
+  "at": "2026-09-28T03:56:29.391338+00:00",
+  "command": "ps -axo pid,command | rg '[l]lama-server|[c]ollect_feedback_v136'",
+  "sandbox_first_attempt": "ps operation not permitted",
+  "authorized_read_only_result": {
+    "exit_code": 1,
+    "output": "",
+    "interpretation": "rg found no matching collector or model-server processes"
+  },
+  "collector_exit_code": 0,
+  "server_exit_code": 0
+}

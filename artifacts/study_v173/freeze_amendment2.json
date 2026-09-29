@@ -1,0 +1,24 @@
+{
+ "at": "2026-09-28T21:27:06.593461+00:00",
+ "purpose": "V173 amendment 2: continuation stages and eight arm-B stages; written during A1R, before any target read or arm-B request",
+ "superseded": [
+  "configs/study_v173.json",
+  "scripts/analyze_v173.py",
+  "scripts/collect_v173.py",
+  "scripts/report_v173.py",
+  "scripts/verify_v173.py",
+  "tests/synthetic/test_v173.py"
+ ],
+ "added": [
+  "reports/protocol_v173_amendment2.md"
+ ],
+ "sha256": {
+  "configs/study_v173.json": "cc5c83eede0dc7edc126f4ae20cfbeeffcf2b0cb9313934c8d66adcba5f6bfd3",
+  "scripts/analyze_v173.py": "11a967143d1cf19ff44354a6a86b108716ad2e95f0e9623e134d86cdc3d6e97d",
+  "scripts/collect_v173.py": "48a1a6321d0c311750d6f668c6645b8e65d99144474acd6429a6b68ce0a29125",
+  "scripts/report_v173.py": "a7a6a59c2d8e4a0f47c3b3c232707b2a8c93543fe17f49b0545dc42202257776",
+  "scripts/verify_v173.py": "0a9923f57af632c42887740c0348e74e54c3f44438acb585543d373db92d181f",
+  "tests/synthetic/test_v173.py": "b087bd5cc95bc234bd99a87173fb0a22f885055a0067127604fc5b03a5f1a58f",
+  "reports/protocol_v173_amendment2.md": "76898b58f5abc8ba8d89c5ba43bcd189c5f85b0edd9ea2dad2ffc0b8c449b8b2"
+ }
+}

@@ -1,0 +1,42 @@
+{
+  "byte_identical": true,
+  "files": {
+    "reports/solvers_v157.md": "6e28b469e5bbd82bf2df21b69e26b402b477cda450600884bbe002f7fb5f2a56",
+    "results/v157_solvers/summary.json": "24588978b42cfa48ecd687b29b55da7cd7ef0ff3ddfa84db18bb57612e2f5a9b",
+    "results/v157_solvers/feasibility.png": "7187f26e5cf7233f5b181944e0137d1eaadea84d884f2ef38747066784736f6e",
+    "results/v157_solvers/feasibility.svg": "76df64c1c3470afe32f0e7702d4b82cceb423eac4a543f84cd649400cec338bf",
+    "reports/solvers_v158.md": "fe37ec45e794496449379f4b00941e8e658bfa9d9795350a8c38462d8408c979",
+    "results/v158_solvers/summary.json": "db3ebd73226edefb52f20b20f237df4701495d84bc82fe7c2f4b62592107dce9",
+    "results/v158_solvers/feasibility.png": "d16aaec5c39b9a1f4b763d85c8fb69f8ee104603f8216374001c895c52b2d0c0",
+    "results/v158_solvers/feasibility.svg": "f47d77949bf8ff4c109b41da4dd587a7b74d16ae2ece5320658d46b04b2487ee",
+    "reports/solvers_v159.md": "887ae7a87974c7f98120af5e968e1ca3992d95f1a218aee423d04e70dadcadc6",
+    "results/v159_native/comparison.json": "9db6a3006e9ce0d0835ce9dd1458ae29b649404f7ea930c278132d27497f9eea",
+    "results/v159_native/paired_gains.png": "7c060742d90996605a4d0265fffb3c96825c771ae58f1b8a076204839d9f11aa",
+    "results/v159_native/paired_gains.svg": "4889751a48a6b250f5202a00fb2e252705fb5100e878217569ffe16131613cca",
+    "results/v159_native/representation_diagnostic.json": "4bdcc2cd26ec0207d7014a0d281a2efdd10d21a64f28db8f691e71f427c67977"
+  },
+  "commands": [
+    [
+      "scripts/solver_feasibility_v157.py",
+      "summarize"
+    ],
+    [
+      "scripts/report_solvers_v157.py"
+    ],
+    [
+      "scripts/solver_feasibility_v158.py",
+      "summarize"
+    ],
+    [
+      "scripts/report_solvers_v158.py"
+    ],
+    [
+      "scripts/report_solvers_v159.py"
+    ],
+    [
+      "scripts/diagnose_solvers_v159.py"
+    ]
+  ],
+  "scope": "Analysis/report replay from measured raw logs; not repeated native collection",
+  "visual_repair": "V157 timeout-axis limits widened to1\u201320s after overly long minor tick labels clipped the left ylabel. Timings/data unchanged."
+}

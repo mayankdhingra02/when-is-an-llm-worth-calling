@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "Optimize Memcached configuration from ten acquired measurements. Propose ten diverse promising settings ordered best first, as a JSON array of ten two-digit strings. Each digit0..7 indexes the listed values for that feature. Only the first seven proposals will be evaluated; three remaining evaluations are reserved for fresh validation of the best observed configuration. Avoid duplicate proposals."
+  },
+  {
+    "role": "user",
+    "content": "{\"feature_order\":[\"worker_threads\",\"max_requests_per_event\"],\"indexed_values\":[[1,2,3,4,5,6,7,8],[1,2,4,8,12,20,32,50]],\"observed_examples\":[{\"settings\":[5,4],\"seconds\":1.359945},{\"settings\":[6,50],\"seconds\":0.77455},{\"settings\":[3,1],\"seconds\":3.673415},{\"settings\":[5,32],\"seconds\":0.795988},{\"settings\":[7,32],\"seconds\":0.807328},{\"settings\":[1,50],\"seconds\":0.803966},{\"settings\":[2,50],\"seconds\":0.772749},{\"settings\":[5,50],\"seconds\":0.797553},{\"settings\":[4,50],\"seconds\":0.78913},{\"settings\":[3,32],\"seconds\":0.794909}],\"direction\":\"minimize\",\"objective\":\"Correct fixed-work elapsed seconds: four concurrent local clients perform 2,048,000 mixed GET/SET operations on a64MiBcache. All responses must remain correct. Numeric normalized distance projects prototypes to unseen configurations.\"}"
+  }
+]

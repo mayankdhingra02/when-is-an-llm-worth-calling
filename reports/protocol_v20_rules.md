@@ -1,0 +1,11 @@
+# V20: post-hoc rule identifiability audit, zero inference
+
+Compare four explicitly defined simple rules against all15 V8 and all9 V19 actual responses. All have already been inspected. This is post-hoc descriptive auditing, not hypothesis confirmation, a new model experiment or a significance test. Freeze the case list/formulas before execution; retain every response and do not fit or select rules by quality.
+
+Rules: display_prefix returns the first ten displayed IDs; lowest_ids returns0–9; highest_ids returnsJ throughA; endpoint_sequence starts at the first displayed ID and advances in canonical ID rank by+1 or−1, direction determined by the second ID. If ten such ranks leave0..19, its prediction is undefined and remains in the denominator. Evaluate exact output-sequence match and selected-ID-set match separately for both source studies. Report number of distinct display-ID orders. No metric thresholds or controller changes.
+
+A rule is a behavioral alternative, not asserted model code or internal cognition. Multiple matching rules show observational ambiguity within this finite comparison; they do not negate the actual controlled effect of changing a display. In the tested ascending/descending orders, endpoint_sequence and display_prefix predict the same thing. Do not generalize that equivalence to arbitrary permutations.
+
+Construct a feature-preserving, unexecuted nonmonotone-ID assignment0,J,1,I,…,9,A for the three original V19 prompts. Save these only under artifacts/study_v20 as unexecuted designs; no fabricated model responses or token/runtime measurements. Their rule predictions may differ; the actual model response is unknown. Synthetic tests verify this distinction separately and never enter measured aggregates.
+
+Validate actual source request IDs, completed statuses, prepared prompt equality and raw output parsing. Read no new candidate objectives. No inference, retry, optimizer acquisition, physical trial, download, spending or resource-limit increase. Keep137/137 model cap and1800-second runtime limit unchanged; charge audit runtime. No cross-system, quality, routing or internal-mechanism claim. Preserve prior scientific freezes and explicitly keep this audit separate from V19's prospective intervention.

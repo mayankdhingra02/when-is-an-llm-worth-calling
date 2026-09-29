@@ -1,0 +1,86 @@
+{
+  "smollm3_3b": {
+    "never": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "always": {
+      "calls": 55,
+      "family_mean_gain": -0.047687631604626204,
+      "gain_above_matched_random": 0.0
+    },
+    "benefit_all": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "benefit_80pct": {
+      "calls": 6,
+      "family_mean_gain": -0.0005765765765765767,
+      "gain_above_matched_random": 9.45173868155746e-05
+    },
+    "benefit_no_cardinality": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "benefit_trajectory": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "uncertainty": {
+      "calls": 1,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0020218916944556463
+    },
+    "uncertainty_80pct": {
+      "calls": 18,
+      "family_mean_gain": -0.029708622112209346,
+      "gain_above_matched_random": -0.014918831431829557
+    }
+  },
+  "qwen3_8b": {
+    "never": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "always": {
+      "calls": 55,
+      "family_mean_gain": -0.050596238098801816,
+      "gain_above_matched_random": 0.0
+    },
+    "benefit_all": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "benefit_80pct": {
+      "calls": 7,
+      "family_mean_gain": -0.0005765765765765767,
+      "gain_above_matched_random": -3.705187845917061e-05
+    },
+    "benefit_no_cardinality": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "benefit_trajectory": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "uncertainty": {
+      "calls": 0,
+      "family_mean_gain": 0.0,
+      "gain_above_matched_random": 0.0
+    },
+    "uncertainty_80pct": {
+      "calls": 18,
+      "family_mean_gain": -0.031263815116841155,
+      "gain_above_matched_random": -0.01481337138188878
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stage": "restricted_domain_exploratory_followup",
+  "families": [
+    "superlu"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "total_evaluations_per_arm": 20,
+  "prefix_evaluations": 10,
+  "max_native_acquisitions": 250,
+  "physical_solves_per_acquisition": 3,
+  "native_stage_seconds": 600,
+  "worker_timeout_seconds": 30,
+  "native_rss_cap_bytes": 2147483648,
+  "failure_penalty_seconds": 30,
+  "new_generation_request_cap": 50,
+  "compatibility_request_cap": 0,
+  "scientific_request_cap": 50,
+  "max_generation_stage_seconds": 300,
+  "max_server_rss_bytes": 8589934592,
+  "context_tokens": 4096,
+  "retries": 0,
+  "allow_paid_api": false,
+  "max_external_spend_usd": 0,
+  "host": "127.0.0.1",
+  "allow_cloud": false,
+  "practical_relative_gain_margin": 0.05,
+  "download_stage_cap_bytes": 0,
+  "prior_download_bytes": 9870221104,
+  "total_download_cap_bytes": 10737418240
+}

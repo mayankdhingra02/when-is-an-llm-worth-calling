@@ -1,0 +1,170 @@
+/Users/mayankdhingra/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/7w/p21klcvd3gs9fqqf016nv9140000gn/T/matplotlib-qq8jgkc3 because there was an issue with the default path (/Users/mayankdhingra/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mayankdhingra/.cache/fontconfig
+	/Users/mayankdhingra/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mayankdhingra/.cache/fontconfig
+	/Users/mayankdhingra/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mayankdhingra/.cache/fontconfig
+	/Users/mayankdhingra/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mayankdhingra/.cache/fontconfig
+	/Users/mayankdhingra/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/mayankdhingra/.cache/fontconfig
+	/Users/mayankdhingra/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+[
+  {
+    "arm": "full_classical",
+    "mean_gain_vs_batch_3nn": -0.006938559214362151,
+    "family_means": {
+      "berkeleydb": 0.0016122562765297226,
+      "dune_hsmgp": -0.002893761527396068,
+      "hipacc": 0.0033569385433992295,
+      "llvm": 0.018007961046815596,
+      "openvpn": -0.06038141629218806,
+      "sac": -0.0013333333333333344
+    },
+    "bootstrap95": [
+      -0.029844802597338547,
+      0.008568174092707851
+    ],
+    "exact_sign_flip_p": 0.8125,
+    "wins": 5,
+    "ties": 20,
+    "harms": 5
+  },
+  {
+    "arm": "static_rank",
+    "mean_gain_vs_batch_3nn": -0.005623794091602088,
+    "family_means": {
+      "berkeleydb": -0.004665467744544229,
+      "dune_hsmgp": -0.002893761527396068,
+      "hipacc": 0.005496074232690932,
+      "llvm": -0.006507635492564138,
+      "openvpn": -0.025171974017799026,
+      "sac": 0.0
+    },
+    "bootstrap95": [
+      -0.014141142923747588,
+      0.0008858532434940715
+    ],
+    "exact_sign_flip_p": 0.25,
+    "wins": 1,
+    "ties": 22,
+    "harms": 7
+  },
+  {
+    "arm": "batch_3nn",
+    "mean_gain_vs_batch_3nn": 0.0,
+    "family_means": {
+      "berkeleydb": 0.0,
+      "dune_hsmgp": 0.0,
+      "hipacc": 0.0,
+      "llvm": 0.0,
+      "openvpn": 0.0,
+      "sac": 0.0
+    },
+    "bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "exact_sign_flip_p": 1.0,
+    "wins": 0,
+    "ties": 30,
+    "harms": 0
+  },
+  {
+    "arm": "sequential_3nn",
+    "mean_gain_vs_batch_3nn": 0.0006114193948570071,
+    "family_means": {
+      "berkeleydb": 0.0,
+      "dune_hsmgp": 0.0,
+      "hipacc": 0.0036685163691420426,
+      "llvm": 0.0,
+      "openvpn": 0.0,
+      "sac": 0.0
+    },
+    "bootstrap95": [
+      0.0,
+      0.001834258184571021
+    ],
+    "exact_sign_flip_p": 1.0,
+    "wins": 2,
+    "ties": 28,
+    "harms": 0
+  },
+  {
+    "arm": "full_sequential_3nn",
+    "mean_gain_vs_batch_3nn": 0.01415454315164494,
+    "family_means": {
+      "berkeleydb": -0.006554192025981322,
+      "dune_hsmgp": 0.05683162970110418,
+      "hipacc": 0.013235060443199406,
+      "llvm": 0.0182903149088279,
+      "openvpn": 0.0004577792160527991,
+      "sac": 0.0026666666666666687
+    },
+    "bootstrap95": [
+      0.0006181502483348383,
+      0.0329037982009607
+    ],
+    "exact_sign_flip_p": 0.15625,
+    "wins": 8,
+    "ties": 16,
+    "harms": 6
+  },
+  {
+    "arm": "random_shortlist",
+    "mean_gain_vs_batch_3nn": -0.016617736268623045,
+    "family_means": {
+      "berkeleydb": -0.003796047818885928,
+      "dune_hsmgp": -0.09937086581968693,
+      "hipacc": 0.0034604960268345836,
+      "llvm": 0.0,
+      "openvpn": 0.0,
+      "sac": 0.0
+    },
+    "bootstrap95": [
+      -0.05031810754632445,
+      0.0011534986756115279
+    ],
+    "exact_sign_flip_p": 0.5,
+    "wins": 3,
+    "ties": 21,
+    "harms": 6
+  },
+  {
+    "arm": "random_full",
+    "mean_gain_vs_batch_3nn": -0.020048789285435374,
+    "family_means": {
+      "berkeleydb": -0.016759124815773862,
+      "dune_hsmgp": -0.09867498723562165,
+      "hipacc": 0.006860863191337353,
+      "llvm": -0.002461762009151313,
+      "openvpn": -0.00925772484340277,
+      "sac": 0.0
+    },
+    "bootstrap95": [
+      -0.05254097475529836,
+      0.00033370658835343717
+    ],
+    "exact_sign_flip_p": 0.1875,
+    "wins": 6,
+    "ties": 11,
+    "harms": 13
+  }
+]

@@ -1,0 +1,2296 @@
+{
+  "charge": 4,
+  "case": "polars_37",
+  "engine": "polars",
+  "arm": "shared",
+  "phase": "prefix",
+  "row_id": 15,
+  "at_unix": 1790606323.5613399,
+  "status": "correct",
+  "value": 0.06975870799215045,
+  "command": [
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/.venv/bin/python",
+    "/Users/mayankdhingra/Downloads/llm-escalation-study/scripts/worker_apps_v167.py",
+    "--engine",
+    "polars",
+    "--candidate",
+    "15"
+  ],
+  "returncode": 0,
+  "stderr": "",
+  "raw_stdout": "{\"engine\": \"polars\", \"candidate\": 15, \"config\": {\"threads\": 1, \"engine\": \"streaming\", \"predicate_pushdown\": true, \"projection_pushdown\": true, \"comm_subplan_elim\": true}, \"seconds\": 0.06975870799215045, \"version\": \"1.35.2\", \"thread_pool_size\": 1, \"answers\": {\"monthly_carriers\": [[1, \"AirTran Airways Corporation\", 328, 4, 3225], [1, \"Alaska Airlines Inc.\", 62, 0, 1094], [1, \"American Airlines Inc.\", 2794, 70, 29837], [1, \"Delta Air Lines Inc.\", 3690, 35, 29497], [1, \"Endeavor Air Inc.\", 1573, 93, 28596], [1, \"Envoy Air\", 2271, 68, 31511], [1, \"ExpressJet Airlines Inc.\", 4171, 207, 117504], [1, \"Frontier Airlines Inc.\", 59, 0, 1409], [1, \"Hawaiian Airlines Inc.\", 31, 0, 1512], [1, \"JetBlue Airways\", 4427, 14, 57013], [1, \"Mesa Airlines Inc.\", 46, 7, 796], [1, \"SkyWest Airlines Inc.\", 1, 0, 107], [1, \"Southwest Airlines Co.\", 996, 11, 12770], [1, \"US Airways Inc.\", 1602, 48, 14159], [1, \"United Air Lines Inc.\", 4637, 47, 54400], [1, \"Virgin America\", 316, 2, 994], [2, \"AirTran Airways Corporation\", 296, 14, 2940], [2, \"Alaska Airlines Inc.\", 56, 2, 221], [2, \"American Airlines Inc.\", 2517, 118, 27768], [2, \"Delta Air Lines Inc.\", 3444, 141, 28708], [2, \"Endeavor Air Inc.\", 1459, 118, 24718], [2, \"Envoy Air\", 2044, 150, 27072], [2, \"ExpressJet Airlines Inc.\", 3827, 288, 89048], [2, \"Frontier Airlines Inc.\", 49, 1, 1836], [2, \"Hawaiian Airlines Inc.\", 28, 0, 297], [2, \"JetBlue Airways\", 4103, 158, 72618], [2, \"Mesa Airlines Inc.\", 48, 2, 616], [2, \"Southwest Airlines Co.\", 911, 53, 9239], [2, \"US Airways Inc.\", 1552, 96, 11982], [2, \"United Air Lines Inc.\", 4346, 189, 41700], [2, \"Virgin America\", 271, 10, 1498], [3, \"AirTran Airways Corporation\", 316, 13, 6520], [3, \"Alaska Airlines Inc.\", 62, 0, 697], [3, \"American Airlines Inc.\", 2787, 46, 31126], [3, \"Delta Air Lines Inc.\", 4189, 65, 54184], [3, \"Endeavor Air Inc.\", 1627, 117, 23353], [3, \"Envoy Air\", 2256, 123, 26355], [3, \"ExpressJet Airlines Inc.\", 4726, 355, 120567], [3, \"Frontier Airlines Inc.\", 57, 0, 1123], [3, \"Hawaiian Airlines Inc.\", 31, 0, 121], [3, \"JetBlue Airways\", 4772, 26, 84447], [3, \"Mesa Airlines Inc.\", 18, 0, 533], [3, \"Southwest Airlines Co.\", 998, 49, 13185], [3, \"US Airways Inc.\", 1721, 76, 14184], [3, \"United Air Lines Inc.\", 4971, 62, 63808], [3, \"Virgin America\", 303, 0, 2799], [4, \"AirTran Airways Corporation\", 311, 8, 6805], [4, \"Alaska Airlines Inc.\", 60, 0, 861], [4, \"American Airlines Inc.\", 2722, 73, 49924], [4, \"Delta Air Lines Inc.\", 4092, 12, 56786], [4, \"Endeavor Air Inc.\", 1511, 112, 23597], [4, \"Envoy Air\", 2211, 124, 48685], [4, \"ExpressJet Airlines Inc.\", 4561, 240, 116751], [4, \"Frontier Airlines Inc.\", 57, 0, 2235], [4, \"Hawaiian Airlines Inc.\", 30, 0, 98], [4, \"JetBlue Airways\", 4517, 58, 90280], [4, \"Mesa Airlines Inc.\", 38, 2, 1310], [4, \"Southwest Airlines Co.\", 980, 16, 20547], [4, \"US Airways Inc.\", 1727, 52, 22080], [4, \"United Air Lines Inc.\", 5047, 69, 88163], [4, \"Virgin America\", 466, 0, 7063], [5, \"AirTran Airways Corporation\", 325, 3, 7570], [5, \"Alaska Airlines Inc.\", 62, 3, 595], [5, \"American Airlines Inc.\", 2803, 54, 33959], [5, \"Delta Air Lines Inc.\", 4082, 16, 50097], [5, \"Endeavor Air Inc.\", 1462, 79, 32157], [5, \"Envoy Air\", 2284, 87, 43551], [5, \"ExpressJet Airlines Inc.\", 4817, 251, 99528], [5, \"Frontier Airlines Inc.\", 58, 0, 1925], [5, \"Hawaiian Airlines Inc.\", 31, 0, 49], [5, \"JetBlue Airways\", 4576, 39, 60294], [5, \"Mesa Airlines Inc.\", 49, 5, 635], [5, \"Southwest Airlines Co.\", 1006, 18, 14131], [5, \"US Airways Inc.\", 1785, 43, 16342], [5, \"United Air Lines Inc.\", 4960, 70, 58312], [5, \"Virgin America\", 496, 0, 7630], [6, \"AirTran Airways Corporation\", 252, 11, 10770], [6, \"Alaska Airlines Inc.\", 60, 0, 852], [6, \"American Airlines Inc.\", 2757, 74, 50889], [6, \"Delta Air Lines Inc.\", 4126, 47, 91674], [6, \"Endeavor Air Inc.\", 1437, 177, 40636], [6, \"Envoy Air\", 2178, 195, 57228], [6, \"ExpressJet Airlines Inc.\", 4456, 381, 115293], [6, \"Frontier Airlines Inc.\", 55, 0, 1753], [6, \"Hawaiian Airlines Inc.\", 30, 0, 303], [6, \"JetBlue Airways\", 4622, 72, 118112], [6, \"Mesa Airlines Inc.\", 49, 10, 1905], [6, \"SkyWest Airlines Inc.\", 2, 0, 157], [6, \"Southwest Airlines Co.\", 1028, 20, 28845], [6, \"US Airways Inc.\", 1736, 90, 31212], [6, \"United Air Lines Inc.\", 4975, 90, 105565], [6, \"Virgin America\", 480, 1, 15997], [7, \"AirTran Airways Corporation\", 263, 15, 11875], [7, \"Alaska Airlines Inc.\", 62, 0, 393], [7, \"American Airlines Inc.\", 2882, 113, 46223], [7, \"Delta Air Lines Inc.\", 4251, 68, 103131], [7, \"Endeavor Air Inc.\", 1494, 155, 45260], [7, \"Envoy Air\", 2261, 151, 59594], [7, \"ExpressJet Airlines Inc.\", 4641, 338, 125055], [7, \"Frontier Airlines Inc.\", 58, 0, 2320], [7, \"Hawaiian Airlines Inc.\", 31, 0, 304], [7, \"JetBlue Airways\", 4984, 82, 145102], [7, \"Mesa Airlines Inc.\", 81, 12, 2314], [7, \"Southwest Airlines Co.\", 1076, 12, 25209], [7, \"US Airways Inc.\", 1786, 85, 29410], [7, \"United Air Lines Inc.\", 5066, 95, 104796], [7, \"Virgin America\", 489, 6, 16785], [8, \"AirTran Airways Corporation\", 263, 8, 7142], [8, \"Alaska Airlines Inc.\", 62, 0, 407], [8, \"American Airlines Inc.\", 2856, 37, 32444], [8, \"Delta Air Lines Inc.\", 4318, 12, 55630], [8, \"Endeavor Air Inc.\", 1456, 83, 24456], [8, \"Envoy Air\", 2263, 102, 37287], [8, \"ExpressJet Airlines Inc.\", 4563, 226, 84479], [8, \"Frontier Airlines Inc.\", 55, 0, 1382], [8, \"Hawaiian Airlines Inc.\", 31, 0, 341], [8, \"JetBlue Airways\", 4952, 11, 94479], [8, \"Mesa Airlines Inc.\", 65, 5, 1570], [8, \"SkyWest Airlines Inc.\", 4, 0, 258], [8, \"Southwest Airlines Co.\", 1047, 8, 21378], [8, \"US Airways Inc.\", 1779, 40, 19691], [8, \"United Air Lines Inc.\", 5124, 39, 72784], [8, \"Virgin America\", 489, 0, 5768], [9, \"AirTran Airways Corporation\", 255, 2, 5327], [9, \"Alaska Airlines Inc.\", 60, 0, 54], [9, \"American Airlines Inc.\", 2614, 46, 22169], [9, \"Delta Air Lines Inc.\", 3883, 16, 36230], [9, \"Endeavor Air Inc.\", 1540, 72, 13706], [9, \"Envoy Air\", 2206, 112, 23315], [9, \"ExpressJet Airlines Inc.\", 4725, 177, 49845], [9, \"Frontier Airlines Inc.\", 58, 2, 634], [9, \"Hawaiian Airlines Inc.\", 25, 0, 32], [9, \"JetBlue Airways\", 4291, 21, 42669], [9, \"Mesa Airlines Inc.\", 42, 0, 514], [9, \"SkyWest Airlines Inc.\", 20, 3, 54], [9, \"Southwest Airlines Co.\", 1010, 9, 13814], [9, \"US Airways Inc.\", 1698, 45, 12527], [9, \"United Air Lines Inc.\", 4694, 58, 40847], [9, \"Virgin America\", 453, 1, 3887], [10, \"AirTran Airways Corporation\", 236, 2, 4601], [10, \"Alaska Airlines Inc.\", 62, 0, 164], [10, \"American Airlines Inc.\", 2715, 16, 21193], [10, \"Delta Air Lines Inc.\", 4093, 3, 25625], [10, \"Endeavor Air Inc.\", 1673, 38, 18346], [10, \"Envoy Air\", 2228, 45, 24862], [10, \"ExpressJet Airlines Inc.\", 4908, 96, 81420], [10, \"Frontier Airlines Inc.\", 57, 0, 940], [10, \"Hawaiian Airlines Inc.\", 21, 0, 17], [10, \"JetBlue Airways\", 4361, 4, 31997], [10, \"Mesa Airlines Inc.\", 66, 6, 1499], [10, \"Southwest Airlines Co.\", 1091, 3, 14975], [10, \"US Airways Inc.\", 1846, 32, 12049], [10, \"United Air Lines Inc.\", 5060, 25, 45043], [10, \"Virgin America\", 472, 1, 2496], [11, \"AirTran Airways Corporation\", 202, 0, 4535], [11, \"Alaska Airlines Inc.\", 52, 0, 269], [11, \"American Airlines Inc.\", 2577, 27, 22464], [11, \"Delta Air Lines Inc.\", 3849, 11, 28631], [11, \"Endeavor Air Inc.\", 1595, 22, 17400], [11, \"Envoy Air\", 2056, 52, 22746], [11, \"ExpressJet Airlines Inc.\", 4471, 90, 57612], [11, \"Frontier Airlines Inc.\", 61, 1, 1396], [11, \"Hawaiian Airlines Inc.\", 25, 0, 233], [11, \"JetBlue Airways\", 4289, 16, 36725], [11, \"Mesa Airlines Inc.\", 49, 1, 728], [11, \"SkyWest Airlines Inc.\", 5, 0, 30], [11, \"Southwest Airlines Co.\", 1033, 7, 12647], [11, \"US Airways Inc.\", 1699, 32, 10774], [11, \"United Air Lines Inc.\", 4854, 27, 42860], [11, \"Virgin America\", 451, 11, 5874], [12, \"AirTran Airways Corporation\", 213, 5, 6564], [12, \"Alaska Airlines Inc.\", 54, 0, 888], [12, \"American Airlines Inc.\", 2705, 108, 41675], [12, \"Delta Air Lines Inc.\", 4093, 26, 59292], [12, \"Endeavor Air Inc.\", 1633, 100, 34798], [12, \"Envoy Air\", 2139, 151, 40398], [12, \"ExpressJet Airlines Inc.\", 4307, 416, 124706], [12, \"Frontier Airlines Inc.\", 61, 0, 1698], [12, \"Hawaiian Airlines Inc.\", 28, 0, 91], [12, \"JetBlue Airways\", 4741, 85, 110838], [12, \"Mesa Airlines Inc.\", 50, 7, 759], [12, \"Southwest Airlines Co.\", 1099, 25, 29385], [12, \"US Airways Inc.\", 1605, 66, 18796], [12, \"United Air Lines Inc.\", 4931, 112, 96180], [12, \"Virgin America\", 476, 14, 5766]], \"high_airport_routes\": [[\"EWR\", \"ATL\", \"Hartsfield Jackson Atlanta Intl\", 5022, 3746412], [\"EWR\", \"AUS\", \"Austin Bergstrom Intl\", 968, 1455872], [\"EWR\", \"AVL\", \"Asheville Regional Airport\", 265, 154495], [\"EWR\", \"BNA\", \"Nashville Intl\", 2336, 1747328], [\"EWR\", \"BUF\", \"Buffalo Niagara Intl\", 973, 274386], [\"EWR\", \"BZN\", \"Gallatin Field\", 36, 67752], [\"EWR\", \"CLE\", \"Cleveland Hopkins Intl\", 1754, 708616], [\"EWR\", \"CLT\", \"Charlotte Douglas Intl\", 5026, 2658754], [\"EWR\", \"CMH\", \"Port Columbus Intl\", 724, 335212], [\"EWR\", \"CVG\", \"Cincinnati Northern Kentucky Intl\", 2673, 1520937], [\"EWR\", \"DAY\", \"James M Cox Dayton Intl\", 1134, 604422], [\"EWR\", \"DEN\", \"Denver Intl\", 2859, 4588695], [\"EWR\", \"DFW\", \"Dallas Fort Worth Intl\", 3148, 4319056], [\"EWR\", \"DSM\", \"Des Moines Intl\", 411, 417987], [\"EWR\", \"DTW\", \"Detroit Metro Wayne Co\", 3178, 1550864], [\"EWR\", \"EGE\", \"Eagle Co Rgnl\", 110, 189809], [\"EWR\", \"GRR\", \"Gerald R Ford Intl\", 719, 434995], [\"EWR\", \"GSO\", \"Piedmont Triad\", 1120, 498400], [\"EWR\", \"GSP\", \"Greenville-Spartanburg International\", 745, 442530], [\"EWR\", \"HDN\", \"Yampa Valley\", 15, 25920], [\"EWR\", \"IND\", \"Indianapolis Intl\", 1301, 839145], [\"EWR\", \"JAC\", \"Jackson Hole Airport\", 23, 43102], [\"EWR\", \"LAS\", \"Mc Carran Intl\", 2010, 4476270], [\"EWR\", \"MCI\", \"Kansas City Intl\", 1356, 1480752], [\"EWR\", \"MDW\", \"Chicago Midway Intl\", 2043, 1452573], [\"EWR\", \"MKE\", \"General Mitchell Intl\", 1094, 793150], [\"EWR\", \"MSN\", \"Dane Co Rgnl Truax Fld\", 354, 282846], [\"EWR\", \"MSP\", \"Minneapolis St Paul Intl\", 2377, 2396016], [\"EWR\", \"MTJ\", \"Montrose Regional Airport\", 15, 26925], [\"EWR\", \"OKC\", \"Will Rogers World\", 346, 458450], [\"EWR\", \"OMA\", \"Eppley Afld\", 754, 855036], [\"EWR\", \"ORD\", \"Chicago Ohare Intl\", 6100, 4385900], [\"EWR\", \"PHX\", \"Phoenix Sky Harbor Intl\", 2723, 5808159], [\"EWR\", \"PIT\", \"Pittsburgh Intl\", 559, 178321], [\"EWR\", \"ROC\", \"Greater Rochester Intl\", 513, 126198], [\"EWR\", \"SAT\", \"San Antonio Intl\", 330, 517770], [\"EWR\", \"SBN\", \"South Bend Rgnl\", 4, 2548], [\"EWR\", \"SDF\", \"Louisville International Airport\", 894, 573948], [\"EWR\", \"SLC\", \"Salt Lake City Intl\", 354, 697026], [\"EWR\", \"STL\", \"Lambert St Louis Intl\", 2516, 2193952], [\"EWR\", \"TUL\", \"Tulsa Intl\", 315, 382725], [\"EWR\", \"TVC\", \"Cherry Capital Airport\", 24, 15456], [\"EWR\", \"TYS\", \"Mc Ghee Tyson\", 323, 203813], [\"EWR\", \"XNA\", \"NW Arkansas Regional\", 291, 329121], [\"JFK\", \"ABQ\", \"Albuquerque International Sunport\", 254, 463804], [\"JFK\", \"ATL\", \"Hartsfield Jackson Atlanta Intl\", 1930, 1466800], [\"JFK\", \"AUS\", \"Austin Bergstrom Intl\", 1471, 2237391], [\"JFK\", \"BHM\", \"Birmingham Intl\", 1, 865], [\"JFK\", \"BNA\", \"Nashville Intl\", 730, 558450], [\"JFK\", \"BUF\", \"Buffalo Niagara Intl\", 3582, 1078182], [\"JFK\", \"BUR\", \"Bob Hope\", 371, 914515], [\"JFK\", \"CLE\", \"Cleveland Hopkins Intl\", 707, 300475], [\"JFK\", \"CLT\", \"Charlotte Douglas Intl\", 2870, 1552670], [\"JFK\", \"CMH\", \"Port Columbus Intl\", 742, 358386], [\"JFK\", \"CVG\", \"Cincinnati Northern Kentucky Intl\", 997, 587233], [\"JFK\", \"DEN\", \"Denver Intl\", 703, 1143078], [\"JFK\", \"DFW\", \"Dallas Fort Worth Intl\", 732, 1018212], [\"JFK\", \"DTW\", \"Detroit Metro Wayne Co\", 1166, 593494], [\"JFK\", \"EGE\", \"Eagle Co Rgnl\", 103, 179897], [\"JFK\", \"IND\", \"Indianapolis Intl\", 689, 458185], [\"JFK\", \"JAC\", \"Jackson Hole Airport\", 2, 3788], [\"JFK\", \"LAS\", \"Mc Carran Intl\", 3987, 8962776], [\"JFK\", \"MCI\", \"Kansas City Intl\", 276, 307188], [\"JFK\", \"MKE\", \"General Mitchell Intl\", 183, 136335], [\"JFK\", \"MSP\", \"Minneapolis St Paul Intl\", 1095, 1126755], [\"JFK\", \"ORD\", \"Chicago Ohare Intl\", 2326, 1721240], [\"JFK\", \"PHX\", \"Phoenix Sky Harbor Intl\", 1933, 4161749], [\"JFK\", \"PIT\", \"Pittsburgh Intl\", 1249, 424660], [\"JFK\", \"ROC\", \"Greater Rochester Intl\", 1679, 443256], [\"JFK\", \"SAT\", \"San Antonio Intl\", 356, 564972], [\"JFK\", \"SDF\", \"Louisville International Airport\", 46, 30452], [\"JFK\", \"SLC\", \"Salt Lake City Intl\", 2113, 4204870], [\"JFK\", \"STL\", \"Lambert St Louis Intl\", 1, 892], [\"LGA\", \"ATL\", \"Hartsfield Jackson Atlanta Intl\", 10263, 7820406], [\"LGA\", \"AVL\", \"Asheville Regional Airport\", 10, 5990], [\"LGA\", \"BHM\", \"Birmingham Intl\", 296, 256336], [\"LGA\", \"BNA\", \"Nashville Intl\", 3267, 2495988], [\"LGA\", \"BUF\", \"Buffalo Niagara Intl\", 126, 36792], [\"LGA\", \"CAK\", \"Akron Canton Regional Airport\", 864, 343008], [\"LGA\", \"CHO\", \"Charlottesville-Albemarle\", 52, 15860], [\"LGA\", \"CLE\", \"Cleveland Hopkins Intl\", 2112, 884928], [\"LGA\", \"CLT\", \"Charlotte Douglas Intl\", 6168, 3355392], [\"LGA\", \"CMH\", \"Port Columbus Intl\", 2058, 985782], [\"LGA\", \"CRW\", \"Yeager\", 138, 61272], [\"LGA\", \"CVG\", \"Cincinnati Northern Kentucky Intl\", 271, 158535], [\"LGA\", \"DAY\", \"James M Cox Dayton Intl\", 391, 214659], [\"LGA\", \"DEN\", \"Denver Intl\", 3704, 6000480], [\"LGA\", \"DFW\", \"Dallas Fort Worth Intl\", 4858, 6747762], [\"LGA\", \"DSM\", \"Des Moines Intl\", 158, 162898], [\"LGA\", \"DTW\", \"Detroit Metro Wayne Co\", 5040, 2530080], [\"LGA\", \"GRR\", \"Gerald R Ford Intl\", 46, 28428], [\"LGA\", \"GSO\", \"Piedmont Triad\", 486, 224046], [\"LGA\", \"GSP\", \"Greenville-Spartanburg International\", 104, 63440], [\"LGA\", \"IND\", \"Indianapolis Intl\", 87, 57420], [\"LGA\", \"LEX\", \"Blue Grass\", 1, 604], [\"LGA\", \"MCI\", \"Kansas City Intl\", 376, 416232], [\"LGA\", \"MDW\", \"Chicago Midway Intl\", 2070, 1500750], [\"LGA\", \"MKE\", \"General Mitchell Intl\", 1525, 1125450], [\"LGA\", \"MSN\", \"Dane Co Rgnl Truax Fld\", 218, 177016], [\"LGA\", \"MSP\", \"Minneapolis St Paul Intl\", 3713, 3787260], [\"LGA\", \"OMA\", \"Eppley Afld\", 95, 109060], [\"LGA\", \"ORD\", \"Chicago Ohare Intl\", 8857, 6492181], [\"LGA\", \"PIT\", \"Pittsburgh Intl\", 1067, 357445], [\"LGA\", \"ROC\", \"Greater Rochester Intl\", 224, 56896], [\"LGA\", \"SBN\", \"South Bend Rgnl\", 6, 3906], [\"LGA\", \"SDF\", \"Louisville International Airport\", 217, 143003], [\"LGA\", \"STL\", \"Lambert St Louis Intl\", 1822, 1617936], [\"LGA\", \"TVC\", \"Cherry Capital Airport\", 77, 50435], [\"LGA\", \"TYS\", \"Mc Ghee Tyson\", 308, 199276], [\"LGA\", \"XNA\", \"NW Arkansas Regional\", 745, 854515]], \"summer_aircraft\": [[\"AIRBUS INDUSTRIE\", \"Delta Air Lines Inc.\", 608, 28791], [\"AIRBUS INDUSTRIE\", \"JetBlue Airways\", 64, 3358], [\"AIRBUS INDUSTRIE\", \"US Airways Inc.\", 306, 11523], [\"AIRBUS INDUSTRIE\", \"United Air Lines Inc.\", 764, 41742], [\"BELL\", \"American Airlines Inc.\", 10, 589], [\"BOEING\", \"AirTran Airways Corporation\", 40, 1873], [\"BOEING\", \"American Airlines Inc.\", 444, 22903], [\"BOEING\", \"Delta Air Lines Inc.\", 1279, 57712], [\"BOEING\", \"Southwest Airlines Co.\", 262, 11541], [\"BOEING\", \"US Airways Inc.\", 11, 250], [\"BOEING\", \"United Air Lines Inc.\", 2451, 110798], [\"BOMBARDIER INC\", \"ExpressJet Airlines Inc.\", 100, 6838], [\"CANADAIR\", \"ExpressJet Airlines Inc.\", 168, 10009], [\"CANADAIR LTD\", \"Envoy Air\", 11, 255], [\"CESSNA\", \"American Airlines Inc.\", 21, 1101], [\"CESSNA\", \"Envoy Air\", 42, 1591], [\"DEHAVILLAND\", \"American Airlines Inc.\", 3, 170], [\"DOUGLAS\", \"American Airlines Inc.\", 3, 151], [\"EMBRAER\", \"ExpressJet Airlines Inc.\", 987, 52201], [\"GULFSTREAM AEROSPACE\", \"American Airlines Inc.\", 2, 370], [\"GULFSTREAM AEROSPACE\", \"Envoy Air\", 75, 3288], [\"KILDALL GARY\", \"American Airlines Inc.\", 5, 90], [\"MARZ BARRY\", \"American Airlines Inc.\", 5, 97], [\"MCDONNELL DOUGLAS\", \"American Airlines Inc.\", 334, 16205], [\"MCDONNELL DOUGLAS\", \"Delta Air Lines Inc.\", 6, 405], [\"MCDONNELL DOUGLAS AIRCRAFT CO\", \"Delta Air Lines Inc.\", 1015, 56107], [\"MCDONNELL DOUGLAS CORPORATION\", \"Delta Air Lines Inc.\", 150, 7623], [\"PIPER\", \"American Airlines Inc.\", 20, 788], [\"SIKORSKY\", \"American Airlines Inc.\", 2, 93], [\"STEWART MACO\", \"American Airlines Inc.\", 4, 218]]}, \"query_executions\": 3}\n",
+  "measurement": {
+    "engine": "polars",
+    "candidate": 15,
+    "config": {
+      "threads": 1,
+      "engine": "streaming",
+      "predicate_pushdown": true,
+      "projection_pushdown": true,
+      "comm_subplan_elim": true
+    },
+    "seconds": 0.06975870799215045,
+    "version": "1.35.2",
+    "thread_pool_size": 1,
+    "answers": {
+      "monthly_carriers": [
+        [
+          1,
+          "AirTran Airways Corporation",
+          328,
+          4,
+          3225
+        ],
+        [
+          1,
+          "Alaska Airlines Inc.",
+          62,
+          0,
+          1094
+        ],
+        [
+          1,
+          "American Airlines Inc.",
+          2794,
+          70,
+          29837
+        ],
+        [
+          1,
+          "Delta Air Lines Inc.",
+          3690,
+          35,
+          29497
+        ],
+        [
+          1,
+          "Endeavor Air Inc.",
+          1573,
+          93,
+          28596
+        ],
+        [
+          1,
+          "Envoy Air",
+          2271,
+          68,
+          31511
+        ],
+        [
+          1,
+          "ExpressJet Airlines Inc.",
+          4171,
+          207,
+          117504
+        ],
+        [
+          1,
+          "Frontier Airlines Inc.",
+          59,
+          0,
+          1409
+        ],
+        [
+          1,
+          "Hawaiian Airlines Inc.",
+          31,
+          0,
+          1512
+        ],
+        [
+          1,
+          "JetBlue Airways",
+          4427,
+          14,
+          57013
+        ],
+        [
+          1,
+          "Mesa Airlines Inc.",
+          46,
+          7,
+          796
+        ],
+        [
+          1,
+          "SkyWest Airlines Inc.",
+          1,
+          0,
+          107
+        ],
+        [
+          1,
+          "Southwest Airlines Co.",
+          996,
+          11,
+          12770
+        ],
+        [
+          1,
+          "US Airways Inc.",
+          1602,
+          48,
+          14159
+        ],
+        [
+          1,
+          "United Air Lines Inc.",
+          4637,
+          47,
+          54400
+        ],
+        [
+          1,
+          "Virgin America",
+          316,
+          2,
+          994
+        ],
+        [
+          2,
+          "AirTran Airways Corporation",
+          296,
+          14,
+          2940
+        ],
+        [
+          2,
+          "Alaska Airlines Inc.",
+          56,
+          2,
+          221
+        ],
+        [
+          2,
+          "American Airlines Inc.",
+          2517,
+          118,
+          27768
+        ],
+        [
+          2,
+          "Delta Air Lines Inc.",
+          3444,
+          141,
+          28708
+        ],
+        [
+          2,
+          "Endeavor Air Inc.",
+          1459,
+          118,
+          24718
+        ],
+        [
+          2,
+          "Envoy Air",
+          2044,
+          150,
+          27072
+        ],
+        [
+          2,
+          "ExpressJet Airlines Inc.",
+          3827,
+          288,
+          89048
+        ],
+        [
+          2,
+          "Frontier Airlines Inc.",
+          49,
+          1,
+          1836
+        ],
+        [
+          2,
+          "Hawaiian Airlines Inc.",
+          28,
+          0,
+          297
+        ],
+        [
+          2,
+          "JetBlue Airways",
+          4103,
+          158,
+          72618
+        ],
+        [
+          2,
+          "Mesa Airlines Inc.",
+          48,
+          2,
+          616
+        ],
+        [
+          2,
+          "Southwest Airlines Co.",
+          911,
+          53,
+          9239
+        ],
+        [
+          2,
+          "US Airways Inc.",
+          1552,
+          96,
+          11982
+        ],
+        [
+          2,
+          "United Air Lines Inc.",
+          4346,
+          189,
+          41700
+        ],
+        [
+          2,
+          "Virgin America",
+          271,
+          10,
+          1498
+        ],
+        [
+          3,
+          "AirTran Airways Corporation",
+          316,
+          13,
+          6520
+        ],
+        [
+          3,
+          "Alaska Airlines Inc.",
+          62,
+          0,
+          697
+        ],
+        [
+          3,
+          "American Airlines Inc.",
+          2787,
+          46,
+          31126
+        ],
+        [
+          3,
+          "Delta Air Lines Inc.",
+          4189,
+          65,
+          54184
+        ],
+        [
+          3,
+          "Endeavor Air Inc.",
+          1627,
+          117,
+          23353
+        ],
+        [
+          3,
+          "Envoy Air",
+          2256,
+          123,
+          26355
+        ],
+        [
+          3,
+          "ExpressJet Airlines Inc.",
+          4726,
+          355,
+          120567
+        ],
+        [
+          3,
+          "Frontier Airlines Inc.",
+          57,
+          0,
+          1123
+        ],
+        [
+          3,
+          "Hawaiian Airlines Inc.",
+          31,
+          0,
+          121
+        ],
+        [
+          3,
+          "JetBlue Airways",
+          4772,
+          26,
+          84447
+        ],
+        [
+          3,
+          "Mesa Airlines Inc.",
+          18,
+          0,
+          533
+        ],
+        [
+          3,
+          "Southwest Airlines Co.",
+          998,
+          49,
+          13185
+        ],
+        [
+          3,
+          "US Airways Inc.",
+          1721,
+          76,
+          14184
+        ],
+        [
+          3,
+          "United Air Lines Inc.",
+          4971,
+          62,
+          63808
+        ],
+        [
+          3,
+          "Virgin America",
+          303,
+          0,
+          2799
+        ],
+        [
+          4,
+          "AirTran Airways Corporation",
+          311,
+          8,
+          6805
+        ],
+        [
+          4,
+          "Alaska Airlines Inc.",
+          60,
+          0,
+          861
+        ],
+        [
+          4,
+          "American Airlines Inc.",
+          2722,
+          73,
+          49924
+        ],
+        [
+          4,
+          "Delta Air Lines Inc.",
+          4092,
+          12,
+          56786
+        ],
+        [
+          4,
+          "Endeavor Air Inc.",
+          1511,
+          112,
+          23597
+        ],
+        [
+          4,
+          "Envoy Air",
+          2211,
+          124,
+          48685
+        ],
+        [
+          4,
+          "ExpressJet Airlines Inc.",
+          4561,
+          240,
+          116751
+        ],
+        [
+          4,
+          "Frontier Airlines Inc.",
+          57,
+          0,
+          2235
+        ],
+        [
+          4,
+          "Hawaiian Airlines Inc.",
+          30,
+          0,
+          98
+        ],
+        [
+          4,
+          "JetBlue Airways",
+          4517,
+          58,
+          90280
+        ],
+        [
+          4,
+          "Mesa Airlines Inc.",
+          38,
+          2,
+          1310
+        ],
+        [
+          4,
+          "Southwest Airlines Co.",
+          980,
+          16,
+          20547
+        ],
+        [
+          4,
+          "US Airways Inc.",
+          1727,
+          52,
+          22080
+        ],
+        [
+          4,
+          "United Air Lines Inc.",
+          5047,
+          69,
+          88163
+        ],
+        [
+          4,
+          "Virgin America",
+          466,
+          0,
+          7063
+        ],
+        [
+          5,
+          "AirTran Airways Corporation",
+          325,
+          3,
+          7570
+        ],
+        [
+          5,
+          "Alaska Airlines Inc.",
+          62,
+          3,
+          595
+        ],
+        [
+          5,
+          "American Airlines Inc.",
+          2803,
+          54,
+          33959
+        ],
+        [
+          5,
+          "Delta Air Lines Inc.",
+          4082,
+          16,
+          50097
+        ],
+        [
+          5,
+          "Endeavor Air Inc.",
+          1462,
+          79,
+          32157
+        ],
+        [
+          5,
+          "Envoy Air",
+          2284,
+          87,
+          43551
+        ],
+        [
+          5,
+          "ExpressJet Airlines Inc.",
+          4817,
+          251,
+          99528
+        ],
+        [
+          5,
+          "Frontier Airlines Inc.",
+          58,
+          0,
+          1925
+        ],
+        [
+          5,
+          "Hawaiian Airlines Inc.",
+          31,
+          0,
+          49
+        ],
+        [
+          5,
+          "JetBlue Airways",
+          4576,
+          39,
+          60294
+        ],
+        [
+          5,
+          "Mesa Airlines Inc.",
+          49,
+          5,
+          635
+        ],
+        [
+          5,
+          "Southwest Airlines Co.",
+          1006,
+          18,
+          14131
+        ],
+        [
+          5,
+          "US Airways Inc.",
+          1785,
+          43,
+          16342
+        ],
+        [
+          5,
+          "United Air Lines Inc.",
+          4960,
+          70,
+          58312
+        ],
+        [
+          5,
+          "Virgin America",
+          496,
+          0,
+          7630
+        ],
+        [
+          6,
+          "AirTran Airways Corporation",
+          252,
+          11,
+          10770
+        ],
+        [
+          6,
+          "Alaska Airlines Inc.",
+          60,
+          0,
+          852
+        ],
+        [
+          6,
+          "American Airlines Inc.",
+          2757,
+          74,
+          50889
+        ],
+        [
+          6,
+          "Delta Air Lines Inc.",
+          4126,
+          47,
+          91674
+        ],
+        [
+          6,
+          "Endeavor Air Inc.",
+          1437,
+          177,
+          40636
+        ],
+        [
+          6,
+          "Envoy Air",
+          2178,
+          195,
+          57228
+        ],
+        [
+          6,
+          "ExpressJet Airlines Inc.",
+          4456,
+          381,
+          115293
+        ],
+        [
+          6,
+          "Frontier Airlines Inc.",
+          55,
+          0,
+          1753
+        ],
+        [
+          6,
+          "Hawaiian Airlines Inc.",
+          30,
+          0,
+          303
+        ],
+        [
+          6,
+          "JetBlue Airways",
+          4622,
+          72,
+          118112
+        ],
+        [
+          6,
+          "Mesa Airlines Inc.",
+          49,
+          10,
+          1905
+        ],
+        [
+          6,
+          "SkyWest Airlines Inc.",
+          2,
+          0,
+          157
+        ],
+        [
+          6,
+          "Southwest Airlines Co.",
+          1028,
+          20,
+          28845
+        ],
+        [
+          6,
+          "US Airways Inc.",
+          1736,
+          90,
+          31212
+        ],
+        [
+          6,
+          "United Air Lines Inc.",
+          4975,
+          90,
+          105565
+        ],
+        [
+          6,
+          "Virgin America",
+          480,
+          1,
+          15997
+        ],
+        [
+          7,
+          "AirTran Airways Corporation",
+          263,
+          15,
+          11875
+        ],
+        [
+          7,
+          "Alaska Airlines Inc.",
+          62,
+          0,
+          393
+        ],
+        [
+          7,
+          "American Airlines Inc.",
+          2882,
+          113,
+          46223
+        ],
+        [
+          7,
+          "Delta Air Lines Inc.",
+          4251,
+          68,
+          103131
+        ],
+        [
+          7,
+          "Endeavor Air Inc.",
+          1494,
+          155,
+          45260
+        ],
+        [
+          7,
+          "Envoy Air",
+          2261,
+          151,
+          59594
+        ],
+        [
+          7,
+          "ExpressJet Airlines Inc.",
+          4641,
+          338,
+          125055
+        ],
+        [
+          7,
+          "Frontier Airlines Inc.",
+          58,
+          0,
+          2320
+        ],
+        [
+          7,
+          "Hawaiian Airlines Inc.",
+          31,
+          0,
+          304
+        ],
+        [
+          7,
+          "JetBlue Airways",
+          4984,
+          82,
+          145102
+        ],
+        [
+          7,
+          "Mesa Airlines Inc.",
+          81,
+          12,
+          2314
+        ],
+        [
+          7,
+          "Southwest Airlines Co.",
+          1076,
+          12,
+          25209
+        ],
+        [
+          7,
+          "US Airways Inc.",
+          1786,
+          85,
+          29410
+        ],
+        [
+          7,
+          "United Air Lines Inc.",
+          5066,
+          95,
+          104796
+        ],
+        [
+          7,
+          "Virgin America",
+          489,
+          6,
+          16785
+        ],
+        [
+          8,
+          "AirTran Airways Corporation",
+          263,
+          8,
+          7142
+        ],
+        [
+          8,
+          "Alaska Airlines Inc.",
+          62,
+          0,
+          407
+        ],
+        [
+          8,
+          "American Airlines Inc.",
+          2856,
+          37,
+          32444
+        ],
+        [
+          8,
+          "Delta Air Lines Inc.",
+          4318,
+          12,
+          55630
+        ],
+        [
+          8,
+          "Endeavor Air Inc.",
+          1456,
+          83,
+          24456
+        ],
+        [
+          8,
+          "Envoy Air",
+          2263,
+          102,
+          37287
+        ],
+        [
+          8,
+          "ExpressJet Airlines Inc.",
+          4563,
+          226,
+          84479
+        ],
+        [
+          8,
+          "Frontier Airlines Inc.",
+          55,
+          0,
+          1382
+        ],
+        [
+          8,
+          "Hawaiian Airlines Inc.",
+          31,
+          0,
+          341
+        ],
+        [
+          8,
+          "JetBlue Airways",
+          4952,
+          11,
+          94479
+        ],
+        [
+          8,
+          "Mesa Airlines Inc.",
+          65,
+          5,
+          1570
+        ],
+        [
+          8,
+          "SkyWest Airlines Inc.",
+          4,
+          0,
+          258
+        ],
+        [
+          8,
+          "Southwest Airlines Co.",
+          1047,
+          8,
+          21378
+        ],
+        [
+          8,
+          "US Airways Inc.",
+          1779,
+          40,
+          19691
+        ],
+        [
+          8,
+          "United Air Lines Inc.",
+          5124,
+          39,
+          72784
+        ],
+        [
+          8,
+          "Virgin America",
+          489,
+          0,
+          5768
+        ],
+        [
+          9,
+          "AirTran Airways Corporation",
+          255,
+          2,
+          5327
+        ],
+        [
+          9,
+          "Alaska Airlines Inc.",
+          60,
+          0,
+          54
+        ],
+        [
+          9,
+          "American Airlines Inc.",
+          2614,
+          46,
+          22169
+        ],
+        [
+          9,
+          "Delta Air Lines Inc.",
+          3883,
+          16,
+          36230
+        ],
+        [
+          9,
+          "Endeavor Air Inc.",
+          1540,
+          72,
+          13706
+        ],
+        [
+          9,
+          "Envoy Air",
+          2206,
+          112,
+          23315
+        ],
+        [
+          9,
+          "ExpressJet Airlines Inc.",
+          4725,
+          177,
+          49845
+        ],
+        [
+          9,
+          "Frontier Airlines Inc.",
+          58,
+          2,
+          634
+        ],
+        [
+          9,
+          "Hawaiian Airlines Inc.",
+          25,
+          0,
+          32
+        ],
+        [
+          9,
+          "JetBlue Airways",
+          4291,
+          21,
+          42669
+        ],
+        [
+          9,
+          "Mesa Airlines Inc.",
+          42,
+          0,
+          514
+        ],
+        [
+          9,
+          "SkyWest Airlines Inc.",
+          20,
+          3,
+          54
+        ],
+        [
+          9,
+          "Southwest Airlines Co.",
+          1010,
+          9,
+          13814
+        ],
+        [
+          9,
+          "US Airways Inc.",
+          1698,
+          45,
+          12527
+        ],
+        [
+          9,
+          "United Air Lines Inc.",
+          4694,
+          58,
+          40847
+        ],
+        [
+          9,
+          "Virgin America",
+          453,
+          1,
+          3887
+        ],
+        [
+          10,
+          "AirTran Airways Corporation",
+          236,
+          2,
+          4601
+        ],
+        [
+          10,
+          "Alaska Airlines Inc.",
+          62,
+          0,
+          164
+        ],
+        [
+          10,
+          "American Airlines Inc.",
+          2715,
+          16,
+          21193
+        ],
+        [
+          10,
+          "Delta Air Lines Inc.",
+          4093,
+          3,
+          25625
+        ],
+        [
+          10,
+          "Endeavor Air Inc.",
+          1673,
+          38,
+          18346
+        ],
+        [
+          10,
+          "Envoy Air",
+          2228,
+          45,
+          24862
+        ],
+        [
+          10,
+          "ExpressJet Airlines Inc.",
+          4908,
+          96,
+          81420
+        ],
+        [
+          10,
+          "Frontier Airlines Inc.",
+          57,
+          0,
+          940
+        ],
+        [
+          10,
+          "Hawaiian Airlines Inc.",
+          21,
+          0,
+          17
+        ],
+        [
+          10,
+          "JetBlue Airways",
+          4361,
+          4,
+          31997
+        ],
+        [
+          10,
+          "Mesa Airlines Inc.",
+          66,
+          6,
+          1499
+        ],
+        [
+          10,
+          "Southwest Airlines Co.",
+          1091,
+          3,
+          14975
+        ],
+        [
+          10,
+          "US Airways Inc.",
+          1846,
+          32,
+          12049
+        ],
+        [
+          10,
+          "United Air Lines Inc.",
+          5060,
+          25,
+          45043
+        ],
+        [
+          10,
+          "Virgin America",
+          472,
+          1,
+          2496
+        ],
+        [
+          11,
+          "AirTran Airways Corporation",
+          202,
+          0,
+          4535
+        ],
+        [
+          11,
+          "Alaska Airlines Inc.",
+          52,
+          0,
+          269
+        ],
+        [
+          11,
+          "American Airlines Inc.",
+          2577,
+          27,
+          22464
+        ],
+        [
+          11,
+          "Delta Air Lines Inc.",
+          3849,
+          11,
+          28631
+        ],
+        [
+          11,
+          "Endeavor Air Inc.",
+          1595,
+          22,
+          17400
+        ],
+        [
+          11,
+          "Envoy Air",
+          2056,
+          52,
+          22746
+        ],
+        [
+          11,
+          "ExpressJet Airlines Inc.",
+          4471,
+          90,
+          57612
+        ],
+        [
+          11,
+          "Frontier Airlines Inc.",
+          61,
+          1,
+          1396
+        ],
+        [
+          11,
+          "Hawaiian Airlines Inc.",
+          25,
+          0,
+          233
+        ],
+        [
+          11,
+          "JetBlue Airways",
+          4289,
+          16,
+          36725
+        ],
+        [
+          11,
+          "Mesa Airlines Inc.",
+          49,
+          1,
+          728
+        ],
+        [
+          11,
+          "SkyWest Airlines Inc.",
+          5,
+          0,
+          30
+        ],
+        [
+          11,
+          "Southwest Airlines Co.",
+          1033,
+          7,
+          12647
+        ],
+        [
+          11,
+          "US Airways Inc.",
+          1699,
+          32,
+          10774
+        ],
+        [
+          11,
+          "United Air Lines Inc.",
+          4854,
+          27,
+          42860
+        ],
+        [
+          11,
+          "Virgin America",
+          451,
+          11,
+          5874
+        ],
+        [
+          12,
+          "AirTran Airways Corporation",
+          213,
+          5,
+          6564
+        ],
+        [
+          12,
+          "Alaska Airlines Inc.",
+          54,
+          0,
+          888
+        ],
+        [
+          12,
+          "American Airlines Inc.",
+          2705,
+          108,
+          41675
+        ],
+        [
+          12,
+          "Delta Air Lines Inc.",
+          4093,
+          26,
+          59292
+        ],
+        [
+          12,
+          "Endeavor Air Inc.",
+          1633,
+          100,
+          34798
+        ],
+        [
+          12,
+          "Envoy Air",
+          2139,
+          151,
+          40398
+        ],
+        [
+          12,
+          "ExpressJet Airlines Inc.",
+          4307,
+          416,
+          124706
+        ],
+        [
+          12,
+          "Frontier Airlines Inc.",
+          61,
+          0,
+          1698
+        ],
+        [
+          12,
+          "Hawaiian Airlines Inc.",
+          28,
+          0,
+          91
+        ],
+        [
+          12,
+          "JetBlue Airways",
+          4741,
+          85,
+          110838
+        ],
+        [
+          12,
+          "Mesa Airlines Inc.",
+          50,
+          7,
+          759
+        ],
+        [
+          12,
+          "Southwest Airlines Co.",
+          1099,
+          25,
+          29385
+        ],
+        [
+          12,
+          "US Airways Inc.",
+          1605,
+          66,
+          18796
+        ],
+        [
+          12,
+          "United Air Lines Inc.",
+          4931,
+          112,
+          96180
+        ],
+        [
+          12,
+          "Virgin America",
+          476,
+          14,
+          5766
+        ]
+      ],
+      "high_airport_routes": [
+        [
+          "EWR",
+          "ATL",
+          "Hartsfield Jackson Atlanta Intl",
+          5022,
+          3746412
+        ],
+        [
+          "EWR",
+          "AUS",
+          "Austin Bergstrom Intl",
+          968,
+          1455872
+        ],
+        [
+          "EWR",
+          "AVL",
+          "Asheville Regional Airport",
+          265,
+          154495
+        ],
+        [
+          "EWR",
+          "BNA",
+          "Nashville Intl",
+          2336,
+          1747328
+        ],
+        [
+          "EWR",
+          "BUF",
+          "Buffalo Niagara Intl",
+          973,
+          274386
+        ],
+        [
+          "EWR",
+          "BZN",
+          "Gallatin Field",
+          36,
+          67752
+        ],
+        [
+          "EWR",
+          "CLE",
+          "Cleveland Hopkins Intl",
+          1754,
+          708616
+        ],
+        [
+          "EWR",
+          "CLT",
+          "Charlotte Douglas Intl",
+          5026,
+          2658754
+        ],
+        [
+          "EWR",
+          "CMH",
+          "Port Columbus Intl",
+          724,
+          335212
+        ],
+        [
+          "EWR",
+          "CVG",
+          "Cincinnati Northern Kentucky Intl",
+          2673,
+          1520937
+        ],
+        [
+          "EWR",
+          "DAY",
+          "James M Cox Dayton Intl",
+          1134,
+          604422
+        ],
+        [
+          "EWR",
+          "DEN",
+          "Denver Intl",
+          2859,
+          4588695
+        ],
+        [
+          "EWR",
+          "DFW",
+          "Dallas Fort Worth Intl",
+          3148,
+          4319056
+        ],
+        [
+          "EWR",
+          "DSM",
+          "Des Moines Intl",
+          411,
+          417987
+        ],
+        [
+          "EWR",
+          "DTW",
+          "Detroit Metro Wayne Co",
+          3178,
+          1550864
+        ],
+        [
+          "EWR",
+          "EGE",
+          "Eagle Co Rgnl",
+          110,
+          189809
+        ],
+        [
+          "EWR",
+          "GRR",
+          "Gerald R Ford Intl",
+          719,
+          434995
+        ],
+        [
+          "EWR",
+          "GSO",
+          "Piedmont Triad",
+          1120,
+          498400
+        ],
+        [
+          "EWR",
+          "GSP",
+          "Greenville-Spartanburg International",
+          745,
+          442530
+        ],
+        [
+          "EWR",
+          "HDN",
+          "Yampa Valley",
+          15,
+          25920
+        ],
+        [
+          "EWR",
+          "IND",
+          "Indianapolis Intl",
+          1301,
+          839145
+        ],
+        [
+          "EWR",
+          "JAC",
+          "Jackson Hole Airport",
+          23,
+          43102
+        ],
+        [
+          "EWR",
+          "LAS",
+          "Mc Carran Intl",
+          2010,
+          4476270
+        ],
+        [
+          "EWR",
+          "MCI",
+          "Kansas City Intl",
+          1356,
+          1480752
+        ],
+        [
+          "EWR",
+          "MDW",
+          "Chicago Midway Intl",
+          2043,
+          1452573
+        ],
+        [
+          "EWR",
+          "MKE",
+          "General Mitchell Intl",
+          1094,
+          793150
+        ],
+        [
+          "EWR",
+          "MSN",
+          "Dane Co Rgnl Truax Fld",
+          354,
+          282846
+        ],
+        [
+          "EWR",
+          "MSP",
+          "Minneapolis St Paul Intl",
+          2377,
+          2396016
+        ],
+        [
+          "EWR",
+          "MTJ",
+          "Montrose Regional Airport",
+          15,
+          26925
+        ],
+        [
+          "EWR",
+          "OKC",
+          "Will Rogers World",
+          346,
+          458450
+        ],
+        [
+          "EWR",
+          "OMA",
+          "Eppley Afld",
+          754,
+          855036
+        ],
+        [
+          "EWR",
+          "ORD",
+          "Chicago Ohare Intl",
+          6100,
+          4385900
+        ],
+        [
+          "EWR",
+          "PHX",
+          "Phoenix Sky Harbor Intl",
+          2723,
+          5808159
+        ],
+        [
+          "EWR",
+          "PIT",
+          "Pittsburgh Intl",
+          559,
+          178321
+        ],
+        [
+          "EWR",
+          "ROC",
+          "Greater Rochester Intl",
+          513,
+          126198
+        ],
+        [
+          "EWR",
+          "SAT",
+          "San Antonio Intl",
+          330,
+          517770
+        ],
+        [
+          "EWR",
+          "SBN",
+          "South Bend Rgnl",
+          4,
+          2548
+        ],
+        [
+          "EWR",
+          "SDF",
+          "Louisville International Airport",
+          894,
+          573948
+        ],
+        [
+          "EWR",
+          "SLC",
+          "Salt Lake City Intl",
+          354,
+          697026
+        ],
+        [
+          "EWR",
+          "STL",
+          "Lambert St Louis Intl",
+          2516,
+          2193952
+        ],
+        [
+          "EWR",
+          "TUL",
+          "Tulsa Intl",
+          315,
+          382725
+        ],
+        [
+          "EWR",
+          "TVC",
+          "Cherry Capital Airport",
+          24,
+          15456
+        ],
+        [
+          "EWR",
+          "TYS",
+          "Mc Ghee Tyson",
+          323,
+          203813
+        ],
+        [
+          "EWR",
+          "XNA",
+          "NW Arkansas Regional",
+          291,
+          329121
+        ],
+        [
+          "JFK",
+          "ABQ",
+          "Albuquerque International Sunport",
+          254,
+          463804
+        ],
+        [
+          "JFK",
+          "ATL",
+          "Hartsfield Jackson Atlanta Intl",
+          1930,
+          1466800
+        ],
+        [
+          "JFK",
+          "AUS",
+          "Austin Bergstrom Intl",
+          1471,
+          2237391
+        ],
+        [
+          "JFK",
+          "BHM",
+          "Birmingham Intl",
+          1,
+          865
+        ],
+        [
+          "JFK",
+          "BNA",
+          "Nashville Intl",
+          730,
+          558450
+        ],
+        [
+          "JFK",
+          "BUF",
+          "Buffalo Niagara Intl",
+          3582,
+          1078182
+        ],
+        [
+          "JFK",
+          "BUR",
+          "Bob Hope",
+          371,
+          914515
+        ],
+        [
+          "JFK",
+          "CLE",
+          "Cleveland Hopkins Intl",
+          707,
+          300475
+        ],
+        [
+          "JFK",
+          "CLT",
+          "Charlotte Douglas Intl",
+          2870,
+          1552670
+        ],
+        [
+          "JFK",
+          "CMH",
+          "Port Columbus Intl",
+          742,
+          358386
+        ],
+        [
+          "JFK",
+          "CVG",
+          "Cincinnati Northern Kentucky Intl",
+          997,
+          587233
+        ],
+        [
+          "JFK",
+          "DEN",
+          "Denver Intl",
+          703,
+          1143078
+        ],
+        [
+          "JFK",
+          "DFW",
+          "Dallas Fort Worth Intl",
+          732,
+          1018212
+        ],
+        [
+          "JFK",
+          "DTW",
+          "Detroit Metro Wayne Co",
+          1166,
+          593494
+        ],
+        [
+          "JFK",
+          "EGE",
+          "Eagle Co Rgnl",
+          103,
+          179897
+        ],
+        [
+          "JFK",
+          "IND",
+          "Indianapolis Intl",
+          689,
+          458185
+        ],
+        [
+          "JFK",
+          "JAC",
+          "Jackson Hole Airport",
+          2,
+          3788
+        ],
+        [
+          "JFK",
+          "LAS",
+          "Mc Carran Intl",
+          3987,
+          8962776
+        ],
+        [
+          "JFK",
+          "MCI",
+          "Kansas City Intl",
+          276,
+          307188
+        ],
+        [
+          "JFK",
+          "MKE",
+          "General Mitchell Intl",
+          183,
+          136335
+        ],
+        [
+          "JFK",
+          "MSP",
+          "Minneapolis St Paul Intl",
+          1095,
+          1126755
+        ],
+        [
+          "JFK",
+          "ORD",
+          "Chicago Ohare Intl",
+          2326,
+          1721240
+        ],
+        [
+          "JFK",
+          "PHX",
+          "Phoenix Sky Harbor Intl",
+          1933,
+          4161749
+        ],
+        [
+          "JFK",
+          "PIT",
+          "Pittsburgh Intl",
+          1249,
+          424660
+        ],
+        [
+          "JFK",
+          "ROC",
+          "Greater Rochester Intl",
+          1679,
+          443256
+        ],
+        [
+          "JFK",
+          "SAT",
+          "San Antonio Intl",
+          356,
+          564972
+        ],
+        [
+          "JFK",
+          "SDF",
+          "Louisville International Airport",
+          46,
+          30452
+        ],
+        [
+          "JFK",
+          "SLC",
+          "Salt Lake City Intl",
+          2113,
+          4204870
+        ],
+        [
+          "JFK",
+          "STL",
+          "Lambert St Louis Intl",
+          1,
+          892
+        ],
+        [
+          "LGA",
+          "ATL",
+          "Hartsfield Jackson Atlanta Intl",
+          10263,
+          7820406
+        ],
+        [
+          "LGA",
+          "AVL",
+          "Asheville Regional Airport",
+          10,
+          5990
+        ],
+        [
+          "LGA",
+          "BHM",
+          "Birmingham Intl",
+          296,
+          256336
+        ],
+        [
+          "LGA",
+          "BNA",
+          "Nashville Intl",
+          3267,
+          2495988
+        ],
+        [
+          "LGA",
+          "BUF",
+          "Buffalo Niagara Intl",
+          126,
+          36792
+        ],
+        [
+          "LGA",
+          "CAK",
+          "Akron Canton Regional Airport",
+          864,
+          343008
+        ],
+        [
+          "LGA",
+          "CHO",
+          "Charlottesville-Albemarle",
+          52,
+          15860
+        ],
+        [
+          "LGA",
+          "CLE",
+          "Cleveland Hopkins Intl",
+          2112,
+          884928
+        ],
+        [
+          "LGA",
+          "CLT",
+          "Charlotte Douglas Intl",
+          6168,
+          3355392
+        ],
+        [
+          "LGA",
+          "CMH",
+          "Port Columbus Intl",
+          2058,
+          985782
+        ],
+        [
+          "LGA",
+          "CRW",
+          "Yeager",
+          138,
+          61272
+        ],
+        [
+          "LGA",
+          "CVG",
+          "Cincinnati Northern Kentucky Intl",
+          271,
+          158535
+        ],
+        [
+          "LGA",
+          "DAY",
+          "James M Cox Dayton Intl",
+          391,
+          214659
+        ],
+        [
+          "LGA",
+          "DEN",
+          "Denver Intl",
+          3704,
+          6000480
+        ],
+        [
+          "LGA",
+          "DFW",
+          "Dallas Fort Worth Intl",
+          4858,
+          6747762
+        ],
+        [
+          "LGA",
+          "DSM",
+          "Des Moines Intl",
+          158,
+          162898
+        ],
+        [
+          "LGA",
+          "DTW",
+          "Detroit Metro Wayne Co",
+          5040,
+          2530080
+        ],
+        [
+          "LGA",
+          "GRR",
+          "Gerald R Ford Intl",
+          46,
+          28428
+        ],
+        [
+          "LGA",
+          "GSO",
+          "Piedmont Triad",
+          486,
+          224046
+        ],
+        [
+          "LGA",
+          "GSP",
+          "Greenville-Spartanburg International",
+          104,
+          63440
+        ],
+        [
+          "LGA",
+          "IND",
+          "Indianapolis Intl",
+          87,
+          57420
+        ],
+        [
+          "LGA",
+          "LEX",
+          "Blue Grass",
+          1,
+          604
+        ],
+        [
+          "LGA",
+          "MCI",
+          "Kansas City Intl",
+          376,
+          416232
+        ],
+        [
+          "LGA",
+          "MDW",
+          "Chicago Midway Intl",
+          2070,
+          1500750
+        ],
+        [
+          "LGA",
+          "MKE",
+          "General Mitchell Intl",
+          1525,
+          1125450
+        ],
+        [
+          "LGA",
+          "MSN",
+          "Dane Co Rgnl Truax Fld",
+          218,
+          177016
+        ],
+        [
+          "LGA",
+          "MSP",
+          "Minneapolis St Paul Intl",
+          3713,
+          3787260
+        ],
+        [
+          "LGA",
+          "OMA",
+          "Eppley Afld",
+          95,
+          109060
+        ],
+        [
+          "LGA",
+          "ORD",
+          "Chicago Ohare Intl",
+          8857,
+          6492181
+        ],
+        [
+          "LGA",
+          "PIT",
+          "Pittsburgh Intl",
+          1067,
+          357445
+        ],
+        [
+          "LGA",
+          "ROC",
+          "Greater Rochester Intl",
+          224,
+          56896
+        ],
+        [
+          "LGA",
+          "SBN",
+          "South Bend Rgnl",
+          6,
+          3906
+        ],
+        [
+          "LGA",
+          "SDF",
+          "Louisville International Airport",
+          217,
+          143003
+        ],
+        [
+          "LGA",
+          "STL",
+          "Lambert St Louis Intl",
+          1822,
+          1617936
+        ],
+        [
+          "LGA",
+          "TVC",
+          "Cherry Capital Airport",
+          77,
+          50435
+        ],
+        [
+          "LGA",
+          "TYS",
+          "Mc Ghee Tyson",
+          308,
+          199276
+        ],
+        [
+          "LGA",
+          "XNA",
+          "NW Arkansas Regional",
+          745,
+          854515
+        ]
+      ],
+      "summer_aircraft": [
+        [
+          "AIRBUS INDUSTRIE",
+          "Delta Air Lines Inc.",
+          608,
+          28791
+        ],
+        [
+          "AIRBUS INDUSTRIE",
+          "JetBlue Airways",
+          64,
+          3358
+        ],
+        [
+          "AIRBUS INDUSTRIE",
+          "US Airways Inc.",
+          306,
+          11523
+        ],
+        [
+          "AIRBUS INDUSTRIE",
+          "United Air Lines Inc.",
+          764,
+          41742
+        ],
+        [
+          "BELL",
+          "American Airlines Inc.",
+          10,
+          589
+        ],
+        [
+          "BOEING",
+          "AirTran Airways Corporation",
+          40,
+          1873
+        ],
+        [
+          "BOEING",
+          "American Airlines Inc.",
+          444,
+          22903
+        ],
+        [
+          "BOEING",
+          "Delta Air Lines Inc.",
+          1279,
+          57712
+        ],
+        [
+          "BOEING",
+          "Southwest Airlines Co.",
+          262,
+          11541
+        ],
+        [
+          "BOEING",
+          "US Airways Inc.",
+          11,
+          250
+        ],
+        [
+          "BOEING",
+          "United Air Lines Inc.",
+          2451,
+          110798
+        ],
+        [
+          "BOMBARDIER INC",
+          "ExpressJet Airlines Inc.",
+          100,
+          6838
+        ],
+        [
+          "CANADAIR",
+          "ExpressJet Airlines Inc.",
+          168,
+          10009
+        ],
+        [
+          "CANADAIR LTD",
+          "Envoy Air",
+          11,
+          255
+        ],
+        [
+          "CESSNA",
+          "American Airlines Inc.",
+          21,
+          1101
+        ],
+        [
+          "CESSNA",
+          "Envoy Air",
+          42,
+          1591
+        ],
+        [
+          "DEHAVILLAND",
+          "American Airlines Inc.",
+          3,
+          170
+        ],
+        [
+          "DOUGLAS",
+          "American Airlines Inc.",
+          3,
+          151
+        ],
+        [
+          "EMBRAER",
+          "ExpressJet Airlines Inc.",
+          987,
+          52201
+        ],
+        [
+          "GULFSTREAM AEROSPACE",
+          "American Airlines Inc.",
+          2,
+          370
+        ],
+        [
+          "GULFSTREAM AEROSPACE",
+          "Envoy Air",
+          75,
+          3288
+        ],
+        [
+          "KILDALL GARY",
+          "American Airlines Inc.",
+          5,
+          90
+        ],
+        [
+          "MARZ BARRY",
+          "American Airlines Inc.",
+          5,
+          97
+        ],
+        [
+          "MCDONNELL DOUGLAS",
+          "American Airlines Inc.",
+          334,
+          16205
+        ],
+        [
+          "MCDONNELL DOUGLAS",
+          "Delta Air Lines Inc.",
+          6,
+          405
+        ],
+        [
+          "MCDONNELL DOUGLAS AIRCRAFT CO",
+          "Delta Air Lines Inc.",
+          1015,
+          56107
+        ],
+        [
+          "MCDONNELL DOUGLAS CORPORATION",
+          "Delta Air Lines Inc.",
+          150,
+          7623
+        ],
+        [
+          "PIPER",
+          "American Airlines Inc.",
+          20,
+          788
+        ],
+        [
+          "SIKORSKY",
+          "American Airlines Inc.",
+          2,
+          93
+        ],
+        [
+          "STEWART MACO",
+          "American Airlines Inc.",
+          4,
+          218
+        ]
+      ]
+    },
+    "query_executions": 3,
+    "correct": true,
+    "quality": 1.0,
+    "value": 0.06975870799215045,
+    "objective_seconds": 0.06975870799215045,
+    "native_invocations": 3
+  },
+  "collection_seconds": 0.15555870800744742
+}

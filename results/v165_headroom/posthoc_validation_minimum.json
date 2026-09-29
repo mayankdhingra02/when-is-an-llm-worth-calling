@@ -1,0 +1,295 @@
+{
+  "scope": "Post-hoc sensitivity using validation to select and score its minimum. Optimistically biased descriptive finite-sample comparison, not independent validation, a deployable policy, or a true-optimum bound. Primary selected-reference analysis unchanged.",
+  "rows": [
+    {
+      "case": "hnswlib_23",
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "prefix_id": 16,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.1054964016640564
+    },
+    {
+      "case": "hnswlib_23",
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "prefix_id": 16,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.1054964016640564
+    },
+    {
+      "case": "hnswlib_23",
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "prefix_id": 17,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.024025847543737325
+    },
+    {
+      "case": "ripgrep_71",
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "prefix_id": 36,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.016874061306974886
+    },
+    {
+      "case": "ripgrep_71",
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "prefix_id": 36,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.016874061306974886
+    },
+    {
+      "case": "ripgrep_71",
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "prefix_id": 36,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.016874061306974886
+    },
+    {
+      "case": "ripgrep_11",
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "prefix_id": 46,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.1297328837130362
+    },
+    {
+      "case": "ripgrep_11",
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "prefix_id": 46,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.1297328837130362
+    },
+    {
+      "case": "ripgrep_11",
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "prefix_id": 46,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.1297328837130362
+    },
+    {
+      "case": "hnswlib_11",
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "prefix_id": 21,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.08976560936813993
+    },
+    {
+      "case": "hnswlib_11",
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "prefix_id": 17,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.024025847543737325
+    },
+    {
+      "case": "hnswlib_11",
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "prefix_id": 33,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.032850022225517285
+    },
+    {
+      "case": "ripgrep_23",
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "prefix_id": 38,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.003190063003079712
+    },
+    {
+      "case": "ripgrep_23",
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "prefix_id": 38,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.003190063003079712
+    },
+    {
+      "case": "ripgrep_23",
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "prefix_id": 38,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.003190063003079712
+    },
+    {
+      "case": "hnswlib_71",
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "prefix_id": 17,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.024025847543737325
+    },
+    {
+      "case": "hnswlib_71",
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "prefix_id": 17,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.024025847543737325
+    },
+    {
+      "case": "hnswlib_71",
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "prefix_id": 1,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.0
+    },
+    {
+      "case": "ripgrep_53",
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "prefix_id": 40,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.0831789796859707
+    },
+    {
+      "case": "ripgrep_53",
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "prefix_id": 40,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.0831789796859707
+    },
+    {
+      "case": "ripgrep_53",
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "prefix_id": 36,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.016874061306974886
+    },
+    {
+      "case": "ripgrep_37",
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "prefix_id": 50,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.18277085581555663
+    },
+    {
+      "case": "ripgrep_37",
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "prefix_id": 44,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.1269985463879626
+    },
+    {
+      "case": "ripgrep_37",
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "prefix_id": 32,
+      "validation_minimum_id": 34,
+      "optimistic_observed_headroom": 0.11309291235747682
+    },
+    {
+      "case": "hnswlib_37",
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "prefix_id": 1,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.0
+    },
+    {
+      "case": "hnswlib_37",
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "prefix_id": 1,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.0
+    },
+    {
+      "case": "hnswlib_37",
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "prefix_id": 1,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.0
+    },
+    {
+      "case": "hnswlib_53",
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "prefix_id": 35,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.03313838908079494
+    },
+    {
+      "case": "hnswlib_53",
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "prefix_id": 35,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.03313838908079494
+    },
+    {
+      "case": "hnswlib_53",
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "prefix_id": 17,
+      "validation_minimum_id": 1,
+      "optimistic_observed_headroom": 0.024025847543737325
+    }
+  ],
+  "summary": [
+    {
+      "engine": "ripgrep",
+      "checkpoint": 4,
+      "mean": 0.08314936870492362,
+      "maximum": 0.18277085581555663,
+      "minimum": 0.003190063003079712,
+      "descriptive_above_ten_percent": 2
+    },
+    {
+      "engine": "ripgrep",
+      "checkpoint": 7,
+      "mean": 0.07199490681940482,
+      "maximum": 0.1297328837130362,
+      "minimum": 0.003190063003079712,
+      "descriptive_above_ten_percent": 2
+    },
+    {
+      "engine": "ripgrep",
+      "checkpoint": 10,
+      "mean": 0.0559527963375085,
+      "maximum": 0.1297328837130362,
+      "minimum": 0.003190063003079712,
+      "descriptive_above_ten_percent": 2
+    },
+    {
+      "engine": "hnswlib",
+      "checkpoint": 4,
+      "mean": 0.05048524953134572,
+      "maximum": 0.1054964016640564,
+      "minimum": 0.0,
+      "descriptive_above_ten_percent": 1
+    },
+    {
+      "engine": "hnswlib",
+      "checkpoint": 7,
+      "mean": 0.037337297166465194,
+      "maximum": 0.1054964016640564,
+      "minimum": 0.0,
+      "descriptive_above_ten_percent": 1
+    },
+    {
+      "engine": "hnswlib",
+      "checkpoint": 10,
+      "mean": 0.016180343462598386,
+      "maximum": 0.032850022225517285,
+      "minimum": 0.0,
+      "descriptive_above_ten_percent": 0
+    }
+  ]
+}

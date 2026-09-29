@@ -1,0 +1,67 @@
+{
+  "description": "Descriptive pre-decision covariate support; no refit/threshold or exclusion",
+  "training_groups": 8,
+  "features": [
+    {
+      "feature": "log_candidate_count",
+      "development_min": 4.574710978503383,
+      "development_max": 6.932447891572509,
+      "spark_min": 4.605170185988092,
+      "spark_max": 4.61512051684126,
+      "outside_development_range": 0
+    },
+    {
+      "feature": "variable_feature_count",
+      "development_min": 3,
+      "development_max": 31,
+      "spark_min": 30,
+      "spark_max": 30,
+      "outside_development_range": 0
+    },
+    {
+      "feature": "mean_domain_cardinality",
+      "development_min": 1.7083333333333333,
+      "development_max": 4.666666666666667,
+      "spark_min": 55.56666666666667,
+      "spark_max": 58.63333333333333,
+      "outside_development_range": 25
+    },
+    {
+      "feature": "label_cv",
+      "development_min": 0.012721938306368172,
+      "development_max": 1.8917886171508635,
+      "spark_min": 0.10605695170845593,
+      "spark_max": 1.1443097122259809,
+      "outside_development_range": 0
+    },
+    {
+      "feature": "prefix_relative_progress",
+      "development_min": 0.0,
+      "development_max": 0.9662837718937307,
+      "spark_min": 0.0,
+      "spark_max": 0.9121028826093738,
+      "outside_development_range": 0
+    },
+    {
+      "feature": "plateau_fraction",
+      "development_min": 0.0,
+      "development_max": 1.0,
+      "spark_min": 0.0,
+      "spark_max": 1.0,
+      "outside_development_range": 0
+    },
+    {
+      "feature": "bootstrap_best_dispersion",
+      "development_min": 0.00039797237997033034,
+      "development_max": 0.12894790368687467,
+      "spark_min": 0.006170194124370947,
+      "spark_max": 0.12887030466421073,
+      "outside_development_range": 0
+    }
+  ],
+  "decisions": {
+    "benefit": 0,
+    "uncertainty": 0,
+    "random_matched_rate": 0
+  }
+}

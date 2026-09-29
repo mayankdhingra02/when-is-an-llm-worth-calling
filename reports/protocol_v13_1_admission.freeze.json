@@ -1,0 +1,22 @@
+{
+  "scope": "Corrected metadata-only admission: legacy heldout_smoke remains exposed",
+  "sha256": {
+    "configs/task_contract_v13.json": "b0b895737890b3603236f29ee7dced442ca3f7eb3a506cadc85db7640f01ffea",
+    "data/admission_evidence_v13.json": "5091a1c977d1b6b5fab37672e31da07d302b95655ecedcdc65b50497828d594d",
+    "data/manifest_v3.json": "014bc1101aa6ae6151307914d981f24508c4e6b1fea1f01a760255d26ad7735f",
+    "data/manifest_v6.json": "49ee4760a6879ad739ddb3360764a291522dc92503bf6e24f47d3709ab974602",
+    "data/registry_raw_v5/ChristianKaltenecker__PerformanceEvolution_Website/PerformanceEvolution_Data/VP8/README.md": "7049259d5af4ac19c04914791ca2ab1afb5d66aee2f9d35979c2b0cc790b7e80",
+    "data/registry_raw_v5/ChristianKaltenecker__PerformanceEvolution_Website/PerformanceEvolution_Data/VP9/README.md": "9e393c67ba2433b5785deaffe6be1e7c6094a0aa0d490e6c51449baad14bea79",
+    "data/registry_raw_v5/ChristianKaltenecker__PerformanceEvolution_Website/PerformanceEvolution_Data/brotli/README.md": "0e8522886dcac66fd139849815e2fda5c840c4e91307e61e604c57e7c9196997",
+    "data/registry_raw_v5/ChristianKaltenecker__PerformanceEvolution_Website/PerformanceEvolution_Data/lrzip/README.md": "870ebda43d9a9164a58852767d81f9705f2e9853c1efaa5fafaa65de5a8a43aa",
+    "data/registry_v5.json": "ed8209cd27b440200756c47a6a12a808e7061fcc9d5a9edc84db5cdee12a761f",
+    "reports/protocol_v13_1_admission.md": "719e0b4862633b8200aee6a6e1929ca50028e4a69e775f23ab86a3978d84966a",
+    "reports/protocol_v13_admission.md": "6fb5b1ac62b4b4dc0995649386ab4d7ba38985501a66a195413b6dbb09fe0b9e",
+    "scripts/audit_admission_v13.py": "f4affafd91d7e35b17afd06b8ce5df1ec87bded920dee057d20cf810216d99ce",
+    "scripts/audit_admission_v13_1.py": "fbc736f4f2d88b69b9507e8deea0bb47f5333e0b099d926c7666ac31359a3f0c",
+    "src/escalation/admission_v13.py": "fb002c907cacf27c20ddcbacbdfce723f378eb86ccffac7126827ed851a97ab5",
+    "src/escalation/admission_v13_1.py": "4a0e598066dd2df8f270acb0cf24d158404882b73f43107c225becd1d1f5a41a",
+    "tests/synthetic/test_admission_v13.py": "a8e04c9a2c8a82ff3881b1c10ec9bfd1c33abbaaa0267173d7d79e1c82cbdd73",
+    "tests/synthetic/test_admission_v13_1.py": "f4b8ef6ad9557817bc4babcdc9617b0b665bbcfae3ce1c731a3e271266923567"
+  }
+}

@@ -1,0 +1,37 @@
+"""All-case validation, explicit identical-configuration negative controls."""
+import json,os,csv,statistics
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];os.environ.setdefault('MPLCONFIGDIR',str(ROOT/'.cache/native_nginx'))
+import matplotlib
+matplotlib.use('Agg');matplotlib.rcParams['svg.hashsalt']='v113-validation'
+import matplotlib.pyplot as plt
+from collect_smollm_v47 import read,write
+
+def diagnostics(d):
+ same=[dict(family=r['family'],seed=r['seed'],control=a,row=r['incumbent_rows']['llm'],gain=r['relative_gains'][a]) for r in d['cases'] for a,equal in r['same_configuration_as_llm'].items() if equal]
+ ranges=[x for r in d['cases'] for x in r['relative_ranges'].values()]
+ return dict(identical_configuration_contrasts=same,count_identical=len(same),identical_apparent_absolute_gain_at_least_5pct=sum(abs(x['gain'])>=.05 for x in same),max_absolute_identical_gain=max(abs(x['gain']) for x in same) if same else None,median_incumbent_relative_range=statistics.median(ranges),maximum_incumbent_relative_range=max(ranges),incumbents_with_relative_range_above_10pct=sum(x>.1 for x in ranges),scope='posthoc negative-control diagnostic; does not alter frozen primary outcomes or drop cases; comparisons share seeds/configurations and are not independent')
+
+def main():
+ d=read(ROOT/'results/v113_analysis/summary.json');audit=d['audit'];diag=diagnostics(d);write(ROOT/'results/v113_analysis/diagnostics.json',diag)
+ rows=[]
+ for r in d['cases']:
+  for a,gain in r['relative_gains'].items():rows.append(dict(family=r['family'],seed=r['seed'],control=a,gain=gain,historical_gain=r['historical_gains'][a],llm_row=r['incumbent_rows']['llm'],control_row=r['incumbent_rows'][a],same_configuration=r['same_configuration_as_llm'][a],llm_seconds=r['medians']['llm'],control_seconds=r['medians'][a]))
+ with (ROOT/'results/v113_analysis/contrasts.csv').open('w') as f:
+  writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+ fig,axs=plt.subplots(1,2,figsize=(11,4.5),layout='constrained')
+ for ax,family in zip(axs,['superlu','highs']):
+  for x,control in enumerate(['batch_3nn','full_sequential_3nn']):
+   rs=[r for r in rows if r['family']==family and r['control']==control]
+   for j,r in enumerate(rs):
+    ax.scatter(x+(j-2)*.04,100*r['gain'],s=48,marker='x' if r['same_configuration'] else 'o',color='#D55E00' if r['same_configuration'] else '#0072B2')
+  ax.axhline(0,color='gray',linewidth=1);ax.axhline(5,color='green',ls='--');ax.axhline(-5,color='green',ls='--');ax.set(xticks=[0,1],xticklabels=['Batch3NN','Sequential3NN'],title=family,ylabel='LLM relative confirmation gain (%)')
+ handles=[plt.Line2D([],[],color='#0072B2',marker='o',ls='',label='Different selected configurations'),plt.Line2D([],[],color='#D55E00',marker='x',ls='',label='Identical selected configurations')]
+ fig.legend(handles=handles,loc='outside lower center',ncol=2);fig.suptitle('V113: fresh timing confirmation; identical-setting differences reveal noise')
+ fig.savefig(ROOT/'results/v113_analysis/validation.png',dpi=170,metadata={'Software':'matplotlib'});fig.savefig(ROOT/'results/v113_analysis/validation.svg',metadata={'Date':None});plt.close(fig)
+ lines=['# V113: fresh validation exposes material timing variation','',f"All **{audit['acquisitions']}/90** new native acquisitions completed; all **{audit['certificates_recomputed']}/270** saved solution certificates passed independent recomputation. Zero failures or missing attempts, zero new model requests/downloads/spending. Collection took{audit['stage_seconds']:.3f}s. This remeasures the configurations selected in V94; it does not rerun an optimizer or generate new LLM choices.",'', '## Primary frozen comparison','', '|Engine|Mean LLM gain vs batch3NN|Mean LLM gain vs sequential3NN|','|---|---:|---:|']
+ for family,g in d['groups'].items():lines.append(f"|{family}|{g['batch_3nn']['mean_gain']:+.2%}|{g['full_sequential_3nn']['mean_gain']:+.2%}|")
+ lines+=['', 'None of ten cases beat both controls at the frozen5%margin; the same zero count holds on the descriptive0/2/10%grid. These values are observed contrasts, not causal estimates of an LLM penalty. The complete cases and all three fresh labels per arm are in the saved JSON/CSV. No seed or failed historical acquisition was removed.','', '## The important qualification','',f"Posthoc, **{diag['count_identical']}** LLM/control contrasts selected exactly the same configuration. **{diag['identical_apparent_absolute_gain_at_least_5pct']}of{diag['count_identical']}** nevertheless show apparent differences of at least5%; the largest is **{diag['max_absolute_identical_gain']:.2%}**. Configuration selection cannot explain a difference when the settings are identical. The contrasts are dependent and are not an estimated population false-positive rate.",'',f"Across30frozen incumbents, median(maximum-minimum)/mean over three fresh acquisition labels is **{diag['median_incumbent_relative_range']:.2%}**; {diag['incumbents_with_relative_range_above_10pct']}/30exceed10%. These descriptive ranges are not confidence intervals. Each acquisition itself aggregates three physical solves; the spread across acquisitions shows that those internal repeats were insufficient for stable5%comparisons in this session.",'', 'This audit therefore **weakens confidence in precise native-runtime effect magnitudes**, even though the observed direction still supplies no evidence of useful escalation. It does not establish LLM harm, equivalence, or a useful router. The recorded-table studies are a separate evidence stream; this timing check neither remeasures their original software runtimes nor invalidates their trace-replay findings.','', '## Budget and scope','', 'The30incumbents were frozen before these outcomes: two exposed engines×five seeds×three arms. Each gets3new validation acquisitions×3physical solves. V94search staysB20; search-plus-validation for one arm is23acquisitions/69physical solves, not20. Actual research collection across V94and this check is590native acquisitions plus the original100real model requests. The new90acquisitions are validation overhead, not free budget. No new deployment saving is claimed; electricity/hardware costs remain unknown.','', 'The schedule interleaved arms within pre-shuffled case blocks across three rounds. Same machine, same datasets, same selected configurations, no independent hardware or software groups. The initial motivation was post-selection measurement bias; all analyses are explicitly exploratory. HistoricalSuperLUcrashes remain in V94and were not fixed or excused by the absence of crashes among these selected incumbents.','', '## Next action','', 'Independently replicate the frozen selected configurations on a separate, otherwise quiet host, retaining correctness checks and identical-configuration negative controls. Establish measurement repeatability before interpreting a5%native effect. Do not select a nicer threshold, delete equal-configuration contrasts, or spend more model calls on this noisy workload. No second host is available in this project; a compatible local/remote machine supplied by the user is needed. Paid provisioning is not authorized.','', '![All contrasts, with equal configurations marked](../results/v113_analysis/validation.png)']
+ (ROOT/'reports/validation_v113.md').write_text('\n'.join(lines)+'\n')
+ print(json.dumps(diag))
+if __name__=='__main__':main()

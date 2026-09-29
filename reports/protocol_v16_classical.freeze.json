@@ -1,0 +1,16 @@
+{
+  "scope": "Frozen before any V16 optimizer acquisitions; all cases development only",
+  "sha256": {
+    "data/live_manifest_v15.json": "b44494439bbeef5a54ebb9390bcb355f1e004671b292ccd1bd842aa3a9d58321",
+    "reports/protocol_v16_classical.md": "f406a8c583bdc46cc6478d5ce1e1998dfe2fc7d15b3eaf080e25c4045ac0b67f",
+    "requirements.lock.txt": "4d15f2620cad2476e30ac4796c41179418a5e63eed29985cebb21490035cc139",
+    "results/v15_measurements/configuration_summary.csv": "438335b75936598e0ac7cc30adb5be3d0d8bc567a6d8167823c651fcae19314b",
+    "scripts/analyze_verify_classical_v16.py": "00b436afe027ed03533614738d8bc304cbcf6f41495fe5d8742cf2ec1d6bc1d5",
+    "scripts/run_classical_v16.py": "f3ddfb0b0a13a7ada8e4eaff21811ecc92cdeca57d1bd88714cd74acd44aa1ad",
+    "src/escalation/io.py": "2b9da6b2e3714c0b75e3adbd0ba984cbdc099621efcd232ad61b2c766d9fd63e",
+    "src/escalation/offline_live_v16.py": "28fd0a5a1d0953570d21a34038131ef9c56c52fe14186c723510d32315bbb340",
+    "src/escalation/quality_controls_v12.py": "4baee2a7e989c504df75033671cda7f20cee0bf2dfad03fb9c0bef987ad2cb7d",
+    "src/escalation/resources.py": "8ff495de39416aea848e58336b0fad78c9775ce2295ae24bbe5bfb586366504c",
+    "tests/synthetic/test_offline_live_v16.py": "b24eb19b2099d7316f2e2fe238cbaf1af3e628e7f6edc0b2d1685e621f897b08"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stage": "V141 matched-model replication on six exposed development families",
+  "model_order": [
+    "qwen3_8b",
+    "smollm3_3b"
+  ],
+  "new_generation_request_cap": 30,
+  "scientific_request_cap": 30,
+  "compatibility_request_cap": 0,
+  "max_allocated_output_tokens": 30720,
+  "max_generation_stage_seconds": 800,
+  "max_server_rss_bytes": 8589934592,
+  "retries": 0,
+  "allow_paid_api": false,
+  "allow_cloud": false,
+  "max_external_spend_usd": 0,
+  "new_download_bytes": 0,
+  "total_models": 2,
+  "total_request_cap": 60,
+  "total_allocated_output_tokens": 61440,
+  "total_new_recorded_acquisitions": 600,
+  "evaluation_seconds_cap": 180,
+  "total_collection_seconds_cap": 1800,
+  "practical_margin": 0.01,
+  "split": "six_exposed_development_groups_not_confirmatory"
+}

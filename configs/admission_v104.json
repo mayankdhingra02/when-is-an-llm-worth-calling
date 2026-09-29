@@ -1,0 +1,19 @@
+{
+  "selection": "New identities in owner supplements, before candidate objective access; metadata-only exploratory admission, not random population sampling.",
+  "candidates": [
+    {"candidate": "GEMM", "system_group": "llvm", "admitted_recorded_table": false,
+     "disposition": "Not an independent new group: original paper identifies Polly/LLVM compiler tuning of a PolyBench GEMM workload. LLVM already exposed in V41/V103.",
+     "source": "https://arxiv.org/abs/1911.12643", "location": "v1, section V-B, pages 10-11",
+     "open_issues": ["Paper prose and Table III disagree on configuration count (60959 versus 59592).", "No new outcome table retrieved; raw correctness/failure records and reuse terms not verified."]},
+    {"candidate": "TriMesh", "system_group": "unresolved_multigrid_lineage", "admitted_recorded_table": false,
+     "disposition": "Iteration runtime is not a verified equal-solution-quality objective across cycle/smoother/step choices; triangle-angle options change the problem geometry.",
+     "source": "https://arxiv.org/abs/1911.12643", "location": "v1, section V-B, page 11; owner TriMesh_VarModel.xml",
+     "open_issues": ["Need converged residual/error tolerance and end-to-end solution time on a fixed geometry.", "Resolve implementation relation to exposed Dune/HSMGP and software license before claiming an independent group.", "Feature model is metadata, not measured candidate coverage."]},
+    {"candidate": "NGINX", "system_group": "nginx", "admitted_recorded_table": false,
+     "disposition": "Prioritize a fresh validated native workload; existing archived outcomes not admitted for the failure-aware fixed-service study.",
+     "source": "https://github.com/AI-4-SE/TwinsOrFalseFriends/tree/a31a1c0411f667728ee5069ae71f2927e6c146c6/data/nginx",
+     "location": "README.md and FeatureModel.xml; later DHDA paper Table 1 and source inventory",
+     "open_issues": ["Original README documents NGINX 1.14.0, while DHDA claims four versions; exact per-table mapping unresolved.", "Original source excludes configurations for high deviation; full attempted/failure denominator is not supplied in the inspected files.", "README prose and XML Boolean exclusions differ; mixed constraint semantics also need upstream interpreter verification.", "Fix authentication/TLS service contract and verify actual successful response bytes; published fixed/dynamically projected timing semantics need reconciliation.", "No objective table downloaded and no >=400 eligible measured feature vectors certified."]}
+  ],
+  "next_action": "Pin official NGINX source and build a project-local loopback-only fixed-response validator. Freeze a bounded native feasibility protocol before any timing; preserve every failure. Treat resulting NGINX evidence as one new development group, not a four-group held-out router evaluation."
+}

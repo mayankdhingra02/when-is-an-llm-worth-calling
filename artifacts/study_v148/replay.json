@@ -1,0 +1,28 @@
+{
+  "verified": true,
+  "charged_outcomes": 1200,
+  "source_records": 200,
+  "prefixes": 15,
+  "B20_arms": 105,
+  "real_requests": 30,
+  "independent_router_fit": "augmented least squares",
+  "all_model_server_exits": 0,
+  "semantic_mutations": [
+    {
+      "name": "raw_outcome",
+      "rejected": true
+    },
+    {
+      "name": "reported_gain",
+      "rejected": true
+    },
+    {
+      "name": "request_undercount",
+      "rejected": true
+    },
+    {
+      "name": "late_selection",
+      "rejected": true
+    }
+  ]
+}

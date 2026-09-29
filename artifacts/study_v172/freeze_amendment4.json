@@ -1,0 +1,18 @@
+{
+ "at": "2026-09-28T19:48:36.146001+00:00",
+ "purpose": "Amendment 4: report wording and freeze-overlay discovery only; regenerated once before first use (see amendment text)",
+ "superseded": [
+  "scripts/common_v172.py",
+  "scripts/report_v172.py",
+  "tests/synthetic/test_v172.py"
+ ],
+ "added": [
+  "reports/protocol_v172_amendment4.md"
+ ],
+ "sha256": {
+  "scripts/common_v172.py": "f66b62a77140484d71ca448bf7c71b880d952ff2668be8373b534b51365a85a6",
+  "scripts/report_v172.py": "5d4deb4f05b16903c3235b0dead122604fa437db1b61e9c26eaa6acc5f1b2301",
+  "tests/synthetic/test_v172.py": "34887c99d1a203e74f1ca87626bc1ec5b18f7949de00b1189d2dca7eec4abc45",
+  "reports/protocol_v172_amendment4.md": "41bc8684a59b38146d998d562cd59055c51a5360b059e7c54ab2e4172cfc4582"
+ }
+}
